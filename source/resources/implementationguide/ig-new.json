@@ -1,0 +1,504 @@
+{
+  "resourceType" : "ImplementationGuide",
+  "id" : "vitalsigns",
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/igpublisher-folder-resource",
+    "valueString" : "C:\\Users\\nrdavis1\\cimi-vital-signs\\source\\resources"
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/igpublisher-folder-resource",
+    "valueString" : "C:\\Users\\nrdavis1\\cimi-vital-signs\\source\\examples"
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/igpublisher-folder-pages",
+    "valueString" : "C:\\Users\\nrdavis1\\cimi-vital-signs\\framework"
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/igpublisher-folder-pages",
+    "valueString" : "C:\\Users\\nrdavis1\\cimi-vital-signs\\source\\pages"
+  }],
+  "url" : "http://hl7.org/fhir/hspc/ImplementationGuide/vitalsigns",
+  "version" : "0.1.0",
+  "name" : "VitalSigns",
+  "title" : "Vital Signs",
+  "status" : "active",
+  "publisher" : "HL7 International - Clinical Information Modeling Initiative",
+  "contact" : [{
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://confluence.hl7.org/display/CIMI/Clinical+Information+Modeling+Initiative"
+    }]
+  }],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "US"
+    }]
+  }],
+  "copyright" : "Used by permission of HL7 International, all rights reserved Creative Commons License",
+  "packageId" : "hl7.fhir.us.vitalsigns",
+  "license" : "CC0-1.0",
+  "fhirVersion" : ["4.0.1",
+  "4.0.1"],
+  "dependsOn" : [{
+    "id" : "USCoreR4",
+    "uri" : "http://hl7.org/fhir/us/core/2019Sep",
+    "packageId" : "hl7.fhir.us.core",
+    "version" : "3.0.1"
+  }],
+  "definition" : {
+    "grouping" : [{
+      "name" : "base"
+    }],
+    "resource" : [{
+      "reference" : {
+        "reference" : "StructureDefinition/AssociatedPreconditionExt"
+      },
+      "description" : "Associated Precondition",
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
+        "reference" : "StructureDefinition/SensorDescriptionExt"
+      },
+      "description" : "Sensor Description Extension",
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
+        "reference" : "StructureDefinition/BodyPositionExt"
+      },
+      "description" : "Body Position Extension",
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
+        "reference" : "StructureDefinition/MeasurementDeviceExt"
+      },
+      "description" : "Measurement Device Extension",
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
+        "reference" : "StructureDefinition/BloodPressureCuffSizeExt"
+      },
+      "description" : "Blood Pressure Cuff Size Extension",
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
+        "reference" : "StructureDefinition/SleepStatusExt"
+      },
+      "description" : "Sleep Status Extension",
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
+        "reference" : "StructureDefinition/MethodDeviceExt"
+      },
+      "description" : "Method Device Extension",
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
+        "reference" : "StructureDefinition/ClothingWornDuringMeasureExt"
+      },
+      "description" : "Clothing Worn During Measure Extension",
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
+        "reference" : "StructureDefinition/ExerciseAssociationExt"
+      },
+      "description" : "Exercise Association Extension",
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
+        "reference" : "StructureDefinition/OxygenSaturationArterialBlood"
+      },
+      "description" : "Oxygen Saturation in Arterial blood",
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
+        "reference" : "StructureDefinition/OxygenSaturationArterialBloodPulseOx"
+      },
+      "description" : "Oxygen Saturation in Arterial blood via Pulse Oximetry",
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
+        "reference" : "StructureDefinition/BloodPressurePanel"
+      },
+      "description" : "Blood Pressure Panel",
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
+        "reference" : "StructureDefinition/BodyLength"
+      },
+      "description" : "Body Length",
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
+        "reference" : "StructureDefinition/BodyMassIndex"
+      },
+      "description" : "Body Mass Index",
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
+        "reference" : "StructureDefinition/BodyTemperature"
+      },
+      "description" : "Body Temperature",
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
+        "reference" : "StructureDefinition/BodyWeight"
+      },
+      "description" : "Body Weight",
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
+        "reference" : "StructureDefinition/HeadOccipitalFrontalCircumference"
+      },
+      "description" : "Head-Occipital Frontal Circumference",
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
+        "reference" : "StructureDefinition/HeartRate"
+      },
+      "description" : "Heart Rate",
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
+        "reference" : "StructureDefinition/Height"
+      },
+      "description" : "Height",
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
+        "reference" : "StructureDefinition/RespiratoryRate"
+      },
+      "description" : "Respiratory Rate",
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
+        "reference" : "CodeSystem/organization-hspc-organizationtype"
+      },
+      "description" : "HSPC Organization Type code system",
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
+        "reference" : "StructureDefinition/VitalSignsPanel"
+      },
+      "description" : "Vital Signs Panel",
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
+        "reference" : "ValueSet/abnIntNumericNomVS"
+      },
+      "description" : "Abnormal Interpretation (Numeric Nominal) value set",
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
+        "reference" : "ValueSet/sensorDescriptionVS"
+      },
+      "description" : "Sensor Description value set",
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
+        "reference" : "ValueSet/sPO2BodyLocationVS"
+      },
+      "description" : "Oxygen Saturation Body Location value set",
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
+        "reference" : "ValueSet/bodyPositionVS"
+      },
+      "description" : "Body Position value set",
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
+        "reference" : "ValueSet/bpMeasDeviceVS"
+      },
+      "description" : "Blood Pressure Measurement Device value set",
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
+        "reference" : "ValueSet/sleepStatusVS"
+      },
+      "description" : "Sleep Status value set",
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
+        "reference" : "ValueSet/bpmeasbodylocationprecoord"
+      },
+      "description" : "Blood Pressure Measurement Body Location Precoordinated value set",
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
+        "reference" : "ValueSet/bpMeasMethodVS"
+      },
+      "description" : "Blood Pressure Measurment Method value set",
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
+        "reference" : "ValueSet/bodyTempMeasBodyLocationPrecoordVS"
+      },
+      "description" : "Body Temperature Body Location Precoordinated value set",
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
+        "reference" : "ValueSet/bodyTempMeasMethodDeviceVS"
+      },
+      "description" : "Body Temperature Method Device value set",
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
+        "reference" : "ValueSet/bodyWeightMeasurementAssociatedPrecondVS"
+      },
+      "description" : "Body Weight Measurement Associated Precondition value set",
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
+        "reference" : "ValueSet/clothingWornDuringMeasureVS"
+      },
+      "description" : "Clothing Worn During Measure value set",
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
+        "reference" : "ValueSet/definedLimitsVS"
+      },
+      "description" : "Defined Limits value set",
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
+        "reference" : "ValueSet/exertionPhaseVS"
+      },
+      "description" : "Exertion Phase value set",
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
+        "reference" : "ValueSet/heartRateMeasBodyLocationPrecoordVS"
+      },
+      "description" : "Heart Rate Body Location Precoordinated value set",
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
+        "reference" : "ValueSet/heartRateMeasDeviceVS"
+      },
+      "description" : "Heart Rate Device value set",
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
+        "reference" : "ValueSet/heartRateMeasMethodVS"
+      },
+      "description" : "Heart Rate Method value set",
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
+        "reference" : "ValueSet/heightBodyPositionVS"
+      },
+      "description" : "Height Body Position value set",
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
+        "reference" : "ValueSet/heightLengthMeasDeviceVS"
+      },
+      "description" : "Height-Length Device value set",
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
+        "reference" : "ValueSet/heightLengthMeasMethodVS"
+      },
+      "description" : "Height-Length Measurement Method value set",
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
+        "reference" : "ValueSet/respiratoryRateMeasDeviceVS"
+      },
+      "description" : "Respiratory Rate Device value set",
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
+        "reference" : "ValueSet/respiratoryRateMeasMethodVS"
+      },
+      "description" : "Respiratory Rate Method value set",
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
+        "reference" : "ValueSet/weightMeasurementDeviceVS"
+      },
+      "description" : "Weight Measurement Device value set",
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
+        "reference" : "ValueSet/vitalSignAssociatedPrecondVS"
+      },
+      "description" : "Vital Signs Associated Precondition value set",
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
+        "reference" : "Observation/oxygenSaturationPulseOx-example"
+      },
+      "description" : "Oxygen Saturation via Pulse Oximetery example",
+      "exampleBoolean" : true
+    },
+    {
+      "reference" : {
+        "reference" : "Observation/oxygenSaturation-example"
+      },
+      "description" : "Oxygen Saturation in Arterial blood",
+      "exampleBoolean" : true
+    },
+    {
+      "reference" : {
+        "reference" : "Observation/BloodPressurePanel-example"
+      },
+      "description" : "Blood Pressure Panel example",
+      "exampleBoolean" : true
+    },
+    {
+      "reference" : {
+        "reference" : "Observation/bmi-example"
+      },
+      "description" : "Body Mass Index example",
+      "exampleBoolean" : true
+    },
+    {
+      "reference" : {
+        "reference" : "Observation/bodyLength-example"
+      },
+      "description" : "Body Length example",
+      "exampleBoolean" : true
+    },
+    {
+      "reference" : {
+        "reference" : "Observation/bodyTemperature-example"
+      },
+      "description" : "Body Temperature example",
+      "exampleBoolean" : true
+    },
+    {
+      "reference" : {
+        "reference" : "Observation/bodyWeight-example"
+      },
+      "description" : "Body Weight example",
+      "exampleBoolean" : true
+    },
+    {
+      "reference" : {
+        "reference" : "Observation/headCircumference-example"
+      },
+      "description" : "Head Circumference example",
+      "exampleBoolean" : true
+    },
+    {
+      "reference" : {
+        "reference" : "Observation/heartRate-example"
+      },
+      "description" : "Heart Rate example",
+      "exampleBoolean" : true
+    },
+    {
+      "reference" : {
+        "reference" : "Observation/height-example"
+      },
+      "description" : "Height example",
+      "exampleBoolean" : true
+    },
+    {
+      "reference" : {
+        "reference" : "Observation/respiratoryRate-example"
+      },
+      "description" : "Respiratory Rate example",
+      "exampleBoolean" : true
+    },
+    {
+      "reference" : {
+        "reference" : "Patient/patient-example"
+      },
+      "description" : "Patient example",
+      "exampleBoolean" : true
+    },
+    {
+      "reference" : {
+        "reference" : "Practitioner/practitioner-example"
+      },
+      "description" : "Practitioner example",
+      "exampleBoolean" : true
+    }],
+    "page" : {
+      "nameUrl" : "index2.html",
+      "title" : "Home",
+      "generation" : "markdown",
+      "page" : [{
+        "nameUrl" : "generalguidance.html",
+        "title" : "General Guidance",
+        "generation" : "markdown"
+      },
+      {
+        "nameUrl" : "profiles.html",
+        "title" : "Profiles and Extensions",
+        "generation" : "markdown"
+      },
+      {
+        "nameUrl" : "downloads.html",
+        "title" : "Downloads",
+        "generation" : "markdown"
+      },
+      {
+        "nameUrl" : "toc.html",
+        "title" : "Table of Contents",
+        "generation" : "html"
+      }]
+    },
+    "parameter" : [{
+      "code" : "apply",
+      "value" : "jurisdiction"
+    },
+    {
+      "code" : "generate",
+      "value" : "xml"
+    },
+    {
+      "code" : "generate",
+      "value" : "JSON"
+    }]
+  }
+}

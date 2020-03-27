@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Observation xmlns="http://hl7.org/fhir">
+  <id value="BloodPressurePanel-example"/>
+  <meta>
+	<profile value="http://hl7.org/fhir/hspc/StructureDefinition/BloodPressurePanel"/>
+  </meta>
+  <extension url="http://hl7.org/fhir/hspc/StructureDefinition/BodyPositionExt">
+	<valueCodeableConcept>
+		<coding>
+			<system value="http://snomed.info/sct"/>
+			<code value="33586001"/>
+			<display value="Sitting Position"/>
+		</coding>
+	</valueCodeableConcept>
+  </extension>
+  <extension url ="http://hl7.org/fhir/hspc/StructureDefinition/MeasurementDeviceExt">
+	<valueCodeableConcept>
+		<coding>
+			<system value="http://snomed.info/sct"/>
+			<code value="309642005"/>
+			<display value="Mercury sphygmomanometer"/>
+		</coding>
+	</valueCodeableConcept>
+  </extension>
+  <extension url ="http://hl7.org/fhir/hspc/StructureDefinition/MeasurementDeviceExt">
+	<valueCodeableConcept>
+		<coding>
+			<system value="http://snomed.info/sct"/>
+			<code value="720736009"/>
+			<display value="Blood pressure cuff, pediatric size"/>
+		</coding>
+	</valueCodeableConcept>
+  </extension><!-- 
+  <extension url="http://hl7.org/fhir/hspc/StructureDefinition/BloodPressureCuffSizeExt">
+	<valueCodeableConcept>
+		<coding>
+			<system value="http://snomed.info/sct"/>
+			<code value="720736009"/>
+			<display value="Blood pressure cuff, pediatric size"/>
+		</coding>
+	</valueCodeableConcept>
+  </extension> -->
+  <extension url="http://hl7.org/fhir/hspc/StructureDefinition/SleepStatusExt">
+	<valueCodeableConcept>
+		<coding>
+			<system value="http://snomed.info/sct"/>
+			<code value="248218005"/>
+			<display value="Awake"/>
+		</coding>
+	</valueCodeableConcept>
+  </extension>
+  <extension url="http://hl7.org/fhir/hspc/StructureDefinition/ExerciseAssociationExt">
+	<valueCodeableConcept>
+		<coding>
+			<system value="http://snomed.info/sct"/>
+			<code value="263678003"/>
+			<display value="At rest"/>
+		</coding>
+	</valueCodeableConcept>
+  </extension>
+  <status value="final"/> 
+  <category>
+	<coding>
+	  <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+	  <code value="vital-signs"/>
+	  <display value="Vital Signs"/>
+	</coding>
+    <text value="Vital Signs"/>
+  </category>
+  <code> 
+    <coding> 
+      <system value="http://loinc.org"/> 
+      <code value="85354-9"/> 
+      <display value="Blood pressure panel with all children optional"/> 
+    </coding> 
+  </code> 
+  <subject>  
+    <display value="Small Child1234"/> 
+  </subject> 
+  <effectivePeriod> 
+    <start value="2019-10-16T12:12:29-09:00"/> 
+  </effectivePeriod> 
+  <issued value="2019-10-16T12:12:29-10:00"/> 
+  <performer> 
+    <display value="A. Pediatrician6"/> 
+  </performer>
+  <bodySite>
+	<coding>
+		<system value="http://snomed.info/sct"/>
+		<code value="723961002"/>
+		<display value="Structure of left brachial artery (body structure)"/>
+	</coding>
+  </bodySite>
+  <method>
+	<coding>
+		<system value="http://snomed.info/sct"/>
+		<code value="37931006"/>
+		<display value="Auscultation"/>
+	</coding>
+  </method>
+  <component>
+	<code>
+		<coding>
+			<system value="http://loinc.org"/>
+			<code value="8480-6"/>
+			<display value="Systolic blood pressure"/>
+		</coding>
+	</code>
+	<valueQuantity>
+		<value value="120"/>
+		<unit value="mm[Hg]"/>
+		<system value="http://unitsofmeasure.org"/>
+		<code value="mm[Hg]"/>
+	</valueQuantity>
+  </component>
+  <component>
+	<code>
+		<coding>
+			<system value="http://loinc.org"/>
+			<code value="8462-4"/>
+			<display value="Diastolic blood pressure"/>
+		</coding>
+	</code>
+	<valueQuantity>
+		<value value="80"/>
+		<unit value="mm[Hg]"/>
+		<system value="http://unitsofmeasure.org"/>
+		<code value="mm[Hg]"/>
+	</valueQuantity>
+  </component>
+</Observation> 

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeSystem xmlns="http://hl7.org/fhir">
+	<id value="wound-observation-type"/>
+	<url value="http://hl7.org/fhir/us/skinwoundassessment/wound-observation-type"/>
+	<version value="0.1.0"/>
+	<name value="WoundObservationTypeCodeSystem"/>
+	<title value="Wound Observation Type Code System"/>
+	<status value="draft"/>
+	<experimental value="true"/>
+	<date value="2019-10-07"/>
+	<publisher value="HL7 International - Electronic Health Records Work Group"/>
+	<contact>
+		<telecom>
+			<system value="url"/>
+			<value value="https://confluence.hl7.org/display/EHR/Electronic+Health+Records+Work+Group"/>
+		</telecom>
+	</contact>
+	<description value="The set of codes that define specialized observation types of a wound."/>
+	<caseSensitive value="true"/>
+	<content value="complete"/>
+	<concept>
+		<code value="woundshape" />
+		<display value="Shape of Wound" />
+		<definition value="An observation or observation componenet describing the shape of a wound. Temporary local code system to be replaced with LOINC code TBD." />
+	</concept>
+	<concept>
+		<code value="woundvolume" />
+		<display value="Volume of Wound" />
+		<definition value="An observation or observation componenet describing the volume of a wound. Temporary local code system to be replaced with LOINC code TBD." />
+	</concept>
+</CodeSystem>

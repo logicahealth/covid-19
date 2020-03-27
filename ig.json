@@ -1,0 +1,121 @@
+{
+  "do-transforms": "false",
+  "topofpage": "true",
+  "license": "CC0-1.0",
+  "igtemplate-dir": "",
+  "gen-examples": "false",
+  "special-urls": [],
+  "npm-name": "logica.org.covid19",
+  "publisher": "Logica Health",
+  "fixed-business-version": "0.1.0",
+  "extraTemplates": [
+    "mappings"
+  ],
+  "status": "active",
+  "tool": "jekyll",
+  "jurisdiction": "US",
+  "title": "Vital Signs",
+  "source": "implementationguide/covid19ig.xml",
+  "version": "4.0.1",
+  "broken-links": "warning",
+  "logging": [
+    "progress"
+  ],
+  "allviews": "true",
+  "working-dir": "C:/Users/nrdavis1/covid-19",
+  "defaults": {
+    "CapabilityStatement": {
+      "template-base": "base.html"
+    },
+    "StructureDefinition": {
+      "template-base": "sd.html",
+      "template-mappings": "sd-mappings.html",
+      "template-defns": "sd-definitions.html"
+    },
+    "OperationDefinition": {
+      "template-base": "base.html"
+    },
+    "SearchParameter": {
+      "template-base": "base.html"
+    },
+    "TestScript": {
+      "template-base": "base.html"
+    },
+    "ValueSet": {
+      "template-base": "base.html"
+    },
+    "Any": {
+      "template-format": "format.html",
+      "swagger": "true",
+      "template-base": "base.html"
+    },
+    "CodeSystem": {
+      "template-base": "base.html"
+    },
+    "ConceptMap": {
+      "template-base": "base.html"
+    },
+    "StructureMap": {
+      "template-base": "ex.html",
+      "profiles": false,
+      "script": false,
+      "content": false
+    }
+  },
+  "canonicalBase": "http://logicahealth.org/fhir/",
+  "contact": [
+    {
+      "system": "url",
+      "value": "https://confluence.hl7.org/display/CIMI/Clinical+Information+Modeling+Initiative"
+    }
+  ],
+  "no-inactive-codes": "false",
+  "sct-edition": "http://snomed.info/sct/731000124108",
+  "name": "VitalSigns",
+  "dependencyList": [
+    {
+      "location": "http://hl7.org/fhir/us/core/2019Sep",
+      "name": "USCoreR4",
+      "version": "3.0.1",
+      "package": "hl7.fhir.us.core"
+    }
+  ],
+  "swagger": [
+    {
+      "mode": "single",
+      "capabilities": "server"
+    }
+  ],
+  "paths": {
+    "temp": "generated_output/temp",
+    "output": "output",
+    "txCache": "generated_output/txCache",
+    "qa": "generated_output/qa",
+    "specification": "http://hl7.org/fhir/R4",
+    "history": "http://hl7.org/fhir/hspc/vitalsigns/history.cfml",
+    "resources": [
+      "source/resources",
+      "source/examples"
+    ],
+    "pages": [
+      "framework",
+      "source/pages"
+    ]
+  },
+  "spreadsheets": [],
+  "resources": {
+    
+    
+  "StructureDefinition/DeviceExt":{"base":"StructureDefinition-DeviceExt.html"},
+
+  "StructureDefinition/organization":{"base":"StructureDefinition-organization.html"},
+
+  "CodeSystem/organization-hspc-organizationtype":{"base":"CodeSystem-organization-hspc-organizationtype.html","source":"codesystem/organization-hspc-organizationtype.xml"},
+
+  "ValueSet/organizationtypeVS":{"base":"ValueSet-organizationtypeVS.html"},
+    
+	"Observation/BloodPressurePanelExample":{"base":"Observation-BloodPressurePanelExample.html"},
+  "Patient/patient-example": {"base": "Patient-patient-example.html"},
+  "Practitioner/practitioner-example": {"base": "Practitioner-practitioner-example.html"}
+  }
+}

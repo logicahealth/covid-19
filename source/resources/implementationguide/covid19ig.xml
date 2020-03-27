@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Hidden IG for de facto IG publishing-->
+<ImplementationGuide xmlns="http://hl7.org/fhir">
+	<id value="vitalsigns"/>
+	<url value="http://logicahealth.org/fhir/ImplementationGuide/vitalsigns"/>
+	<version value="0.1.0"/>
+	<name value="VitalSigns"/>
+	<title value="Vital Signs"/>
+	<status value="active"/>
+	<publisher value="HL7 International - Clinical Information Modeling Initiative"/>
+	<contact>
+		<!-- 0..* ContactDetail Contact details for the publisher -->
+		<telecom>
+			<system value="url"/>
+			<value value="https://confluence.hl7.org/display/CIMI/Clinical+Information+Modeling+Initiative"/>
+		</telecom>
+	</contact>
+	<copyright value="Used by permission of HL7 International, all rights reserved Creative Commons License"/>
+	<!-- 0..1 Use and/or publishing restrictions -->
+	<packageId value="hl7.fhir.us.vitalsigns"/>
+	<!-- 0..1 NPM Package name for IG -->
+	<license value="CC0-1.0"/>
+	<!--*****HARDCODED********* 0..1 SPDX license code for this IG (or not-open-source) -->
+	<fhirVersion value="4.0.1"/>
+	<!-- 0..1 FHIR Version this Implementation Guide targets -->
+	<definition>
+		<!--  <grouping>  0..* Grouping used to present related resources in the IG -->
+		<!-- <name value="[string]"/> 1..1 Descriptive name for the package -->
+		<!--   <description value="[string]"/> 0..1 Human readable text describing the package -->
+		<!--  </grouping>  -->
+		<grouping>
+			<name value="base"/>
+		</grouping>
+		<!--
+		<resource><reference><reference value="[type]/[id]"/>
+			</reference><name value="Test Example"/><description value="A test example to show how a implementation guide works"/><exampleCanonical value="http://hl7.org/fhir/us/core/StructureDefinition/patient"/>|<exampleBoolean value="true|false"/><exampleBoolean value="false"/></resource>
+		-->
+		<!--  <groupingId value="[id]"/>  0..1 Grouping this is part of -->
+		<!-- insert resources -->
+		<!-- ===================  vital signs extensions =============== -->
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/AssociatedPreconditionExt"/>
+			</reference>
+			<description value="Associated Precondition"/>
+			<exampleBoolean value="false"/>
+		</resource>
+		<!-- =============== end extensions ================ -->
+		<!-- =============== structure defs ================ -->
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/OxygenSaturationArterialBlood"/>
+			</reference>
+			<description value="Oxygen Saturation in Arterial blood"/>
+			<exampleBoolean value="false"/>
+		</resource>
+		<!-- ============== end structure defs ========= -->
+		<!-- ============== value sets ============ -->
+		<resource>
+			<reference>
+				<reference value="ValueSet/abnIntNumericNomVS"/>
+			</reference>
+			<description value="Abnormal Interpretation (Numeric Nominal) value set"/>
+			<exampleBoolean value="false"/>
+		</resource>
+		<!-- ================ end value sets ================== -->
+		<!-- ================ examples ================== -->
+		<resource>
+			<reference>
+				<reference value="Observation/oxygenSaturationPulseOx-example"/>
+			</reference>
+			<description value="Oxygen Saturation via Pulse Oximetery example"/>
+			<exampleBoolean value="true"/>
+		</resource>
+		<!-- =========== other examples ============ -->
+		<resource>
+			<reference>
+				<reference value="Patient/patient-example"/>
+			</reference>
+			<description value="Patient example"/>
+			<exampleBoolean value="true"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="Practitioner/practitioner-example"/>
+			</reference>
+			<description value="Practitioner example"/>
+			<exampleBoolean value="true"/>
+		</resource>
+		<!-- =========== other examples ============ -->
+		<!-- ============ end examples ========== -->
+		<!-- ============ Home Page =============== -->
+		<page>
+			<nameUrl value="index2.html"/>
+			<title value="Home"/>
+			<generation value="markdown"/>
+			<!-- ============ Guidance Pages =============== -->
+			<page>
+				<nameUrl value="generalguidance.html"/>
+				<title value="General Guidance"/>
+				<generation value="markdown"/>
+			</page>
+			<!-- ============ Guidance Pages =============== -->
+			<!-- ============ Profiles Page =============== -->
+			<page>
+				<nameUrl value="profiles.html"/>
+				<title value="Profiles and Extensions"/>
+				<generation value="markdown"/>
+			<!-- ============ Profiles =============== -->	
+				<!-- <page>
+				  <nameUrl value="StructureDefinition-BloodPressurePanel.html"/>
+				  <title value="StructureDefinition Blood Pressure Panel"/>
+				  <generation value="generated"/>
+				</page> -->
+				<!-- ============ End Profiles =============== -->
+				<!-- ============ Extensions and examples =============== -->
+				<!-- insert extensions -->
+				<!-- ============ End Extensions and examples =============== -->
+			</page>
+			<!-- ============ Terminology Page =============== -->
+			 <!-- <page>
+				<nameUrl value="terminology.html"/>
+				<title value="Terminology"/>
+				<generation value="markdown"/> -->
+				<!-- ============ ValueSet   =============== -->
+				<!-- insert valuesets -->
+				<!-- ============ End ValueSet   =============== -->
+			 <!-- </page> -->
+			
+			<!-- ============ Downloads Page =============== -->
+			<page>
+				<nameUrl value="downloads.html"/>
+				<title value="Downloads"/>
+				<generation value="markdown"/>
+			</page>
+			<!-- ============ Table of Contents =============== -->
+			<page>
+				<nameUrl value="toc.html"/>
+				<title value="Table of Contents"/>
+				<generation value="html"/>
+			</page>
+		</page>
+	</definition>
+</ImplementationGuide>

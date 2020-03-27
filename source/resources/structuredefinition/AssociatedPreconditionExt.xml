@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="AssociatedPreconditionExt"/>
+  <url value="http://hl7.org/fhir/hspc/StructureDefinition/AssociatedPreconditionExt"/>
+  <version value="0.1.0"/>
+  <name value="AssociatedPreconditionExt"/>
+  <title value="Associated Precondition"/>
+  <status value="draft"/>
+  <date value="2019-05-29"/>
+  <publisher value="HSPC"/>
+  <description value="The set of codes that describe conditions or events that effect an observation."/>
+  <fhirVersion value="4.0.1"/>
+  <kind value="complex-type"/>
+  <abstract value="false"/>
+  <context>
+	<type value="element"/>
+	<expression value="Observation"/>
+  </context>
+  <context>
+	<type value="element"/>
+	<expression value="StructureDefinition"/>
+  </context>
+  <type value="Extension"/>
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension"/>
+  <derivation value="constraint"/>
+  <differential>
+    <element id="Extension:associatedPrecondition">
+      <path value="Extension"/>
+      <definition value="The set of codes that describe conditions or events that effect an observation."/>
+      <min value="0"/>
+      <max value="1"/>
+      <isModifier value="false"/>
+    </element>
+    <element id="Extension:associatedPrecondition.url">
+      <path value="Extension.url"/>
+      <fixedUri value="http://hl7.org/fhir/hspc/StructureDefinition/AssociatedPreconditionExt"/>
+    </element>
+    <element id="Extension:associatedPrecondition.valueCodeableConcept">
+      <path value="Extension.valueCodeableConcept"/>
+      <type>
+        <code value="CodeableConcept"/>
+        <profile value="http://hl7.org/fhir/StructureDefinition/CodeableConcept"/>
+      </type>
+    </element>
+  </differential>
+</StructureDefinition>
