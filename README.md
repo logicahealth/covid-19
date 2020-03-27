@@ -5,4 +5,4 @@ Discussion group: https://groups.google.com/a/logicahealth.org/forum/#!forum/cov
 
 ## Licensing
 
-Creative Commons Attribution 4.0 International (CC-BY-4.0)
+This project is made available under Creative Commons Attribution 4.0 International (CC-BY-4.0). Copyright © 2020 Logica, Inc. All rights reserved. 
