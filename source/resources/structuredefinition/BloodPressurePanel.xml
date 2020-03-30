@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
     <!--© 2018 IHC Health Services, Inc. All Rights Reserved. This document is machine generated.-->
     <id value="BloodPressurePanel"/>
-    <url value="http://hl7.org/fhir/hspc/StructureDefinition/BloodPressurePanel"/>
+    <url value="https://fhir.logicahealth.org/StructureDefinition/BloodPressurePanel"/>
 	<version value="0.1.0"/>
     <name value="BloodPressurePanel"/>
 	<title value="Blood Pressure Panel"/>
@@ -28,13 +28,13 @@
 		  <short value="Body Position"/>
 		  <type>
 			<code value="Extension"/>
-			<profile value="http://hl7.org/fhir/hspc/StructureDefinition/BodyPositionExt"/>
+			<profile value="https://fhir.logicahealth.org/StructureDefinition/BodyPositionExt"/>
 		  </type>
 		  <mustSupport value="false"/>
 		  <binding>
 			<strength value="preferred"/>
 			<description value="The position that a patient is in when a heart rate measurement is taken."/>
-			<valueSet value="http://hl7.org/fhir/hspc/ValueSet/bodyPositionVS"/>
+			<valueSet value="https://fhir.logicahealth.org/ValueSet/bodyPositionVS"/>
 		  </binding>
 		  <mustSupport value="true"/>
 		</element>
@@ -46,11 +46,11 @@
 			<max value="*"/>
 			<type>
 				<code value="Extension"/>
-				<profile value="http://hl7.org/fhir/hspc/StructureDefinition/MeasurementDeviceExt"/>
+				<profile value="https://fhir.logicahealth.org/StructureDefinition/MeasurementDeviceExt"/>
 			</type>
             <binding>
                 <strength value="preferred"/>
-                <valueSet value="http://hl7.org/fhir/hspc/ValueSet/bpMeasDeviceVS"/>
+                <valueSet value="https://fhir.logicahealth.org/ValueSet/bpMeasDeviceVS"/>
             </binding>
 		  <mustSupport value="true"/>
 		</element>
@@ -60,11 +60,11 @@
 			<short value="Sleep Status"/>
 			<type>
 				<code value="Extension"/>
-				<profile value="http://hl7.org/fhir/hspc/StructureDefinition/SleepStatusExt"/>
+				<profile value="https://fhir.logicahealth.org/StructureDefinition/SleepStatusExt"/>
 			</type>
 			<binding>
 				<strength value="preferred"/>
-				<valueSet value="http://hl7.org/fhir/hspc/ValueSet/sleepStatusVS"/>
+				<valueSet value="https://fhir.logicahealth.org/ValueSet/sleepStatusVS"/>
 			</binding>
 		    <mustSupport value="true"/>
 		</element>
@@ -74,11 +74,11 @@
 			<short value="Exercise Association"/>
 			<type>
 				<code value="Extension"/>
-				<profile value="http://hl7.org/fhir/hspc/StructureDefinition/ExerciseAssociationExt"/>
+				<profile value="https://fhir.logicahealth.org/StructureDefinition/ExerciseAssociationExt"/>
 			</type>
 			<binding>
 				<strength value="preferred"/>
-				<valueSet value="http://hl7.org/fhir/hspc/ValueSet/exertionPhaseVS"/>
+				<valueSet value="https://fhir.logicahealth.org/ValueSet/exertionPhaseVS"/>
 			</binding>
 		    <mustSupport value="true"/>
 		</element>
@@ -88,11 +88,11 @@
 			<short value="Associated Precondition"/>
 			<type>
 				<code value="Extension"/>
-				<profile value="http://hl7.org/fhir/hspc/StructureDefinition/AssociatedPreconditionExt"/>
+				<profile value="https://fhir.logicahealth.org/StructureDefinition/AssociatedPreconditionExt"/>
 			</type>
 			<binding>
 				<strength value="preferred"/>
-				<valueSet value="http://hl7.org/fhir/hspc/ValueSet/vitalSignAssociatedPrecondVS"/>
+				<valueSet value="https://fhir.logicahealth.org/ValueSet/vitalSignAssociatedPrecondVS"/>
 			</binding>
 		    <mustSupport value="true"/>
 		</element> -->
@@ -137,7 +137,7 @@
 		  <binding>
 			<strength value="preferred"/>
 			<description value="A set of codes that describe where on/in the body an observation or procedure took place"/>
-			<valueSet value="http://hl7.org/fhir/hspc/ValueSet/bpmeasbodylocationprecoord"/>
+			<valueSet value="https://fhir.logicahealth.org/ValueSet/bpmeasbodylocationprecoord"/>
 		  </binding>
 		</element>
 		<element id="Observation:cimiBloodPressurePanel.method">
@@ -146,7 +146,7 @@
 		  <binding>
 			<strength value="preferred"/>
 			<description value="A set of codes that describe the method used to measure a blood pressure"/>
-			<valueSet value="http://hl7.org/fhir/hspc/ValueSet/bpMeasMethodVS"/>
+			<valueSet value="https://fhir.logicahealth.org/ValueSet/bpMeasMethodVS"/>
 		  </binding>
 		</element>
 		<element id="Observation:cimiBloodPressurePanel.specimen">

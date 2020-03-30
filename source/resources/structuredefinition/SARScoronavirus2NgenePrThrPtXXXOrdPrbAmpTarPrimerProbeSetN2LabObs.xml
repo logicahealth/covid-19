@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+    <!--© 2018 IHC Health Services, Inc. All Rights Reserved. This document is machine generated.-->
+    <id value="SARScoronavirus2NgenePrThrPtXXXOrdPrbAmpTarPrimerProbeSetN2LabObs"/>
+    <url value="https://fhir.logicahealth.org/StructureDefinition/SARScoronavirus2NgenePrThrPtXXXOrdPrbAmpTarPrimerProbeSetN2LabObs"/>
+    <name value="SARS coronavirus 2 Ngene Pr Thr Pt XXX Ord Prb Amp"/>
+    <status value="draft"/>
+    <date value="2020-03-30"/>
+    <publisher value="Logica Health"/>
+    <description value="SARScoronavirus2NgenePrThrPtXXXOrdPrbAmpTarPrimerProbeSetN2 is a test for the SARS coronavirus 2 RNA using the CDC defined method of probe amplification target primer
+    probe set N2 and used for non-respiratory specimens. LOINC code 94308-4."/>
+    <fhirVersion value="3.0.1"/>
+    <kind value="complex-type"/>
+    <abstract value="false"/>
+    <type value="Observation"/>
+    <baseDefinition value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-observationresults"/>
+    <derivation value="constraint"/>
+    <differential>
+        <element id="Observation:logicaSARScoronavirus2NgenePrThrPtXXXOrdPrbAmpTarPrimerProbeSetN2LabObs">
+            <path value="Observation"/>
+            <definition value="SARScoronavirus2NgenePrThrPtXXXOrdPrbAmpTarPrimerProbeSetN2 is a test for the SARS coronavirus 2 RNA using the CDC defined method of probe amplification target
+            primer probe set N2 and used for non-respiratory specimens. LOINC code 94308-4."/>
+        </element>
+        <element id="Reporting Priority">
+            <path value="Observation.extension"/>
+            <sliceName value="reportingpriority"/>
+            <short value="Reporting Priority"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="extension"/>
+                <profile value="https://fhir.logicahealth.org/StructureDefinition/reportingPriority"/>
+            </type>
+        </element>
+        <element id="Observation:logicaSARScoronavirus2NgenePrThrPtXXXOrdPrbAmpTarPrimerProbeSetN2LabObs.key">
+            <path value="Observation.code"/>
+            <short value="key"/>
+        </element>
+        <element id="Observation:logicaSARScoronavirus2NgenePrThrPtXXXOrdPrbAmpTarPrimerProbeSetN2LabObs.valueCodeableConcept">
+            <path value="Observation.valueCodeableConcept"/>
+            
+            <type>
+                <code value="CodeableConcept"/>
+            </type>
+        </element>
+        <element id="Observation:logicaSARScoronavirus2NgenePrThrPtXXXOrdPrbAmpTarPrimerProbeSetN2LabObs.interpretation">
+            <path value="Observation.interpretation"/>
+            <short value="interpretation"/>
+            <comment value="Key code for this model: Interpretation_KEY_CODE"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="CodeableConcept"/>
+            </type>
+        </element>
+        <element id="Observation:logicaSARScoronavirus2NgenePrThrPtXXXOrdPrbAmpTarPrimerProbeSetN2LabObs.resultedDateTime">
+            <path value="Observation.issued"/>
+            <short value="Resulted Date/Time"/>
+            <comment value="Key code for this model: ResultedDateTime_KEY_CODE"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="instant"/>
+            </type>
+        </element>
+        <element id="Observation:logicaSARScoronavirus2NgenePrThrPtXXXOrdPrbAmpTarPrimerProbeSetN2LabObs.modifierExtension:focalSubject">
+            <path value="Observation.modifierExtension"/>
+            <short value="modifierExtension:focalSubject"/>
+            <comment value="Key code for this model: FocalSubject_KEY_CODE"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="modifierExtension"/>
+                <profile value="https://fhir.logicahealth.org/StructureDefinition/focalSubject"/>
+            </type>
+        </element>
+        <element id="Observation:logicaSARScoronavirus2NgenePrThrPtXXXOrdPrbAmpTarPrimerProbeSetN2LabObs.referenceRangeNar">
+            <path value="Observation.referenceRange.text"/>
+            <short value="referenceRangeNar"/>
+            <comment value="Key code for this model: ReferenceRangeNar_KEY_CODE"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="string"/>
+            </type>
+        </element>
+        <element id="Observation:logicaSARScoronavirus2NgenePrThrPtXXXOrdPrbAmpTarPrimerProbeSetN2LabObs:identifier">
+            <path value="Observation.identifier"/>
+            <slicing>
+                <discriminator>
+                    <type value="value"/>
+                    <path value="Observation.identifier"/>
+                </discriminator>
+                <ordered value="false"/>
+                <rules value="open"/>
+            </slicing>
+            <min value="0"/>
+            <max value="*"/>
+        </element>
+        <element id="Observation:logicaSARScoronavirus2NgenePrThrPtXXXOrdPrbAmpTarPrimerProbeSetN2LabObs.identifier:AccessionNumber">
+            <path value="Observation.identifier"/>
+            <sliceName value="accessionnumber"/>
+            <short value="Accession Number"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="Identifier"/>
+            </type>
+        </element>
+        <element id="Observation:logicaSARScoronavirus2NgenePrThrPtXXXOrdPrbAmpTarPrimerProbeSetN2LabObs.identifier:FillerOrderNumber">
+            <path value="Observation.identifier"/>
+            <sliceName value="fillerordernumber"/>
+            <short value="Filler Order Number"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="Identifier"/>
+            </type>
+        </element>
+        <element id="Observation:logicaSARScoronavirus2NgenePrThrPtXXXOrdPrbAmpTarPrimerProbeSetN2LabObs.identifier:PlacerOrderNumber">
+            <path value="Observation.identifier"/>
+            <sliceName value="placerordernumber"/>
+            <short value="Placer Order Number"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="Identifier"/>
+            </type>
+        </element>
+        <element id="Observation:logicaSARScoronavirus2NgenePrThrPtXXXOrdPrbAmpTarPrimerProbeSetN2LabObs:performer">
+            <path value="Observation.performer"/>
+            <slicing>
+                <discriminator>
+                    <type value="value"/>
+                    <path value="Observation.performer"/>
+                </discriminator>
+                <ordered value="false"/>
+                <rules value="open"/>
+            </slicing>
+            <min value="0"/>
+            <max value="*"/>
+        </element>
+        <element id="Observation:logicaSARScoronavirus2NgenePrThrPtXXXOrdPrbAmpTarPrimerProbeSetN2LabObs.performer:ResponsibleObserver">
+            <path value="Observation.performer"/>
+            <sliceName value="responsibleobserver"/>
+            <short value="Responsible Observer"/>
+            <min value="0"/>
+            <max value="*"/>
+            <type>
+                <code value="Reference"/>
+                <targetProfile value="https://fhir.logicahealth.org/StructureDefinition/practitioner"/>
+            </type>
+        </element>
+        <element id="Observation:logicaSARScoronavirus2NgenePrThrPtXXXOrdPrbAmpTarPrimerProbeSetN2LabObs.performer:PerformingLaboratory">
+            <path value="Observation.performer"/>
+            <sliceName value="performinglaboratory"/>
+            <short value="Performing Laboratory"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="Reference"/>
+                <targetProfile value="https://fhir.logicahealth.org/StructureDefinition/organization"/>
+            </type>
+        </element>
+        <element id="Observation:logicaSARScoronavirus2NgenePrThrPtXXXOrdPrbAmpTarPrimerProbeSetN2LabObs.performer:PerformingOrganizationMedicalDirector">
+            <path value="Observation.performer"/>
+            <sliceName value="performingorganizationmedicaldirector"/>
+            <short value="Performing Organization Medical Director"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="Reference"/>
+                <targetProfile value="https://fhir.logicahealth.org/StructureDefinition/practitioner"/>
+            </type>
+        </element>
+    </differential>
+</StructureDefinition>

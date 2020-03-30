@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+    <!--© 2018 IHC Health Services, Inc. All Rights Reserved. This document is machine generated.-->
+    <id value="SARSCoV2RNAPnlXXXNAAprobePanelLabObs"/>
+    <url value="https://fhir.logicahealth.org/StructureDefinition/SARSCoV2RNAPnlXXXNAAprobePanelLabObs"/>
+    <name value="logicaSARS Co V2 RNA Pnl XXXNA Aprobe Panel Lab Obs"/>
+    <status value="draft"/>
+    <date value="2020-03-30"/>
+    <publisher value="Logica Health"/>
+    <description value="SARSCoV2RNAPnlXXXNAAprobeLabObs is a colection of tests for the SARS coronavirus 2 organism. LOINC code 94306-8."/>
+    <fhirVersion value="3.0.1"/>
+    <kind value="complex-type"/>
+    <abstract value="false"/>
+    <type value="Observation"/>
+    <baseDefinition value="http://hl7.org/fhir/StructureDefinition/CEBase"/>
+    <derivation value="constraint"/>
+    <differential>
+        <element id="Observation:logicaSARSCoV2RNAPnlXXXNAAprobePanelLabObs">
+            <path value="Observation"/>
+            <definition value="SARSCoV2RNAPnlXXXNAAprobeLabObs is a colection of tests for the SARS coronavirus 2 organism. LOINC code 94306-8."/>
+        </element>
+        <element id="Observation:logicaSARSCoV2RNAPnlXXXNAAprobePanelLabObs.key">
+            <path value="Observation.code"/>
+			<patternCodeableConcept>
+				<coding>
+					<system value="http://loinc.org"/>
+					<code value="94306-8"/>
+					<display value="SARS coronavirus 2 RNA panel - Unspecified specimen by NAA with probe detection"/>
+				</coding>
+			</patternCodeableConcept>
+        </element>
+        <element id="Observation:logicaSARSCoV2RNAPnlXXXNAAprobePanelLabObs:identifier">
+            <path value="Observation.identifier"/>
+            <slicing>
+                <discriminator>
+                    <type value="value"/>
+                    <path value="Observation.identifier"/>
+                </discriminator>
+                <ordered value="false"/>
+                <rules value="open"/>
+            </slicing>
+            <min value="0"/>
+            <max value="*"/>
+        </element>
+        <element id="Observation:logicaSARSCoV2RNAPnlXXXNAAprobePanelLabObs.identifier:AccessionNumber">
+            <path value="Observation.identifier"/>
+            <sliceName value="accessionnumber"/>
+            <short value="Accession Number"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="Identifier"/>
+            </type>
+        </element>
+        <element id="Observation:logicaSARSCoV2RNAPnlXXXNAAprobePanelLabObs.identifier:FillerOrderNumber">
+            <path value="Observation.identifier"/>
+            <sliceName value="fillerordernumber"/>
+            <short value="Filler Order Number"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="Identifier"/>
+            </type>
+        </element>
+        <element id="Observation:logicaSARSCoV2RNAPnlXXXNAAprobePanelLabObs.identifier:PlacerOrderNumber">
+            <path value="Observation.identifier"/>
+            <sliceName value="placerordernumber"/>
+            <short value="Placer Order Number"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="Identifier"/>
+            </type>
+        </element>
+		<element id="Observation:logicaSARSCoV2RNAPnlXXXNAAprobePanelLabObs.hasMember">
+			<path value="Observation.hasMember"/>
+			<sliceName value="panelMembers"/>
+            <short value="Panel members"/>
+            <slicing id="10">
+                <discriminator>
+                    <type value="profile"/>
+                    <path value="reference.resolve"/>
+                </discriminator>
+                <ordered value="false"/>
+                <rules value="open"/>
+            </slicing>
+            <min value="0"/>
+            <max value="*"/>
+		</element>
+        <element id="Observation.logicaSARSCoV2RNAPnlXXXNAAprobePanelLabObs.hasMember:IgG">
+            <path value="Observation.hasMember"/>
+            <sliceName value="SARS-CoV-2NgeneCtXXXQnNAAN1"/>
+            <short value="SARS-CoV-2 N gene Ct XXX Qn NAA N1"/>
+			<type>
+				<code value="Reference"/>
+				<targetProfile value="https://fhir.logicahealth.org/StructureDefinition/SARScoronavirus2NgeneThreshNumPtXXXQnPrbAmpTarPrimerProbeSetN1LabObs"/>
+			</type>
+        </element>
+        <element id="Observation.logicaSARSCoV2RNAPnlXXXNAAprobePanelLabObs.hasMember:IgM">
+            <path value="Observation.hasMember"/>
+            <sliceName value="SARS-CoV-2NgeneCtXXXQnNAAN2"/>
+            <short value="SARS-CoV-2 N gene Ct XXX Qn NAA N2"/>
+			<type>
+				<code value="Reference"/>
+				<targetProfile value="https://fhir.logicahealth.org/StructureDefinition/SARScoronavirus2NgeneThreshNumPtXXXQnPrbAmpTarPrimerProbeSetN2LabObs"/>
+			</type>
+        </element>
+    </differential>
+</StructureDefinition>

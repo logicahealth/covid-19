@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
     <!--© 2018 IHC Health Services, Inc. All Rights Reserved. This document is machine generated.-->
     <id value="BodyLength"/>
-    <url value="http://hl7.org/fhir/hspc/StructureDefinition/BodyLength"/>
+    <url value="https://fhir.logicahealth.org/StructureDefinition/BodyLength"/>
 	<version value="0.1.0"/>
     <name value="BodyLength"/>
     <status value="draft"/>
@@ -27,11 +27,11 @@
 			<short value="Measurement Device"/>
 			<type>
 				<code value="Extension"/>
-				<profile value="http://hl7.org/fhir/hspc/StructureDefinition/MeasurementDeviceExt"/>
+				<profile value="https://fhir.logicahealth.org/StructureDefinition/MeasurementDeviceExt"/>
 			</type>
             <binding>
                 <strength value="preferred"/>
-                <valueSet value="http://hl7.org/fhir/hspc/ValueSet/heightLengthMeasDeviceVS"/>
+                <valueSet value="https://fhir.logicahealth.org/ValueSet/heightLengthMeasDeviceVS"/>
             </binding>
 		</element>
 		<element id="Observation:cimiBodyLength.status">
@@ -113,14 +113,14 @@
 			<path value="Observation.interpretation"/>
 			<binding>
 				<strength value="preferred"/>
-				<valueSet value="http://hl7.org/fhir/hspc/ValueSet/abnIntNumericNomVS"/>
+				<valueSet value="https://fhir.logicahealth.org/ValueSet/abnIntNumericNomVS"/>
 			</binding>
 		</element>
 		<element id="Observation:cimiBodyLength.method">
 			<path value="Observation.method"/>
 			<binding>
 				<strength value="preferred"/>
-				<valueSet value="http://hl7.org/fhir/hspc/ValueSet/heightLengthMeasMethodVS"/>
+				<valueSet value="https://fhir.logicahealth.org/ValueSet/heightLengthMeasMethodVS"/>
 			</binding>
 		</element>
     </differential>

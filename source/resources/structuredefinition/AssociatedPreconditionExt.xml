@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="AssociatedPreconditionExt"/>
-  <url value="http://hl7.org/fhir/hspc/StructureDefinition/AssociatedPreconditionExt"/>
+  <url value="https://fhir.logicahealth.org/StructureDefinition/AssociatedPreconditionExt"/>
   <version value="0.1.0"/>
   <name value="AssociatedPreconditionExt"/>
   <title value="Associated Precondition"/>
@@ -33,7 +33,7 @@
     </element>
     <element id="Extension:associatedPrecondition.url">
       <path value="Extension.url"/>
-      <fixedUri value="http://hl7.org/fhir/hspc/StructureDefinition/AssociatedPreconditionExt"/>
+      <fixedUri value="https://fhir.logicahealth.org/StructureDefinition/AssociatedPreconditionExt"/>
     </element>
     <element id="Extension:associatedPrecondition.valueCodeableConcept">
       <path value="Extension.valueCodeableConcept"/>

@@ -62,7 +62,7 @@
       "content": false
     }
   },
-  "canonicalBase": "http://logicahealth.org/fhir/",
+  "canonicalBase": "https://fhir.logicahealth.org/",
   "contact": [
     {
       "system": "url",

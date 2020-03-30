@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+    <!--© 2018 IHC Health Services, Inc. All Rights Reserved. This document is machine generated.-->
+    <id value="SARScoronavirus2AbIgGandIgMpanelPtSerPlasQnIALabObs"/>
+    <url value="https://fhir.logicahealth.org/StructureDefinition/SARScoronavirus2AbIgGandIgMpanelPtSerPlasQnIALabObs"/>
+    <name value="SARS coronavirus 2 Ab Ig Gand Ig Mpanel Pt Ser Plas"/>
+    <status value="draft"/>
+    <date value="2020-03-30"/>
+    <publisher value="Logica Health"/>
+    <description value="SARScoronavirus2AbIgGandIgMpanelPtSerPlasQnIALabObs is a collection of quantitative tests for SARS coronavirus 2 antibodies, IgG and IgM. LOINC code 94504-8."/>
+    <fhirVersion value="3.0.1"/>
+    <kind value="complex-type"/>
+    <abstract value="false"/>
+    <type value="Observation"/>
+    <baseDefinition value="http://hl7.org/fhir/StructureDefinition/CEBase"/>
+    <derivation value="constraint"/>
+    <differential>
+        <element id="Observation:logicaSARScoronavirus2AbIgGandIgMpanelPtSerPlasQnIALabObs">
+            <path value="Observation"/>
+            <definition value="SARScoronavirus2AbIgGandIgMpanelPtSerPlasQnIALabObs is a collection of quantitative tests for SARS coronavirus 2 antibodies, IgG and IgM. LOINC code 94504-8."/>
+        </element>
+        <element id="Observation:logicaSARScoronavirus2AbIgGandIgMpanelPtSerPlasQnIALabObs.key">
+            <path value="Observation.code"/>
+			<patternCodeableConcept>
+				<coding>
+					<system value="http://loinc.org"/>
+					<code value="94504-8"/>
+					<display value="SARS coronavirus 2 IgG and IgM panel - Serum or Plasma by Immunoassay"/>
+				</coding>
+			</patternCodeableConcept>
+        </element>
+        <element id="Observation:logicaSARScoronavirus2AbIgGandIgMpanelPtSerPlasQnIALabObs:identifier">
+            <path value="Observation.identifier"/>
+            <slicing>
+                <discriminator>
+                    <type value="value"/>
+                    <path value="Observation.identifier"/>
+                </discriminator>
+                <ordered value="false"/>
+                <rules value="open"/>
+            </slicing>
+            <min value="0"/>
+            <max value="*"/>
+        </element>
+        <element id="Observation:logicaSARScoronavirus2AbIgGandIgMpanelPtSerPlasQnIALabObs.identifier:AccessionNumber">
+            <path value="Observation.identifier"/>
+            <sliceName value="accessionnumber"/>
+            <short value="Accession Number"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="Identifier"/>
+            </type>
+        </element>
+        <element id="Observation:logicaSARScoronavirus2AbIgGandIgMpanelPtSerPlasQnIALabObs.identifier:FillerOrderNumber">
+            <path value="Observation.identifier"/>
+            <sliceName value="fillerordernumber"/>
+            <short value="Filler Order Number"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="Identifier"/>
+            </type>
+        </element>
+        <element id="Observation:logicaSARScoronavirus2AbIgGandIgMpanelPtSerPlasQnIALabObs.identifier:PlacerOrderNumber">
+            <path value="Observation.identifier"/>
+            <sliceName value="placerordernumber"/>
+            <short value="Placer Order Number"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="Identifier"/>
+            </type>
+        </element>
+		<element id="Observation:logicaSARScoronavirus2AbIgGandIgMpanelPtSerPlasQnIALabObs.hasMember">
+			<path value="Observation.hasMember"/>
+			<sliceName value="panelMembers"/>
+            <short value="Panel members"/>
+            <slicing id="10">
+                <discriminator>
+                    <type value="profile"/>
+                    <path value="reference.resolve"/>
+                </discriminator>
+                <ordered value="false"/>
+                <rules value="open"/>
+            </slicing>
+            <min value="0"/>
+            <max value="*"/>
+		</element>
+        <element id="Observation.logicaSARScoronavirus2AbIgGandIgMpanelPtSerPlasQnIALabObs.hasMember:IgG">
+            <path value="Observation.hasMember"/>
+            <sliceName value="SARS-CoV-2IgGSerPlIAaCnc"/>
+            <short value="SARS-CoV-2 IgG SerPl IA-aCnc"/>
+			<type>
+				<code value="Reference"/>
+				<targetProfile value="https://fhir.logicahealth.org/StructureDefinition/SARScoronavirus2AbIgGAcncPtSerPlasQnIALabObs"/>
+			</type>
+        </element>
+        <element id="Observation.logicaSARScoronavirus2AbIgGandIgMpanelPtSerPlasQnIALabObs.hasMember:IgM">
+            <path value="Observation.hasMember"/>
+            <sliceName value="SARS-CoV-2IgMSerPlIAaCnc"/>
+            <short value="SARS-CoV-2 IgM SerPl IA-aCnc"/>
+			<type>
+				<code value="Reference"/>
+				<targetProfile value="https://fhir.logicahealth.org/StructureDefinition/SARScoronavirus2AbIgMAcncPtSerPlasQnIALabObs"/>
+			</type>
+        </element>
+    </differential>
+</StructureDefinition>
