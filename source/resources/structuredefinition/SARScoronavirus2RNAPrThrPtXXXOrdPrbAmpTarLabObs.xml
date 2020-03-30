@@ -47,6 +47,10 @@
             <type>
                 <code value="CodeableConcept"/>
             </type>
+            <binding>
+                <strength value="preferred"/>
+                <valueSet value="https://fhir.logicahealth.org/ValueSet/detNotDetEqInVS"/>
+            </binding>
         </element>
         <element id="Observation:logicaSARScoronavirus2RNAPrThrPtXXXOrdPrbAmpTarLabObs.resultedDateTime">
             <path value="Observation.issued"/>

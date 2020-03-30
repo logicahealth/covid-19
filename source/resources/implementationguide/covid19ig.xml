@@ -40,40 +40,250 @@
 		<!-- ===================  vital signs extensions =============== -->
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/AssociatedPreconditionExt"/>
+				<reference value="StructureDefinition/ReportingPriorityExt"/>
 			</reference>
-			<description value="Associated Precondition"/>
+			<description value="Reporting Priority"/>
 			<exampleBoolean value="false"/>
 		</resource>
 		<!-- =============== end extensions ================ -->
 		<!-- =============== structure defs ================ -->
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/OxygenSaturationArterialBlood"/>
+				<reference value="StructureDefinition/SARScoronavirus2AbIgGAcncPtSerPlasQnIALabObs"/>
 			</reference>
-			<description value="Oxygen Saturation in Arterial blood"/>
+			<description value="SARS coronavirus 2 Ab IgG Acnc Pt Ser Plas Qn IA Lab Obs"/>
+			<exampleBoolean value="false"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/SARScoronavirus2AbIgGandIgMpanelPtSerPlasOrdIArapidLabObs"/>
+			</reference>
+			<description value="SARScoronavirus2AbIgGandIgMpanelPtSerPlasOrdIArapidLabObs"/>
+			<exampleBoolean value="false"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/SARScoronavirus2AbIgGandIgMpanelPtSerPlasQnIALabObs"/>
+			</reference>
+			<description value="SARScoronavirus2AbIgGandIgMpanelPtSerPlasQnIALabObs"/>
+			<exampleBoolean value="false"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/SARScoronavirus2AbIgGPlusIgMPrThrPtSerPlasOrdIALabObs"/>
+			</reference>
+			<description value="SARScoronavirus2AbIgGPlusIgMPrThrPtSerPlasOrdIALabObs"/>
+			<exampleBoolean value="false"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/SARScoronavirus2AbIgGPrThrPtSerPlasOrdIArapidLabObs"/>
+			</reference>
+			<description value="SARScoronavirus2AbIgGPrThrPtSerPlasOrdIArapidLabObs"/>
+			<exampleBoolean value="false"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/SARScoronavirus2AbIgMAcncPtSerPlasQnIALabObs"/>
+			</reference>
+			<description value="SARScoronavirus2AbIgMAcncPtSerPlasQnIALabObs"/>
+			<exampleBoolean value="false"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/SARScoronavirus2AbIgMPrThrPtSerPlasOrdIArapidLabObs"/>
+			</reference>
+			<description value="SARScoronavirus2AbIgMPrThrPtSerPlasOrdIArapidLabObs"/>
+			<exampleBoolean value="false"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/SARScoronavirus2EGenePrThrPtXXXOrdPrbAmpTarLabObs"/>
+			</reference>
+			<description value="SARScoronavirus2EGenePrThrPtXXXOrdPrbAmpTarLabObs"/>
+			<exampleBoolean value="false"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/SARScoronavirus2EGeneThreshNumPtXXXQnPrbAmpTarLabObs"/>
+			</reference>
+			<description value="SARScoronavirus2EGeneThreshNumPtXXXQnPrbAmpTarLabObs"/>
+			<exampleBoolean value="false"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/SARScoronavirus2NGenePrThrPtRespOrdPrbAmpTarLabObs"/>
+			</reference>
+			<description value="SARScoronavirus2NGenePrThrPtRespOrdPrbAmpTarLabObs"/>
+			<exampleBoolean value="false"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/SARScoronavirus2NgenePrThrPtXXXOrdPrbAmpTarLabObs"/>
+			</reference>
+			<description value="SARScoronavirus2NgenePrThrPtXXXOrdPrbAmpTarLabObs"/>
+			<exampleBoolean value="false"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/SARScoronavirus2NgenePrThrPtXXXOrdPrbAmpTarPrimerProbeSetN1LabObs"/>
+			</reference>
+			<description value="SARScoronavirus2NgenePrThrPtXXXOrdPrbAmpTarPrimerProbeSetN1LabObs"/>
+			<exampleBoolean value="false"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/SARScoronavirus2NgenePrThrPtXXXOrdPrbAmpTarPrimerProbeSetN2LabObs"/>
+			</reference>
+			<description value="SARScoronavirus2NgenePrThrPtXXXOrdPrbAmpTarPrimerProbeSetN2LabObs"/>
+			<exampleBoolean value="false"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/SARScoronavirus2NgeneThreshNumPtXXXQnPrbAmpTarLabObs"/>
+			</reference>
+			<description value="SARScoronavirus2NgeneThreshNumPtXXXQnPrbAmpTarLabObs"/>
+			<exampleBoolean value="false"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/SARScoronavirus2NgeneThreshNumPtXXXQnPrbAmpTarPrimerProbeSetN1LabObs"/>
+			</reference>
+			<description value="SARScoronavirus2NgeneThreshNumPtXXXQnPrbAmpTarPrimerProbeSetN1LabObs"/>
+			<exampleBoolean value="false"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/SARScoronavirus2NgeneThreshNumPtXXXQnPrbAmpTarPrimerProbeSetN2LabObs"/>
+			</reference>
+			<description value="SARScoronavirus2NgeneThreshNumPtXXXQnPrbAmpTarPrimerProbeSetN2LabObs"/>
+			<exampleBoolean value="false"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/SARScoronavirus2ORF1AbRegionThreshNumPtXXXQnPrbAmpTarLabObs"/>
+			</reference>
+			<description value="SARScoronavirus2ORF1AbRegionThreshNumPtXXXQnPrbAmpTarLabObs"/>
+			<exampleBoolean value="false"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/SARScoronavirus2RdRpGenePrThePtRespOrdPrbAmpTarLabObs"/>
+			</reference>
+			<description value="SARScoronavirus2RdRpGenePrThePtRespOrdPrbAmpTarLabObs"/>
+			<exampleBoolean value="false"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/SARScoronavirus2RdRpGenePrThrPtXXXOrdPrbAmpTarLabObs"/>
+			</reference>
+			<description value="SARScoronavirus2RdRpGenePrThrPtXXXOrdPrbAmpTarLabObs"/>
+			<exampleBoolean value="false"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/SARScoronavirus2RNAPanelPtRespPrbAmpTarLabObs"/>
+			</reference>
+			<description value="SARScoronavirus2RNAPanelPtRespPrbAmpTarLabObs"/>
+			<exampleBoolean value="false"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/SARScoronavirus2RNAPrThrPtRespOrdPrbAmpTarLabObs"/>
+			</reference>
+			<description value="SARScoronavirus2RNAPrThrPtRespOrdPrbAmpTarLabObs"/>
+			<exampleBoolean value="false"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/SARScoronavirus2RNAPrThrPtXXXOrdPrbAmpTarLabObs"/>
+			</reference>
+			<description value="SARScoronavirus2RNAPrThrPtXXXOrdPrbAmpTarLabObs"/>
+			<exampleBoolean value="false"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/SARSCoV2AgRespQlIArapidLabObs"/>
+			</reference>
+			<description value="SARSCoV2AgRespQlIArapidLabObs"/>
+			<exampleBoolean value="false"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/SARSCoV2ORF1abRespQlNAAprobeLabObs"/>
+			</reference>
+			<description value="SARSCoV2ORF1abRespQlNAAprobeLabObs"/>
+			<exampleBoolean value="false"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/SARSCoV2RNAPnlXXXNAAprobePanelLabObs"/>
+			</reference>
+			<description value="SARSCoV2RNAPnlXXXNAAprobePanelLabObs"/>
+			<exampleBoolean value="false"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/SARSLikecoronavirusNGenePrThrPtXXXOrdPrbAmpTarLabObs"/>
+			</reference>
+			<description value="SARSLikecoronavirusNGenePrThrPtXXXOrdPrbAmpTarLabObs"/>
+			<exampleBoolean value="false"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/SARSLikecoronavirusNGeneThreshNumPtXXXQnPrbAmpTarLabObs"/>
+			</reference>
+			<description value="SARSLikecoronavirusNGeneThreshNumPtXXXQnPrbAmpTarLabObs"/>
+			<exampleBoolean value="false"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/SARSrelatedcoronavirusPlusMERScoronavirusRNAPrThrPtRespOrdPrbAmpTarLabObs"/>
+			</reference>
+			<description value="SARSrelatedcoronavirusPlusMERScoronavirusRNAPrThrPtRespOrdPrbAmpTarLabObs"/>
+			<exampleBoolean value="false"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/SARSRelatedCoronavirusRNAPrThrPtRespOrdPrbAmpTarLabObs"/>
+			</reference>
+			<description value="SARSRelatedCoronavirusRNAPrThrPtRespOrdPrbAmpTarLabObs"/>
 			<exampleBoolean value="false"/>
 		</resource>
 		<!-- ============== end structure defs ========= -->
 		<!-- ============== value sets ============ -->
 		<resource>
 			<reference>
-				<reference value="ValueSet/abnIntNumericNomVS"/>
+				<reference value="ValueSet/detNotDetEqInVS"/>
 			</reference>
-			<description value="Abnormal Interpretation (Numeric Nominal) value set"/>
+			<description value="Detected-Not Detected-Equivalent-Inconclusive value set"/>
+			<exampleBoolean value="false"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="ValueSet/posNegVS"/>
+			</reference>
+			<description value="Positive/Negative value set"/>
+			<exampleBoolean value="false"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="ValueSet/reportingPriorityVS"/>
+			</reference>
+			<description value="Reporting Priority value set"/>
 			<exampleBoolean value="false"/>
 		</resource>
 		<!-- ================ end value sets ================== -->
 		<!-- ================ examples ================== -->
-		<resource>
+<!-- 		<resource>
 			<reference>
 				<reference value="Observation/oxygenSaturationPulseOx-example"/>
 			</reference>
 			<description value="Oxygen Saturation via Pulse Oximetery example"/>
 			<exampleBoolean value="true"/>
-		</resource>
+		</resource> -->
 		<!-- =========== other examples ============ -->
-		<resource>
+<!-- 		<resource>
 			<reference>
 				<reference value="Patient/patient-example"/>
 			</reference>
@@ -86,7 +296,7 @@
 			</reference>
 			<description value="Practitioner example"/>
 			<exampleBoolean value="true"/>
-		</resource>
+		</resource> -->
 		<!-- =========== other examples ============ -->
 		<!-- ============ end examples ========== -->
 		<!-- ============ Home Page =============== -->

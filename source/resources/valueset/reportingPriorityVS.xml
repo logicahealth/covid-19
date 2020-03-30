@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet  xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../schema/valueset.xsd">
+  <id value="reportingPriorityVS"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+  </meta>
+  <url value="https://fhir.logicahealth.org/ValueSet/reportingPriorityVS"/>
+    <version value="0.01"/>
+    <name value="reportingPriorityvalueset"/>
+    <title value="Reporting Priority value set"/>
+    <status value="draft"/>
+	<experimental value="false"/>
+    <date value="2020-03-30"/>
+    <publisher value="Logica Health"/>
+    <description value="SELECT SNOMED CT code system values."/>
+    <copyright value="TBD"/>
+    <compose>
+        <include>
+            <system value="http://snomed.info/sct"/>
+            <concept>
+              <code value="50811001"/>
+              <display value="Routine (qualifier value)"/>
+            </concept>
+            <concept>
+              <code value="49499008"/>
+              <display value="Stat (qualifier value)"/>
+            </concept>
+            <concept>
+              <code value="709122007"/>
+              <display value="As soon as possible (qualifier value)"/>
+            </concept>
+            <concept>
+              <code value="103391001"/>
+              <display value="Urgent (qualifier value)"/>
+            </concept>
+        </include>
+    </compose>
+</ValueSet>

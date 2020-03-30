@@ -23,7 +23,6 @@
             <path value="Observation.extension"/>
             <sliceName value="reportingpriority"/>
             <short value="Reporting Priority"/>
-            
             <min value="0"/>
             <max value="1"/>
             <type>
@@ -46,6 +45,10 @@
             <type>
                 <code value="CodeableConcept"/>
             </type>
+            <binding>
+                <strength value="preferred"/>
+                <valueSet value="https://fhir.logicahealth.org/ValueSet/detNotDetEqInVS"/>
+            </binding>
         </element>
         <element id="Observation:logicaSARScoronavirus2RdRpGenePrThePtRespOrdPrbAmpTarLabObs.resultedDateTime">
             <path value="Observation.issued"/>

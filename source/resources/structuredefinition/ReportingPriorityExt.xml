@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <id value="AssociatedPreconditionExt"/>
-  <url value="https://fhir.logicahealth.org/StructureDefinition/AssociatedPreconditionExt"/>
+  <id value="ReportingPriorityExt"/>
+  <url value="https://fhir.logicahealth.org/StructureDefinition/ReportingPriorityExt"/>
   <version value="0.1.0"/>
-  <name value="AssociatedPreconditionExt"/>
-  <title value="Associated Precondition"/>
+  <name value="ReportingPriorityExt"/>
+  <title value="Reporting Priority"/>
   <status value="draft"/>
-  <date value="2019-05-29"/>
-  <publisher value="HSPC"/>
-  <description value="The set of codes that describe conditions or events that effect an observation."/>
+  <date value="2020-03-30"/>
+  <publisher value="Logica Health"/>
+  <description value="The urgency level for which an observation must be reported."/>
   <fhirVersion value="4.0.1"/>
   <kind value="complex-type"/>
   <abstract value="false"/>
@@ -24,23 +24,27 @@
   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension"/>
   <derivation value="constraint"/>
   <differential>
-    <element id="Extension:associatedPrecondition">
+    <element id="Extension:ReportingPriorityExt">
       <path value="Extension"/>
-      <definition value="The set of codes that describe conditions or events that effect an observation."/>
+      <definition value="The urgency level for which an observation must be reported."/>
       <min value="0"/>
       <max value="1"/>
       <isModifier value="false"/>
     </element>
-    <element id="Extension:associatedPrecondition.url">
+    <element id="Extension:ReportingPriorityExt.url">
       <path value="Extension.url"/>
-      <fixedUri value="https://fhir.logicahealth.org/StructureDefinition/AssociatedPreconditionExt"/>
+      <fixedUri value="https://fhir.logicahealth.org/StructureDefinition/ReportingPriorityExt"/>
     </element>
-    <element id="Extension:associatedPrecondition.valueCodeableConcept">
+    <element id="Extension:ReportingPriorityExt.valueCodeableConcept">
       <path value="Extension.valueCodeableConcept"/>
       <type>
         <code value="CodeableConcept"/>
         <profile value="http://hl7.org/fhir/StructureDefinition/CodeableConcept"/>
       </type>
+      <binding>
+        <strength value="preferred"/>
+        <valueSet value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+      </binding>
     </element>
   </differential>
 </StructureDefinition>
