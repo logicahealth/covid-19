@@ -38,8 +38,11 @@ Description:    "Abstract base class for laboratory observations."
 
 Extension:  ReportingPriority
 Id: c19-reporting-priority
-Description:    "Need definition from Nathan."
-* value[x] only integer
+Description: "The urgency level for which an observation must be reported."
+Title: "Reporting Priority"
+* value[x] only CodeableConcept
+// MK added binding, the binding in old-source didn't make sense
+* valueCodeableConcept from http://terminology.hl7.org/ValueSet/v2-0485 (preferred)
 
 Profile: QuantitativeLaboratoryObservationBase
 Parent:  LaboratoryObservationBase
@@ -65,4 +68,4 @@ Description:  "A panel that contains member observations"
 * hasMember ^slicing.rules = #open
 // No value[x] or components on panels
 * value[x] 0..0
-* component 0..9
+* component 0..0

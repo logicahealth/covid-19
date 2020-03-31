@@ -1,29 +1,23 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<StructureDefinition xmlns="http://hl7.org/fhir">
-    <!--© 2018 IHC Health Services, Inc. All Rights Reserved. This document is machine generated.-->
+
+    
     <id value="SARScoronavirus2RNAPanelPtRespPrbAmpTarLabObs"/>
     <url value="https://fhir.logicahealth.org/StructureDefinition/SARScoronavirus2RNAPanelPtRespPrbAmpTarLabObs"/>
     <name value="SARS coronavirus 2 RNA Panel Pt Resp Prb Amp Tar Lab"/>
-    <status value="draft"/>
-    <date value="2020-03-30"/>
-    <publisher value="Logica Health"/>
+    
     <description value="SARScoronavirus2RNAPanelPtRespPrbAmpTar is a collection of tests for the SARS coronavirus 2 RNA. LOINC code 94531-1."/>
-    <fhirVersion value="3.0.1"/>
-    <kind value="complex-type"/>
-    <abstract value="false"/>
-    <type value="Observation"/>
+    
     <baseDefinition value="http://hl7.org/fhir/StructureDefinition/CEBase"/>
     <derivation value="constraint"/>
-    <differential>
-        <element id="Observation:logicaSARScoronavirus2RNAPanelPtRespPrbAmpTarLabObs">
-            <path value="Observation"/>
+
+        logicaSARScoronavirus2RNAPanelPtRespPrbAmpTarLabObs">
+
             <definition value="SARScoronavirus2RNAPanelPtRespPrbAmpTar is a collection of tests for the SARS coronavirus 2 RNA. LOINC code 94531-1."/>
-        </element>
-        <element id="Observation:logicaSARScoronavirus2RNAPanelPtRespPrbAmpTarLabObs.key">
+        
+        logicaSARScoronavirus2RNAPanelPtRespPrbAmpTarLabObs.key">
             <path value="Observation.code"/>
             <short value="key"/>
-        </element>
-        <element id="Observation:logicaSARScoronavirus2RNAPanelPtRespPrbAmpTarLabObs.comment">
+        
+        logicaSARScoronavirus2RNAPanelPtRespPrbAmpTarLabObs.comment">
             <path value="Observation.comments"/>
             <short value="comment"/>
             <comment value="Key code for this model: Comment_KEY_CODE"/>
@@ -32,41 +26,12 @@
             <type>
                 <code value="string"/>
             </type>
-        </element>
-        <element id="Observation:logicaSARScoronavirus2RNAPanelPtRespPrbAmpTarLabObs:identifier">
-            <path value="Observation.identifier"/>
-            <slicing>
-                <discriminator>
-                    <type value="value"/>
-                    <path value="Observation.identifier"/>
-                </discriminator>
-                <ordered value="false"/>
-                <rules value="open"/>
-            </slicing>
-            <min value="0"/>
-            <max value="*"/>
-        </element>
-        <element id="Observation:logicaSARScoronavirus2RNAPanelPtRespPrbAmpTarLabObs.identifier:AccessionNumber">
-            <path value="Observation.identifier"/>
-            <sliceName value="accessionnumber"/>
-            <short value="Accession Number"/>
-            <min value="0"/>
-            <max value="1"/>
-            <type>
-                <code value="Identifier"/>
-            </type>
-        </element>
-        <element id="Observation:logicaSARScoronavirus2RNAPanelPtRespPrbAmpTarLabObs.identifier:FillerOrderNumber">
-            <path value="Observation.identifier"/>
-            <sliceName value="fillerordernumber"/>
-            <short value="Filler Order Number"/>
-            <min value="0"/>
-            <max value="1"/>
-            <type>
-                <code value="Identifier"/>
-            </type>
-        </element>
-        <element id="Observation:logicaSARScoronavirus2RNAPanelPtRespPrbAmpTarLabObs.identifier:PlacerOrderNumber">
+        
+        logicaSARScoronavirus2RNAPanelPtRespPrbAmpTarLabObs:identifier">
+
+        logicaSARScoronavirus2RNAPanelPtRespPrbAmpTarLabObs.identifier:AccessionNumber">
+id="Observation:logicaSARScoronavirus2RNAPanelPtRespPrbAmpTarLabObs.identifier:FillerOrderNumber">
+id="Observation:logicaSARScoronavirus2RNAPanelPtRespPrbAmpTarLabObs.identifier:PlacerOrderNumber">
             <path value="Observation.identifier"/>
             <sliceName value="placerordernumber"/>
             <short value="Placer Order Number"/>
@@ -75,8 +40,8 @@
             <type>
                 <code value="Identifier"/>
             </type>
-        </element>
-		<element id="Observation:logicaSARScoronavirus2RNAPanelPtRespPrbAmpTarLabObs.hasMember">
+        
+		logicaSARScoronavirus2RNAPanelPtRespPrbAmpTarLabObs.hasMember">
 			<path value="Observation.hasMember"/>
 			<sliceName value="panelMembers"/>
             <short value="Panel members"/>
@@ -90,7 +55,7 @@
             </slicing>
             <min value="0"/>
             <max value="*"/>
-		</element>
+		
         <element id="Observation.logicaSARScoronavirus2RNAPanelPtRespPrbAmpTarLabObs.hasMember:SARS-CoV-2NgeneRespQlNAAprobe">
             <path value="Observation.hasMember"/>
             <sliceName value="SARS-CoV-2NgeneRespQlNAAprobe"/>
@@ -99,7 +64,7 @@
 				<code value="Reference"/>
 				<targetProfile value="https://fhir.logicahealth.org/StructureDefinition/SARScoronavirus2NGenePrThrPtRespOrdPrbAmpTarLabObs"/>
 			</type>
-        </element>
+        
         <element id="Observation.logicaSARScoronavirus2RNAPanelPtRespPrbAmpTarLabObs.hasMember:SARS-CoV-2RdRpgeneRespQlNAAprobe">
             <path value="Observation.hasMember"/>
             <sliceName value="SARS-CoV-2RdRpgeneRespQlNAAprobe"/>
@@ -108,7 +73,7 @@
 				<code value="Reference"/>
 				<targetProfile value="https://fhir.logicahealth.org/StructureDefinition/SARScoronavirus2RdRpGenePrThePtRespOrdPrbAmpTarLabObs"/>
 			</type>
-        </element>
+        
         <element id="Observation.logicaSARScoronavirus2RNAPanelPtRespPrbAmpTarLabObs.hasMember:SARS-CoV-2RNARespQlNAAprobe">
             <path value="Observation.hasMember"/>
             <sliceName value="SARS-CoV-2RNARespQlNAAprobe"/>
@@ -117,6 +82,5 @@
 				<code value="Reference"/>
 				<targetProfile value="https://fhir.logicahealth.org/StructureDefinition/SARScoronavirus2RNAPrThrPtRespOrdPrbAmpTarLabObs"/>
 			</type>
-        </element>
-    </differential>
-</StructureDefinition>
+        
+

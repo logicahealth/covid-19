@@ -1,0 +1,23 @@
+
+    
+    <id value="SARSLikecoronavirusNGenePrThrPtXXXOrdPrbAmpTarLabObs"/>
+    <url value="https://fhir.logicahealth.org/StructureDefinition/SARSLikecoronavirusNGenePrThrPtXXXOrdPrbAmpTarLabObs"/>
+    <name value="logicaSARS Likecoronavirus N Gene Pr Thr Pt XXX Ord Prb"/>
+    
+    <description value="SARSLikecoronavirusNGenePrThrPtXXXOrdPrbAmpTarLabObs is a test for the SARS-like coronavirus N gene in non-respiratory specimens and via the probe target amplification
+    method. LOINC code 94310-0."/>
+
+
+            <definition value="SARSLikecoronavirusNGenePrThrPtXXXOrdPrbAmpTarLabObs is a test for the SARS-like coronavirus N gene in non-respiratory specimens and via the probe target amplification
+            method. LOINC code 94310-0."/>
+   
+					<system value="http://loinc.org"/>
+					<code value="94310-0"/>
+					<display value="SARS-like coronavirus N gene [Presence] in Unspecified specimen by NAA with probe detection"/>
+
+            <path value="Observation.valueCodeableConcept"/>
+            <type>
+                <code value="CodeableConcept"/>
+            </type>
+
+

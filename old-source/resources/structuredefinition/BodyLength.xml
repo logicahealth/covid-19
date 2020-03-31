@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<StructureDefinition xmlns="http://hl7.org/fhir">
-    <!--© 2018 IHC Health Services, Inc. All Rights Reserved. This document is machine generated.-->
+
+    
     <id value="BodyLength"/>
     <url value="https://fhir.logicahealth.org/StructureDefinition/BodyLength"/>
 	<version value="0.1.0"/>
@@ -15,13 +14,13 @@
     <type value="Observation"/>
     <baseDefinition value="http://hl7.org/fhir/StructureDefinition/vitalsigns"/>
     <derivation value="constraint"/>
-    <differential>
-        <element id="Observation:cimiBodyLength">
-            <path value="Observation"/>
+
+        cimiBodyLength">
+
 			<short value="Body Length"/>
             <definition value="Body Length, the measured length of an individual's body.  This measurement is usually taken while lying down."/>
-        </element>
-		<element id="Observation:cimiBodyLength.extension:measurementDevice">
+        
+		cimiBodyLength.extension:measurementDevice">
 			<path value="Observation.extension"/>
 			<sliceName value="measurementDevice"/>
 			<short value="Measurement Device"/>
@@ -33,22 +32,20 @@
                 <strength value="preferred"/>
                 <valueSet value="https://fhir.logicahealth.org/ValueSet/heightLengthMeasDeviceVS"/>
             </binding>
-		</element>
-		<element id="Observation:cimiBodyLength.status">
+		
+		cimiBodyLength.status">
 			<path value="Observation.status"/>
 			<mustSupport value="true"/>
-		</element>
-        <element id="Observation:cimiBodyLength.code">
-            <path value="Observation.code"/>
-			<patternCodeableConcept>
-				<coding>
+		
+        cimiBodyLength.code">
+
 					<system value="http://loinc.org"/>
 					<code value="8306-3"/>
 					<display value="Body height -- lying"/>
 				</coding>
 			</patternCodeableConcept>
-        </element>
-		<element id="Observation:cimiBodyLength.subject">
+        
+		cimiBodyLength.subject">
 			<path value="Observation.subject"/>
 			<min value="1"/>
 			<max value="1"/>
@@ -57,33 +54,33 @@
 				<targetProfile value="http://hl7.org/fhir/StructureDefinition/Patient"/>
 			</type>
 			<mustSupport value="true"/>
-		</element>
-		<element id="Observation:cimiBodyLength.effective[x]">
+		
+		cimiBodyLength.effective[x]">
 			<path value="Observation.effective[x]"/>
 			<min value="1"/>
 			<max value="1"/>
 			<mustSupport value="true"/>
-		</element>
-        <element id="Observation:cimiBodyLength.valueQuantity">
+		
+        cimiBodyLength.valueQuantity">
             <path value="Observation.valueQuantity"/>
             <type>
                 <code value="Quantity"/>
             </type>
 			<mustSupport value="true"/>
-        </element>
-		<element id="Observation:cimiBodyLength.valueQuantity.value">
+        
+		cimiBodyLength.valueQuantity.value">
 			<path value="Observation.valueQuantity.value"/>
 			<min value="1"/>
 			<max value="1"/>
 			<mustSupport value="true"/>
-		</element>
-		<element id="Observation:cimiBodyLength.valueQuantity.unit">
+		
+		cimiBodyLength.valueQuantity.unit">
 			<path value="Observation.valueQuantity.unit"/>
 			<min value="1"/>
 			<max value="1"/>
 			<mustSupport value="true"/>
-		</element>
-		<element id="Observation:cimiBodyLength.valueQuantity.system">
+		
+		cimiBodyLength.valueQuantity.system">
 			<path value="Observation.valueQuantity.system"/>
 			<min value="1"/>
 			<max value="1"/>
@@ -93,8 +90,8 @@
             </type>
             <fixedUri value="http://unitsofmeasure.org"/>
 			<mustSupport value="true"/>
-		</element>
-		<element id="Observation:cimiBodyLength.valueQuantity.code">
+		
+		cimiBodyLength.valueQuantity.code">
 			<path value="Observation.valueQuantity.code"/>
 			<min value="1"/>
 			<max value="1"/>
@@ -104,24 +101,23 @@
             </type>
             <fixedCode value="cm"/>
 			<mustSupport value="true"/>
-		</element>
-		<element id="Observation:cimiBodyLength.dataAbsentReason">
+		
+		cimiBodyLength.dataAbsentReason">
 			<path value="Observation.dataAbsentReason"/>
 			<mustSupport value="true"/>
-		</element>
-		<element id="Observation:cimiBodyLength.interpretation">
+		
+		cimiBodyLength.interpretation">
 			<path value="Observation.interpretation"/>
 			<binding>
 				<strength value="preferred"/>
 				<valueSet value="https://fhir.logicahealth.org/ValueSet/abnIntNumericNomVS"/>
 			</binding>
-		</element>
-		<element id="Observation:cimiBodyLength.method">
+		
+		cimiBodyLength.method">
 			<path value="Observation.method"/>
 			<binding>
 				<strength value="preferred"/>
 				<valueSet value="https://fhir.logicahealth.org/ValueSet/heightLengthMeasMethodVS"/>
 			</binding>
-		</element>
-    </differential>
-</StructureDefinition>
+		
+

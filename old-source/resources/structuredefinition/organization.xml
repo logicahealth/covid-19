@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<StructureDefinition xmlns="http://hl7.org/fhir">
+
   <id value="organization"/>
   <url value="http://hl7.org/fhir/us/skinwoundassessment/StructureDefinition/organization"/>
   <version value="2.0.0"/>
@@ -113,7 +112,7 @@
         <identity value="w5"/>
         <map value="administrative.group"/>
       </mapping>
-    </element>
+    
     <element id="Organization:hspcorganization.id">
       <path value="Organization.id"/>
       <short value="Logical id of this artifact"/>
@@ -130,7 +129,7 @@
         <code value="id"/>
       </type>
       <isSummary value="true"/>
-    </element>
+    
     <element id="Organization:hspcorganization.meta">
       <path value="Organization.meta"/>
       <short value="Metadata about the resource"/>
@@ -146,7 +145,7 @@
         <code value="Meta"/>
       </type>
       <isSummary value="true"/>
-    </element>
+    
     <element id="Organization:hspcorganization.implicitRules">
       <path value="Organization.implicitRules"/>
       <short value="A set of rules under which this content was created"/>
@@ -164,7 +163,7 @@
       </type>
       <isModifier value="true"/>
       <isSummary value="true"/>
-    </element>
+    
     <element id="Organization:hspcorganization.language">
       <path value="Organization.language"/>
       <short value="Language of the resource content"/>
@@ -196,7 +195,7 @@
         <description value="A human language."/>
         <valueSet value="http://hl7.org/fhir/ValueSet/languages"/>
       </binding>
-    </element>
+    
     <element id="Organization:hspcorganization.text">
       <path value="Organization.text"/>
       <short value="Text summary of the resource, for human interpretation"/>
@@ -221,7 +220,7 @@
         <identity value="rim"/>
         <map value="Act.text?"/>
       </mapping>
-    </element>
+    
     <element id="Organization:hspcorganization.contained">
       <path value="Organization.contained"/>
       <short value="Contained, inline Resources"/>
@@ -244,7 +243,7 @@
         <identity value="rim"/>
         <map value="N/A"/>
       </mapping>
-    </element>
+    
     <element id="Organization:hspcorganization.extension:organizationperiod$Extension">
       <path value="Organization.extension"/>
       <sliceName value="OrganizationPeriod"/>
@@ -273,7 +272,7 @@
       <mustSupport value="false"/>
       <isModifier value="false"/>
       <isSummary value="false"/>
-    </element>
+    
     <element id="Organization:hspcorganization.modifierExtension">
       <path value="Organization.modifierExtension"/>
       <short value="Extensions that cannot be ignored"/>
@@ -296,7 +295,7 @@
         <identity value="rim"/>
         <map value="N/A"/>
       </mapping>
-    </element>
+    
     <element id="Organization:hspcorganization.identifier">
       <path value="Organization.identifier"/>
       <short value="Identifies this organization  across multiple systems"/>
@@ -335,7 +334,7 @@
         <identity value="servd"/>
         <map value="n/a"/>
       </mapping>
-    </element>
+    
     <element id="Organization:hspcorganization.identifier.id">
       <path value="Organization.identifier.id"/>
       <representation value="xmlAttr"/>
@@ -355,7 +354,7 @@
         <identity value="rim"/>
         <map value="n/a"/>
       </mapping>
-    </element>
+    
     <element id="Organization:hspcorganization.identifier.extension">
       <path value="Organization.identifier.extension"/>
       <slicing>
@@ -385,7 +384,7 @@
         <identity value="rim"/>
         <map value="n/a"/>
       </mapping>
-    </element>
+    
     <element id="Organization:hspcorganization.identifier.use">
       <path value="Organization.identifier.use"/>
       <short value="usual | official | temp | secondary (If known)"/>
@@ -420,7 +419,7 @@
         <identity value="rim"/>
         <map value="Role.code or implied by context"/>
       </mapping>
-    </element>
+    
     <element id="Organization:hspcorganization.identifier.type">
       <path value="Organization.identifier.type"/>
       <short value="Description of identifier"/>
@@ -457,7 +456,7 @@
         <identity value="rim"/>
         <map value="Role.code or implied by context"/>
       </mapping>
-    </element>
+    
     <element id="Organization:hspcorganization.identifier.system">
       <path value="Organization.identifier.system"/>
       <short value="The namespace for the identifier value"/>
@@ -488,7 +487,7 @@
         <identity value="servd"/>
         <map value="./IdentifierType"/>
       </mapping>
-    </element>
+    
     <element id="Organization:hspcorganization.identifier.value">
       <path value="Organization.identifier.value"/>
       <short value="The value that is unique"/>
@@ -521,7 +520,7 @@
         <identity value="servd"/>
         <map value="./Value"/>
       </mapping>
-    </element>
+    
     <element id="Organization:hspcorganization.identifier.period">
       <path value="Organization.identifier.period"/>
       <short value="Time period when id is/was valid for use"/>
@@ -549,7 +548,7 @@
         <identity value="servd"/>
         <map value="./StartDate and ./EndDate"/>
       </mapping>
-    </element>
+    
     <element id="Organization:hspcorganization.identifier.assigner">
       <path value="Organization.identifier.assigner"/>
       <short value="Organization that issued id (may be just text)"/>
@@ -579,7 +578,7 @@
         <identity value="servd"/>
         <map value="./IdentifierIssuingAuthority"/>
       </mapping>
-    </element>
+    
     <element id="Organization:hspcorganization.active">
       <path value="Organization.active"/>
       <short value="Whether the organization&#39;s record is still in active use"/>
@@ -616,7 +615,7 @@
         <identity value="w5"/>
         <map value="status"/>
       </mapping>
-    </element>
+    
     <element id="Organization:hspcorganization.type">
       <path value="Organization.type"/>
       <short value="Kind of organization"/>
@@ -658,7 +657,7 @@
         <identity value="w5"/>
         <map value="class"/>
       </mapping>
-    </element>
+    
     <element id="Organization:hspcorganization.name:name">
       <path value="Organization.name"/>
       <short value="Name used for the organization"/>
@@ -694,7 +693,7 @@
         <identity value="servd"/>
         <map value="./PrimaryAddress and ./OtherAddresses"/>
       </mapping>
-    </element>
+    
 
     <element id="Organization:hspcorganization.alias">
       <path value="Organization.alias"/>
@@ -716,7 +715,7 @@
         <identity value="rim"/>
         <map value=".name"/>
       </mapping>
-    </element>
+    
     <element id="Organization:hspcorganization.telecom">
       <path value="Organization.telecom"/>
       <short value="A contact detail for the organization"/>
@@ -755,7 +754,7 @@
         <identity value="servd"/>
         <map value="./ContactPoints"/>
       </mapping>
-    </element>
+    
     <element id="Organization:hspcorganization.address">
       <path value="Organization.address"/>
       <short value="An address for the organization"/>
@@ -798,7 +797,7 @@
         <identity value="servd"/>
         <map value="n/a"/>
       </mapping>
-    </element>
+    
     <element id="Organization:hspcorganization.address.id">
       <path value="Organization.address.id"/>
       <representation value="xmlAttr"/>
@@ -818,7 +817,7 @@
         <identity value="rim"/>
         <map value="n/a"/>
       </mapping>
-    </element>
+    
     <element id="Organization:hspcorganization.address.extension">
       <path value="Organization.address.extension"/>
       <slicing>
@@ -848,7 +847,7 @@
         <identity value="rim"/>
         <map value="n/a"/>
       </mapping>
-    </element>
+    
     <element id="Organization:hspcorganization.address.use">
       <path value="Organization.address.use"/>
       <short value="home | work | temp | old - purpose of this address"/>
@@ -891,7 +890,7 @@
         <identity value="servd"/>
         <map value="./AddressPurpose"/>
       </mapping>
-    </element>
+    
     <element id="Organization:hspcorganization.address.type">
       <path value="Organization.address.type"/>
       <short value="postal | physical | both"/>
@@ -931,7 +930,7 @@
         <identity value="vcard"/>
         <map value="address type parameter"/>
       </mapping>
-    </element>
+    
     <element id="Organization:hspcorganization.address.text">
       <path value="Organization.address.text"/>
       <short value="Text representation of the address"/>
@@ -965,7 +964,7 @@
         <identity value="vcard"/>
         <map value="address label parameter"/>
       </mapping>
-    </element>
+    
     <element id="Organization:hspcorganization.address.line">
       <path value="Organization.address.line"/>
       <short value="Street name, number, direction &amp; P.O. Box etc."/>
@@ -1004,7 +1003,7 @@
         <identity value="servd"/>
         <map value="./StreetAddress (newline delimitted)"/>
       </mapping>
-    </element>
+    
     <element id="Organization:hspcorganization.address.city">
       <path value="Organization.address.city"/>
       <short value="Name of city, town etc."/>
@@ -1042,7 +1041,7 @@
         <identity value="servd"/>
         <map value="./Jurisdiction"/>
       </mapping>
-    </element>
+    
     <element id="Organization:hspcorganization.address.district">
       <path value="Organization.address.district"/>
       <short value="District name (aka county)"/>
@@ -1072,7 +1071,7 @@
         <identity value="rim"/>
         <map value="AD.part[parttype = CNT | CPA]"/>
       </mapping>
-    </element>
+    
     <element id="Organization:hspcorganization.address.state">
       <path value="Organization.address.state"/>
       <short value="Sub-unit of country (abbreviations ok)"/>
@@ -1116,7 +1115,7 @@
         <identity value="servd"/>
         <map value="./Sites"/>
       </mapping>
-    </element>
+    
     <element id="Organization:hspcorganization.address.postalCode">
       <path value="Organization.address.postalCode"/>
       <short value="US Zip Codes"/>
@@ -1154,7 +1153,7 @@
         <identity value="servd"/>
         <map value="./PostalIdentificationCode"/>
       </mapping>
-    </element>
+    
     <element id="Organization:hspcorganization.address.country">
       <path value="Organization.address.country"/>
       <short value="Country (e.g. can be ISO 3166 2 or 3 letter code)"/>
@@ -1187,7 +1186,7 @@
         <identity value="servd"/>
         <map value="./Country"/>
       </mapping>
-    </element>
+    
     <element id="Organization:hspcorganization.address.period">
       <path value="Organization.address.period"/>
       <short value="Time period when address was/is in use"/>
@@ -1223,7 +1222,7 @@
         <identity value="servd"/>
         <map value="./StartDate and ./EndDate"/>
       </mapping>
-    </element>
+    
     <element id="Organization:hspcorganization.partOf">
       <path value="Organization.partOf"/>
       <short value="The organization of which this organization forms a part"/>
@@ -1253,7 +1252,7 @@
         <identity value="servd"/>
         <map value="n/a"/>
       </mapping>
-    </element>
+    
     <element id="Organization:hspcorganization.contact">
       <path value="Organization.contact"/>
       <short value="Contact for the organization for a certain purpose"/>
@@ -1282,7 +1281,7 @@
         <identity value="rim"/>
         <map value=".contactParty"/>
       </mapping>
-    </element>
+    
     <element id="Organization:hspcorganization.contact.id">
       <path value="Organization.contact.id"/>
       <representation value="xmlAttr"/>
@@ -1302,7 +1301,7 @@
         <identity value="rim"/>
         <map value="n/a"/>
       </mapping>
-    </element>
+    
     <element id="Organization:hspcorganization.contact.extension">
       <path value="Organization.contact.extension"/>
       <slicing id="12">
@@ -1332,7 +1331,7 @@
         <identity value="rim"/>
         <map value="n/a"/>
       </mapping>
-    </element>
+    
     <element id="Organization:hspcorganization.contact.extension:contactperiod$Extension">
       <path value="Organization.contact.extension"/>
       <sliceName value="ContactPeriod"/>
@@ -1359,7 +1358,7 @@
       <mustSupport value="false"/>
       <isModifier value="false"/>
       <isSummary value="false"/>
-    </element>
+    
     <element id="Organization:hspcorganization.contact.extension:primarylanguage$Extension">
       <path value="Organization.contact.extension"/>
       <sliceName value="PrimaryLanguage"/>
@@ -1386,7 +1385,7 @@
       <mustSupport value="false"/>
       <isModifier value="false"/>
       <isSummary value="false"/>
-    </element>
+    
     <element id="Organization:hspcorganization.contact.modifierExtension">
       <path value="Organization.contact.modifierExtension"/>
       <short value="Extensions that cannot be ignored"/>
@@ -1411,7 +1410,7 @@
         <identity value="rim"/>
         <map value="N/A"/>
       </mapping>
-    </element>
+    
     <element id="Organization:hspcorganization.contact.purpose">
       <path value="Organization.contact.purpose"/>
       <short value="The type of contact"/>
@@ -1439,7 +1438,7 @@
         <identity value="rim"/>
         <map value="./type"/>
       </mapping>
-    </element>
+    
     <element id="Organization:hspcorganization.contact.name">
       <path value="Organization.contact.name"/>
       <short value="A name associated with the contact"/>
@@ -1463,7 +1462,7 @@
         <identity value="rim"/>
         <map value="./name"/>
       </mapping>
-    </element>
+    
     <element id="Organization:hspcorganization.contact.telecom">
       <path value="Organization.contact.telecom"/>
       <short value="Contact details (telephone, email, etc.)  for a contact"/>
@@ -1487,7 +1486,7 @@
         <identity value="rim"/>
         <map value="./telecom"/>
       </mapping>
-    </element>
+    
     <element id="Organization:hspcorganization.contact.address">
       <path value="Organization.contact.address"/>
       <short value="Visiting or postal addresses for the contact"/>
@@ -1511,7 +1510,7 @@
         <identity value="rim"/>
         <map value="./addr"/>
       </mapping>
-    </element>
+    
     <element id="Organization:hspcorganization.endpoint">
       <path value="Organization.endpoint"/>
       <short value="Technical endpoints providing access to services operated for the organization"/>
@@ -1533,7 +1532,7 @@
         <identity value="rim"/>
         <map value="n/a"/>
       </mapping>
-    </element>
+    
   </snapshot>
   <differential>
     <element id="Organization:hspcorganization">
@@ -1546,7 +1545,7 @@
         <identity value="servd"/>
         <map value="Organization"/>
       </mapping>
-    </element>
+    
     <element id="Organization:hspcorganization.extension:organizationperiod$Extension">
       <path value="Organization.extension"/>
       <sliceName value="OrganizationPeriod"/>
@@ -1559,7 +1558,7 @@
       <mustSupport value="false"/>
       <isModifier value="false"/>
       <isSummary value="false"/>
-    </element>
+    
     <element id="Organization:hspcorganization.type">
       <path value="Organization.type"/>
       <min value="0"/>
@@ -1571,7 +1570,7 @@
       <mustSupport value="false"/>
       <isModifier value="false"/>
       <isSummary value="false"/>
-    </element>
+    
     <element id="Organization:hspcorganization.identifier">
       <path value="Organization.identifier"/>
       <min value="1"/>
@@ -1585,7 +1584,7 @@
         <identity value="servd"/>
         <map value="n/a"/>
       </mapping>
-    </element>
+    
     <element id="Organization:hspcorganization.identifier.system">
       <path value="Organization.identifier.system"/>
       <comment value="NPI preferred (http://hl7.org/fhir/sid/us-npi), Tax id is allowed (http://hl7.org/fhir/sid/us-tin), Local id is allowed in addition to &#39;authoritative&#39; identifier."/>
@@ -1596,7 +1595,7 @@
       </type>
       <mustSupport value="true"/>
       <isModifier value="false"/>
-    </element>
+    
     <element id="Organization:uscoreorganization.active">
       <path value="Organization.active"/>
       <min value="1"/>
@@ -1606,7 +1605,7 @@
       </type>
       <mustSupport value="true"/>
       <isModifier value="false"/>
-    </element>
+    
     <element id="Organization:hspcorganization.name:name">
       <path value="Organization.name"/>
       <sliceName value="OrganizationName"/>
@@ -1621,7 +1620,7 @@
         <identity value="servd"/>
         <map value="./PrimaryAddress and ./OtherAddresses"/>
       </mapping>
-    </element>
+    
     <element id="Organization:hspcorganization.telecom">
       <path value="Organization.telecom"/>
       <min value="1"/>
@@ -1631,7 +1630,7 @@
       </type>
       <mustSupport value="true"/>
       <isModifier value="false"/>
-    </element>
+    
     <element id="Organization:hspcorganization.address">
       <path value="Organization.address"/>
       <min value="1"/>
@@ -1645,7 +1644,7 @@
         <identity value="servd"/>
         <map value="n/a"/>
       </mapping>
-    </element>
+    
     <element id="Organization:hspcorganization.address.line">
       <path value="Organization.address.line"/>
       <min value="0"/>
@@ -1655,7 +1654,7 @@
       </type>
       <mustSupport value="true"/>
       <isModifier value="false"/>
-    </element>
+    
     <element id="Organization:hspcorganization.address.city">
       <path value="Organization.address.city"/>
       <min value="0"/>
@@ -1665,7 +1664,7 @@
       </type>
       <mustSupport value="true"/>
       <isModifier value="false"/>
-    </element>
+    
     <element id="Organization:hspcorganization.address.state">
       <path value="Organization.address.state"/>
       <min value="0"/>
@@ -1684,7 +1683,7 @@
         <identity value="servd"/>
         <map value="./Sites"/>
       </mapping>
-    </element>
+    
     <element id="Organization:hspcorganization.address.postalCode">
       <path value="Organization.address.postalCode"/>
       <short value="US Zip Codes"/>
@@ -1695,13 +1694,13 @@
       </type>
       <mustSupport value="true"/>
       <isModifier value="false"/>
-    </element>
+    
     <element id="Organization:organization.contact">
       <path value="Organization.contact"/>
       <mustSupport value="false"/>
       <isModifier value="false"/>
       <isSummary value="false"/>
-    </element>
+    
     <element id="Organization:organization.contact.extension:contactperiod$Extension">
       <path value="Organization.contact.extension"/>
       <sliceName value="ContactPeriod"/>
@@ -1714,7 +1713,7 @@
       <mustSupport value="false"/>
       <isModifier value="false"/>
       <isSummary value="false"/>
-    </element>
+    
     <element id="Organization:organization.contact.extension:primarylanguage$Extension">
       <path value="Organization.contact.extension"/>
       <sliceName value="PrimaryLanguage"/>
@@ -1727,7 +1726,7 @@
       <mustSupport value="false"/>
       <isModifier value="false"/>
       <isSummary value="false"/>
-    </element>
+    
     <element id="Organization:uscoreorganization.endpoint">
       <path value="Organization.endpoint"/>
       <min value="0"/>
@@ -1738,6 +1737,6 @@
       </type>
       <mustSupport value="true"/>
       <isModifier value="false"/>
-    </element>
+    
   </differential>
 </StructureDefinition>

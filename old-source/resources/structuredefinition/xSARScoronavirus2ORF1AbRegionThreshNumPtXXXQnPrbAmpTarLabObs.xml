@@ -1,0 +1,95 @@
+
+    
+    <id value="SARScoronavirus2ORF1AbRegionThreshNumPtXXXQnPrbAmpTarLabObs"/>
+    <url value="https://fhir.logicahealth.org/StructureDefinition/SARScoronavirus2ORF1AbRegionThreshNumPtXXXQnPrbAmpTarLabObs"/>
+    <name value="SARS coronavirus 2 OR F1 Ab Region Thresh Num Pt XXX"/>
+    
+    <description value="SARScoronavirus2ORF1AbRegionThreshNumPtXXXQnPrbAmpTarLabObs is a quantitative test for the SARS coronavirus 2 ORF Ab region via the probe target ampificatio method and
+    with a threshold for detection in non-respiratory specimens. LOINC code 94511-3"/>
+    
+
+
+        logicaSARScoronavirus2ORF1AbRegionThreshNumPtXXXQnPrbAmpTarLabObs">
+
+            <definition value="SARScoronavirus2ORF1AbRegionThreshNumPtXXXQnPrbAmpTarLabObs is a quantitative test for the SARS coronavirus 2 ORF Ab region via the probe target ampificatio method
+            and with a threshold for detection in non-respiratory specimens. LOINC code 94511-3"/>
+        
+        logicaSARScoronavirus2ORF1AbRegionThreshNumPtXXXQnPrbAmpTarLabObs.extension:ReportingPriority">
+id="Observation:logicaSARScoronavirus2ORF1AbRegionThreshNumPtXXXQnPrbAmpTarLabObs.key">
+
+					<system value="http://loinc.org"/>
+					<code value="94511-3"/>
+					<display value="SARS coronavirus 2 ORF1ab region [Cycle Threshold #] in Unspecified specimen by NAA with probe detection"/>
+id="Observation:logicaSARScoronavirus2ORF1AbRegionThreshNumPtXXXQnPrbAmpTarLabObs.valueQuantity">
+            <path value="Observation.valueQuantity"/>
+            <short value="valueQuantity"/>
+            <type>
+                <code value="Quantity"/>
+            </type>
+        
+        logicaSARScoronavirus2ORF1AbRegionThreshNumPtXXXQnPrbAmpTarLabObs.resultedDateTime">
+
+        logicaSARScoronavirus2ORF1AbRegionThreshNumPtXXXQnPrbAmpTarLabObs:identifier">
+
+        logicaSARScoronavirus2ORF1AbRegionThreshNumPtXXXQnPrbAmpTarLabObs.identifier:AccessionNumber">
+            <path value="Observation.identifier"/>
+            <sliceName value="accessionnumber"/>
+            <short value="Accession Number"/>
+            
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="Identifier"/>
+            </type>
+        
+        logicaSARScoronavirus2ORF1AbRegionThreshNumPtXXXQnPrbAmpTarLabObs.identifier:FillerOrderNumber">
+
+        logicaSARScoronavirus2ORF1AbRegionThreshNumPtXXXQnPrbAmpTarLabObs.identifier:PlacerOrderNumber">
+            <path value="Observation.identifier"/>
+            <sliceName value="placerordernumber"/>
+            <short value="Placer Order Number"/>
+            
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="Identifier"/>
+            </type>
+        
+        logicaSARScoronavirus2ORF1AbRegionThreshNumPtXXXQnPrbAmpTarLabObs:performer">
+id="Observation:logicaSARScoronavirus2ORF1AbRegionThreshNumPtXXXQnPrbAmpTarLabObs.performer:ResponsibleObserver">
+            <path value="Observation.performer"/>
+            <sliceName value="responsibleobserver"/>
+            <short value="Responsible Observer"/>
+            
+            <min value="0"/>
+            <max value="*"/>
+            <type>
+                <code value="Reference"/>
+                <targetProfile value="https://fhir.logicahealth.org/StructureDefinition/practitioner"/>
+            </type>
+        
+        logicaSARScoronavirus2ORF1AbRegionThreshNumPtXXXQnPrbAmpTarLabObs.performer:PerformingLaboratory">
+            <path value="Observation.performer"/>
+            <sliceName value="performinglaboratory"/>
+            <short value="Performing Laboratory"/>
+            
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="Reference"/>
+                <targetProfile value="https://fhir.logicahealth.org/StructureDefinition/organization"/>
+            </type>
+        
+        logicaSARScoronavirus2ORF1AbRegionThreshNumPtXXXQnPrbAmpTarLabObs.performer:PerformingOrganizationMedicalDirector">
+            <path value="Observation.performer"/>
+            <sliceName value="performingorganizationmedicaldirector"/>
+            <short value="Performing Organization Medical Director"/>
+            
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="Reference"/>
+                <targetProfile value="https://fhir.logicahealth.org/StructureDefinition/practitioner"/>
+            </type>
+        
+

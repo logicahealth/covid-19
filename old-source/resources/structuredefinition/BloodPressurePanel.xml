@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<StructureDefinition xmlns="http://hl7.org/fhir">
-    <!--© 2018 IHC Health Services, Inc. All Rights Reserved. This document is machine generated.-->
+
+    
     <id value="BloodPressurePanel"/>
     <url value="https://fhir.logicahealth.org/StructureDefinition/BloodPressurePanel"/>
 	<version value="0.1.0"/>
@@ -16,13 +15,13 @@
     <type value="Observation"/>
     <baseDefinition value="http://hl7.org/fhir/StructureDefinition/vitalsigns"/>
     <derivation value="constraint"/>
-    <differential>
-        <element id="Observation:cimiBloodPressurePanel">
-            <path value="Observation"/>
+
+        cimiBloodPressurePanel">
+
 			<short value="BloodPressurePanel"/>
             <definition value="Blood Pressure Panel; a grouping of systolic, diastolic, and mean arterial blood pressure components."/>
-        </element>
-		<element id="Observation:cimiBloodPressurePanel.extension:bodyposition">
+        
+		cimiBloodPressurePanel.extension:bodyposition">
 		  <path value="Observation.extension"/>
 		  <sliceName value="BodyPosition"/>
 		  <short value="Body Position"/>
@@ -37,8 +36,8 @@
 			<valueSet value="https://fhir.logicahealth.org/ValueSet/bodyPositionVS"/>
 		  </binding>
 		  <mustSupport value="true"/>
-		</element>
-		<element id="Observation:cimiBloodPressurePanel.extension:measurementDevice">
+		
+		cimiBloodPressurePanel.extension:measurementDevice">
 			<path value="Observation.extension"/>
 			<sliceName value="measurementDevice"/>
 			<short value="Measurement Device"/>
@@ -53,8 +52,8 @@
                 <valueSet value="https://fhir.logicahealth.org/ValueSet/bpMeasDeviceVS"/>
             </binding>
 		  <mustSupport value="true"/>
-		</element>
-		<element id="Observation:cimiBloodPressurePanel.extension:sleepStatus">
+		
+		cimiBloodPressurePanel.extension:sleepStatus">
 			<path value="Observation.extension"/>
 			<sliceName value="sleepStatus"/>
 			<short value="Sleep Status"/>
@@ -67,8 +66,8 @@
 				<valueSet value="https://fhir.logicahealth.org/ValueSet/sleepStatusVS"/>
 			</binding>
 		    <mustSupport value="true"/>
-		</element>
-		<element id="Observation:cimiBloodPressurePanel.extension:ExerciseAssociationExt">
+		
+		cimiBloodPressurePanel.extension:ExerciseAssociationExt">
 			<path value="Observation.extension"/>
 			<sliceName value="exerciseAssociation"/>
 			<short value="Exercise Association"/>
@@ -81,8 +80,8 @@
 				<valueSet value="https://fhir.logicahealth.org/ValueSet/exertionPhaseVS"/>
 			</binding>
 		    <mustSupport value="true"/>
-		</element>
-<!-- 		<element id="Observation:cimiBloodPressurePanel.extension:associatedPrecondition">
+		
+<!-- 		cimiBloodPressurePanel.extension:associatedPrecondition">
 			<path value="Observation.extension"/>
 			<sliceName value="associatedPrecondition"/>
 			<short value="Associated Precondition"/>
@@ -95,22 +94,20 @@
 				<valueSet value="https://fhir.logicahealth.org/ValueSet/vitalSignAssociatedPrecondVS"/>
 			</binding>
 		    <mustSupport value="true"/>
-		</element> -->
-		<element id="Observation:cimiBloodPressurePanel.status">
+		 -->
+		cimiBloodPressurePanel.status">
 			<path value="Observation.status"/>
 			<mustSupport value="true"/>
-		</element>
-        <element id="Observation:cimiBloodPressurePanel.code">
-            <path value="Observation.code"/>
-			<patternCodeableConcept>
-				<coding>
+		
+        cimiBloodPressurePanel.code">
+
 					<system value="http://loinc.org"/>
 					<code value="85354-9"/>
 					<display value="Blood pressure panel with all children optional"/>
 				</coding>
 			</patternCodeableConcept>
-        </element>
-		<element id="Observation:cimiBloodPressurePanel.subject">
+        
+		cimiBloodPressurePanel.subject">
 			<path value="Observation.subject"/>
 			<min value="1"/>
 			<max value="1"/>
@@ -119,19 +116,19 @@
 				<targetProfile value="http://hl7.org/fhir/StructureDefinition/Patient"/>
 			</type>
 			<mustSupport value="true"/>
-		</element>
-		<element id="Observation:cimiBloodPressurePanel.effective[x]">
+		
+		cimiBloodPressurePanel.effective[x]">
 			<path value="Observation.effective[x]"/>
 			<min value="1"/>
 			<max value="1"/>
 			<mustSupport value="true"/>
-		</element>
-		<element id="Observation:cimiBloodPressurePanel.value[x]">
+		
+		cimiBloodPressurePanel.value[x]">
 			<path value="Observation.value[x]"/>
 			<min value="0"/>
 			<max value="0"/>
-		</element>
-		<element id="Observation:cimiBloodPressurePanel.bodySite">
+		
+		cimiBloodPressurePanel.bodySite">
 		  <path value="Observation.bodySite"/>
 		  <mustSupport value="false"/>
 		  <binding>
@@ -139,8 +136,8 @@
 			<description value="A set of codes that describe where on/in the body an observation or procedure took place"/>
 			<valueSet value="https://fhir.logicahealth.org/ValueSet/bpmeasbodylocationprecoord"/>
 		  </binding>
-		</element>
-		<element id="Observation:cimiBloodPressurePanel.method">
+		
+		cimiBloodPressurePanel.method">
 		  <path value="Observation.method"/>
 		  <mustSupport value="false"/>
 		  <binding>
@@ -148,13 +145,13 @@
 			<description value="A set of codes that describe the method used to measure a blood pressure"/>
 			<valueSet value="https://fhir.logicahealth.org/ValueSet/bpMeasMethodVS"/>
 		  </binding>
-		</element>
-		<element id="Observation:cimiBloodPressurePanel.specimen">
+		
+		cimiBloodPressurePanel.specimen">
 			<path value="Observation.specimen"/>
 			<min value="0"/>
 			<max value="0"/>
-		</element>
-		<element id="Observation:cimiBloodPressurePanel.component">
+		
+		cimiBloodPressurePanel.component">
 			<path value="Observation.component"/>
 			<slicing>
 				<discriminator>
@@ -166,15 +163,15 @@
 			</slicing>
 			<short value="Blood pressure components"/>
 			<mustSupport value="true"/>
-		</element>
-		<element id="Observation:cimiBloodPressurePanel.component:systolicBP">
+		
+		cimiBloodPressurePanel.component:systolicBP">
 			<path value="Observation.component"/>
 			<sliceName value="SystolicBP"/>
 			<short value="Systolic Blood Pressure"/>
 			<min value="1"/>
 			<max value="1"/>
-		</element>
-		<element id="Observation:cimiBloodPressurePanel.component.code:systolicBP">
+		
+		cimiBloodPressurePanel.component.code:systolicBP">
 			<path value="Observation.component.code"/>
 			<patternCodeableConcept>
 				<coding>
@@ -184,27 +181,27 @@
 				</coding>
 			</patternCodeableConcept>
 			<mustSupport value="true"/>
-		</element>
-		<element id="Observation:cimiBloodPressurePanel.component.valueQuantity:systolicBP">
+		
+		cimiBloodPressurePanel.component.valueQuantity:systolicBP">
 			<path value="Observation.component.valueQuantity"/>
 			<type>
 				<code value="Quantity"/>
 			</type>
 			<mustSupport value="true"/>
-		</element>
-		<element id="Observation:cimiBloodPressurePanel.component.valueQuantity.value:systolicBP">
+		
+		cimiBloodPressurePanel.component.valueQuantity.value:systolicBP">
 			<path value="Observation.component.valueQuantity.value"/>
 			<min value="1"/>
 			<max value="1"/>
 			<mustSupport value="true"/>
-		</element>
-		<element id="Observation:cimiBloodPressurePanel.component.valueQuantity.unit:systolicBP">
+		
+		cimiBloodPressurePanel.component.valueQuantity.unit:systolicBP">
 			<path value="Observation.component.valueQuantity.unit"/>
 			<min value="1"/>
 			<max value="1"/>
 			<mustSupport value="true"/>
-		</element>
-		<element id="Observation:cimiBloodPressurePanel.component.valueQuantity.system:systolicBP">
+		
+		cimiBloodPressurePanel.component.valueQuantity.system:systolicBP">
 			<path value="Observation.component.valueQuantity.system"/>
 			<min value="1"/>
 			<max value="1"/>
@@ -214,8 +211,8 @@
             </type>
             <fixedUri value="http://unitsofmeasure.org"/>
 			<mustSupport value="true"/>
-		</element>
-		<element id="Observation:cimiBloodPressurePanel.component.valueQuantity.code:systolicBP">
+		
+		cimiBloodPressurePanel.component.valueQuantity.code:systolicBP">
 			<path value="Observation.component.valueQuantity.code"/>
 			<min value="1"/>
 			<max value="1"/>
@@ -225,15 +222,15 @@
             </type>
             <fixedCode value="mm[Hg]"/>
 			<mustSupport value="true"/>
-		</element>
-		<element id="Observation:cimiBloodPressurePanel.component:diastolicBP">
+		
+		cimiBloodPressurePanel.component:diastolicBP">
 			<path value="Observation.component"/>
 			<sliceName value="DiastolicBP"/>
 			<short value="Diastolic Blood Pressure"/>
 			<min value="0"/>
 			<max value="1"/>
-		</element>
-		<element id="Observation:cimiBloodPressurePanel.component.code:diastolicBP">
+		
+		cimiBloodPressurePanel.component.code:diastolicBP">
 			<path value="Observation.component.code"/>
 			<patternCodeableConcept>
 				<coding>
@@ -243,27 +240,27 @@
 				</coding>
 			</patternCodeableConcept>
 			<mustSupport value="true"/>
-		</element>
-		<element id="Observation:cimiBloodPressurePanel.component.valueQuantity:diastolicBP">
+		
+		cimiBloodPressurePanel.component.valueQuantity:diastolicBP">
 			<path value="Observation.component.valueQuantity"/>
 			<type>
 				<code value="Quantity"/>
 			</type>
 			<mustSupport value="true"/>
-		</element>
-		<element id="Observation:cimiBloodPressurePanel.component.valueQuantity.value:diastolicBP">
+		
+		cimiBloodPressurePanel.component.valueQuantity.value:diastolicBP">
 			<path value="Observation.component.valueQuantity.value"/>
 			<min value="1"/>
 			<max value="1"/>
 			<mustSupport value="true"/>
-		</element>
-		<element id="Observation:cimiBloodPressurePanel.component.valueQuantity.unit:diastolicBP">
+		
+		cimiBloodPressurePanel.component.valueQuantity.unit:diastolicBP">
 			<path value="Observation.component.valueQuantity.unit"/>
 			<min value="1"/>
 			<max value="1"/>
 			<mustSupport value="true"/>
-		</element>
-		<element id="Observation:cimiBloodPressurePanel.component.valueQuantity.system:diastolicBP">
+		
+		cimiBloodPressurePanel.component.valueQuantity.system:diastolicBP">
 			<path value="Observation.component.valueQuantity.system"/>
 			<min value="1"/>
 			<max value="1"/>
@@ -273,8 +270,8 @@
             </type>
             <fixedUri value="http://unitsofmeasure.org"/>
 			<mustSupport value="true"/>
-		</element>
-		<element id="Observation:cimiBloodPressurePanel.component.valueQuantity.code:diastolicBP">
+		
+		cimiBloodPressurePanel.component.valueQuantity.code:diastolicBP">
 			<path value="Observation.component.valueQuantity.code"/>
 			<min value="1"/>
 			<max value="1"/>
@@ -284,16 +281,16 @@
             </type>
             <fixedCode value="mm[Hg]"/>
 			<mustSupport value="true"/>
-		</element>
-		<element id="Observation:cimiBloodPressurePanel.component:meanArterialBP">
+		
+		cimiBloodPressurePanel.component:meanArterialBP">
 			<path value="Observation.component"/>
 			<sliceName value="MeanArterialBP"/>
 			<short value="Mean Arterial Blood Pressure"/>
 			<min value="0"/>
 			<max value="1"/>
 			<mustSupport value="true"/>
-		</element>
-		<element id="Observation:cimiBloodPressurePanel.component.code:meanArterialBP">
+		
+		cimiBloodPressurePanel.component.code:meanArterialBP">
 			<path value="Observation.component.code"/>
 			<patternCodeableConcept>
 				<coding>
@@ -303,27 +300,27 @@
 				</coding>
 			</patternCodeableConcept>
 			<mustSupport value="true"/>
-		</element>
-		<element id="Observation:cimiBloodPressurePanel.component.valueQuantity:meanArterialBP">
+		
+		cimiBloodPressurePanel.component.valueQuantity:meanArterialBP">
 			<path value="Observation.component.valueQuantity"/>
 			<type>
 				<code value="Quantity"/>
 			</type>
 			<mustSupport value="true"/>
-		</element>
-		<element id="Observation:cimiBloodPressurePanel.component.valueQuantity.value:meanArterialBP">
+		
+		cimiBloodPressurePanel.component.valueQuantity.value:meanArterialBP">
 			<path value="Observation.component.valueQuantity.value"/>
 			<min value="1"/>
 			<max value="1"/>
 			<mustSupport value="true"/>
-		</element>
-		<element id="Observation:cimiBloodPressurePanel.component.valueQuantity.unit:meanArterialBP">
+		
+		cimiBloodPressurePanel.component.valueQuantity.unit:meanArterialBP">
 			<path value="Observation.component.valueQuantity.unit"/>
 			<min value="1"/>
 			<max value="1"/>
 			<mustSupport value="true"/>
-		</element>
-		<element id="Observation:cimiBloodPressurePanel.component.valueQuantity.system:meanArterialBP">
+		
+		cimiBloodPressurePanel.component.valueQuantity.system:meanArterialBP">
 			<path value="Observation.component.valueQuantity.system"/>
 			<min value="1"/>
 			<max value="1"/>
@@ -333,8 +330,8 @@
             </type>
             <fixedUri value="http://unitsofmeasure.org"/>
 			<mustSupport value="true"/>
-		</element>
-		<element id="Observation:cimiBloodPressurePanel.component.valueQuantity.code:meanArterialBP">
+		
+		cimiBloodPressurePanel.component.valueQuantity.code:meanArterialBP">
 			<path value="Observation.component.valueQuantity.code"/>
 			<min value="1"/>
 			<max value="1"/>
@@ -344,6 +341,5 @@
             </type>
             <fixedCode value="mm[Hg]"/>
 			<mustSupport value="true"/>
-		</element>
-    </differential>
-</StructureDefinition>
+		
+

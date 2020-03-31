@@ -1,0 +1,29 @@
+
+    
+    <id value="SARSrelatedcoronavirusPlusMERScoronavirusRNAPrThrPtRespOrdPrbAmpTarLabObs"/>
+    <url value="https://fhir.logicahealth.org/StructureDefinition/SARSrelatedcoronavirusPlusMERScoronavirusRNAPrThrPtRespOrdPrbAmpTarLabObs"/>
+    <name value="logicaSAR Srelatedcoronavirus Plus MER Scoronavirus RNA Pr Thr Pt Resp"/>
+    
+    <description value="SARSrelatedcoronavirusPlusMERScoronavirusRNAPrThrPtRespOrdPrbAmpTar is a combined test for SARS coronavirus 2 RNA (not gene specific) and MERS coronavirus RNA. LOINC code
+    94532-9."/>
+    
+
+
+        logicaSARSrelatedcoronavirusPlusMERScoronavirusRNAPrThrPtRespOrdPrbAmpTarLabObs">
+
+            <definition value="SARSrelatedcoronavirusPlusMERScoronavirusRNAPrThrPtRespOrdPrbAmpTar is a combined test for SARS coronavirus 2 RNA (not gene specific) and MERS coronavirus RNA.
+            LOINC code 94532-9."/>
+        
+        logicaSARSrelatedcoronavirusPlusMERScoronavirusRNAPrThrPtRespOrdPrbAmpTarLabObs.extension:Reporting Priority">
+id="Observation:logicaSARSrelatedcoronavirusPlusMERScoronavirusRNAPrThrPtRespOrdPrbAmpTarLabObs.key">
+
+					<system value="http://loinc.org"/>
+					<code value="94532-9"/>
+					<display value="SARS-related coronavirus+MERS coronavirus RNA [Presence] in Respiratory specimen by NAA with probe detection"/>
+id="Observation:logicaSARSrelatedcoronavirusPlusMERScoronavirusRNAPrThrPtRespOrdPrbAmpTarLabObs.valueCodeableConcept">
+            <path value="Observation.valueCodeableConcept"/>
+            <type>
+                <code value="CodeableConcept"/>
+            </type>
+
+

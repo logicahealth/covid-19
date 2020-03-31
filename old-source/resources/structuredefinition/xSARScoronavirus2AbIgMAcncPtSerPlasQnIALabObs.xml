@@ -1,0 +1,40 @@
+
+    
+    <id value="SARScoronavirus2AbIgMAcncPtSerPlasQnIALabObs"/>
+    <url value="https://fhir.logicahealth.org/StructureDefinition/SARScoronavirus2AbIgMAcncPtSerPlasQnIALabObs"/>
+    <name value="SARS coronavirus 2 Ab Ig M Acnc Pt Ser Plas Qn"/>
+    
+    <description value="SARScoronavirus2AbIgMAcncPtSerPlasQnIALabObs is a quantitative test for the SARS coronavirus 2 IgM antibody via immunoassay. LOINC code 94506-3."/>
+    
+
+
+        logicaSARScoronavirus2AbIgMAcncPtSerPlasQnIALabObs">
+
+            <definition value="SARScoronavirus2AbIgMAcncPtSerPlasQnIALabObs is a quantitative test for the SARS coronavirus 2 IgM antibody via immunoassay. LOINC code 94506-3."/>
+        
+        logicaSARScoronavirus2AbIgMAcncPtSerPlasQnIALabObs.extension:ReportingPriority">
+id="Observation:logicaSARScoronavirus2AbIgMAcncPtSerPlasQnIALabObs.key">
+
+					<system value="http://loinc.org"/>
+					<code value="94506-3"/>
+					<display value="SARS coronavirus 2 IgM Ab [Units/volume] in Serum or Plasma by Immunoassay"/>
+id="Observation:logicaSARScoronavirus2AbIgMAcncPtSerPlasQnIALabObs.valueQuantity">
+            <path value="Observation.valueQuantity"/>
+            <short value="valueQuantity"/>
+            <type>
+                <code value="Quantity"/>
+            </type>
+        
+        logicaSARScoronavirus2AbIgMAcncPtSerPlasQnIALabObs.resultedDateTime">
+
+        logicaSARScoronavirus2AbIgMAcncPtSerPlasQnIALabObs:identifier">
+
+        logicaSARScoronavirus2AbIgMAcncPtSerPlasQnIALabObs,identifier:AccessionNumber">
+id="Observation:logicaSARScoronavirus2AbIgMAcncPtSerPlasQnIALabObs,identifier:FillerOrderNumber">
+id="Observation:logicaSARScoronavirus2AbIgMAcncPtSerPlasQnIALabObs,identifier:PlacerOrderNumber">
+id="Observation:logicaSARScoronavirus2AbIgMAcncPtSerPlasQnIALabObs:performer">
+id="Observation:logicaSARScoronavirus2AbIgMAcncPtSerPlasQnIALabObs.performer:ResponsibleObserver">
+id="Observation:logicaSARScoronavirus2AbIgMAcncPtSerPlasQnIALabObs.performer:PerformingLaboratory">
+id="Observation:logicaSARScoronavirus2AbIgMAcncPtSerPlasQnIALabObs.performer:PerformingOrganizationMedicalDirector">
+
+

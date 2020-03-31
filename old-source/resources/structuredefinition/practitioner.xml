@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<StructureDefinition xmlns="http://hl7.org/fhir">
+
   <id value="practitioner"/>
   <url value="http://hl7.org/fhir/us/skinwoundassessment/StructureDefinition/practitioner"/>
   <name value="Practitioner Profile"/>
@@ -106,7 +105,7 @@
         <identity value="w5"/>
         <map value="administrative.individual"/>
       </mapping>
-    </element>
+    
     <element id="Practitioner:hspcpractitioner.id">
       <path value="Practitioner.id"/>
       <short value="Logical id of this artifact"/>
@@ -123,7 +122,7 @@
         <code value="id"/>
       </type>
       <isSummary value="true"/>
-    </element>
+    
     <element id="Practitioner:hspcpractitioner.meta">
       <path value="Practitioner.meta"/>
       <short value="Metadata about the resource"/>
@@ -139,7 +138,7 @@
         <code value="Meta"/>
       </type>
       <isSummary value="true"/>
-    </element>
+    
     <element id="Practitioner:hspcpractitioner.implicitRules">
       <path value="Practitioner.implicitRules"/>
       <short value="A set of rules under which this content was created"/>
@@ -157,7 +156,7 @@
       </type>
       <isModifier value="true"/>
       <isSummary value="true"/>
-    </element>
+    
     <element id="Practitioner:hspcpractitioner.language">
       <path value="Practitioner.language"/>
       <short value="Language of the resource content"/>
@@ -189,7 +188,7 @@
         <description value="A human language."/>
         <valueSet value="http://hl7.org/fhir/ValueSet/languages"/>
       </binding>
-    </element>
+    
     <element id="Practitioner:hspcpractitioner.text">
       <path value="Practitioner.text"/>
       <short value="Text summary of the resource, for human interpretation"/>
@@ -214,7 +213,7 @@
         <identity value="rim"/>
         <map value="Act.text?"/>
       </mapping>
-    </element>
+    
     <element id="Practitioner:hspcpractitioner.contained">
       <path value="Practitioner.contained"/>
       <short value="Contained, inline Resources"/>
@@ -237,7 +236,7 @@
         <identity value="rim"/>
         <map value="N/A"/>
       </mapping>
-    </element>
+    
     <element id="Practitioner:hspcpractitioner.extension">
       <path value="Practitioner.extension"/>
       <short value="Additional Content defined by implementations"/>
@@ -259,7 +258,7 @@
         <identity value="rim"/>
         <map value="N/A"/>
       </mapping>
-    </element>
+    
     <element id="Practitioner:hspcpractitioner.modifierExtension">
       <path value="Practitioner.modifierExtension"/>
       <short value="Extensions that cannot be ignored"/>
@@ -282,7 +281,7 @@
         <identity value="rim"/>
         <map value="N/A"/>
       </mapping>
-    </element>
+    
     <element id="Practitioner:hspcpractitioner.identifier">
       <path value="Practitioner.identifier"/>
       <short value="A identifier for the person as this agent"/>
@@ -320,7 +319,7 @@
 		<identity value="LOINC"/>
 		<map value="67468-8"/>
 	  </mapping>
-    </element>
+    
     <element id="Practitioner:hspcpractitioner.identifier.id">
       <path value="Practitioner.identifier.id"/>
       <representation value="xmlAttr"/>
@@ -340,7 +339,7 @@
         <identity value="rim"/>
         <map value="n/a"/>
       </mapping>
-    </element>
+    
     <element id="Practitioner:hspcpractitioner.identifier.extension">
       <path value="Practitioner.identifier.extension"/>
       <slicing>
@@ -370,7 +369,7 @@
         <identity value="rim"/>
         <map value="n/a"/>
       </mapping>
-    </element>
+    
     <element id="Practitioner:hspcpractitioner.identifier.use">
       <path value="Practitioner.identifier.use"/>
       <short value="usual | official | temp | secondary (If known)"/>
@@ -405,7 +404,7 @@
         <identity value="rim"/>
         <map value="Role.code or implied by context"/>
       </mapping>
-    </element>
+    
     <element id="Practitioner:hspcpractitioner.identifier.type">
       <path value="Practitioner.identifier.type"/>
       <short value="Description of identifier"/>
@@ -442,7 +441,7 @@
         <identity value="rim"/>
         <map value="Role.code or implied by context"/>
       </mapping>
-    </element>
+    
     <element id="Practitioner:hspcpractitioner.identifier.system">
       <path value="Practitioner.identifier.system"/>
       <short value="NPI could be used as the identifier system in the US."/>
@@ -473,7 +472,7 @@
         <identity value="servd"/>
         <map value="./IdentifierType"/>
       </mapping>
-    </element>
+    
     <element id="Practitioner:hspcpractitioner.identifier.value">
       <path value="Practitioner.identifier.value"/>
       <short value="The value that is unique"/>
@@ -507,7 +506,7 @@
         <identity value="servd"/>
         <map value="./Value"/>
       </mapping>
-    </element>
+    
     <element id="Practitioner:hspcpractitioner.identifier.period">
       <path value="Practitioner.identifier.period"/>
       <short value="Time period when id is/was valid for use"/>
@@ -535,7 +534,7 @@
         <identity value="servd"/>
         <map value="./StartDate and ./EndDate"/>
       </mapping>
-    </element>
+    
     <element id="Practitioner:hspcpractitioner.identifier.assigner">
       <path value="Practitioner.identifier.assigner"/>
       <short value="Organization that issued id (may be just text)"/>
@@ -565,7 +564,7 @@
         <identity value="servd"/>
         <map value="./IdentifierIssuingAuthority"/>
       </mapping>
-    </element>
+    
     <element id="Practitioner:hspcpractitioner.active">
       <path value="Practitioner.active"/>
       <short value="Whether this practitioner&#39;s record is in active use"/>
@@ -592,7 +591,7 @@
         <identity value="w5"/>
         <map value="status"/>
       </mapping>
-    </element>
+    
     <element id="Practitioner:hspcpractitioner.name">
       <path value="Practitioner.name"/>
       <short value="The name(s) associated with the practitioner"/>
@@ -623,7 +622,7 @@
         <identity value="servd"/>
         <map value="./PreferredName (GivenNames, FamilyName, TitleCode)"/>
       </mapping>
-    </element>
+    
     <element id="Practitioner:hspcpractitioner.name.id">
       <path value="Practitioner.name.id"/>
       <representation value="xmlAttr"/>
@@ -643,7 +642,7 @@
         <identity value="rim"/>
         <map value="n/a"/>
       </mapping>
-    </element>
+    
     <element id="Practitioner:hspcpractitioner.name.extension">
       <path value="Practitioner.name.extension"/>
       <slicing>
@@ -673,7 +672,7 @@
         <identity value="rim"/>
         <map value="n/a"/>
       </mapping>
-    </element>
+    
     <element id="Practitioner:hspcpractitioner.name.use">
       <path value="Practitioner.name.use"/>
       <short value="usual | official | temp | nickname | anonymous | old | maiden"/>
@@ -712,7 +711,7 @@
         <identity value="servd"/>
         <map value="./NamePurpose"/>
       </mapping>
-    </element>
+    
     <element id="Practitioner:hspcpractitioner.name.text">
       <path value="Practitioner.name.text"/>
       <short value="Text representation of the full name"/>
@@ -738,7 +737,7 @@
         <identity value="rim"/>
         <map value="./formatted"/>
       </mapping>
-    </element>
+    
     <element id="Practitioner:hspcpractitioner.name.family">
       <path value="Practitioner.name.family"/>
       <short value="Family name (often called &#39;Surname&#39;)"/>
@@ -769,7 +768,7 @@
         <identity value="servd"/>
         <map value="./FamilyName"/>
       </mapping>
-    </element>
+    
     <element id="Practitioner:hspcpractitioner.name.given">
       <path value="Practitioner.name.given"/>
       <short value="Given names (not always &#39;first&#39;). Includes middle names"/>
@@ -801,7 +800,7 @@
         <identity value="servd"/>
         <map value="./GivenNames"/>
       </mapping>
-    </element>
+    
     <element id="Practitioner:hspcpractitioner.name.prefix">
       <path value="Practitioner.name.prefix"/>
       <short value="Parts that come before the name"/>
@@ -830,7 +829,7 @@
         <identity value="servd"/>
         <map value="./TitleCode"/>
       </mapping>
-    </element>
+    
     <element id="Practitioner:hspcpractitioner.name.suffix">
       <path value="Practitioner.name.suffix"/>
       <short value="Parts that come after the name"/>
@@ -855,7 +854,7 @@
         <identity value="rim"/>
         <map value="./part[partType = SFX]"/>
       </mapping>
-    </element>
+    
     <element id="Practitioner:hspcpractitioner.name.period">
       <path value="Practitioner.name.period"/>
       <short value="Time period when name was/is in use"/>
@@ -884,7 +883,7 @@
         <identity value="servd"/>
         <map value="./StartDate and ./EndDate"/>
       </mapping>
-    </element>
+    
     <element id="Practitioner:hspcpractitioner.telecom">
       <path value="Practitioner.telecom"/>
       <short value="A contact detail for the practitioner (that apply to all roles)"/>
@@ -914,7 +913,7 @@
         <identity value="servd"/>
         <map value="./ContactPoints"/>
       </mapping>
-    </element>
+    
     <element id="Practitioner:hspcpractitioner.telecom.id">
       <path value="Practitioner.telecom.id"/>
       <representation value="xmlAttr"/>
@@ -934,7 +933,7 @@
         <identity value="rim"/>
         <map value="n/a"/>
       </mapping>
-    </element>
+    
     <element id="Practitioner:hspcpractitioner.telecom.extension:preferenceindicator$Extension">
       <path value="Practitioner.telecom.extension"/>
       <sliceName value="PreferenceIndicator"/>
@@ -961,7 +960,7 @@
       <mustSupport value="false"/>
       <isModifier value="false"/>
       <isSummary value="false"/>
-    </element>
+    
     <element id="Practitioner:hspcpractitioner.telecom.system">
       <path value="Practitioner.telecom.system"/>
       <short value="phone | fax | email | pager | other"/>
@@ -995,7 +994,7 @@
         <identity value="servd"/>
         <map value="./ContactPointType"/>
       </mapping>
-    </element>
+    
     <element id="Practitioner:hspcpractitioner.telecom.value">
       <path value="Practitioner.telecom.value"/>
       <short value="The actual contact point details"/>
@@ -1025,7 +1024,7 @@
         <identity value="servd"/>
         <map value="./Value"/>
       </mapping>
-    </element>
+    
     <element id="Practitioner:hspcpractitioner.telecom.use">
       <path value="Practitioner.telecom.use"/>
       <short value="home | work | temp | old | mobile - purpose of this contact point"/>
@@ -1061,7 +1060,7 @@
         <identity value="servd"/>
         <map value="./ContactPointPurpose"/>
       </mapping>
-    </element>
+    
     <element id="Practitioner:hspcpractitioner.telecom.rank">
       <path value="Practitioner.telecom.rank"/>
       <short value="Specify preferred order of use (1 = highest)"/>
@@ -1086,7 +1085,7 @@
         <identity value="rim"/>
         <map value="n/a"/>
       </mapping>
-    </element>
+    
     <element id="Practitioner:hspcpractitioner.telecom.period">
       <path value="Practitioner.telecom.period"/>
       <short value="Time period when the contact point was/is in use"/>
@@ -1114,7 +1113,7 @@
         <identity value="servd"/>
         <map value="./StartDate and ./EndDate"/>
       </mapping>
-    </element>
+    
     <element id="Practitioner:hspcpractitioner.address">
       <path value="Practitioner.address"/>
       <short value="Address(es) of the practitioner that are not role specific (typically home address)"/>
@@ -1144,7 +1143,7 @@
         <identity value="servd"/>
         <map value="./Addresses"/>
       </mapping>
-    </element>
+    
     <element id="Practitioner:hspcpractitioner.address.id">
       <path value="Practitioner.address.id"/>
       <representation value="xmlAttr"/>
@@ -1164,7 +1163,7 @@
         <identity value="rim"/>
         <map value="n/a"/>
       </mapping>
-    </element>
+    
     <element id="Practitioner:hspcpractitioner.address.extension:primaryindicator$Extension">
       <path value="Practitioner.address.extension"/>
       <sliceName value="PrimaryIndicator"/>
@@ -1196,7 +1195,7 @@
         <description value="The set of values to indicate affirmative or negative"/>
         <valueSet value="http://hl7.org/fhir/ValueSet/v2-0136"/>
       </binding>
-    </element>
+    
     <element id="Practitioner:hspcpractitioner.address.use">
       <path value="Practitioner.address.use"/>
       <short value="home | work | temp | old - purpose of this address"/>
@@ -1232,7 +1231,7 @@
         <identity value="servd"/>
         <map value="./AddressPurpose"/>
       </mapping>
-    </element>
+    
     <element id="Practitioner:hspcpractitioner.address.type">
       <path value="Practitioner.address.type"/>
       <short value="postal | physical | both"/>
@@ -1265,7 +1264,7 @@
         <identity value="vcard"/>
         <map value="address type parameter"/>
       </mapping>
-    </element>
+    
     <element id="Practitioner:hspcpractitioner.address.text">
       <path value="Practitioner.address.text"/>
       <short value="Text representation of the address"/>
@@ -1295,7 +1294,7 @@
         <identity value="vcard"/>
         <map value="address label parameter"/>
       </mapping>
-    </element>
+    
     <element id="Practitioner:hspcpractitioner.address.line">
       <path value="Practitioner.address.line"/>
       <short value="Street name, number, direction, and P.O. Box etc."/>
@@ -1328,7 +1327,7 @@
         <identity value="servd"/>
         <map value="./StreetAddress (newline delimitted)"/>
       </mapping>
-    </element>
+    
     <element id="Practitioner:hspcpractitioner.address.city">
       <path value="Practitioner.address.city"/>
       <short value="Name of city, town etc."/>
@@ -1361,7 +1360,7 @@
         <identity value="servd"/>
         <map value="./Jurisdiction"/>
       </mapping>
-    </element>
+    
     <element id="Practitioner:hspcpractitioner.address.district">
       <path value="Practitioner.address.district"/>
       <short value="District name (aka county)"/>
@@ -1387,7 +1386,7 @@
         <identity value="rim"/>
         <map value="AD.part[parttype = CNT | CPA]"/>
       </mapping>
-    </element>
+    
     <element id="Practitioner:hspcpractitioner.address.state">
       <path value="Practitioner.address.state"/>
       <short value="Sub-unit of country (abbreviations ok)"/>
@@ -1421,7 +1420,7 @@
         <identity value="servd"/>
         <map value="./Region"/>
       </mapping>
-    </element>
+    
     <element id="Practitioner:hspcpractitioner.address.postalCode">
       <path value="Practitioner.address.postalCode"/>
       <short value="Postal code for area"/>
@@ -1454,7 +1453,7 @@
         <identity value="servd"/>
         <map value="./PostalIdentificationCode"/>
       </mapping>
-    </element>
+    
     <element id="Practitioner:hspcpractitioner.address.country">
       <path value="Practitioner.address.country"/>
       <short value="Country (can be ISO 3166 3 letter code)"/>
@@ -1487,7 +1486,7 @@
         <identity value="servd"/>
         <map value="./Country"/>
       </mapping>
-    </element>
+    
     <element id="Practitioner:hspcpractitioner.address.period">
       <path value="Practitioner.address.period"/>
       <short value="Time period when address was/is in use"/>
@@ -1516,7 +1515,7 @@
         <identity value="servd"/>
         <map value="./StartDate and ./EndDate"/>
       </mapping>
-    </element>
+    
     <element id="Practitioner:hspcpractitioner.gender">
       <path value="Practitioner.gender"/>
       <short value="male | female | other | unknown"/>
@@ -1556,7 +1555,7 @@
         <identity value="servd"/>
         <map value="./GenderCode"/>
       </mapping>
-    </element>
+    
     <element id="Practitioner:hspcpractitioner.birthDate">
       <path value="Practitioner.birthDate"/>
       <short value="The date  on which the practitioner was born"/>
@@ -1585,7 +1584,7 @@
         <identity value="servd"/>
         <map value="(not represented in ServD)"/>
       </mapping>
-    </element>
+    
     <element id="Practitioner:hspcpractitioner.photo">
       <path value="Practitioner.photo"/>
       <short value="Image of the person"/>
@@ -1609,7 +1608,7 @@
         <identity value="servd"/>
         <map value="./ImageURI (only supports the URI reference)"/>
       </mapping>
-    </element>
+    
 
     <element id="Practitioner:hspcpractitioner.qualification">
       <path value="Practitioner.qualification"/>
@@ -1645,7 +1644,7 @@
         <identity value="servd"/>
         <map value="./Qualifications"/>
       </mapping>
-    </element>
+    
     <element id="Practitioner:hspcpractitioner.qualification.id">
       <path value="Practitioner.qualification.id"/>
       <representation value="xmlAttr"/>
@@ -1665,7 +1664,7 @@
         <identity value="rim"/>
         <map value="n/a"/>
       </mapping>
-    </element>
+    
     <element id="Practitioner:hspcpractitioner.qualification.extension:credentialeligibiltyindicator$Extension">
       <path value="Practitioner.qualification.extension"/>
       <sliceName value="CredentialEligibiltyIndicator"/>
@@ -1697,7 +1696,7 @@
         <description value="The set of values to indicate affirmative or negative"/>
         <valueSet value="http://hl7.org/fhir/ValueSet/v2-0136"/>
       </binding>
-    </element>
+    
     <element id="Practitioner:hspcpractitioner.qualification.modifierExtension">
       <path value="Practitioner.qualification.modifierExtension"/>
       <short value="Extensions that cannot be ignored"/>
@@ -1722,7 +1721,7 @@
         <identity value="rim"/>
         <map value="N/A"/>
       </mapping>
-    </element>
+    
     <element id="Practitioner:hspcpractitioner.qualification.identifier">
       <path value="Practitioner.qualification.identifier"/>
       <short value="An identifier for this qualification for the practitioner"/>
@@ -1742,7 +1741,7 @@
         <identity value="rim"/>
         <map value=".playingEntity.playingRole[classCode=QUAL].id"/>
       </mapping>
-    </element>
+    
     <element id="Practitioner:hspcpractitioner.qualification.code">
       <path value="Practitioner.qualification.code"/>
       <short value="Coded representation of the qualification"/>
@@ -1773,7 +1772,7 @@
         <identity value="servd"/>
         <map value="./Qualifications.Value"/>
       </mapping>
-    </element>
+    
     <element id="Practitioner:hspcpractitioner.qualification.period">
       <path value="Practitioner.qualification.period"/>
       <short value="Period during which the qualification is valid"/>
@@ -1797,7 +1796,7 @@
         <identity value="servd"/>
         <map value="./Qualifications.StartDate and ./Qualifications.EndDate"/>
       </mapping>
-    </element>
+    
     <element id="Practitioner:hspcpractitioner.qualification.issuer">
       <path value="Practitioner.qualification.issuer"/>
       <short value="Organization that regulates and issues the qualification"/>
@@ -1817,7 +1816,7 @@
         <identity value="rim"/>
         <map value=".playingEntity.playingRole[classCode=QUAL].scoper"/>
       </mapping>
-    </element>
+    
     <element id="Practitioner:hspcpractitioner.communication">
       <path value="Practitioner.communication"/>
       <short value="A language the practitioner is able to use in patient communication"/>
@@ -1862,7 +1861,7 @@
         <identity value="servd"/>
         <map value="./Languages.LanguageSpokenCode"/>
       </mapping>
-    </element>
+    
     <element id="Practitioner:hspcpractitioner.communication.id">
       <path value="Practitioner.communication.id"/>
       <representation value="xmlAttr"/>
@@ -1882,7 +1881,7 @@
         <identity value="rim"/>
         <map value="n/a"/>
       </mapping>
-    </element>
+    
     <element id="Practitioner:hspcpractitioner.communication.extension:communicationmode$Extension">
       <path value="Practitioner.communication.extension"/>
       <sliceName value="CommunicationMode"/>
@@ -1914,7 +1913,7 @@
         <description value="A set of codes that describe the method by which an individual communicates"/>
         <valueSet value="http://hl7.org/fhir/us/skinwoundassessment/ValueSet/communicationModeVS"/>
       </binding>
-    </element>
+    
     <element id="Practitioner:hspcpractitioner.communication.coding">
       <path value="Practitioner.communication.coding"/>
       <short value="Code defined by a terminology system"/>
@@ -1944,7 +1943,7 @@
         <identity value="orim"/>
         <map value="fhir:CodeableConcept.coding rdfs:subPropertyOf dt:CD.coding"/>
       </mapping>
-    </element>
+    
     <element id="Practitioner:hspcpractitioner.communication.text">
       <path value="Practitioner.communication.text"/>
       <short value="Plain text representation of the concept"/>
@@ -1974,7 +1973,7 @@
         <identity value="orim"/>
         <map value="fhir:CodeableConcept.text rdfs:subPropertyOf dt:CD.originalText"/>
       </mapping>
-    </element>
+    
   </snapshot>
   <differential>
     <element id="Practitioner:hspcpractitioner">
@@ -1985,7 +1984,7 @@
       <alias value="Provider"/>
       <mustSupport value="false"/>
       <isModifier value="false"/>
-    </element>
+    
     <element id="Practitioner:hspcpractitioner.identifier">
       <path value="Practitioner.identifier"/>
       <requirements value="Either id or name is needed."/>
@@ -2000,7 +1999,7 @@
 		<identity value="LOINC"/>
 		<map value="67468-8"/>
 	  </mapping>
-    </element>
+    
     <element id="Practitioner:hspcpractitioner.identifier.system">
       <path value="Practitioner.identifier.system"/>
       <short value="NPI could be used as the identifier system in the US."/>
@@ -2012,7 +2011,7 @@
       </type>
       <mustSupport value="true"/>
       <isModifier value="false"/>
-    </element>
+    
     <element id="Practitioner:hspcpractitioner.identifier.value">
       <path value="Practitioner.identifier.value"/>
       <min value="1"/>
@@ -2022,7 +2021,7 @@
       </type>
       <mustSupport value="true"/>
       <isModifier value="false"/>
-    </element>
+    
     <element id="Practitioner:hspcpractitioner.name">
       <path value="Practitioner.name"/>
       <min value="1"/>
@@ -2032,7 +2031,7 @@
       </type>
       <mustSupport value="true"/>
       <isModifier value="false"/>
-    </element>
+    
     <element id="Practitioner:hspcpractitioner.name.family">
       <path value="Practitioner.name.family"/>
       <min value="1"/>
@@ -2042,13 +2041,13 @@
       </type>
       <mustSupport value="true"/>
       <isModifier value="false"/>
-    </element>
+    
     <element id="Practitioner:hspcpractitioner.telecom">
       <path value="Practitioner.telecom"/>
       <mustSupport value="false"/>
       <isModifier value="false"/>
       <isSummary value="false"/>
-    </element>
+    
     <element id="Practitioner:hspcpractitioner.telecom.extension:preferenceindicator$Extension">
       <path value="Practitioner.telecom.extension"/>
       <sliceName value="PreferenceIndicator"/>
@@ -2059,13 +2058,13 @@
       <mustSupport value="false"/>
       <isModifier value="false"/>
       <isSummary value="false"/>
-    </element>
+    
     <element id="Practitioner:hspcpractitioner.address">
       <path value="Practitioner.address"/>
       <mustSupport value="false"/>
       <isModifier value="false"/>
       <isSummary value="false"/>
-    </element>
+    
     <element id="Practitioner:hspcpractitioner.address.extension:primaryindicator$Extension">
       <path value="Practitioner.address.extension"/>
       <sliceName value="PrimaryIndicator"/>
@@ -2081,13 +2080,13 @@
         <description value="The set of values to indicate affirmative or negative"/>
         <valueSet value="http://hl7.org/fhir/ValueSet/v2-0136"/>
       </binding>
-    </element>
+    
     <element id="Practitioner:hspcpractitioner.qualification">
       <path value="Practitioner.qualification"/>
       <mustSupport value="false"/>
       <isModifier value="false"/>
       <isSummary value="false"/>
-    </element>
+    
     <element id="Practitioner:hspcpractitioner.qualification.extension:credentialeligibiltyindicator$Extension">
       <path value="Practitioner.qualification.extension"/>
       <sliceName value="CredentialEligibiltyIndicator"/>
@@ -2103,13 +2102,13 @@
         <description value="The set of values to indicate affirmative or negative"/>
         <valueSet value="http://hl7.org/fhir/ValueSet/v2-0136"/>
       </binding>
-    </element>
+    
     <element id="Practitioner:hspcpractitioner.communication">
       <path value="Practitioner.communication"/>
       <mustSupport value="false"/>
       <isModifier value="false"/>
       <isSummary value="false"/>
-    </element>
+    
     <element id="Practitioner:hspcproviderpractitioner.communication.extension:communicationmode$Extension">
       <path value="Practitioner.communication.extension"/>
       <sliceName value="CommunicationMode"/>
@@ -2126,6 +2125,6 @@
         <description value="A set of codes that describe the method by which an individual communicates"/>
         <valueSet value="http://hl7.org/fhir/us/skinwoundassessment/ValueSet/communicationModeVS"/>
       </binding>
-    </element>
+    
   </differential>
 </StructureDefinition>
