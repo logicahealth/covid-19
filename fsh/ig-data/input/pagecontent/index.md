@@ -2,6 +2,4 @@
 
 COVID-19 Implementation Guide
 
-Markdown text goes here.
-
-.
+> **Note:** Markdown text goes here.

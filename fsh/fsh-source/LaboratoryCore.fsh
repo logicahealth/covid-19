@@ -49,6 +49,7 @@ Parent:  LaboratoryObservationBase
 Id:      c19-quantitative-laboratory-observation-base
 Title:   "Quantitative Laboratory Observation Base"
 Description:  "Abstract base class for quantitative laboratory observations."
+* ^abstract = true
 * value[x] only Quantity
 
 Profile: CodedLaboratoryObservationBase
@@ -56,12 +57,14 @@ Parent:  LaboratoryObservationBase
 Id:      c19-coded-laboratory-observation-base
 Title:   "Coded Laboratory Observation Base"
 Description:  "Abstract base class for coded laboratory observations."
+* ^abstract = true
 * value[x] only CodeableConcept
 
 Profile:  LaboratoryObservationPanelBase
 Parent:   LaboratoryObservationBase
 Title:    "Laboratory Observation Panel Base"
 Description:  "A panel that contains member observations"
+* ^abstract = true
 // slice definition for hasMember
 * hasMember ^slicing.discriminator.type = #profile // #pattern
 * hasMember ^slicing.discriminator.path =  "$this.resolve()" // "$this.resolve().code"
