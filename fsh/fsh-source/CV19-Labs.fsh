@@ -63,6 +63,7 @@ Parent:   CodedLaboratoryObservationBase
 Title:    "SARS coronavirus 2 N Gene Pr Thr Pt Resp Ord Prb"
 Description: "SARScoronavirus2NGenePrThrPtRespOrdPrbAmpTar is the qualitative lab test for the detection of the SARS Coronavirus 2 N gene. LOINC code 94533-7."
 * code = LNC#94533-7
+* valueCodeableConcept from DetNotDetEqInVS (preferred)
 // missing value set
 
 Profile:  SARScoronavirus2NgenePrThrPtXXXOrdPrbAmpTarLabObs
