@@ -69,7 +69,6 @@ The resulting directory structure will look something like this, with the home p
       ├── package.json
       └── package-list.json
 ```
-When your files are in the autobuild configuration, and you want to only run SUSHI, issue this command from your root directory:
 
 
 ## Licensing
