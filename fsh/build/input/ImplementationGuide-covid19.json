@@ -1,0 +1,104 @@
+{
+  "resourceType": "ImplementationGuide",
+  "id": "covid19",
+  "url": "http://fhir.logicahealth.org/covid19/ImplementationGuide/covid19",
+  "version": "0.1.0",
+  "name": "LogicaImplementationGuideCovid19",
+  "title": "Logica Implementation Guide: Covid-19",
+  "status": "active",
+  "publisher": "COVID-19 Healthcare Coalition",
+  "contact": [
+    {
+      "name": "Logica Health",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://c19hcc.org/"
+        }
+      ]
+    }
+  ],
+  "description": "The COVID-19 IG describes structured data to be collected and communicated between providers and aggregators.",
+  "packageId": "covid19",
+  "license": "CC0-1.0",
+  "fhirVersion": [
+    "4.0.1"
+  ],
+  "dependsOn": [
+    {
+      "uri": "http://hl7.org/fhir/us/core/ImplementationGuide/hl7.fhir.us.core",
+      "packageId": "hl7.fhir.us.core",
+      "version": "3.1.0"
+    }
+  ],
+  "definition": {
+    "resource": [
+      {
+        "reference": {
+          "reference": "StructureDefinition/c19-coded-laboratory-observation-base"
+        },
+        "name": "Coded Laboratory Observation Base",
+        "description": "Abstract base class for coded laboratory observations.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/c19-laboratory-observation-base"
+        },
+        "name": "Laboratory Observation Base",
+        "description": "Abstract base class for laboratory observations.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/c19-quantitative-laboratory-observation-base"
+        },
+        "name": "Quantitative Laboratory Observation Base",
+        "description": "Abstract base class for quantitative laboratory observations.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/SARScoronavirus2AbIgGAcncPtSerPlasQnIALabObs"
+        },
+        "name": "SARS coronavirus 2 Ab Ig G Acnc Pt Ser Plas Qn",
+        "description": "SARScoronavirus2AbIgGAcncPtSerPlasQnIALabObs is a quantitative test for the SARS coronavirus 2 IgG antibody via immunoassay. LOINC code 94505-5.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/c19-reporting-priority"
+        },
+        "name": "ReportingPriority",
+        "description": "Need definition from Nathan.",
+        "exampleBoolean": false
+      }
+    ],
+    "page": {
+      "nameUrl": "toc.html",
+      "title": "Table of Contents",
+      "generation": "html",
+      "page": [
+        {
+          "nameUrl": "index.html",
+          "title": "Home",
+          "generation": "markdown"
+        }
+      ]
+    },
+    "parameter": [
+      {
+        "code": "copyrightyear",
+        "value": "2020+"
+      },
+      {
+        "code": "releaselabel",
+        "value": "CI Build"
+      },
+      {
+        "code": "show-inherited-invariants",
+        "value": "false"
+      }
+    ]
+  }
+}
