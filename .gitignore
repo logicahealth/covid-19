@@ -1,8 +1,8 @@
-output**
-temp**
-template**
-input**
-input-cache**
+/output**
+/temp**
+/template**
+/input**
+/input-cache**
 ig.ini
 package.json
 package-list.json
