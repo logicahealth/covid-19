@@ -1,0 +1,916 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://fhir.logicahealth.org/covid19/ImplementationGuide/covid19> a fhir:ImplementationGuide;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "covid19"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>LogicaImplementationGuideCovid19</h2><p>The official URL for this implementation guide is: </p><pre>http://fhir.logicahealth.org/covid19/ImplementationGuide/covid19</pre><div><p>The COVID-19 IG describes structured data to be collected and communicated between providers and aggregators.</p>\n</div></div>"
+  ];
+  fhir:ImplementationGuide.url [ fhir:value "http://fhir.logicahealth.org/covid19/ImplementationGuide/covid19"];
+  fhir:ImplementationGuide.version [ fhir:value "0.1.0"];
+  fhir:ImplementationGuide.name [ fhir:value "LogicaImplementationGuideCovid19"];
+  fhir:ImplementationGuide.title [ fhir:value "Logica Implementation Guide: Covid-19"];
+  fhir:ImplementationGuide.status [ fhir:value "active"];
+  fhir:ImplementationGuide.date [ fhir:value "2020-03-30T22:18:12-04:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.publisher [ fhir:value "COVID-19 Healthcare Coalition"];
+  fhir:ImplementationGuide.contact [
+     fhir:index 0;
+     fhir:ContactDetail.name [ fhir:value "Logica Health" ];
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "url" ];
+       fhir:ContactPoint.value [ fhir:value "https://c19hcc.org/" ]
+     ]
+  ];
+  fhir:ImplementationGuide.description [ fhir:value "The COVID-19 IG describes structured data to be collected and communicated between providers and aggregators."];
+  fhir:ImplementationGuide.packageId [ fhir:value "covid19"];
+  fhir:ImplementationGuide.license [ fhir:value "CC0-1.0"];
+  fhir:ImplementationGuide.fhirVersion [
+     fhir:value "4.0.1";
+     fhir:index 0
+  ];
+  fhir:ImplementationGuide.dependsOn [
+     fhir:index 0;
+     fhir:ImplementationGuide.dependsOn.uri [
+       fhir:value "http://hl7.org/fhir/us/core/ImplementationGuide/hl7.fhir.us.core";
+       fhir:link <http://hl7.org/fhir/us/core/ImplementationGuide/hl7.fhir.us.core>
+     ];
+     fhir:ImplementationGuide.dependsOn.packageId [ fhir:value "hl7.fhir.us.core" ];
+     fhir:ImplementationGuide.dependsOn.version [ fhir:value "3.1.0" ]
+  ];
+  fhir:ImplementationGuide.definition [
+     fhir:Element.extension [
+       fhir:index 0;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "code" ];
+         fhir:Extension.valueString [ fhir:value "copyrightyear" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "2020+" ]
+       ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index 1;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "code" ];
+         fhir:Extension.valueString [ fhir:value "releaselabel" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "CI Build" ]
+       ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index 2;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "code" ];
+         fhir:Extension.valueString [ fhir:value "show-inherited-invariants" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "false" ]
+       ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index 3;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "code" ];
+         fhir:Extension.valueString [ fhir:value "path-qa" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "temp/qa" ]
+       ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index 4;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "code" ];
+         fhir:Extension.valueString [ fhir:value "path-temp" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "temp/pages" ]
+       ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index 5;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "code" ];
+         fhir:Extension.valueString [ fhir:value "path-output" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "output" ]
+       ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index 6;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "code" ];
+         fhir:Extension.valueString [ fhir:value "path-suppressed-warnings" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "input/ignoreWarnings.txt" ]
+       ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index 7;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "code" ];
+         fhir:Extension.valueString [ fhir:value "template-html" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "template-page.html" ]
+       ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index 8;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "code" ];
+         fhir:Extension.valueString [ fhir:value "template-md" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "template-page-md.html" ]
+       ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index 9;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "code" ];
+         fhir:Extension.valueString [ fhir:value "apply-contact" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "true" ]
+       ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index 10;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "code" ];
+         fhir:Extension.valueString [ fhir:value "apply-context" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "true" ]
+       ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index 11;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "code" ];
+         fhir:Extension.valueString [ fhir:value "apply-copyright" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "true" ]
+       ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index 12;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "code" ];
+         fhir:Extension.valueString [ fhir:value "apply-jurisdiction" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "true" ]
+       ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index 13;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "code" ];
+         fhir:Extension.valueString [ fhir:value "apply-license" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "true" ]
+       ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index 14;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "code" ];
+         fhir:Extension.valueString [ fhir:value "apply-publisher" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "true" ]
+       ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index 15;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "code" ];
+         fhir:Extension.valueString [ fhir:value "apply-version" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "true" ]
+       ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index 16;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "code" ];
+         fhir:Extension.valueString [ fhir:value "active-tables" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "true" ]
+       ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ];
+     fhir:ImplementationGuide.definition.resource [
+       fhir:index 0;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource:abstract" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-c19-coded-laboratory-observation-base.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://fhir.logicahealth.org/covid19/StructureDefinition/c19-coded-laboratory-observation-base>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/c19-coded-laboratory-observation-base" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Coded Laboratory Observation Base" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Abstract base class for coded laboratory observations." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 1;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource:abstract" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-c19-laboratory-observation-base.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://fhir.logicahealth.org/covid19/StructureDefinition/c19-laboratory-observation-base>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/c19-laboratory-observation-base" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Laboratory Observation Base" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Abstract base class for laboratory observations." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 2;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource:abstract" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-LaboratoryObservationPanelBase.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://fhir.logicahealth.org/covid19/StructureDefinition/LaboratoryObservationPanelBase>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/LaboratoryObservationPanelBase" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Laboratory Observation Panel Base" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "A panel that contains member observations" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 3;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource:abstract" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-c19-quantitative-laboratory-observation-base.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://fhir.logicahealth.org/covid19/StructureDefinition/c19-quantitative-laboratory-observation-base>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/c19-quantitative-laboratory-observation-base" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Quantitative Laboratory Observation Base" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Abstract base class for quantitative laboratory observations." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 4;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-SARSCoV2AgRespQlIArapidLabObs.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://fhir.logicahealth.org/covid19/StructureDefinition/SARSCoV2AgRespQlIArapidLabObs>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/SARSCoV2AgRespQlIArapidLabObs" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "SARS Co V2 Ag Resp Ql I Arapid Lab Obs" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "SARSCoV2AgRespQlIArapidLabObs is a test for the SARS coronavirus 2 antigen via rapid immunoassay. LOINC code 94558-4." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 5;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-SARSCoV2NgenePrThrPtXXXOrdPrbAmpTarPrimerProbeSetN1LabObs.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://fhir.logicahealth.org/covid19/StructureDefinition/SARSCoV2NgenePrThrPtXXXOrdPrbAmpTarPrimerProbeSetN1LabObs>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/SARSCoV2NgenePrThrPtXXXOrdPrbAmpTarPrimerProbeSetN1LabObs" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "SARS coronavirus 2 Ngene Pr Thr Pt XXX Ord Prb Amp" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "SARScoronavirus2NgenePrThrPtXXXOrdPrbAmpTarPrimerProbeSetN1 is a test for the SARS coronavirus 2 RNA using the CDC defined method of probe amplification target primer probe set N1 and used for non-respiratory specimens. LOINC code 94307-6." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 6;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-SARSCoV2NgenePrThrPtXXXOrdPrbAmpTarPrimerProbeSetN2LabObs.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://fhir.logicahealth.org/covid19/StructureDefinition/SARSCoV2NgenePrThrPtXXXOrdPrbAmpTarPrimerProbeSetN2LabObs>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/SARSCoV2NgenePrThrPtXXXOrdPrbAmpTarPrimerProbeSetN2LabObs" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "SARS coronavirus 2 Ngene Pr Thr Pt XXX Ord Prb Amp" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "SARScoronavirus2NgenePrThrPtXXXOrdPrbAmpTarPrimerProbeSetN2 is a test for the SARS coronavirus 2 RNA using the CDC defined method of probe amplification target primer probe set N2 and used for non-respiratory specimens. LOINC code 94308-4." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 7;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-SARSCoV2NgeneThreshNumPtXXXQnPrbAmpTarPrimerProbeSetN1LabObs.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://fhir.logicahealth.org/covid19/StructureDefinition/SARSCoV2NgeneThreshNumPtXXXQnPrbAmpTarPrimerProbeSetN1LabObs>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/SARSCoV2NgeneThreshNumPtXXXQnPrbAmpTarPrimerProbeSetN1LabObs" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "SARS coronavirus 2 Ngene Thresh Num Pt XXX Qn Prb Amp" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "SARSCoV2NgeneThreshNumPtXXXQnPrbAmpTarPrimerProbeSetN1LabObs is a quantitative test for the SARS coronavirus 2 N gene via the probe target amplification, primer probe set N1 method in non-respiratory specimens. LOINC code 94311-8." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 8;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-SARSCoV2NgeneThreshNumPtXXXQnPrbAmpTarPrimerProbeSetN2LabObs.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://fhir.logicahealth.org/covid19/StructureDefinition/SARSCoV2NgeneThreshNumPtXXXQnPrbAmpTarPrimerProbeSetN2LabObs>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/SARSCoV2NgeneThreshNumPtXXXQnPrbAmpTarPrimerProbeSetN2LabObs" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "SARS coronavirus 2 Ngene Thresh Num Pt XXX Qn Prb Amp" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "SARSCoV2NgeneThreshNumPtXXXQnPrbAmpTarPrimerProbeSetN2LabObs is a quantitative test for the SARS coronavirus 2 N gene via the probe target amplification, primer probe set N2 method in non-respiratory specimens. LOINC code 94312-6." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 9;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-SARSCoV2ORF1abRespQlNAAprobeLabObs.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://fhir.logicahealth.org/covid19/StructureDefinition/SARSCoV2ORF1abRespQlNAAprobeLabObs>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/SARSCoV2ORF1abRespQlNAAprobeLabObs" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "SARS Co V2 OR F1ab Resp Ql NA Aprobe Lab" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "SARSCoV2ORF1abRespQlNAAprobeLabObs is a laboratory test for the SARS coronavirus 2 antibody via target amplification probe detection. LOINC code 94559-2." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 10;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-SARSCoV2RNAPnlXXXNAAprobePanelLabObs.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://fhir.logicahealth.org/covid19/StructureDefinition/SARSCoV2RNAPnlXXXNAAprobePanelLabObs>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/SARSCoV2RNAPnlXXXNAAprobePanelLabObs" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "SARS Co V2 RNA Pnl XXXNA Aprobe Panel Lab Obs" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "SARSCoV2RNAPnlXXXNAAprobeLabObs is a colection of tests for the SARS coronavirus 2 organism. LOINC code 94306-8." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 11;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-SARSLikecoronavirusNGenePrThrPtXXXOrdPrbAmpTarLabObs.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://fhir.logicahealth.org/covid19/StructureDefinition/SARSLikecoronavirusNGenePrThrPtXXXOrdPrbAmpTarLabObs>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/SARSLikecoronavirusNGenePrThrPtXXXOrdPrbAmpTarLabObs" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "SARS Likecoronavirus N Gene Pr Thr Pt XXX Ord Prb" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "SARSLikecoronavirusNGenePrThrPtXXXOrdPrbAmpTarLabObs is a test for the SARS-like coronavirus N gene in non-respiratory specimens and via the probe target amplification method. LOINC code 94310-0." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 12;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-SARSLikecoronavirusNGeneThreshNumPtXXXQnPrbAmpTarLabObs.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://fhir.logicahealth.org/covid19/StructureDefinition/SARSLikecoronavirusNGeneThreshNumPtXXXQnPrbAmpTarLabObs>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/SARSLikecoronavirusNGeneThreshNumPtXXXQnPrbAmpTarLabObs" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "SARS Likecoronavirus N Gene Thresh Num Pt XXX Qn Prb" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "SARSLikecoronavirusNGeneThreshNumPtXXXQnPrbAmpTarLabObs is a quantitative test for the SARS-like coronavirus N gene via the probe target amplification method and a threshold for detection in non-respiratory specimens. LOINC code 94313-4." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 13;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-SARSRelatedCoronavirusRNAPrThrPtRespOrdPrbAmpTarLabObs.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://fhir.logicahealth.org/covid19/StructureDefinition/SARSRelatedCoronavirusRNAPrThrPtRespOrdPrbAmpTarLabObs>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/SARSRelatedCoronavirusRNAPrThrPtRespOrdPrbAmpTarLabObs" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "SARS Related Coronavirus RNA Pr Thr Pt Resp Ord Prb" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "SARSRelatedCoronavirusRNAPrThrPtRespOrdPrbAmpTar is a test for the SARS coronavirus 2 related RNA (gene not specified). LOINC code 94502-2." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 14;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-SARScoronavirus2AbIgGAcncPtSerPlasQnIALabObs.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://fhir.logicahealth.org/covid19/StructureDefinition/SARScoronavirus2AbIgGAcncPtSerPlasQnIALabObs>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/SARScoronavirus2AbIgGAcncPtSerPlasQnIALabObs" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "SARS coronavirus 2 Ab Ig G Acnc Pt Ser Plas Qn" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "SARScoronavirus2AbIgGAcncPtSerPlasQnIALabObs is a quantitative test for the SARS coronavirus 2 IgG antibody via immunoassay. LOINC code 94505-5." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 15;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-SARScoronavirus2AbIgGPlusIgMPrThrPtSerPlasOrdIALabObs.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://fhir.logicahealth.org/covid19/StructureDefinition/SARScoronavirus2AbIgGPlusIgMPrThrPtSerPlasOrdIALabObs>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/SARScoronavirus2AbIgGPlusIgMPrThrPtSerPlasOrdIALabObs" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "SARS coronavirus 2 Ab Ig G Plus Ig M Pr Thr" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "SARScoronavirus2AbIgGPlusIgMPrThrPtSerPlasOrdIALabObs is a test for the SARS coronavirus 2 IgG and IgM antibodies via immunoassay. It does not differentiate which is detected. LOINC code 94547-7." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 16;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-SARScoronavirus2AbIgGandIgMpanelPtSerPlasOrdIArapidLabObs.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://fhir.logicahealth.org/covid19/StructureDefinition/SARScoronavirus2AbIgGandIgMpanelPtSerPlasOrdIArapidLabObs>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/SARScoronavirus2AbIgGandIgMpanelPtSerPlasOrdIArapidLabObs" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "SARS coronavirus 2 Ab Ig G Acnc Pt Ser Plas Qn" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "SARS coronavirus 2 IgG and IgM panel - Serum or Plasma Qualitative by Rapid immunoassay" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 17;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-SARScoronavirus2AbIgGandIgMpanelPtSerPlasQnIALabObs.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://fhir.logicahealth.org/covid19/StructureDefinition/SARScoronavirus2AbIgGandIgMpanelPtSerPlasQnIALabObs>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/SARScoronavirus2AbIgGandIgMpanelPtSerPlasQnIALabObs" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "SARS coronavirus 2 Ab Ig Gand Ig Mpanel Pt Ser Plas" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "SARScoronavirus2AbIgGandIgMpanelPtSerPlasQnIALabObs is a collection of quantitative tests for SARS coronavirus 2 antibodies, IgG and IgM. LOINC code 94504-8." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 18;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-SARScoronavirus2AbIgMAcncPtSerPlasQnIALabObs.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://fhir.logicahealth.org/covid19/StructureDefinition/SARScoronavirus2AbIgMAcncPtSerPlasQnIALabObs>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/SARScoronavirus2AbIgMAcncPtSerPlasQnIALabObs" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "SARS coronavirus 2 Ab Ig G Plus Ig M Pr Thr" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "SARScoronavirus2AbIgMAcncPtSerPlasQnIALabObs is a quantitative test for the SARS coronavirus 2 IgM antibody via immunoassay. LOINC code 94506-3." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 19;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-SARScoronavirus2AbIgMPrThrPtSerPlasOrdIArapidLabObs.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://fhir.logicahealth.org/covid19/StructureDefinition/SARScoronavirus2AbIgMPrThrPtSerPlasOrdIArapidLabObs>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/SARScoronavirus2AbIgMPrThrPtSerPlasOrdIArapidLabObs" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "SARS coronavirus 2 Ab Ig M Pr Thr Pt Ser Plas" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "SARScoronavirus2AbIgMPrThrPtSerPlasOrdIArapidLabObs is a test for the SARS coronavisus 2 IgM antibody via rapid immunoassay. LOINC code 94508-9." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 20;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-SARScoronavirus2EGenePrThrPtXXXOrdPrbAmpTarLabObs.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://fhir.logicahealth.org/covid19/StructureDefinition/SARScoronavirus2EGenePrThrPtXXXOrdPrbAmpTarLabObs>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/SARScoronavirus2EGenePrThrPtXXXOrdPrbAmpTarLabObs" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "SARS coronavirus 2 E Gene Pr Thr Pt XXX Ord Prb" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "SARScoronavirus2EGenePrThrPtXXXOrdPrbAmpTarLabObs is a test for the SARS coronavirus 2 E gene on non-respiratory specimens via the probe target amplification method in non-respiratory specimens. LOINC code 94315-9." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 21;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-SARScoronavirus2EGeneThreshNumPtXXXQnPrbAmpTarLabObs.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://fhir.logicahealth.org/covid19/StructureDefinition/SARScoronavirus2EGeneThreshNumPtXXXQnPrbAmpTarLabObs>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/SARScoronavirus2EGeneThreshNumPtXXXQnPrbAmpTarLabObs" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "SARS coronavirus 2 E Gene Thresh Num Pt XXX Qn Prb" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "SARScoronavirus2EGeneThreshNumPtXXXQnPrbAmpTarLabObs is a quantitative test for the SARS coronavirus 2 E gene via probe target ampification and with a threshold for detection in non-respiratory specimens. LOINC code 94509-7." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 22;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-SARScoronavirus2NGenePrThrPtRespOrdPrbAmpTarLabObs.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://fhir.logicahealth.org/covid19/StructureDefinition/SARScoronavirus2NGenePrThrPtRespOrdPrbAmpTarLabObs>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/SARScoronavirus2NGenePrThrPtRespOrdPrbAmpTarLabObs" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "SARS coronavirus 2 N Gene Pr Thr Pt Resp Ord Prb" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "SARScoronavirus2NGenePrThrPtRespOrdPrbAmpTar is the qualitative lab test for the detection of the SARS Coronavirus 2 N gene. LOINC code 94533-7." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 23;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-SARScoronavirus2NgenePrThrPtXXXOrdPrbAmpTarLabObs.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://fhir.logicahealth.org/covid19/StructureDefinition/SARScoronavirus2NgenePrThrPtXXXOrdPrbAmpTarLabObs>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/SARScoronavirus2NgenePrThrPtXXXOrdPrbAmpTarLabObs" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "SARS coronavirus 2 Ngene Pr Thr Pt XXX Ord Prb Amp" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "SARScoronavirus2NgenePrThrPtXXXOrdPrbAmpTar is a test for the SARS coronavirus 2 RNA in non-respiratory specimens. LOINC code 94316-7." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 24;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-SARScoronavirus2NgeneThreshNumPtXXXQnPrbAmpTarLabObs.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://fhir.logicahealth.org/covid19/StructureDefinition/SARScoronavirus2NgeneThreshNumPtXXXQnPrbAmpTarLabObs>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/SARScoronavirus2NgeneThreshNumPtXXXQnPrbAmpTarLabObs" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "SARS coronavirus 2 Ngene Thresh Num Pt XXX Qn Prb Amp" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "SARScoronavirus2NgeneThreshNumPtXXXQnPrbAmpTarLabObs is a quantitative test for the SARS coronavirus 2 RNA via probe target amplification and a requirement for a certain threshold for detection. LOINC code 94510-5." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 25;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-SARScoronavirus2ORF1AbRegionThreshNumPtXXXQnPrbAmpTarLabObs.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://fhir.logicahealth.org/covid19/StructureDefinition/SARScoronavirus2ORF1AbRegionThreshNumPtXXXQnPrbAmpTarLabObs>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/SARScoronavirus2ORF1AbRegionThreshNumPtXXXQnPrbAmpTarLabObs" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "SARS coronavirus 2 OR F1 Ab Region Thresh Num Pt XXX" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "SARScoronavirus2ORF1AbRegionThreshNumPtXXXQnPrbAmpTarLabObs is a quantitative test for the SARS coronavirus 2 ORF Ab region via the probe target ampificatio method and with a threshold for detection in non-respiratory specimens. LOINC code 94511-3" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 26;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-SARScoronavirus2RNAPanelPtRespPrbAmpTarLabObs.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://fhir.logicahealth.org/covid19/StructureDefinition/SARScoronavirus2RNAPanelPtRespPrbAmpTarLabObs>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/SARScoronavirus2RNAPanelPtRespPrbAmpTarLabObs" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "SARS coronavirus 2 RNA Panel Pt Resp Prb Amp Tar Lab" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "SARScoronavirus2RNAPanelPtRespPrbAmpTar is a collection of tests for the SARS coronavirus 2 RNA. LOINC code 94531-1." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 27;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-SARScoronavirus2RNAPrThrPtRespOrdPrbAmpTarLabObs.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://fhir.logicahealth.org/covid19/StructureDefinition/SARScoronavirus2RNAPrThrPtRespOrdPrbAmpTarLabObs>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/SARScoronavirus2RNAPrThrPtRespOrdPrbAmpTarLabObs" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "SARS coronavirus 2 RNA Pr Thr Pt Resp Ord Prb Amp" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "SARScoronavirus2RNAPrThrPtRespOrdPrbAmpTar is the laboratory model for the SARS Coronavirus 2 specific for RNA, respiratory specimens, method of probe, target amplification. LOINC code 94500-6." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 28;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-SARScoronavirus2RNAPrThrPtXXXOrdPrbAmpTarLabObs.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://fhir.logicahealth.org/covid19/StructureDefinition/SARScoronavirus2RNAPrThrPtXXXOrdPrbAmpTarLabObs>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/SARScoronavirus2RNAPrThrPtXXXOrdPrbAmpTarLabObs" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "SARS coronavirus 2 RNA Pr Thr Pt XXX Ord Prb Amp" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "SARScoronavirus2RNAPrThrXXXOrdPrbAmpTar is the laboratory model for the SARS Coronavirus 2 specific for RNA and method of probe, target amplification but not specific to specimen type. LOINC code 94309-2." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 29;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-SARScoronavirus2RdRpGenePrThePtRespOrdPrbAmpTarLabObs.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://fhir.logicahealth.org/covid19/StructureDefinition/SARScoronavirus2RdRpGenePrThePtRespOrdPrbAmpTarLabObs>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/SARScoronavirus2RdRpGenePrThePtRespOrdPrbAmpTarLabObs" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "SARS coronavirus 2 Rd Rp Gene Pr The Pt Resp Ord" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "SARScoronavirus2RdRpGenePrThePtRespOrdPrbAmpTar is a test for the SARS coronavirus 2 RdRp gene in respiratory spsecimens. LOINC code 94534-5." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 30;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-SARScoronavirus2RdRpGenePrThrPtXXXOrdPrbAmpTarLabObs.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://fhir.logicahealth.org/covid19/StructureDefinition/SARScoronavirus2RdRpGenePrThrPtXXXOrdPrbAmpTarLabObs>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/SARScoronavirus2RdRpGenePrThrPtXXXOrdPrbAmpTarLabObs" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "SARS coronavirus 2 Rd Rp Gene Pr Thr Pt XXX Ord" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "SARScoronavirus2RdRpGenePrThrPtXXXOrdPrbAmpTarLabObs is a test for the SARS coronavirus 2 RdRp gene via the probe target amplification method in non-respiratory specimens. LOINC code 94314-2." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 31;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-SARSrelatedCoVPlusMERSCoVRNAPrThrPtRespOrdPrbAmpTarLabObs.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://fhir.logicahealth.org/covid19/StructureDefinition/SARSrelatedCoVPlusMERSCoVRNAPrThrPtRespOrdPrbAmpTarLabObs>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/SARSrelatedCoVPlusMERSCoVRNAPrThrPtRespOrdPrbAmpTarLabObs" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "SAR Srelatedcoronavirus Plus MER Scoronavirus RNA Pr Thr Pt Resp" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "SARSrelatedcoronavirusPlusMERScoronavirusRNAPrThrPtRespOrdPrbAmpTar is a combined test for SARS coronavirus 2 RNA (not gene specific) and MERS coronavirus RNA. LOINC code 94532-9." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 32;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-c19-reporting-priority.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://fhir.logicahealth.org/covid19/StructureDefinition/c19-reporting-priority>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/c19-reporting-priority" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Reporting Priority" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "The urgency level for which an observation must be reported." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ];
+     fhir:ImplementationGuide.definition.page [
+       fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "toc.html" ];
+       fhir:ImplementationGuide.definition.page.title [ fhir:value "Table of Contents" ];
+       fhir:ImplementationGuide.definition.page.generation [ fhir:value "html" ];
+       fhir:ImplementationGuide.definition.page.page [
+         fhir:index 0;
+         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "index.html" ];
+         fhir:ImplementationGuide.definition.page.title [ fhir:value "Home" ];
+         fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
+       ]
+     ];
+     fhir:ImplementationGuide.definition.parameter [
+       fhir:index 0;
+       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-resource" ];
+       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input/capabilities" ]
+     ], [
+       fhir:index 1;
+       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-resource" ];
+       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input/examples" ]
+     ], [
+       fhir:index 2;
+       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-resource" ];
+       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input/extensions" ]
+     ], [
+       fhir:index 3;
+       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-resource" ];
+       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input/models" ]
+     ], [
+       fhir:index 4;
+       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-resource" ];
+       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input/operations" ]
+     ], [
+       fhir:index 5;
+       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-resource" ];
+       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input/profiles" ]
+     ], [
+       fhir:index 6;
+       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-resource" ];
+       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input/resources" ]
+     ], [
+       fhir:index 7;
+       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-resource" ];
+       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input/vocabulary" ]
+     ], [
+       fhir:index 8;
+       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-resource" ];
+       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input/maps" ]
+     ], [
+       fhir:index 9;
+       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-pages" ];
+       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "template/config" ]
+     ], [
+       fhir:index 10;
+       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-pages" ];
+       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input/images" ]
+     ], [
+       fhir:index 11;
+       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-tx-cache" ];
+       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input-cache/txcache" ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://fhir.logicahealth.org/covid19/ImplementationGuide/covid19.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

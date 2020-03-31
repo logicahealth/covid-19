@@ -1,0 +1,674 @@
+﻿<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!-- broken links = 0, errors = 56, warn = 29, info = 0 -->
+<head>
+  <title>LogicaImplementationGuideCovid19 : Validation Results</title>
+  <link href="fhir.css" rel="stylesheet"/>
+  <style>
+    span.flip  { background-color: #4CAF50; color: white; border: solid 1px #a6d8a8; padding: 2px }
+  </style>
+  <script>
+    function flip(id) {
+      var span = document.getElementById('s'+id);
+      var div = document.getElementById(id);
+      if (document.getElementById('s'+id).innerHTML == 'Show Reasoning') {
+        div.style.display = 'block';
+        span.innerHTML = 'Hide Reasoning';
+      } else {
+        div.style.display = 'none';
+        span.innerHTML = 'Show Reasoning';
+      }
+    }
+  </script>
+</head>
+<body style="margin: 20px; background-color: #ffffff">
+ <h1>Validation Results for LogicaImplementationGuideCovid19</h1>
+ <p>Generated Mon Mar 30 22:20:51 EDT 2020, FHIR version 4.0.1 for covid19#0.1.0 (canonical = <a href="http://fhir.logicahealth.org/covid19">http://fhir.logicahealth.org/covid19</a> (<a href="http://fhir.logicahealth.org/covid19/history.html">history</a>))</p>
+<p>IG Publisher Version: v1.0.75-SNAPSHOT</p>
+<p>No Suppressed Errors</p>
+ <p>HL7 Publication check:</p> <ul><li>n/a - not an HL7.org or FHIR.org implementation guide</li></ul>
+
+ <table class="grid">
+   <tr>
+     <td><b>Filename</b></td><td><b>Errors</b></td><td><b>Information messages &amp; Warnings</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#internal"><b>Build Errors</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_mkramer_Documents_GitHub_covid-19_input_ImplementationGuide-covid19"><b>C:\Users\mkramer\Documents\GitHub\covid-19\input\ImplementationGuide-covid19</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_mkramer_Documents_GitHub_covid-19_input_extensions_structuredefinition-c19-reporting-priority"><b>C:\Users\mkramer\Documents\GitHub\covid-19\input\extensions\structuredefinition-c19-reporting-priority</b></a></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_mkramer_Documents_GitHub_covid-19_input_profiles_structuredefinition-LaboratoryObservationPanelBase"><b>C:\Users\mkramer\Documents\GitHub\covid-19\input\profiles\structuredefinition-LaboratoryObservationPanelBase</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#C__Users_mkramer_Documents_GitHub_covid-19_input_profiles_structuredefinition-SARSCoV2AgRespQlIArapidLabObs"><b>C:\Users\mkramer\Documents\GitHub\covid-19\input\profiles\structuredefinition-SARSCoV2AgRespQlIArapidLabObs</b></a></td><td><b>2</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#C__Users_mkramer_Documents_GitHub_covid-19_input_profiles_structuredefinition-SARSCoV2NgenePrThrPtXXXOrdPrbAmpTarPrimerProbeSetN1LabObs"><b>C:\Users\mkramer\Documents\GitHub\covid-19\input\profiles\structuredefinition-SARSCoV2NgenePrThrPtXXXOrdPrbAmpTarPrimerProbeSetN1LabObs</b></a></td><td><b>2</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#C__Users_mkramer_Documents_GitHub_covid-19_input_profiles_structuredefinition-SARSCoV2NgenePrThrPtXXXOrdPrbAmpTarPrimerProbeSetN2LabObs"><b>C:\Users\mkramer\Documents\GitHub\covid-19\input\profiles\structuredefinition-SARSCoV2NgenePrThrPtXXXOrdPrbAmpTarPrimerProbeSetN2LabObs</b></a></td><td><b>2</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#C__Users_mkramer_Documents_GitHub_covid-19_input_profiles_structuredefinition-SARSCoV2NgeneThreshNumPtXXXQnPrbAmpTarPrimerProbeSetN1LabObs"><b>C:\Users\mkramer\Documents\GitHub\covid-19\input\profiles\structuredefinition-SARSCoV2NgeneThreshNumPtXXXQnPrbAmpTarPrimerProbeSetN1LabObs</b></a></td><td><b>2</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#C__Users_mkramer_Documents_GitHub_covid-19_input_profiles_structuredefinition-SARSCoV2NgeneThreshNumPtXXXQnPrbAmpTarPrimerProbeSetN2LabObs"><b>C:\Users\mkramer\Documents\GitHub\covid-19\input\profiles\structuredefinition-SARSCoV2NgeneThreshNumPtXXXQnPrbAmpTarPrimerProbeSetN2LabObs</b></a></td><td><b>2</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#C__Users_mkramer_Documents_GitHub_covid-19_input_profiles_structuredefinition-SARSCoV2ORF1abRespQlNAAprobeLabObs"><b>C:\Users\mkramer\Documents\GitHub\covid-19\input\profiles\structuredefinition-SARSCoV2ORF1abRespQlNAAprobeLabObs</b></a></td><td><b>2</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#C__Users_mkramer_Documents_GitHub_covid-19_input_profiles_structuredefinition-SARSCoV2RNAPnlXXXNAAprobePanelLabObs"><b>C:\Users\mkramer\Documents\GitHub\covid-19\input\profiles\structuredefinition-SARSCoV2RNAPnlXXXNAAprobePanelLabObs</b></a></td><td><b>2</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#C__Users_mkramer_Documents_GitHub_covid-19_input_profiles_structuredefinition-SARSLikecoronavirusNGenePrThrPtXXXOrdPrbAmpTarLabObs"><b>C:\Users\mkramer\Documents\GitHub\covid-19\input\profiles\structuredefinition-SARSLikecoronavirusNGenePrThrPtXXXOrdPrbAmpTarLabObs</b></a></td><td><b>2</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#C__Users_mkramer_Documents_GitHub_covid-19_input_profiles_structuredefinition-SARSLikecoronavirusNGeneThreshNumPtXXXQnPrbAmpTarLabObs"><b>C:\Users\mkramer\Documents\GitHub\covid-19\input\profiles\structuredefinition-SARSLikecoronavirusNGeneThreshNumPtXXXQnPrbAmpTarLabObs</b></a></td><td><b>2</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#C__Users_mkramer_Documents_GitHub_covid-19_input_profiles_structuredefinition-SARSRelatedCoronavirusRNAPrThrPtRespOrdPrbAmpTarLabObs"><b>C:\Users\mkramer\Documents\GitHub\covid-19\input\profiles\structuredefinition-SARSRelatedCoronavirusRNAPrThrPtRespOrdPrbAmpTarLabObs</b></a></td><td><b>2</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#C__Users_mkramer_Documents_GitHub_covid-19_input_profiles_structuredefinition-SARScoronavirus2AbIgGAcncPtSerPlasQnIALabObs"><b>C:\Users\mkramer\Documents\GitHub\covid-19\input\profiles\structuredefinition-SARScoronavirus2AbIgGAcncPtSerPlasQnIALabObs</b></a></td><td><b>2</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#C__Users_mkramer_Documents_GitHub_covid-19_input_profiles_structuredefinition-SARScoronavirus2AbIgGPlusIgMPrThrPtSerPlasOrdIALabObs"><b>C:\Users\mkramer\Documents\GitHub\covid-19\input\profiles\structuredefinition-SARScoronavirus2AbIgGPlusIgMPrThrPtSerPlasOrdIALabObs</b></a></td><td><b>2</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#C__Users_mkramer_Documents_GitHub_covid-19_input_profiles_structuredefinition-SARScoronavirus2AbIgGandIgMpanelPtSerPlasOrdIArapidLabObs"><b>C:\Users\mkramer\Documents\GitHub\covid-19\input\profiles\structuredefinition-SARScoronavirus2AbIgGandIgMpanelPtSerPlasOrdIArapidLabObs</b></a></td><td><b>2</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#C__Users_mkramer_Documents_GitHub_covid-19_input_profiles_structuredefinition-SARScoronavirus2AbIgGandIgMpanelPtSerPlasQnIALabObs"><b>C:\Users\mkramer\Documents\GitHub\covid-19\input\profiles\structuredefinition-SARScoronavirus2AbIgGandIgMpanelPtSerPlasQnIALabObs</b></a></td><td><b>2</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#C__Users_mkramer_Documents_GitHub_covid-19_input_profiles_structuredefinition-SARScoronavirus2AbIgMAcncPtSerPlasQnIALabObs"><b>C:\Users\mkramer\Documents\GitHub\covid-19\input\profiles\structuredefinition-SARScoronavirus2AbIgMAcncPtSerPlasQnIALabObs</b></a></td><td><b>2</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#C__Users_mkramer_Documents_GitHub_covid-19_input_profiles_structuredefinition-SARScoronavirus2AbIgMPrThrPtSerPlasOrdIArapidLabObs"><b>C:\Users\mkramer\Documents\GitHub\covid-19\input\profiles\structuredefinition-SARScoronavirus2AbIgMPrThrPtSerPlasOrdIArapidLabObs</b></a></td><td><b>2</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#C__Users_mkramer_Documents_GitHub_covid-19_input_profiles_structuredefinition-SARScoronavirus2EGenePrThrPtXXXOrdPrbAmpTarLabObs"><b>C:\Users\mkramer\Documents\GitHub\covid-19\input\profiles\structuredefinition-SARScoronavirus2EGenePrThrPtXXXOrdPrbAmpTarLabObs</b></a></td><td><b>2</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#C__Users_mkramer_Documents_GitHub_covid-19_input_profiles_structuredefinition-SARScoronavirus2EGeneThreshNumPtXXXQnPrbAmpTarLabObs"><b>C:\Users\mkramer\Documents\GitHub\covid-19\input\profiles\structuredefinition-SARScoronavirus2EGeneThreshNumPtXXXQnPrbAmpTarLabObs</b></a></td><td><b>2</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#C__Users_mkramer_Documents_GitHub_covid-19_input_profiles_structuredefinition-SARScoronavirus2NGenePrThrPtRespOrdPrbAmpTarLabObs"><b>C:\Users\mkramer\Documents\GitHub\covid-19\input\profiles\structuredefinition-SARScoronavirus2NGenePrThrPtRespOrdPrbAmpTarLabObs</b></a></td><td><b>2</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#C__Users_mkramer_Documents_GitHub_covid-19_input_profiles_structuredefinition-SARScoronavirus2NgenePrThrPtXXXOrdPrbAmpTarLabObs"><b>C:\Users\mkramer\Documents\GitHub\covid-19\input\profiles\structuredefinition-SARScoronavirus2NgenePrThrPtXXXOrdPrbAmpTarLabObs</b></a></td><td><b>2</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#C__Users_mkramer_Documents_GitHub_covid-19_input_profiles_structuredefinition-SARScoronavirus2NgeneThreshNumPtXXXQnPrbAmpTarLabObs"><b>C:\Users\mkramer\Documents\GitHub\covid-19\input\profiles\structuredefinition-SARScoronavirus2NgeneThreshNumPtXXXQnPrbAmpTarLabObs</b></a></td><td><b>2</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#C__Users_mkramer_Documents_GitHub_covid-19_input_profiles_structuredefinition-SARScoronavirus2ORF1AbRegionThreshNumPtXXXQnPrbAmpTarLabObs"><b>C:\Users\mkramer\Documents\GitHub\covid-19\input\profiles\structuredefinition-SARScoronavirus2ORF1AbRegionThreshNumPtXXXQnPrbAmpTarLabObs</b></a></td><td><b>2</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#C__Users_mkramer_Documents_GitHub_covid-19_input_profiles_structuredefinition-SARScoronavirus2RNAPanelPtRespPrbAmpTarLabObs"><b>C:\Users\mkramer\Documents\GitHub\covid-19\input\profiles\structuredefinition-SARScoronavirus2RNAPanelPtRespPrbAmpTarLabObs</b></a></td><td><b>2</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#C__Users_mkramer_Documents_GitHub_covid-19_input_profiles_structuredefinition-SARScoronavirus2RNAPrThrPtRespOrdPrbAmpTarLabObs"><b>C:\Users\mkramer\Documents\GitHub\covid-19\input\profiles\structuredefinition-SARScoronavirus2RNAPrThrPtRespOrdPrbAmpTarLabObs</b></a></td><td><b>2</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#C__Users_mkramer_Documents_GitHub_covid-19_input_profiles_structuredefinition-SARScoronavirus2RNAPrThrPtXXXOrdPrbAmpTarLabObs"><b>C:\Users\mkramer\Documents\GitHub\covid-19\input\profiles\structuredefinition-SARScoronavirus2RNAPrThrPtXXXOrdPrbAmpTarLabObs</b></a></td><td><b>2</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#C__Users_mkramer_Documents_GitHub_covid-19_input_profiles_structuredefinition-SARScoronavirus2RdRpGenePrThePtRespOrdPrbAmpTarLabObs"><b>C:\Users\mkramer\Documents\GitHub\covid-19\input\profiles\structuredefinition-SARScoronavirus2RdRpGenePrThePtRespOrdPrbAmpTarLabObs</b></a></td><td><b>2</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#C__Users_mkramer_Documents_GitHub_covid-19_input_profiles_structuredefinition-SARScoronavirus2RdRpGenePrThrPtXXXOrdPrbAmpTarLabObs"><b>C:\Users\mkramer\Documents\GitHub\covid-19\input\profiles\structuredefinition-SARScoronavirus2RdRpGenePrThrPtXXXOrdPrbAmpTarLabObs</b></a></td><td><b>2</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#C__Users_mkramer_Documents_GitHub_covid-19_input_profiles_structuredefinition-SARSrelatedCoVPlusMERSCoVRNAPrThrPtRespOrdPrbAmpTarLabObs"><b>C:\Users\mkramer\Documents\GitHub\covid-19\input\profiles\structuredefinition-SARSrelatedCoVPlusMERSCoVRNAPrThrPtRespOrdPrbAmpTarLabObs</b></a></td><td><b>2</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_mkramer_Documents_GitHub_covid-19_input_profiles_structuredefinition-c19-coded-laboratory-observation-base"><b>C:\Users\mkramer\Documents\GitHub\covid-19\input\profiles\structuredefinition-c19-coded-laboratory-observation-base</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_mkramer_Documents_GitHub_covid-19_input_profiles_structuredefinition-c19-laboratory-observation-base"><b>C:\Users\mkramer\Documents\GitHub\covid-19\input\profiles\structuredefinition-c19-laboratory-observation-base</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_mkramer_Documents_GitHub_covid-19_input_profiles_structuredefinition-c19-quantitative-laboratory-observation-base"><b>C:\Users\mkramer\Documents\GitHub\covid-19\input\profiles\structuredefinition-c19-quantitative-laboratory-observation-base</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="internal"> </a>
+<h2><a href="">n/a</a></h2>
+ <table class="grid">
+</table>
+<hr/>
+<a name="C__Users_mkramer_Documents_GitHub_covid-19_input_ImplementationGuide-covid19"> </a>
+<h2><a href="ImplementationGuide-covid19.html">C:\Users\mkramer\Documents\GitHub\covid-19\input\ImplementationGuide-covid19.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_mkramer_Documents_GitHub_covid-19_input_extensions_structuredefinition-c19-reporting-priority"> </a>
+<h2><a href="StructureDefinition-c19-reporting-priority.html">C:\Users\mkramer\Documents\GitHub\covid-19\input\extensions\StructureDefinition-c19-reporting-priority.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>http://fhir.logicahealth.org/covid19/StructureDefinition/c19-reporting-priority</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this extension</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_mkramer_Documents_GitHub_covid-19_input_profiles_structuredefinition-LaboratoryObservationPanelBase"> </a>
+<h2><a href="StructureDefinition-LaboratoryObservationPanelBase.html">C:\Users\mkramer\Documents\GitHub\covid-19\input\profiles\StructureDefinition-LaboratoryObservationPanelBase.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_mkramer_Documents_GitHub_covid-19_input_profiles_structuredefinition-SARSCoV2AgRespQlIArapidLabObs"> </a>
+<h2><a href="StructureDefinition-SARSCoV2AgRespQlIArapidLabObs.html">C:\Users\mkramer\Documents\GitHub\covid-19\input\profiles\StructureDefinition-SARSCoV2AgRespQlIArapidLabObs.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>StructureDefinition/SARSCoV2AgRespQlIArapidLabObs: StructureDefinition.snapshot.element[43].pattern.ofType(CodeableConcept).coding[0]</b></td><td><b>error</b></td><td><b>The code &quot;94558-4&quot; is not valid in the system http://loinc.org; The code provided (http://loinc.org#94558-4) is not  valid in the value set All codes known to the system for &quot;http://loinc.org#94558-4&quot;</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>StructureDefinition/SARSCoV2AgRespQlIArapidLabObs: StructureDefinition.differential.element[1].pattern.ofType(CodeableConcept).coding[0]</b></td><td><b>error</b></td><td><b>The code &quot;94558-4&quot; is not valid in the system http://loinc.org; The code provided (http://loinc.org#94558-4) is not  valid in the value set All codes known to the system for &quot;http://loinc.org#94558-4&quot;</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>http://fhir.logicahealth.org/covid19/StructureDefinition/SARSCoV2AgRespQlIArapidLabObs</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this profile</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_mkramer_Documents_GitHub_covid-19_input_profiles_structuredefinition-SARSCoV2NgenePrThrPtXXXOrdPrbAmpTarPrimerProbeSetN1LabObs"> </a>
+<h2><a href="StructureDefinition-SARSCoV2NgenePrThrPtXXXOrdPrbAmpTarPrimerProbeSetN1LabObs.html">C:\Users\mkramer\Documents\GitHub\covid-19\input\profiles\StructureDefinition-SARSCoV2NgenePrThrPtXXXOrdPrbAmpTarPrimerProbeSetN1LabObs.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>StructureDefinition/SARSCoV2NgenePrThrPtXXXOrdPrbAmpTarPrimerProbeSetN1LabObs: StructureDefinition.snapshot.element[43].pattern.ofType(CodeableConcept).coding[0]</b></td><td><b>error</b></td><td><b>The code &quot;94307-6&quot; is not valid in the system http://loinc.org; The code provided (http://loinc.org#94307-6) is not  valid in the value set All codes known to the system for &quot;http://loinc.org#94307-6&quot;</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>StructureDefinition/SARSCoV2NgenePrThrPtXXXOrdPrbAmpTarPrimerProbeSetN1LabObs: StructureDefinition.differential.element[1].pattern.ofType(CodeableConcept).coding[0]</b></td><td><b>error</b></td><td><b>The code &quot;94307-6&quot; is not valid in the system http://loinc.org; The code provided (http://loinc.org#94307-6) is not  valid in the value set All codes known to the system for &quot;http://loinc.org#94307-6&quot;</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>http://fhir.logicahealth.org/covid19/StructureDefinition/SARSCoV2NgenePrThrPtXXXOrdPrbAmpTarPrimerProbeSetN1LabObs</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this profile</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_mkramer_Documents_GitHub_covid-19_input_profiles_structuredefinition-SARSCoV2NgenePrThrPtXXXOrdPrbAmpTarPrimerProbeSetN2LabObs"> </a>
+<h2><a href="StructureDefinition-SARSCoV2NgenePrThrPtXXXOrdPrbAmpTarPrimerProbeSetN2LabObs.html">C:\Users\mkramer\Documents\GitHub\covid-19\input\profiles\StructureDefinition-SARSCoV2NgenePrThrPtXXXOrdPrbAmpTarPrimerProbeSetN2LabObs.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>StructureDefinition/SARSCoV2NgenePrThrPtXXXOrdPrbAmpTarPrimerProbeSetN2LabObs: StructureDefinition.snapshot.element[43].pattern.ofType(CodeableConcept).coding[0]</b></td><td><b>error</b></td><td><b>The code &quot;94308-4&quot; is not valid in the system http://loinc.org; The code provided (http://loinc.org#94308-4) is not  valid in the value set All codes known to the system for &quot;http://loinc.org#94308-4&quot;</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>StructureDefinition/SARSCoV2NgenePrThrPtXXXOrdPrbAmpTarPrimerProbeSetN2LabObs: StructureDefinition.differential.element[1].pattern.ofType(CodeableConcept).coding[0]</b></td><td><b>error</b></td><td><b>The code &quot;94308-4&quot; is not valid in the system http://loinc.org; The code provided (http://loinc.org#94308-4) is not  valid in the value set All codes known to the system for &quot;http://loinc.org#94308-4&quot;</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>http://fhir.logicahealth.org/covid19/StructureDefinition/SARSCoV2NgenePrThrPtXXXOrdPrbAmpTarPrimerProbeSetN2LabObs</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this profile</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_mkramer_Documents_GitHub_covid-19_input_profiles_structuredefinition-SARSCoV2NgeneThreshNumPtXXXQnPrbAmpTarPrimerProbeSetN1LabObs"> </a>
+<h2><a href="StructureDefinition-SARSCoV2NgeneThreshNumPtXXXQnPrbAmpTarPrimerProbeSetN1LabObs.html">C:\Users\mkramer\Documents\GitHub\covid-19\input\profiles\StructureDefinition-SARSCoV2NgeneThreshNumPtXXXQnPrbAmpTarPrimerProbeSetN1LabObs.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>StructureDefinition/SARSCoV2NgeneThreshNumPtXXXQnPrbAmpTarPrimerProbeSetN1LabObs: StructureDefinition.snapshot.element[43].pattern.ofType(CodeableConcept).coding[0]</b></td><td><b>error</b></td><td><b>The code &quot;94311-8&quot; is not valid in the system http://loinc.org; The code provided (http://loinc.org#94311-8) is not  valid in the value set All codes known to the system for &quot;http://loinc.org#94311-8&quot;</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>StructureDefinition/SARSCoV2NgeneThreshNumPtXXXQnPrbAmpTarPrimerProbeSetN1LabObs: StructureDefinition.differential.element[1].pattern.ofType(CodeableConcept).coding[0]</b></td><td><b>error</b></td><td><b>The code &quot;94311-8&quot; is not valid in the system http://loinc.org; The code provided (http://loinc.org#94311-8) is not  valid in the value set All codes known to the system for &quot;http://loinc.org#94311-8&quot;</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>http://fhir.logicahealth.org/covid19/StructureDefinition/SARSCoV2NgeneThreshNumPtXXXQnPrbAmpTarPrimerProbeSetN1LabObs</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this profile</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_mkramer_Documents_GitHub_covid-19_input_profiles_structuredefinition-SARSCoV2NgeneThreshNumPtXXXQnPrbAmpTarPrimerProbeSetN2LabObs"> </a>
+<h2><a href="StructureDefinition-SARSCoV2NgeneThreshNumPtXXXQnPrbAmpTarPrimerProbeSetN2LabObs.html">C:\Users\mkramer\Documents\GitHub\covid-19\input\profiles\StructureDefinition-SARSCoV2NgeneThreshNumPtXXXQnPrbAmpTarPrimerProbeSetN2LabObs.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>StructureDefinition/SARSCoV2NgeneThreshNumPtXXXQnPrbAmpTarPrimerProbeSetN2LabObs: StructureDefinition.snapshot.element[43].pattern.ofType(CodeableConcept).coding[0]</b></td><td><b>error</b></td><td><b>The code &quot;94312-6&quot; is not valid in the system http://loinc.org; The code provided (http://loinc.org#94312-6) is not  valid in the value set All codes known to the system for &quot;http://loinc.org#94312-6&quot;</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>StructureDefinition/SARSCoV2NgeneThreshNumPtXXXQnPrbAmpTarPrimerProbeSetN2LabObs: StructureDefinition.differential.element[1].pattern.ofType(CodeableConcept).coding[0]</b></td><td><b>error</b></td><td><b>The code &quot;94312-6&quot; is not valid in the system http://loinc.org; The code provided (http://loinc.org#94312-6) is not  valid in the value set All codes known to the system for &quot;http://loinc.org#94312-6&quot;</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>http://fhir.logicahealth.org/covid19/StructureDefinition/SARSCoV2NgeneThreshNumPtXXXQnPrbAmpTarPrimerProbeSetN2LabObs</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this profile</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_mkramer_Documents_GitHub_covid-19_input_profiles_structuredefinition-SARSCoV2ORF1abRespQlNAAprobeLabObs"> </a>
+<h2><a href="StructureDefinition-SARSCoV2ORF1abRespQlNAAprobeLabObs.html">C:\Users\mkramer\Documents\GitHub\covid-19\input\profiles\StructureDefinition-SARSCoV2ORF1abRespQlNAAprobeLabObs.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>StructureDefinition/SARSCoV2ORF1abRespQlNAAprobeLabObs: StructureDefinition.snapshot.element[43].pattern.ofType(CodeableConcept).coding[0]</b></td><td><b>error</b></td><td><b>The code &quot;94559-2&quot; is not valid in the system http://loinc.org; The code provided (http://loinc.org#94559-2) is not  valid in the value set All codes known to the system for &quot;http://loinc.org#94559-2&quot;</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>StructureDefinition/SARSCoV2ORF1abRespQlNAAprobeLabObs: StructureDefinition.differential.element[1].pattern.ofType(CodeableConcept).coding[0]</b></td><td><b>error</b></td><td><b>The code &quot;94559-2&quot; is not valid in the system http://loinc.org; The code provided (http://loinc.org#94559-2) is not  valid in the value set All codes known to the system for &quot;http://loinc.org#94559-2&quot;</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>http://fhir.logicahealth.org/covid19/StructureDefinition/SARSCoV2ORF1abRespQlNAAprobeLabObs</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this profile</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_mkramer_Documents_GitHub_covid-19_input_profiles_structuredefinition-SARSCoV2RNAPnlXXXNAAprobePanelLabObs"> </a>
+<h2><a href="StructureDefinition-SARSCoV2RNAPnlXXXNAAprobePanelLabObs.html">C:\Users\mkramer\Documents\GitHub\covid-19\input\profiles\StructureDefinition-SARSCoV2RNAPnlXXXNAAprobePanelLabObs.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>StructureDefinition/SARSCoV2RNAPnlXXXNAAprobePanelLabObs: StructureDefinition.snapshot.element[43].pattern.ofType(CodeableConcept).coding[0]</b></td><td><b>error</b></td><td><b>The code &quot;94306-8&quot; is not valid in the system http://loinc.org; The code provided (http://loinc.org#94306-8) is not  valid in the value set All codes known to the system for &quot;http://loinc.org#94306-8&quot;</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>StructureDefinition/SARSCoV2RNAPnlXXXNAAprobePanelLabObs: StructureDefinition.differential.element[1].pattern.ofType(CodeableConcept).coding[0]</b></td><td><b>error</b></td><td><b>The code &quot;94306-8&quot; is not valid in the system http://loinc.org; The code provided (http://loinc.org#94306-8) is not  valid in the value set All codes known to the system for &quot;http://loinc.org#94306-8&quot;</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>http://fhir.logicahealth.org/covid19/StructureDefinition/SARSCoV2RNAPnlXXXNAAprobePanelLabObs</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this profile</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_mkramer_Documents_GitHub_covid-19_input_profiles_structuredefinition-SARSLikecoronavirusNGenePrThrPtXXXOrdPrbAmpTarLabObs"> </a>
+<h2><a href="StructureDefinition-SARSLikecoronavirusNGenePrThrPtXXXOrdPrbAmpTarLabObs.html">C:\Users\mkramer\Documents\GitHub\covid-19\input\profiles\StructureDefinition-SARSLikecoronavirusNGenePrThrPtXXXOrdPrbAmpTarLabObs.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>StructureDefinition/SARSLikecoronavirusNGenePrThrPtXXXOrdPrbAmpTarLabObs: StructureDefinition.snapshot.element[43].pattern.ofType(CodeableConcept).coding[0]</b></td><td><b>error</b></td><td><b>The code &quot;94310-0&quot; is not valid in the system http://loinc.org; The code provided (http://loinc.org#94310-0) is not  valid in the value set All codes known to the system for &quot;http://loinc.org#94310-0&quot;</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>StructureDefinition/SARSLikecoronavirusNGenePrThrPtXXXOrdPrbAmpTarLabObs: StructureDefinition.differential.element[1].pattern.ofType(CodeableConcept).coding[0]</b></td><td><b>error</b></td><td><b>The code &quot;94310-0&quot; is not valid in the system http://loinc.org; The code provided (http://loinc.org#94310-0) is not  valid in the value set All codes known to the system for &quot;http://loinc.org#94310-0&quot;</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>http://fhir.logicahealth.org/covid19/StructureDefinition/SARSLikecoronavirusNGenePrThrPtXXXOrdPrbAmpTarLabObs</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this profile</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_mkramer_Documents_GitHub_covid-19_input_profiles_structuredefinition-SARSLikecoronavirusNGeneThreshNumPtXXXQnPrbAmpTarLabObs"> </a>
+<h2><a href="StructureDefinition-SARSLikecoronavirusNGeneThreshNumPtXXXQnPrbAmpTarLabObs.html">C:\Users\mkramer\Documents\GitHub\covid-19\input\profiles\StructureDefinition-SARSLikecoronavirusNGeneThreshNumPtXXXQnPrbAmpTarLabObs.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>StructureDefinition/SARSLikecoronavirusNGeneThreshNumPtXXXQnPrbAmpTarLabObs: StructureDefinition.snapshot.element[43].pattern.ofType(CodeableConcept).coding[0]</b></td><td><b>error</b></td><td><b>The code &quot;94313-4&quot; is not valid in the system http://loinc.org; The code provided (http://loinc.org#94313-4) is not  valid in the value set All codes known to the system for &quot;http://loinc.org#94313-4&quot;</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>StructureDefinition/SARSLikecoronavirusNGeneThreshNumPtXXXQnPrbAmpTarLabObs: StructureDefinition.differential.element[1].pattern.ofType(CodeableConcept).coding[0]</b></td><td><b>error</b></td><td><b>The code &quot;94313-4&quot; is not valid in the system http://loinc.org; The code provided (http://loinc.org#94313-4) is not  valid in the value set All codes known to the system for &quot;http://loinc.org#94313-4&quot;</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>http://fhir.logicahealth.org/covid19/StructureDefinition/SARSLikecoronavirusNGeneThreshNumPtXXXQnPrbAmpTarLabObs</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this profile</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_mkramer_Documents_GitHub_covid-19_input_profiles_structuredefinition-SARSRelatedCoronavirusRNAPrThrPtRespOrdPrbAmpTarLabObs"> </a>
+<h2><a href="StructureDefinition-SARSRelatedCoronavirusRNAPrThrPtRespOrdPrbAmpTarLabObs.html">C:\Users\mkramer\Documents\GitHub\covid-19\input\profiles\StructureDefinition-SARSRelatedCoronavirusRNAPrThrPtRespOrdPrbAmpTarLabObs.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>StructureDefinition/SARSRelatedCoronavirusRNAPrThrPtRespOrdPrbAmpTarLabObs: StructureDefinition.snapshot.element[43].pattern.ofType(CodeableConcept).coding[0]</b></td><td><b>error</b></td><td><b>The code &quot;94502-2&quot; is not valid in the system http://loinc.org; The code provided (http://loinc.org#94502-2) is not  valid in the value set All codes known to the system for &quot;http://loinc.org#94502-2&quot;</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>StructureDefinition/SARSRelatedCoronavirusRNAPrThrPtRespOrdPrbAmpTarLabObs: StructureDefinition.differential.element[1].pattern.ofType(CodeableConcept).coding[0]</b></td><td><b>error</b></td><td><b>The code &quot;94502-2&quot; is not valid in the system http://loinc.org; The code provided (http://loinc.org#94502-2) is not  valid in the value set All codes known to the system for &quot;http://loinc.org#94502-2&quot;</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>http://fhir.logicahealth.org/covid19/StructureDefinition/SARSRelatedCoronavirusRNAPrThrPtRespOrdPrbAmpTarLabObs</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this profile</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_mkramer_Documents_GitHub_covid-19_input_profiles_structuredefinition-SARScoronavirus2AbIgGAcncPtSerPlasQnIALabObs"> </a>
+<h2><a href="StructureDefinition-SARScoronavirus2AbIgGAcncPtSerPlasQnIALabObs.html">C:\Users\mkramer\Documents\GitHub\covid-19\input\profiles\StructureDefinition-SARScoronavirus2AbIgGAcncPtSerPlasQnIALabObs.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>StructureDefinition/SARScoronavirus2AbIgGAcncPtSerPlasQnIALabObs: StructureDefinition.snapshot.element[43].pattern.ofType(CodeableConcept).coding[0]</b></td><td><b>error</b></td><td><b>The code &quot;94505-5&quot; is not valid in the system http://loinc.org; The code provided (http://loinc.org#94505-5) is not  valid in the value set All codes known to the system for &quot;http://loinc.org#94505-5&quot;</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>StructureDefinition/SARScoronavirus2AbIgGAcncPtSerPlasQnIALabObs: StructureDefinition.differential.element[1].pattern.ofType(CodeableConcept).coding[0]</b></td><td><b>error</b></td><td><b>The code &quot;94505-5&quot; is not valid in the system http://loinc.org; The code provided (http://loinc.org#94505-5) is not  valid in the value set All codes known to the system for &quot;http://loinc.org#94505-5&quot;</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>http://fhir.logicahealth.org/covid19/StructureDefinition/SARScoronavirus2AbIgGAcncPtSerPlasQnIALabObs</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this profile</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_mkramer_Documents_GitHub_covid-19_input_profiles_structuredefinition-SARScoronavirus2AbIgGPlusIgMPrThrPtSerPlasOrdIALabObs"> </a>
+<h2><a href="StructureDefinition-SARScoronavirus2AbIgGPlusIgMPrThrPtSerPlasOrdIALabObs.html">C:\Users\mkramer\Documents\GitHub\covid-19\input\profiles\StructureDefinition-SARScoronavirus2AbIgGPlusIgMPrThrPtSerPlasOrdIALabObs.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>StructureDefinition/SARScoronavirus2AbIgGPlusIgMPrThrPtSerPlasOrdIALabObs: StructureDefinition.snapshot.element[43].pattern.ofType(CodeableConcept).coding[0]</b></td><td><b>error</b></td><td><b>The code &quot;94547-7&quot; is not valid in the system http://loinc.org; The code provided (http://loinc.org#94547-7) is not  valid in the value set All codes known to the system for &quot;http://loinc.org#94547-7&quot;</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>StructureDefinition/SARScoronavirus2AbIgGPlusIgMPrThrPtSerPlasOrdIALabObs: StructureDefinition.differential.element[1].pattern.ofType(CodeableConcept).coding[0]</b></td><td><b>error</b></td><td><b>The code &quot;94547-7&quot; is not valid in the system http://loinc.org; The code provided (http://loinc.org#94547-7) is not  valid in the value set All codes known to the system for &quot;http://loinc.org#94547-7&quot;</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>http://fhir.logicahealth.org/covid19/StructureDefinition/SARScoronavirus2AbIgGPlusIgMPrThrPtSerPlasOrdIALabObs</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this profile</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_mkramer_Documents_GitHub_covid-19_input_profiles_structuredefinition-SARScoronavirus2AbIgGandIgMpanelPtSerPlasOrdIArapidLabObs"> </a>
+<h2><a href="StructureDefinition-SARScoronavirus2AbIgGandIgMpanelPtSerPlasOrdIArapidLabObs.html">C:\Users\mkramer\Documents\GitHub\covid-19\input\profiles\StructureDefinition-SARScoronavirus2AbIgGandIgMpanelPtSerPlasOrdIArapidLabObs.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>StructureDefinition/SARScoronavirus2AbIgGandIgMpanelPtSerPlasOrdIArapidLabObs: StructureDefinition.snapshot.element[43].pattern.ofType(CodeableConcept).coding[0]</b></td><td><b>error</b></td><td><b>The code &quot;94503-0&quot; is not valid in the system http://loinc.org; The code provided (http://loinc.org#94503-0) is not  valid in the value set All codes known to the system for &quot;http://loinc.org#94503-0&quot;</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>StructureDefinition/SARScoronavirus2AbIgGandIgMpanelPtSerPlasOrdIArapidLabObs: StructureDefinition.differential.element[1].pattern.ofType(CodeableConcept).coding[0]</b></td><td><b>error</b></td><td><b>The code &quot;94503-0&quot; is not valid in the system http://loinc.org; The code provided (http://loinc.org#94503-0) is not  valid in the value set All codes known to the system for &quot;http://loinc.org#94503-0&quot;</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>http://fhir.logicahealth.org/covid19/StructureDefinition/SARScoronavirus2AbIgGandIgMpanelPtSerPlasOrdIArapidLabObs</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this profile</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_mkramer_Documents_GitHub_covid-19_input_profiles_structuredefinition-SARScoronavirus2AbIgGandIgMpanelPtSerPlasQnIALabObs"> </a>
+<h2><a href="StructureDefinition-SARScoronavirus2AbIgGandIgMpanelPtSerPlasQnIALabObs.html">C:\Users\mkramer\Documents\GitHub\covid-19\input\profiles\StructureDefinition-SARScoronavirus2AbIgGandIgMpanelPtSerPlasQnIALabObs.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>StructureDefinition/SARScoronavirus2AbIgGandIgMpanelPtSerPlasQnIALabObs: StructureDefinition.snapshot.element[43].pattern.ofType(CodeableConcept).coding[0]</b></td><td><b>error</b></td><td><b>The code &quot;94504-8&quot; is not valid in the system http://loinc.org; The code provided (http://loinc.org#94504-8) is not  valid in the value set All codes known to the system for &quot;http://loinc.org#94504-8&quot;</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>StructureDefinition/SARScoronavirus2AbIgGandIgMpanelPtSerPlasQnIALabObs: StructureDefinition.differential.element[1].pattern.ofType(CodeableConcept).coding[0]</b></td><td><b>error</b></td><td><b>The code &quot;94504-8&quot; is not valid in the system http://loinc.org; The code provided (http://loinc.org#94504-8) is not  valid in the value set All codes known to the system for &quot;http://loinc.org#94504-8&quot;</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>http://fhir.logicahealth.org/covid19/StructureDefinition/SARScoronavirus2AbIgGandIgMpanelPtSerPlasQnIALabObs</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this profile</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_mkramer_Documents_GitHub_covid-19_input_profiles_structuredefinition-SARScoronavirus2AbIgMAcncPtSerPlasQnIALabObs"> </a>
+<h2><a href="StructureDefinition-SARScoronavirus2AbIgMAcncPtSerPlasQnIALabObs.html">C:\Users\mkramer\Documents\GitHub\covid-19\input\profiles\StructureDefinition-SARScoronavirus2AbIgMAcncPtSerPlasQnIALabObs.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>StructureDefinition/SARScoronavirus2AbIgMAcncPtSerPlasQnIALabObs: StructureDefinition.snapshot.element[43].pattern.ofType(CodeableConcept).coding[0]</b></td><td><b>error</b></td><td><b>The code &quot;94506-3&quot; is not valid in the system http://loinc.org; The code provided (http://loinc.org#94506-3) is not  valid in the value set All codes known to the system for &quot;http://loinc.org#94506-3&quot;</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>StructureDefinition/SARScoronavirus2AbIgMAcncPtSerPlasQnIALabObs: StructureDefinition.differential.element[1].pattern.ofType(CodeableConcept).coding[0]</b></td><td><b>error</b></td><td><b>The code &quot;94506-3&quot; is not valid in the system http://loinc.org; The code provided (http://loinc.org#94506-3) is not  valid in the value set All codes known to the system for &quot;http://loinc.org#94506-3&quot;</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>http://fhir.logicahealth.org/covid19/StructureDefinition/SARScoronavirus2AbIgMAcncPtSerPlasQnIALabObs</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this profile</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_mkramer_Documents_GitHub_covid-19_input_profiles_structuredefinition-SARScoronavirus2AbIgMPrThrPtSerPlasOrdIArapidLabObs"> </a>
+<h2><a href="StructureDefinition-SARScoronavirus2AbIgMPrThrPtSerPlasOrdIArapidLabObs.html">C:\Users\mkramer\Documents\GitHub\covid-19\input\profiles\StructureDefinition-SARScoronavirus2AbIgMPrThrPtSerPlasOrdIArapidLabObs.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>StructureDefinition/SARScoronavirus2AbIgMPrThrPtSerPlasOrdIArapidLabObs: StructureDefinition.snapshot.element[43].pattern.ofType(CodeableConcept).coding[0]</b></td><td><b>error</b></td><td><b>The code &quot;94508-9&quot; is not valid in the system http://loinc.org; The code provided (http://loinc.org#94508-9) is not  valid in the value set All codes known to the system for &quot;http://loinc.org#94508-9&quot;</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>StructureDefinition/SARScoronavirus2AbIgMPrThrPtSerPlasOrdIArapidLabObs: StructureDefinition.differential.element[1].pattern.ofType(CodeableConcept).coding[0]</b></td><td><b>error</b></td><td><b>The code &quot;94508-9&quot; is not valid in the system http://loinc.org; The code provided (http://loinc.org#94508-9) is not  valid in the value set All codes known to the system for &quot;http://loinc.org#94508-9&quot;</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>http://fhir.logicahealth.org/covid19/StructureDefinition/SARScoronavirus2AbIgMPrThrPtSerPlasOrdIArapidLabObs</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this profile</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_mkramer_Documents_GitHub_covid-19_input_profiles_structuredefinition-SARScoronavirus2EGenePrThrPtXXXOrdPrbAmpTarLabObs"> </a>
+<h2><a href="StructureDefinition-SARScoronavirus2EGenePrThrPtXXXOrdPrbAmpTarLabObs.html">C:\Users\mkramer\Documents\GitHub\covid-19\input\profiles\StructureDefinition-SARScoronavirus2EGenePrThrPtXXXOrdPrbAmpTarLabObs.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>StructureDefinition/SARScoronavirus2EGenePrThrPtXXXOrdPrbAmpTarLabObs: StructureDefinition.snapshot.element[43].pattern.ofType(CodeableConcept).coding[0]</b></td><td><b>error</b></td><td><b>The code &quot;94315-9&quot; is not valid in the system http://loinc.org; The code provided (http://loinc.org#94315-9) is not  valid in the value set All codes known to the system for &quot;http://loinc.org#94315-9&quot;</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>StructureDefinition/SARScoronavirus2EGenePrThrPtXXXOrdPrbAmpTarLabObs: StructureDefinition.differential.element[1].pattern.ofType(CodeableConcept).coding[0]</b></td><td><b>error</b></td><td><b>The code &quot;94315-9&quot; is not valid in the system http://loinc.org; The code provided (http://loinc.org#94315-9) is not  valid in the value set All codes known to the system for &quot;http://loinc.org#94315-9&quot;</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>http://fhir.logicahealth.org/covid19/StructureDefinition/SARScoronavirus2EGenePrThrPtXXXOrdPrbAmpTarLabObs</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this profile</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_mkramer_Documents_GitHub_covid-19_input_profiles_structuredefinition-SARScoronavirus2EGeneThreshNumPtXXXQnPrbAmpTarLabObs"> </a>
+<h2><a href="StructureDefinition-SARScoronavirus2EGeneThreshNumPtXXXQnPrbAmpTarLabObs.html">C:\Users\mkramer\Documents\GitHub\covid-19\input\profiles\StructureDefinition-SARScoronavirus2EGeneThreshNumPtXXXQnPrbAmpTarLabObs.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>StructureDefinition/SARScoronavirus2EGeneThreshNumPtXXXQnPrbAmpTarLabObs: StructureDefinition.snapshot.element[43].pattern.ofType(CodeableConcept).coding[0]</b></td><td><b>error</b></td><td><b>The code &quot;94509-7&quot; is not valid in the system http://loinc.org; The code provided (http://loinc.org#94509-7) is not  valid in the value set All codes known to the system for &quot;http://loinc.org#94509-7&quot;</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>StructureDefinition/SARScoronavirus2EGeneThreshNumPtXXXQnPrbAmpTarLabObs: StructureDefinition.differential.element[1].pattern.ofType(CodeableConcept).coding[0]</b></td><td><b>error</b></td><td><b>The code &quot;94509-7&quot; is not valid in the system http://loinc.org; The code provided (http://loinc.org#94509-7) is not  valid in the value set All codes known to the system for &quot;http://loinc.org#94509-7&quot;</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>http://fhir.logicahealth.org/covid19/StructureDefinition/SARScoronavirus2EGeneThreshNumPtXXXQnPrbAmpTarLabObs</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this profile</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_mkramer_Documents_GitHub_covid-19_input_profiles_structuredefinition-SARScoronavirus2NGenePrThrPtRespOrdPrbAmpTarLabObs"> </a>
+<h2><a href="StructureDefinition-SARScoronavirus2NGenePrThrPtRespOrdPrbAmpTarLabObs.html">C:\Users\mkramer\Documents\GitHub\covid-19\input\profiles\StructureDefinition-SARScoronavirus2NGenePrThrPtRespOrdPrbAmpTarLabObs.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>StructureDefinition/SARScoronavirus2NGenePrThrPtRespOrdPrbAmpTarLabObs: StructureDefinition.snapshot.element[43].pattern.ofType(CodeableConcept).coding[0]</b></td><td><b>error</b></td><td><b>The code &quot;94533-7&quot; is not valid in the system http://loinc.org; The code provided (http://loinc.org#94533-7) is not  valid in the value set All codes known to the system for &quot;http://loinc.org#94533-7&quot;</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>StructureDefinition/SARScoronavirus2NGenePrThrPtRespOrdPrbAmpTarLabObs: StructureDefinition.differential.element[1].pattern.ofType(CodeableConcept).coding[0]</b></td><td><b>error</b></td><td><b>The code &quot;94533-7&quot; is not valid in the system http://loinc.org; The code provided (http://loinc.org#94533-7) is not  valid in the value set All codes known to the system for &quot;http://loinc.org#94533-7&quot;</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>http://fhir.logicahealth.org/covid19/StructureDefinition/SARScoronavirus2NGenePrThrPtRespOrdPrbAmpTarLabObs</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this profile</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_mkramer_Documents_GitHub_covid-19_input_profiles_structuredefinition-SARScoronavirus2NgenePrThrPtXXXOrdPrbAmpTarLabObs"> </a>
+<h2><a href="StructureDefinition-SARScoronavirus2NgenePrThrPtXXXOrdPrbAmpTarLabObs.html">C:\Users\mkramer\Documents\GitHub\covid-19\input\profiles\StructureDefinition-SARScoronavirus2NgenePrThrPtXXXOrdPrbAmpTarLabObs.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>StructureDefinition/SARScoronavirus2NgenePrThrPtXXXOrdPrbAmpTarLabObs: StructureDefinition.snapshot.element[43].pattern.ofType(CodeableConcept).coding[0]</b></td><td><b>error</b></td><td><b>The code &quot;94316-7&quot; is not valid in the system http://loinc.org; The code provided (http://loinc.org#94316-7) is not  valid in the value set All codes known to the system for &quot;http://loinc.org#94316-7&quot;</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>StructureDefinition/SARScoronavirus2NgenePrThrPtXXXOrdPrbAmpTarLabObs: StructureDefinition.differential.element[1].pattern.ofType(CodeableConcept).coding[0]</b></td><td><b>error</b></td><td><b>The code &quot;94316-7&quot; is not valid in the system http://loinc.org; The code provided (http://loinc.org#94316-7) is not  valid in the value set All codes known to the system for &quot;http://loinc.org#94316-7&quot;</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>http://fhir.logicahealth.org/covid19/StructureDefinition/SARScoronavirus2NgenePrThrPtXXXOrdPrbAmpTarLabObs</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this profile</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_mkramer_Documents_GitHub_covid-19_input_profiles_structuredefinition-SARScoronavirus2NgeneThreshNumPtXXXQnPrbAmpTarLabObs"> </a>
+<h2><a href="StructureDefinition-SARScoronavirus2NgeneThreshNumPtXXXQnPrbAmpTarLabObs.html">C:\Users\mkramer\Documents\GitHub\covid-19\input\profiles\StructureDefinition-SARScoronavirus2NgeneThreshNumPtXXXQnPrbAmpTarLabObs.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>StructureDefinition/SARScoronavirus2NgeneThreshNumPtXXXQnPrbAmpTarLabObs: StructureDefinition.snapshot.element[43].pattern.ofType(CodeableConcept).coding[0]</b></td><td><b>error</b></td><td><b>The code &quot;94510-5&quot; is not valid in the system http://loinc.org; The code provided (http://loinc.org#94510-5) is not  valid in the value set All codes known to the system for &quot;http://loinc.org#94510-5&quot;</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>StructureDefinition/SARScoronavirus2NgeneThreshNumPtXXXQnPrbAmpTarLabObs: StructureDefinition.differential.element[1].pattern.ofType(CodeableConcept).coding[0]</b></td><td><b>error</b></td><td><b>The code &quot;94510-5&quot; is not valid in the system http://loinc.org; The code provided (http://loinc.org#94510-5) is not  valid in the value set All codes known to the system for &quot;http://loinc.org#94510-5&quot;</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>http://fhir.logicahealth.org/covid19/StructureDefinition/SARScoronavirus2NgeneThreshNumPtXXXQnPrbAmpTarLabObs</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this profile</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_mkramer_Documents_GitHub_covid-19_input_profiles_structuredefinition-SARScoronavirus2ORF1AbRegionThreshNumPtXXXQnPrbAmpTarLabObs"> </a>
+<h2><a href="StructureDefinition-SARScoronavirus2ORF1AbRegionThreshNumPtXXXQnPrbAmpTarLabObs.html">C:\Users\mkramer\Documents\GitHub\covid-19\input\profiles\StructureDefinition-SARScoronavirus2ORF1AbRegionThreshNumPtXXXQnPrbAmpTarLabObs.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>StructureDefinition/SARScoronavirus2ORF1AbRegionThreshNumPtXXXQnPrbAmpTarLabObs: StructureDefinition.snapshot.element[43].pattern.ofType(CodeableConcept).coding[0]</b></td><td><b>error</b></td><td><b>The code &quot;94511-3&quot; is not valid in the system http://loinc.org; The code provided (http://loinc.org#94511-3) is not  valid in the value set All codes known to the system for &quot;http://loinc.org#94511-3&quot;</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>StructureDefinition/SARScoronavirus2ORF1AbRegionThreshNumPtXXXQnPrbAmpTarLabObs: StructureDefinition.differential.element[1].pattern.ofType(CodeableConcept).coding[0]</b></td><td><b>error</b></td><td><b>The code &quot;94511-3&quot; is not valid in the system http://loinc.org; The code provided (http://loinc.org#94511-3) is not  valid in the value set All codes known to the system for &quot;http://loinc.org#94511-3&quot;</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>http://fhir.logicahealth.org/covid19/StructureDefinition/SARScoronavirus2ORF1AbRegionThreshNumPtXXXQnPrbAmpTarLabObs</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this profile</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_mkramer_Documents_GitHub_covid-19_input_profiles_structuredefinition-SARScoronavirus2RNAPanelPtRespPrbAmpTarLabObs"> </a>
+<h2><a href="StructureDefinition-SARScoronavirus2RNAPanelPtRespPrbAmpTarLabObs.html">C:\Users\mkramer\Documents\GitHub\covid-19\input\profiles\StructureDefinition-SARScoronavirus2RNAPanelPtRespPrbAmpTarLabObs.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>StructureDefinition/SARScoronavirus2RNAPanelPtRespPrbAmpTarLabObs: StructureDefinition.snapshot.element[43].pattern.ofType(CodeableConcept).coding[0]</b></td><td><b>error</b></td><td><b>The code &quot;94531-1&quot; is not valid in the system http://loinc.org; The code provided (http://loinc.org#94531-1) is not  valid in the value set All codes known to the system for &quot;http://loinc.org#94531-1&quot;</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>StructureDefinition/SARScoronavirus2RNAPanelPtRespPrbAmpTarLabObs: StructureDefinition.differential.element[1].pattern.ofType(CodeableConcept).coding[0]</b></td><td><b>error</b></td><td><b>The code &quot;94531-1&quot; is not valid in the system http://loinc.org; The code provided (http://loinc.org#94531-1) is not  valid in the value set All codes known to the system for &quot;http://loinc.org#94531-1&quot;</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>http://fhir.logicahealth.org/covid19/StructureDefinition/SARScoronavirus2RNAPanelPtRespPrbAmpTarLabObs</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this profile</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_mkramer_Documents_GitHub_covid-19_input_profiles_structuredefinition-SARScoronavirus2RNAPrThrPtRespOrdPrbAmpTarLabObs"> </a>
+<h2><a href="StructureDefinition-SARScoronavirus2RNAPrThrPtRespOrdPrbAmpTarLabObs.html">C:\Users\mkramer\Documents\GitHub\covid-19\input\profiles\StructureDefinition-SARScoronavirus2RNAPrThrPtRespOrdPrbAmpTarLabObs.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>StructureDefinition/SARScoronavirus2RNAPrThrPtRespOrdPrbAmpTarLabObs: StructureDefinition.snapshot.element[43].pattern.ofType(CodeableConcept).coding[0]</b></td><td><b>error</b></td><td><b>The code &quot;94500-6&quot; is not valid in the system http://loinc.org; The code provided (http://loinc.org#94500-6) is not  valid in the value set All codes known to the system for &quot;http://loinc.org#94500-6&quot;</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>StructureDefinition/SARScoronavirus2RNAPrThrPtRespOrdPrbAmpTarLabObs: StructureDefinition.differential.element[1].pattern.ofType(CodeableConcept).coding[0]</b></td><td><b>error</b></td><td><b>The code &quot;94500-6&quot; is not valid in the system http://loinc.org; The code provided (http://loinc.org#94500-6) is not  valid in the value set All codes known to the system for &quot;http://loinc.org#94500-6&quot;</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>http://fhir.logicahealth.org/covid19/StructureDefinition/SARScoronavirus2RNAPrThrPtRespOrdPrbAmpTarLabObs</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this profile</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_mkramer_Documents_GitHub_covid-19_input_profiles_structuredefinition-SARScoronavirus2RNAPrThrPtXXXOrdPrbAmpTarLabObs"> </a>
+<h2><a href="StructureDefinition-SARScoronavirus2RNAPrThrPtXXXOrdPrbAmpTarLabObs.html">C:\Users\mkramer\Documents\GitHub\covid-19\input\profiles\StructureDefinition-SARScoronavirus2RNAPrThrPtXXXOrdPrbAmpTarLabObs.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>StructureDefinition/SARScoronavirus2RNAPrThrPtXXXOrdPrbAmpTarLabObs: StructureDefinition.snapshot.element[43].pattern.ofType(CodeableConcept).coding[0]</b></td><td><b>error</b></td><td><b>The code &quot;94309-2&quot; is not valid in the system http://loinc.org; The code provided (http://loinc.org#94309-2) is not  valid in the value set All codes known to the system for &quot;http://loinc.org#94309-2&quot;</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>StructureDefinition/SARScoronavirus2RNAPrThrPtXXXOrdPrbAmpTarLabObs: StructureDefinition.differential.element[1].pattern.ofType(CodeableConcept).coding[0]</b></td><td><b>error</b></td><td><b>The code &quot;94309-2&quot; is not valid in the system http://loinc.org; The code provided (http://loinc.org#94309-2) is not  valid in the value set All codes known to the system for &quot;http://loinc.org#94309-2&quot;</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>http://fhir.logicahealth.org/covid19/StructureDefinition/SARScoronavirus2RNAPrThrPtXXXOrdPrbAmpTarLabObs</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this profile</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_mkramer_Documents_GitHub_covid-19_input_profiles_structuredefinition-SARScoronavirus2RdRpGenePrThePtRespOrdPrbAmpTarLabObs"> </a>
+<h2><a href="StructureDefinition-SARScoronavirus2RdRpGenePrThePtRespOrdPrbAmpTarLabObs.html">C:\Users\mkramer\Documents\GitHub\covid-19\input\profiles\StructureDefinition-SARScoronavirus2RdRpGenePrThePtRespOrdPrbAmpTarLabObs.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>StructureDefinition/SARScoronavirus2RdRpGenePrThePtRespOrdPrbAmpTarLabObs: StructureDefinition.snapshot.element[43].pattern.ofType(CodeableConcept).coding[0]</b></td><td><b>error</b></td><td><b>The code &quot;94534-5&quot; is not valid in the system http://loinc.org; The code provided (http://loinc.org#94534-5) is not  valid in the value set All codes known to the system for &quot;http://loinc.org#94534-5&quot;</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>StructureDefinition/SARScoronavirus2RdRpGenePrThePtRespOrdPrbAmpTarLabObs: StructureDefinition.differential.element[1].pattern.ofType(CodeableConcept).coding[0]</b></td><td><b>error</b></td><td><b>The code &quot;94534-5&quot; is not valid in the system http://loinc.org; The code provided (http://loinc.org#94534-5) is not  valid in the value set All codes known to the system for &quot;http://loinc.org#94534-5&quot;</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>http://fhir.logicahealth.org/covid19/StructureDefinition/SARScoronavirus2RdRpGenePrThePtRespOrdPrbAmpTarLabObs</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this profile</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_mkramer_Documents_GitHub_covid-19_input_profiles_structuredefinition-SARScoronavirus2RdRpGenePrThrPtXXXOrdPrbAmpTarLabObs"> </a>
+<h2><a href="StructureDefinition-SARScoronavirus2RdRpGenePrThrPtXXXOrdPrbAmpTarLabObs.html">C:\Users\mkramer\Documents\GitHub\covid-19\input\profiles\StructureDefinition-SARScoronavirus2RdRpGenePrThrPtXXXOrdPrbAmpTarLabObs.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>StructureDefinition/SARScoronavirus2RdRpGenePrThrPtXXXOrdPrbAmpTarLabObs: StructureDefinition.snapshot.element[43].pattern.ofType(CodeableConcept).coding[0]</b></td><td><b>error</b></td><td><b>The code &quot;94314-2&quot; is not valid in the system http://loinc.org; The code provided (http://loinc.org#94314-2) is not  valid in the value set All codes known to the system for &quot;http://loinc.org#94314-2&quot;</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>StructureDefinition/SARScoronavirus2RdRpGenePrThrPtXXXOrdPrbAmpTarLabObs: StructureDefinition.differential.element[1].pattern.ofType(CodeableConcept).coding[0]</b></td><td><b>error</b></td><td><b>The code &quot;94314-2&quot; is not valid in the system http://loinc.org; The code provided (http://loinc.org#94314-2) is not  valid in the value set All codes known to the system for &quot;http://loinc.org#94314-2&quot;</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>http://fhir.logicahealth.org/covid19/StructureDefinition/SARScoronavirus2RdRpGenePrThrPtXXXOrdPrbAmpTarLabObs</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this profile</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_mkramer_Documents_GitHub_covid-19_input_profiles_structuredefinition-SARSrelatedCoVPlusMERSCoVRNAPrThrPtRespOrdPrbAmpTarLabObs"> </a>
+<h2><a href="StructureDefinition-SARSrelatedCoVPlusMERSCoVRNAPrThrPtRespOrdPrbAmpTarLabObs.html">C:\Users\mkramer\Documents\GitHub\covid-19\input\profiles\StructureDefinition-SARSrelatedCoVPlusMERSCoVRNAPrThrPtRespOrdPrbAmpTarLabObs.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>StructureDefinition/SARSrelatedCoVPlusMERSCoVRNAPrThrPtRespOrdPrbAmpTarLabObs: StructureDefinition.snapshot.element[43].pattern.ofType(CodeableConcept).coding[0]</b></td><td><b>error</b></td><td><b>The code &quot;94532-9&quot; is not valid in the system http://loinc.org; The code provided (http://loinc.org#94532-9) is not  valid in the value set All codes known to the system for &quot;http://loinc.org#94532-9&quot;</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>StructureDefinition/SARSrelatedCoVPlusMERSCoVRNAPrThrPtRespOrdPrbAmpTarLabObs: StructureDefinition.differential.element[1].pattern.ofType(CodeableConcept).coding[0]</b></td><td><b>error</b></td><td><b>The code &quot;94532-9&quot; is not valid in the system http://loinc.org; The code provided (http://loinc.org#94532-9) is not  valid in the value set All codes known to the system for &quot;http://loinc.org#94532-9&quot;</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>http://fhir.logicahealth.org/covid19/StructureDefinition/SARSrelatedCoVPlusMERSCoVRNAPrThrPtRespOrdPrbAmpTarLabObs</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this profile</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_mkramer_Documents_GitHub_covid-19_input_profiles_structuredefinition-c19-coded-laboratory-observation-base"> </a>
+<h2><a href="StructureDefinition-c19-coded-laboratory-observation-base.html">C:\Users\mkramer\Documents\GitHub\covid-19\input\profiles\StructureDefinition-c19-coded-laboratory-observation-base.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_mkramer_Documents_GitHub_covid-19_input_profiles_structuredefinition-c19-laboratory-observation-base"> </a>
+<h2><a href="StructureDefinition-c19-laboratory-observation-base.html">C:\Users\mkramer\Documents\GitHub\covid-19\input\profiles\StructureDefinition-c19-laboratory-observation-base.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_mkramer_Documents_GitHub_covid-19_input_profiles_structuredefinition-c19-quantitative-laboratory-observation-base"> </a>
+<h2><a href="StructureDefinition-c19-quantitative-laboratory-observation-base.html">C:\Users\mkramer\Documents\GitHub\covid-19\input\profiles\StructureDefinition-c19-quantitative-laboratory-observation-base.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+</body>
+</html>

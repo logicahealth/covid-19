@@ -1,0 +1,182 @@
+{
+  "package": "covid19",
+  "version": "0.1.0",
+  "fhirVersion": "4.0.1",
+  "extensions": [
+    {
+      "url": "http://fhir.logicahealth.org/covid19/StructureDefinition/c19-reporting-priority",
+      "title": "Reporting Priority",
+      "types": [
+        "CodeableConcept",
+        "CodeableConcept"
+      ]
+    }
+  ],
+  "profiles": {
+    "Observation": [
+      {
+        "url": "http://fhir.logicahealth.org/covid19/StructureDefinition/LaboratoryObservationPanelBase",
+        "title": "Laboratory Observation Panel Base"
+      },
+      {
+        "url": "http://fhir.logicahealth.org/covid19/StructureDefinition/SARSCoV2AgRespQlIArapidLabObs",
+        "title": "SARS Co V2 Ag Resp Ql I Arapid Lab Obs"
+      },
+      {
+        "url": "http://fhir.logicahealth.org/covid19/StructureDefinition/SARSCoV2NgenePrThrPtXXXOrdPrbAmpTarPrimerProbeSetN1LabObs",
+        "title": "SARS coronavirus 2 Ngene Pr Thr Pt XXX Ord Prb Amp"
+      },
+      {
+        "url": "http://fhir.logicahealth.org/covid19/StructureDefinition/SARSCoV2NgenePrThrPtXXXOrdPrbAmpTarPrimerProbeSetN2LabObs",
+        "title": "SARS coronavirus 2 Ngene Pr Thr Pt XXX Ord Prb Amp"
+      },
+      {
+        "url": "http://fhir.logicahealth.org/covid19/StructureDefinition/SARSCoV2NgeneThreshNumPtXXXQnPrbAmpTarPrimerProbeSetN1LabObs",
+        "title": "SARS coronavirus 2 Ngene Thresh Num Pt XXX Qn Prb Amp"
+      },
+      {
+        "url": "http://fhir.logicahealth.org/covid19/StructureDefinition/SARSCoV2NgeneThreshNumPtXXXQnPrbAmpTarPrimerProbeSetN2LabObs",
+        "title": "SARS coronavirus 2 Ngene Thresh Num Pt XXX Qn Prb Amp"
+      },
+      {
+        "url": "http://fhir.logicahealth.org/covid19/StructureDefinition/SARSCoV2ORF1abRespQlNAAprobeLabObs",
+        "title": "SARS Co V2 OR F1ab Resp Ql NA Aprobe Lab"
+      },
+      {
+        "url": "http://fhir.logicahealth.org/covid19/StructureDefinition/SARSCoV2RNAPnlXXXNAAprobePanelLabObs",
+        "title": "SARS Co V2 RNA Pnl XXXNA Aprobe Panel Lab Obs"
+      },
+      {
+        "url": "http://fhir.logicahealth.org/covid19/StructureDefinition/SARSLikecoronavirusNGenePrThrPtXXXOrdPrbAmpTarLabObs",
+        "title": "SARS Likecoronavirus N Gene Pr Thr Pt XXX Ord Prb"
+      },
+      {
+        "url": "http://fhir.logicahealth.org/covid19/StructureDefinition/SARSLikecoronavirusNGeneThreshNumPtXXXQnPrbAmpTarLabObs",
+        "title": "SARS Likecoronavirus N Gene Thresh Num Pt XXX Qn Prb"
+      },
+      {
+        "url": "http://fhir.logicahealth.org/covid19/StructureDefinition/SARSRelatedCoronavirusRNAPrThrPtRespOrdPrbAmpTarLabObs",
+        "title": "SARS Related Coronavirus RNA Pr Thr Pt Resp Ord Prb"
+      },
+      {
+        "url": "http://fhir.logicahealth.org/covid19/StructureDefinition/SARScoronavirus2AbIgGAcncPtSerPlasQnIALabObs",
+        "title": "SARS coronavirus 2 Ab Ig G Acnc Pt Ser Plas Qn"
+      },
+      {
+        "url": "http://fhir.logicahealth.org/covid19/StructureDefinition/SARScoronavirus2AbIgGPlusIgMPrThrPtSerPlasOrdIALabObs",
+        "title": "SARS coronavirus 2 Ab Ig G Plus Ig M Pr Thr"
+      },
+      {
+        "url": "http://fhir.logicahealth.org/covid19/StructureDefinition/SARScoronavirus2AbIgGandIgMpanelPtSerPlasOrdIArapidLabObs",
+        "title": "SARS coronavirus 2 Ab Ig G Acnc Pt Ser Plas Qn"
+      },
+      {
+        "url": "http://fhir.logicahealth.org/covid19/StructureDefinition/SARScoronavirus2AbIgGandIgMpanelPtSerPlasQnIALabObs",
+        "title": "SARS coronavirus 2 Ab Ig Gand Ig Mpanel Pt Ser Plas"
+      },
+      {
+        "url": "http://fhir.logicahealth.org/covid19/StructureDefinition/SARScoronavirus2AbIgMAcncPtSerPlasQnIALabObs",
+        "title": "SARS coronavirus 2 Ab Ig G Plus Ig M Pr Thr"
+      },
+      {
+        "url": "http://fhir.logicahealth.org/covid19/StructureDefinition/SARScoronavirus2AbIgMPrThrPtSerPlasOrdIArapidLabObs",
+        "title": "SARS coronavirus 2 Ab Ig M Pr Thr Pt Ser Plas"
+      },
+      {
+        "url": "http://fhir.logicahealth.org/covid19/StructureDefinition/SARScoronavirus2EGenePrThrPtXXXOrdPrbAmpTarLabObs",
+        "title": "SARS coronavirus 2 E Gene Pr Thr Pt XXX Ord Prb"
+      },
+      {
+        "url": "http://fhir.logicahealth.org/covid19/StructureDefinition/SARScoronavirus2EGeneThreshNumPtXXXQnPrbAmpTarLabObs",
+        "title": "SARS coronavirus 2 E Gene Thresh Num Pt XXX Qn Prb"
+      },
+      {
+        "url": "http://fhir.logicahealth.org/covid19/StructureDefinition/SARScoronavirus2NGenePrThrPtRespOrdPrbAmpTarLabObs",
+        "title": "SARS coronavirus 2 N Gene Pr Thr Pt Resp Ord Prb"
+      },
+      {
+        "url": "http://fhir.logicahealth.org/covid19/StructureDefinition/SARScoronavirus2NgenePrThrPtXXXOrdPrbAmpTarLabObs",
+        "title": "SARS coronavirus 2 Ngene Pr Thr Pt XXX Ord Prb Amp"
+      },
+      {
+        "url": "http://fhir.logicahealth.org/covid19/StructureDefinition/SARScoronavirus2NgeneThreshNumPtXXXQnPrbAmpTarLabObs",
+        "title": "SARS coronavirus 2 Ngene Thresh Num Pt XXX Qn Prb Amp"
+      },
+      {
+        "url": "http://fhir.logicahealth.org/covid19/StructureDefinition/SARScoronavirus2ORF1AbRegionThreshNumPtXXXQnPrbAmpTarLabObs",
+        "title": "SARS coronavirus 2 OR F1 Ab Region Thresh Num Pt XXX"
+      },
+      {
+        "url": "http://fhir.logicahealth.org/covid19/StructureDefinition/SARScoronavirus2RNAPanelPtRespPrbAmpTarLabObs",
+        "title": "SARS coronavirus 2 RNA Panel Pt Resp Prb Amp Tar Lab"
+      },
+      {
+        "url": "http://fhir.logicahealth.org/covid19/StructureDefinition/SARScoronavirus2RNAPrThrPtRespOrdPrbAmpTarLabObs",
+        "title": "SARS coronavirus 2 RNA Pr Thr Pt Resp Ord Prb Amp"
+      },
+      {
+        "url": "http://fhir.logicahealth.org/covid19/StructureDefinition/SARScoronavirus2RNAPrThrPtXXXOrdPrbAmpTarLabObs",
+        "title": "SARS coronavirus 2 RNA Pr Thr Pt XXX Ord Prb Amp"
+      },
+      {
+        "url": "http://fhir.logicahealth.org/covid19/StructureDefinition/SARScoronavirus2RdRpGenePrThePtRespOrdPrbAmpTarLabObs",
+        "title": "SARS coronavirus 2 Rd Rp Gene Pr The Pt Resp Ord"
+      },
+      {
+        "url": "http://fhir.logicahealth.org/covid19/StructureDefinition/SARScoronavirus2RdRpGenePrThrPtXXXOrdPrbAmpTarLabObs",
+        "title": "SARS coronavirus 2 Rd Rp Gene Pr Thr Pt XXX Ord"
+      },
+      {
+        "url": "http://fhir.logicahealth.org/covid19/StructureDefinition/SARSrelatedCoVPlusMERSCoVRNAPrThrPtRespOrdPrbAmpTarLabObs",
+        "title": "SAR Srelatedcoronavirus Plus MER Scoronavirus RNA Pr Thr Pt Resp"
+      },
+      {
+        "url": "http://fhir.logicahealth.org/covid19/StructureDefinition/c19-coded-laboratory-observation-base",
+        "title": "Coded Laboratory Observation Base"
+      },
+      {
+        "url": "http://fhir.logicahealth.org/covid19/StructureDefinition/c19-laboratory-observation-base",
+        "title": "Laboratory Observation Base"
+      },
+      {
+        "url": "http://fhir.logicahealth.org/covid19/StructureDefinition/c19-quantitative-laboratory-observation-base",
+        "title": "Quantitative Laboratory Observation Base"
+      }
+    ]
+  },
+  "usage": {
+    "http://fhir.logicahealth.org/covid19/StructureDefinition/c19-reporting-priority": [
+      "Observation"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-bestpractice": [
+      "StructureDefinition.snapshot.element.constraint"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-bestpractice-explanation": [
+      "StructureDefinition.snapshot.element.constraint"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName": [
+      "StructureDefinition.snapshot.element.binding"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-isCommonBinding": [
+      "StructureDefinition.snapshot.element.binding"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet": [
+      "StructureDefinition.snapshot.element.binding"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-display-hint": [
+      "StructureDefinition.snapshot.element"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type": [
+      "StructureDefinition.snapshot.element.type"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status": [
+      "StructureDefinition.snapshot.element"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter": [
+      "ImplementationGuide.definition"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/resource-information": [
+      "ImplementationGuide.definition.resource"
+    ]
+  }
+}

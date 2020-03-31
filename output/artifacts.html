@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>COVID19\Artifacts Summary - FHIR v4.0.1</title>
+  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+     
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet"/>
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+  
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+    <!-- Placeholder for child template CSS declarations -->
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+  
+    <!-- Favicons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body>
+
+    <style type="text/css">h2{--heading-prefix:"2"}
+    h3,h4,h5,h6{--heading-prefix:"2.0"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+        
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">Logica Implementation Guide: Covid-19</span><br/>0.1.0 - CI Build</p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+    
+    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+    
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li><a href="index.html">IG Home</a></li>
+  <li><a href="toc.html">Table of Contents</a></li>
+  <li><a href="artifacts.html">Artifact Index</a></li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Support<b class="caret">
+      </b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a target="_blank" href="http://hl7.org/fhir/R4/index.html">FHIR Spec <img src="external.png" style="text-align: baseline"/></a>
+      </li>
+    </ul>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->  
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>Artifacts Summary</b></li>
+        </ul>  
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+    
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+<style type="text/css">
+h2:before{color:silver;counter-increment:section;content:var(--heading-prefix) " ";}
+h3:before{color:silver;counter-increment:sub-section;content:var(--heading-prefix) "." counter(sub-section) " ";}
+h4:before{color:silver;counter-increment:composite;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) " ";}
+h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) " ";}
+h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
+</style>
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">Logica Implementation Guide: Covid-19 - Local Development build (v0.1.0). See the <a href="http://fhir.logicahealth.org/covid19/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  <h2>Artifacts Summary</h2>
+  
+  <!--DO NOT EDIT THIS FILE - It is generated and any changes made will be overwritten--><div xmlns:html="http://www.w3.org/1999/xhtml"
+     xmlns="http://www.w3.org/1999/xhtml"
+     xmlns:f="http://hl7.org/fhir"
+     class="markdown-toc">
+   <p>Contents:</p>
+   <ul>
+      <li>
+         <a href="#1">Structures: Abstract Profiles</a>
+      </li>
+      <li>
+         <a href="#2">Structures: Resource Profiles</a>
+      </li>
+      <li>
+         <a href="#3">Structures: Extension Definitions</a>
+      </li>
+   </ul>
+</div>
+<div xmlns:html="http://www.w3.org/1999/xhtml"
+     xmlns="http://www.w3.org/1999/xhtml"
+     xmlns:f="http://hl7.org/fhir">
+   <p>This page provides a list of the FHIR artifacts defined as part of this implementation guide.</p>
+   <a name="1"> </a>
+   <h3>Structures: Abstract Profiles </h3>
+   <p>These are profiles on resources or data types that describe patterns used by other profiles, but can't be instantiated directly.  I.e. instances can conform to profiles *based* on these abstract profiles, but don't declare conformance to the abstract profiles themselves.</p>
+   <p>
+      <table class="grid">
+         <col style="width:20%"/>
+         <tbody>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-c19-coded-laboratory-observation-base.html"
+                     title="StructureDefinition/c19-coded-laboratory-observation-base">Coded Laboratory Observation Base</a>
+               </td>
+               <td>Abstract base class for coded laboratory observations.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-c19-laboratory-observation-base.html"
+                     title="StructureDefinition/c19-laboratory-observation-base">Laboratory Observation Base</a>
+               </td>
+               <td>Abstract base class for laboratory observations.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-LaboratoryObservationPanelBase.html"
+                     title="StructureDefinition/LaboratoryObservationPanelBase">Laboratory Observation Panel Base</a>
+               </td>
+               <td>A panel that contains member observations</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-c19-quantitative-laboratory-observation-base.html"
+                     title="StructureDefinition/c19-quantitative-laboratory-observation-base">Quantitative Laboratory Observation Base</a>
+               </td>
+               <td>Abstract base class for quantitative laboratory observations.</td>
+            </tr>
+         </tbody>
+      </table>
+   </p>
+   <a name="2"> </a>
+   <h3>Structures: Resource Profiles </h3>
+   <p>These define constraints on FHIR resources that need to be complied with by conformant implementations</p>
+   <p>
+      <table class="grid">
+         <col style="width:20%"/>
+         <tbody>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-SARSCoV2AgRespQlIArapidLabObs.html"
+                     title="StructureDefinition/SARSCoV2AgRespQlIArapidLabObs">SARS Co V2 Ag Resp Ql I Arapid Lab Obs</a>
+               </td>
+               <td>SARSCoV2AgRespQlIArapidLabObs is a test for the SARS coronavirus 2 antigen via rapid immunoassay. LOINC code 94558-4.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-SARSCoV2NgenePrThrPtXXXOrdPrbAmpTarPrimerProbeSetN1LabObs.html"
+                     title="StructureDefinition/SARSCoV2NgenePrThrPtXXXOrdPrbAmpTarPrimerProbeSetN1LabObs">SARS coronavirus 2 Ngene Pr Thr Pt XXX Ord Prb Amp</a>
+               </td>
+               <td>SARScoronavirus2NgenePrThrPtXXXOrdPrbAmpTarPrimerProbeSetN1 is a test for the SARS coronavirus 2 RNA using the CDC defined method of probe amplification target primer probe set N1 and used for non-respiratory specimens. LOINC code 94307-6.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-SARSCoV2NgenePrThrPtXXXOrdPrbAmpTarPrimerProbeSetN2LabObs.html"
+                     title="StructureDefinition/SARSCoV2NgenePrThrPtXXXOrdPrbAmpTarPrimerProbeSetN2LabObs">SARS coronavirus 2 Ngene Pr Thr Pt XXX Ord Prb Amp</a>
+               </td>
+               <td>SARScoronavirus2NgenePrThrPtXXXOrdPrbAmpTarPrimerProbeSetN2 is a test for the SARS coronavirus 2 RNA using the CDC defined method of probe amplification target primer probe set N2 and used for non-respiratory specimens. LOINC code 94308-4.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-SARSCoV2NgeneThreshNumPtXXXQnPrbAmpTarPrimerProbeSetN1LabObs.html"
+                     title="StructureDefinition/SARSCoV2NgeneThreshNumPtXXXQnPrbAmpTarPrimerProbeSetN1LabObs">SARS coronavirus 2 Ngene Thresh Num Pt XXX Qn Prb Amp</a>
+               </td>
+               <td>SARSCoV2NgeneThreshNumPtXXXQnPrbAmpTarPrimerProbeSetN1LabObs is a quantitative test for the SARS coronavirus 2 N gene via the probe target amplification, primer probe set N1 method in non-respiratory specimens. LOINC code 94311-8.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-SARSCoV2NgeneThreshNumPtXXXQnPrbAmpTarPrimerProbeSetN2LabObs.html"
+                     title="StructureDefinition/SARSCoV2NgeneThreshNumPtXXXQnPrbAmpTarPrimerProbeSetN2LabObs">SARS coronavirus 2 Ngene Thresh Num Pt XXX Qn Prb Amp</a>
+               </td>
+               <td>SARSCoV2NgeneThreshNumPtXXXQnPrbAmpTarPrimerProbeSetN2LabObs is a quantitative test for the SARS coronavirus 2 N gene via the probe target amplification, primer probe set N2 method in non-respiratory specimens. LOINC code 94312-6.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-SARSCoV2ORF1abRespQlNAAprobeLabObs.html"
+                     title="StructureDefinition/SARSCoV2ORF1abRespQlNAAprobeLabObs">SARS Co V2 OR F1ab Resp Ql NA Aprobe Lab</a>
+               </td>
+               <td>SARSCoV2ORF1abRespQlNAAprobeLabObs is a laboratory test for the SARS coronavirus 2 antibody via target amplification probe detection. LOINC code 94559-2.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-SARSCoV2RNAPnlXXXNAAprobePanelLabObs.html"
+                     title="StructureDefinition/SARSCoV2RNAPnlXXXNAAprobePanelLabObs">SARS Co V2 RNA Pnl XXXNA Aprobe Panel Lab Obs</a>
+               </td>
+               <td>SARSCoV2RNAPnlXXXNAAprobeLabObs is a colection of tests for the SARS coronavirus 2 organism. LOINC code 94306-8.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-SARSLikecoronavirusNGenePrThrPtXXXOrdPrbAmpTarLabObs.html"
+                     title="StructureDefinition/SARSLikecoronavirusNGenePrThrPtXXXOrdPrbAmpTarLabObs">SARS Likecoronavirus N Gene Pr Thr Pt XXX Ord Prb</a>
+               </td>
+               <td>SARSLikecoronavirusNGenePrThrPtXXXOrdPrbAmpTarLabObs is a test for the SARS-like coronavirus N gene in non-respiratory specimens and via the probe target amplification method. LOINC code 94310-0.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-SARSLikecoronavirusNGeneThreshNumPtXXXQnPrbAmpTarLabObs.html"
+                     title="StructureDefinition/SARSLikecoronavirusNGeneThreshNumPtXXXQnPrbAmpTarLabObs">SARS Likecoronavirus N Gene Thresh Num Pt XXX Qn Prb</a>
+               </td>
+               <td>SARSLikecoronavirusNGeneThreshNumPtXXXQnPrbAmpTarLabObs is a quantitative test for the SARS-like coronavirus N gene via the probe target amplification method and a threshold for detection in non-respiratory specimens. LOINC code 94313-4.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-SARSRelatedCoronavirusRNAPrThrPtRespOrdPrbAmpTarLabObs.html"
+                     title="StructureDefinition/SARSRelatedCoronavirusRNAPrThrPtRespOrdPrbAmpTarLabObs">SARS Related Coronavirus RNA Pr Thr Pt Resp Ord Prb</a>
+               </td>
+               <td>SARSRelatedCoronavirusRNAPrThrPtRespOrdPrbAmpTar is a test for the SARS coronavirus 2 related RNA (gene not specified). LOINC code 94502-2.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-SARScoronavirus2AbIgGAcncPtSerPlasQnIALabObs.html"
+                     title="StructureDefinition/SARScoronavirus2AbIgGAcncPtSerPlasQnIALabObs">SARS coronavirus 2 Ab Ig G Acnc Pt Ser Plas Qn</a>
+               </td>
+               <td>SARScoronavirus2AbIgGAcncPtSerPlasQnIALabObs is a quantitative test for the SARS coronavirus 2 IgG antibody via immunoassay. LOINC code 94505-5.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-SARScoronavirus2AbIgGPlusIgMPrThrPtSerPlasOrdIALabObs.html"
+                     title="StructureDefinition/SARScoronavirus2AbIgGPlusIgMPrThrPtSerPlasOrdIALabObs">SARS coronavirus 2 Ab Ig G Plus Ig M Pr Thr</a>
+               </td>
+               <td>SARScoronavirus2AbIgGPlusIgMPrThrPtSerPlasOrdIALabObs is a test for the SARS coronavirus 2 IgG and IgM antibodies via immunoassay. It does not differentiate which is detected. LOINC code 94547-7.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-SARScoronavirus2AbIgGandIgMpanelPtSerPlasOrdIArapidLabObs.html"
+                     title="StructureDefinition/SARScoronavirus2AbIgGandIgMpanelPtSerPlasOrdIArapidLabObs">SARS coronavirus 2 Ab Ig G Acnc Pt Ser Plas Qn</a>
+               </td>
+               <td>SARS coronavirus 2 IgG and IgM panel - Serum or Plasma Qualitative by Rapid immunoassay</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-SARScoronavirus2AbIgGandIgMpanelPtSerPlasQnIALabObs.html"
+                     title="StructureDefinition/SARScoronavirus2AbIgGandIgMpanelPtSerPlasQnIALabObs">SARS coronavirus 2 Ab Ig Gand Ig Mpanel Pt Ser Plas</a>
+               </td>
+               <td>SARScoronavirus2AbIgGandIgMpanelPtSerPlasQnIALabObs is a collection of quantitative tests for SARS coronavirus 2 antibodies, IgG and IgM. LOINC code 94504-8.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-SARScoronavirus2AbIgMAcncPtSerPlasQnIALabObs.html"
+                     title="StructureDefinition/SARScoronavirus2AbIgMAcncPtSerPlasQnIALabObs">SARS coronavirus 2 Ab Ig G Plus Ig M Pr Thr</a>
+               </td>
+               <td>SARScoronavirus2AbIgMAcncPtSerPlasQnIALabObs is a quantitative test for the SARS coronavirus 2 IgM antibody via immunoassay. LOINC code 94506-3.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-SARScoronavirus2AbIgMPrThrPtSerPlasOrdIArapidLabObs.html"
+                     title="StructureDefinition/SARScoronavirus2AbIgMPrThrPtSerPlasOrdIArapidLabObs">SARS coronavirus 2 Ab Ig M Pr Thr Pt Ser Plas</a>
+               </td>
+               <td>SARScoronavirus2AbIgMPrThrPtSerPlasOrdIArapidLabObs is a test for the SARS coronavisus 2 IgM antibody via rapid immunoassay. LOINC code 94508-9.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-SARScoronavirus2EGenePrThrPtXXXOrdPrbAmpTarLabObs.html"
+                     title="StructureDefinition/SARScoronavirus2EGenePrThrPtXXXOrdPrbAmpTarLabObs">SARS coronavirus 2 E Gene Pr Thr Pt XXX Ord Prb</a>
+               </td>
+               <td>SARScoronavirus2EGenePrThrPtXXXOrdPrbAmpTarLabObs is a test for the SARS coronavirus 2 E gene on non-respiratory specimens via the probe target amplification method in non-respiratory specimens. LOINC code 94315-9.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-SARScoronavirus2EGeneThreshNumPtXXXQnPrbAmpTarLabObs.html"
+                     title="StructureDefinition/SARScoronavirus2EGeneThreshNumPtXXXQnPrbAmpTarLabObs">SARS coronavirus 2 E Gene Thresh Num Pt XXX Qn Prb</a>
+               </td>
+               <td>SARScoronavirus2EGeneThreshNumPtXXXQnPrbAmpTarLabObs is a quantitative test for the SARS coronavirus 2 E gene via probe target ampification and with a threshold for detection in non-respiratory specimens. LOINC code 94509-7.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-SARScoronavirus2NGenePrThrPtRespOrdPrbAmpTarLabObs.html"
+                     title="StructureDefinition/SARScoronavirus2NGenePrThrPtRespOrdPrbAmpTarLabObs">SARS coronavirus 2 N Gene Pr Thr Pt Resp Ord Prb</a>
+               </td>
+               <td>SARScoronavirus2NGenePrThrPtRespOrdPrbAmpTar is the qualitative lab test for the detection of the SARS Coronavirus 2 N gene. LOINC code 94533-7.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-SARScoronavirus2NgenePrThrPtXXXOrdPrbAmpTarLabObs.html"
+                     title="StructureDefinition/SARScoronavirus2NgenePrThrPtXXXOrdPrbAmpTarLabObs">SARS coronavirus 2 Ngene Pr Thr Pt XXX Ord Prb Amp</a>
+               </td>
+               <td>SARScoronavirus2NgenePrThrPtXXXOrdPrbAmpTar is a test for the SARS coronavirus 2 RNA in non-respiratory specimens. LOINC code 94316-7.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-SARScoronavirus2NgeneThreshNumPtXXXQnPrbAmpTarLabObs.html"
+                     title="StructureDefinition/SARScoronavirus2NgeneThreshNumPtXXXQnPrbAmpTarLabObs">SARS coronavirus 2 Ngene Thresh Num Pt XXX Qn Prb Amp</a>
+               </td>
+               <td>SARScoronavirus2NgeneThreshNumPtXXXQnPrbAmpTarLabObs is a quantitative test for the SARS coronavirus 2 RNA via probe target amplification and a requirement for a certain threshold for detection. LOINC code 94510-5.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-SARScoronavirus2ORF1AbRegionThreshNumPtXXXQnPrbAmpTarLabObs.html"
+                     title="StructureDefinition/SARScoronavirus2ORF1AbRegionThreshNumPtXXXQnPrbAmpTarLabObs">SARS coronavirus 2 OR F1 Ab Region Thresh Num Pt XXX</a>
+               </td>
+               <td>SARScoronavirus2ORF1AbRegionThreshNumPtXXXQnPrbAmpTarLabObs is a quantitative test for the SARS coronavirus 2 ORF Ab region via the probe target ampificatio method and with a threshold for detection in non-respiratory specimens. LOINC code 94511-3</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-SARScoronavirus2RNAPanelPtRespPrbAmpTarLabObs.html"
+                     title="StructureDefinition/SARScoronavirus2RNAPanelPtRespPrbAmpTarLabObs">SARS coronavirus 2 RNA Panel Pt Resp Prb Amp Tar Lab</a>
+               </td>
+               <td>SARScoronavirus2RNAPanelPtRespPrbAmpTar is a collection of tests for the SARS coronavirus 2 RNA. LOINC code 94531-1.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-SARScoronavirus2RNAPrThrPtRespOrdPrbAmpTarLabObs.html"
+                     title="StructureDefinition/SARScoronavirus2RNAPrThrPtRespOrdPrbAmpTarLabObs">SARS coronavirus 2 RNA Pr Thr Pt Resp Ord Prb Amp</a>
+               </td>
+               <td>SARScoronavirus2RNAPrThrPtRespOrdPrbAmpTar is the laboratory model for the SARS Coronavirus 2 specific for RNA, respiratory specimens, method of probe, target amplification. LOINC code 94500-6.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-SARScoronavirus2RNAPrThrPtXXXOrdPrbAmpTarLabObs.html"
+                     title="StructureDefinition/SARScoronavirus2RNAPrThrPtXXXOrdPrbAmpTarLabObs">SARS coronavirus 2 RNA Pr Thr Pt XXX Ord Prb Amp</a>
+               </td>
+               <td>SARScoronavirus2RNAPrThrXXXOrdPrbAmpTar is the laboratory model for the SARS Coronavirus 2 specific for RNA and method of probe, target amplification but not specific to specimen type. LOINC code 94309-2.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-SARScoronavirus2RdRpGenePrThePtRespOrdPrbAmpTarLabObs.html"
+                     title="StructureDefinition/SARScoronavirus2RdRpGenePrThePtRespOrdPrbAmpTarLabObs">SARS coronavirus 2 Rd Rp Gene Pr The Pt Resp Ord</a>
+               </td>
+               <td>SARScoronavirus2RdRpGenePrThePtRespOrdPrbAmpTar is a test for the SARS coronavirus 2 RdRp gene in respiratory spsecimens. LOINC code 94534-5.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-SARScoronavirus2RdRpGenePrThrPtXXXOrdPrbAmpTarLabObs.html"
+                     title="StructureDefinition/SARScoronavirus2RdRpGenePrThrPtXXXOrdPrbAmpTarLabObs">SARS coronavirus 2 Rd Rp Gene Pr Thr Pt XXX Ord</a>
+               </td>
+               <td>SARScoronavirus2RdRpGenePrThrPtXXXOrdPrbAmpTarLabObs is a test for the SARS coronavirus 2 RdRp gene via the probe target amplification method in non-respiratory specimens. LOINC code 94314-2.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-SARSrelatedCoVPlusMERSCoVRNAPrThrPtRespOrdPrbAmpTarLabObs.html"
+                     title="StructureDefinition/SARSrelatedCoVPlusMERSCoVRNAPrThrPtRespOrdPrbAmpTarLabObs">SAR Srelatedcoronavirus Plus MER Scoronavirus RNA Pr Thr Pt Resp</a>
+               </td>
+               <td>SARSrelatedcoronavirusPlusMERScoronavirusRNAPrThrPtRespOrdPrbAmpTar is a combined test for SARS coronavirus 2 RNA (not gene specific) and MERS coronavirus RNA. LOINC code 94532-9.</td>
+            </tr>
+         </tbody>
+      </table>
+   </p>
+   <a name="3"> </a>
+   <h3>Structures: Extension Definitions </h3>
+   <p>These define constraints on FHIR data types that need to be complied with by conformant implementations</p>
+   <p>
+      <table class="grid">
+         <col style="width:20%"/>
+         <tbody>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-c19-reporting-priority.html"
+                     title="StructureDefinition/c19-reporting-priority">Reporting Priority</a>
+               </td>
+               <td>The urgency level for which an observation must be reported.</td>
+            </tr>
+         </tbody>
+      </table>
+   </p>
+</div>
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
+      <div class="inner-wrapper">
+        <p>
+          IG &#169; 2020+ <a style="color: #81BEF7" href="https://c19hcc.org/">COVID-19 Healthcare Coalition</a>.  Package covid19#0.1.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Mar 30, 2020 22:18-0400">2020-03-30</span>
+          <br/>
+          <span style="color: #FFFF77">
+                      Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |
+                 <a style="color: #81BEF7" href="qa.html">QA Report</a>
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+  
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script>anchors.options.visible = 'hover'
+anchors.add()</script>
+  
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>

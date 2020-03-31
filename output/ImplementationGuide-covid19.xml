@@ -1,0 +1,690 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ImplementationGuide xmlns="http://hl7.org/fhir">
+  <id value="covid19"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>LogicaImplementationGuideCovid19</h2><p>The official URL for this implementation guide is: </p><pre>http://fhir.logicahealth.org/covid19/ImplementationGuide/covid19</pre><div><p>The COVID-19 IG describes structured data to be collected and communicated between providers and aggregators.</p>
+</div></div>
+  </text>
+  <url value="http://fhir.logicahealth.org/covid19/ImplementationGuide/covid19"/>
+  <version value="0.1.0"/>
+  <name value="LogicaImplementationGuideCovid19"/>
+  <title value="Logica Implementation Guide: Covid-19"/>
+  <status value="active"/>
+  <date value="2020-03-30T22:18:12-04:00"/>
+  <publisher value="COVID-19 Healthcare Coalition"/>
+  <contact>
+    <name value="Logica Health"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://c19hcc.org/"/>
+    </telecom>
+  </contact>
+  <description value="The COVID-19 IG describes structured data to be collected and communicated between providers and aggregators."/>
+  <packageId value="covid19"/>
+  <license value="CC0-1.0"/>
+  <fhirVersion value="4.0.1"/>
+  <dependsOn>
+    <uri value="http://hl7.org/fhir/us/core/ImplementationGuide/hl7.fhir.us.core"/>
+    <packageId value="hl7.fhir.us.core"/>
+    <version value="3.1.0"/>
+  </dependsOn>
+  <definition>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="copyrightyear"/>
+      </extension>
+      <extension url="value">
+        <valueString value="2020+"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="releaselabel"/>
+      </extension>
+      <extension url="value">
+        <valueString value="CI Build"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="show-inherited-invariants"/>
+      </extension>
+      <extension url="value">
+        <valueString value="false"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="path-qa"/>
+      </extension>
+      <extension url="value">
+        <valueString value="temp/qa"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="path-temp"/>
+      </extension>
+      <extension url="value">
+        <valueString value="temp/pages"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="path-output"/>
+      </extension>
+      <extension url="value">
+        <valueString value="output"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="path-suppressed-warnings"/>
+      </extension>
+      <extension url="value">
+        <valueString value="input/ignoreWarnings.txt"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="template-html"/>
+      </extension>
+      <extension url="value">
+        <valueString value="template-page.html"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="template-md"/>
+      </extension>
+      <extension url="value">
+        <valueString value="template-page-md.html"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="apply-contact"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="apply-context"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="apply-copyright"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="apply-jurisdiction"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="apply-license"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="apply-publisher"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="apply-version"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="active-tables"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="StructureDefinition-c19-coded-laboratory-observation-base.html"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/c19-coded-laboratory-observation-base"/>
+      </reference>
+      <name value="Coded Laboratory Observation Base"/>
+      <description value="Abstract base class for coded laboratory observations."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="StructureDefinition-c19-laboratory-observation-base.html"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/c19-laboratory-observation-base"/>
+      </reference>
+      <name value="Laboratory Observation Base"/>
+      <description value="Abstract base class for laboratory observations."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="StructureDefinition-LaboratoryObservationPanelBase.html"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/LaboratoryObservationPanelBase"/>
+      </reference>
+      <name value="Laboratory Observation Panel Base"/>
+      <description value="A panel that contains member observations"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="StructureDefinition-c19-quantitative-laboratory-observation-base.html"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/c19-quantitative-laboratory-observation-base"/>
+      </reference>
+      <name value="Quantitative Laboratory Observation Base"/>
+      <description value="Abstract base class for quantitative laboratory observations."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="StructureDefinition-SARSCoV2AgRespQlIArapidLabObs.html"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/SARSCoV2AgRespQlIArapidLabObs"/>
+      </reference>
+      <name value="SARS Co V2 Ag Resp Ql I Arapid Lab Obs"/>
+      <description value="SARSCoV2AgRespQlIArapidLabObs is a test for the SARS coronavirus 2 antigen via rapid immunoassay. LOINC code 94558-4."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="StructureDefinition-SARSCoV2NgenePrThrPtXXXOrdPrbAmpTarPrimerProbeSetN1LabObs.html"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/SARSCoV2NgenePrThrPtXXXOrdPrbAmpTarPrimerProbeSetN1LabObs"/>
+      </reference>
+      <name value="SARS coronavirus 2 Ngene Pr Thr Pt XXX Ord Prb Amp"/>
+      <description value="SARScoronavirus2NgenePrThrPtXXXOrdPrbAmpTarPrimerProbeSetN1 is a test for the SARS coronavirus 2 RNA using the CDC defined method of probe amplification target primer probe set N1 and used for non-respiratory specimens. LOINC code 94307-6."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="StructureDefinition-SARSCoV2NgenePrThrPtXXXOrdPrbAmpTarPrimerProbeSetN2LabObs.html"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/SARSCoV2NgenePrThrPtXXXOrdPrbAmpTarPrimerProbeSetN2LabObs"/>
+      </reference>
+      <name value="SARS coronavirus 2 Ngene Pr Thr Pt XXX Ord Prb Amp"/>
+      <description value="SARScoronavirus2NgenePrThrPtXXXOrdPrbAmpTarPrimerProbeSetN2 is a test for the SARS coronavirus 2 RNA using the CDC defined method of probe amplification target primer probe set N2 and used for non-respiratory specimens. LOINC code 94308-4."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="StructureDefinition-SARSCoV2NgeneThreshNumPtXXXQnPrbAmpTarPrimerProbeSetN1LabObs.html"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/SARSCoV2NgeneThreshNumPtXXXQnPrbAmpTarPrimerProbeSetN1LabObs"/>
+      </reference>
+      <name value="SARS coronavirus 2 Ngene Thresh Num Pt XXX Qn Prb Amp"/>
+      <description value="SARSCoV2NgeneThreshNumPtXXXQnPrbAmpTarPrimerProbeSetN1LabObs is a quantitative test for the SARS coronavirus 2 N gene via the probe target amplification, primer probe set N1 method in non-respiratory specimens. LOINC code 94311-8."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="StructureDefinition-SARSCoV2NgeneThreshNumPtXXXQnPrbAmpTarPrimerProbeSetN2LabObs.html"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/SARSCoV2NgeneThreshNumPtXXXQnPrbAmpTarPrimerProbeSetN2LabObs"/>
+      </reference>
+      <name value="SARS coronavirus 2 Ngene Thresh Num Pt XXX Qn Prb Amp"/>
+      <description value="SARSCoV2NgeneThreshNumPtXXXQnPrbAmpTarPrimerProbeSetN2LabObs is a quantitative test for the SARS coronavirus 2 N gene via the probe target amplification, primer probe set N2 method in non-respiratory specimens. LOINC code 94312-6."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="StructureDefinition-SARSCoV2ORF1abRespQlNAAprobeLabObs.html"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/SARSCoV2ORF1abRespQlNAAprobeLabObs"/>
+      </reference>
+      <name value="SARS Co V2 OR F1ab Resp Ql NA Aprobe Lab"/>
+      <description value="SARSCoV2ORF1abRespQlNAAprobeLabObs is a laboratory test for the SARS coronavirus 2 antibody via target amplification probe detection. LOINC code 94559-2."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="StructureDefinition-SARSCoV2RNAPnlXXXNAAprobePanelLabObs.html"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/SARSCoV2RNAPnlXXXNAAprobePanelLabObs"/>
+      </reference>
+      <name value="SARS Co V2 RNA Pnl XXXNA Aprobe Panel Lab Obs"/>
+      <description value="SARSCoV2RNAPnlXXXNAAprobeLabObs is a colection of tests for the SARS coronavirus 2 organism. LOINC code 94306-8."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="StructureDefinition-SARSLikecoronavirusNGenePrThrPtXXXOrdPrbAmpTarLabObs.html"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/SARSLikecoronavirusNGenePrThrPtXXXOrdPrbAmpTarLabObs"/>
+      </reference>
+      <name value="SARS Likecoronavirus N Gene Pr Thr Pt XXX Ord Prb"/>
+      <description value="SARSLikecoronavirusNGenePrThrPtXXXOrdPrbAmpTarLabObs is a test for the SARS-like coronavirus N gene in non-respiratory specimens and via the probe target amplification method. LOINC code 94310-0."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="StructureDefinition-SARSLikecoronavirusNGeneThreshNumPtXXXQnPrbAmpTarLabObs.html"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/SARSLikecoronavirusNGeneThreshNumPtXXXQnPrbAmpTarLabObs"/>
+      </reference>
+      <name value="SARS Likecoronavirus N Gene Thresh Num Pt XXX Qn Prb"/>
+      <description value="SARSLikecoronavirusNGeneThreshNumPtXXXQnPrbAmpTarLabObs is a quantitative test for the SARS-like coronavirus N gene via the probe target amplification method and a threshold for detection in non-respiratory specimens. LOINC code 94313-4."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="StructureDefinition-SARSRelatedCoronavirusRNAPrThrPtRespOrdPrbAmpTarLabObs.html"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/SARSRelatedCoronavirusRNAPrThrPtRespOrdPrbAmpTarLabObs"/>
+      </reference>
+      <name value="SARS Related Coronavirus RNA Pr Thr Pt Resp Ord Prb"/>
+      <description value="SARSRelatedCoronavirusRNAPrThrPtRespOrdPrbAmpTar is a test for the SARS coronavirus 2 related RNA (gene not specified). LOINC code 94502-2."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="StructureDefinition-SARScoronavirus2AbIgGAcncPtSerPlasQnIALabObs.html"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/SARScoronavirus2AbIgGAcncPtSerPlasQnIALabObs"/>
+      </reference>
+      <name value="SARS coronavirus 2 Ab Ig G Acnc Pt Ser Plas Qn"/>
+      <description value="SARScoronavirus2AbIgGAcncPtSerPlasQnIALabObs is a quantitative test for the SARS coronavirus 2 IgG antibody via immunoassay. LOINC code 94505-5."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="StructureDefinition-SARScoronavirus2AbIgGPlusIgMPrThrPtSerPlasOrdIALabObs.html"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/SARScoronavirus2AbIgGPlusIgMPrThrPtSerPlasOrdIALabObs"/>
+      </reference>
+      <name value="SARS coronavirus 2 Ab Ig G Plus Ig M Pr Thr"/>
+      <description value="SARScoronavirus2AbIgGPlusIgMPrThrPtSerPlasOrdIALabObs is a test for the SARS coronavirus 2 IgG and IgM antibodies via immunoassay. It does not differentiate which is detected. LOINC code 94547-7."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="StructureDefinition-SARScoronavirus2AbIgGandIgMpanelPtSerPlasOrdIArapidLabObs.html"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/SARScoronavirus2AbIgGandIgMpanelPtSerPlasOrdIArapidLabObs"/>
+      </reference>
+      <name value="SARS coronavirus 2 Ab Ig G Acnc Pt Ser Plas Qn"/>
+      <description value="SARS coronavirus 2 IgG and IgM panel - Serum or Plasma Qualitative by Rapid immunoassay"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="StructureDefinition-SARScoronavirus2AbIgGandIgMpanelPtSerPlasQnIALabObs.html"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/SARScoronavirus2AbIgGandIgMpanelPtSerPlasQnIALabObs"/>
+      </reference>
+      <name value="SARS coronavirus 2 Ab Ig Gand Ig Mpanel Pt Ser Plas"/>
+      <description value="SARScoronavirus2AbIgGandIgMpanelPtSerPlasQnIALabObs is a collection of quantitative tests for SARS coronavirus 2 antibodies, IgG and IgM. LOINC code 94504-8."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="StructureDefinition-SARScoronavirus2AbIgMAcncPtSerPlasQnIALabObs.html"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/SARScoronavirus2AbIgMAcncPtSerPlasQnIALabObs"/>
+      </reference>
+      <name value="SARS coronavirus 2 Ab Ig G Plus Ig M Pr Thr"/>
+      <description value="SARScoronavirus2AbIgMAcncPtSerPlasQnIALabObs is a quantitative test for the SARS coronavirus 2 IgM antibody via immunoassay. LOINC code 94506-3."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="StructureDefinition-SARScoronavirus2AbIgMPrThrPtSerPlasOrdIArapidLabObs.html"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/SARScoronavirus2AbIgMPrThrPtSerPlasOrdIArapidLabObs"/>
+      </reference>
+      <name value="SARS coronavirus 2 Ab Ig M Pr Thr Pt Ser Plas"/>
+      <description value="SARScoronavirus2AbIgMPrThrPtSerPlasOrdIArapidLabObs is a test for the SARS coronavisus 2 IgM antibody via rapid immunoassay. LOINC code 94508-9."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="StructureDefinition-SARScoronavirus2EGenePrThrPtXXXOrdPrbAmpTarLabObs.html"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/SARScoronavirus2EGenePrThrPtXXXOrdPrbAmpTarLabObs"/>
+      </reference>
+      <name value="SARS coronavirus 2 E Gene Pr Thr Pt XXX Ord Prb"/>
+      <description value="SARScoronavirus2EGenePrThrPtXXXOrdPrbAmpTarLabObs is a test for the SARS coronavirus 2 E gene on non-respiratory specimens via the probe target amplification method in non-respiratory specimens. LOINC code 94315-9."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="StructureDefinition-SARScoronavirus2EGeneThreshNumPtXXXQnPrbAmpTarLabObs.html"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/SARScoronavirus2EGeneThreshNumPtXXXQnPrbAmpTarLabObs"/>
+      </reference>
+      <name value="SARS coronavirus 2 E Gene Thresh Num Pt XXX Qn Prb"/>
+      <description value="SARScoronavirus2EGeneThreshNumPtXXXQnPrbAmpTarLabObs is a quantitative test for the SARS coronavirus 2 E gene via probe target ampification and with a threshold for detection in non-respiratory specimens. LOINC code 94509-7."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="StructureDefinition-SARScoronavirus2NGenePrThrPtRespOrdPrbAmpTarLabObs.html"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/SARScoronavirus2NGenePrThrPtRespOrdPrbAmpTarLabObs"/>
+      </reference>
+      <name value="SARS coronavirus 2 N Gene Pr Thr Pt Resp Ord Prb"/>
+      <description value="SARScoronavirus2NGenePrThrPtRespOrdPrbAmpTar is the qualitative lab test for the detection of the SARS Coronavirus 2 N gene. LOINC code 94533-7."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="StructureDefinition-SARScoronavirus2NgenePrThrPtXXXOrdPrbAmpTarLabObs.html"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/SARScoronavirus2NgenePrThrPtXXXOrdPrbAmpTarLabObs"/>
+      </reference>
+      <name value="SARS coronavirus 2 Ngene Pr Thr Pt XXX Ord Prb Amp"/>
+      <description value="SARScoronavirus2NgenePrThrPtXXXOrdPrbAmpTar is a test for the SARS coronavirus 2 RNA in non-respiratory specimens. LOINC code 94316-7."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="StructureDefinition-SARScoronavirus2NgeneThreshNumPtXXXQnPrbAmpTarLabObs.html"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/SARScoronavirus2NgeneThreshNumPtXXXQnPrbAmpTarLabObs"/>
+      </reference>
+      <name value="SARS coronavirus 2 Ngene Thresh Num Pt XXX Qn Prb Amp"/>
+      <description value="SARScoronavirus2NgeneThreshNumPtXXXQnPrbAmpTarLabObs is a quantitative test for the SARS coronavirus 2 RNA via probe target amplification and a requirement for a certain threshold for detection. LOINC code 94510-5."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="StructureDefinition-SARScoronavirus2ORF1AbRegionThreshNumPtXXXQnPrbAmpTarLabObs.html"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/SARScoronavirus2ORF1AbRegionThreshNumPtXXXQnPrbAmpTarLabObs"/>
+      </reference>
+      <name value="SARS coronavirus 2 OR F1 Ab Region Thresh Num Pt XXX"/>
+      <description value="SARScoronavirus2ORF1AbRegionThreshNumPtXXXQnPrbAmpTarLabObs is a quantitative test for the SARS coronavirus 2 ORF Ab region via the probe target ampificatio method and with a threshold for detection in non-respiratory specimens. LOINC code 94511-3"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="StructureDefinition-SARScoronavirus2RNAPanelPtRespPrbAmpTarLabObs.html"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/SARScoronavirus2RNAPanelPtRespPrbAmpTarLabObs"/>
+      </reference>
+      <name value="SARS coronavirus 2 RNA Panel Pt Resp Prb Amp Tar Lab"/>
+      <description value="SARScoronavirus2RNAPanelPtRespPrbAmpTar is a collection of tests for the SARS coronavirus 2 RNA. LOINC code 94531-1."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="StructureDefinition-SARScoronavirus2RNAPrThrPtRespOrdPrbAmpTarLabObs.html"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/SARScoronavirus2RNAPrThrPtRespOrdPrbAmpTarLabObs"/>
+      </reference>
+      <name value="SARS coronavirus 2 RNA Pr Thr Pt Resp Ord Prb Amp"/>
+      <description value="SARScoronavirus2RNAPrThrPtRespOrdPrbAmpTar is the laboratory model for the SARS Coronavirus 2 specific for RNA, respiratory specimens, method of probe, target amplification. LOINC code 94500-6."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="StructureDefinition-SARScoronavirus2RNAPrThrPtXXXOrdPrbAmpTarLabObs.html"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/SARScoronavirus2RNAPrThrPtXXXOrdPrbAmpTarLabObs"/>
+      </reference>
+      <name value="SARS coronavirus 2 RNA Pr Thr Pt XXX Ord Prb Amp"/>
+      <description value="SARScoronavirus2RNAPrThrXXXOrdPrbAmpTar is the laboratory model for the SARS Coronavirus 2 specific for RNA and method of probe, target amplification but not specific to specimen type. LOINC code 94309-2."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="StructureDefinition-SARScoronavirus2RdRpGenePrThePtRespOrdPrbAmpTarLabObs.html"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/SARScoronavirus2RdRpGenePrThePtRespOrdPrbAmpTarLabObs"/>
+      </reference>
+      <name value="SARS coronavirus 2 Rd Rp Gene Pr The Pt Resp Ord"/>
+      <description value="SARScoronavirus2RdRpGenePrThePtRespOrdPrbAmpTar is a test for the SARS coronavirus 2 RdRp gene in respiratory spsecimens. LOINC code 94534-5."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="StructureDefinition-SARScoronavirus2RdRpGenePrThrPtXXXOrdPrbAmpTarLabObs.html"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/SARScoronavirus2RdRpGenePrThrPtXXXOrdPrbAmpTarLabObs"/>
+      </reference>
+      <name value="SARS coronavirus 2 Rd Rp Gene Pr Thr Pt XXX Ord"/>
+      <description value="SARScoronavirus2RdRpGenePrThrPtXXXOrdPrbAmpTarLabObs is a test for the SARS coronavirus 2 RdRp gene via the probe target amplification method in non-respiratory specimens. LOINC code 94314-2."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="StructureDefinition-SARSrelatedCoVPlusMERSCoVRNAPrThrPtRespOrdPrbAmpTarLabObs.html"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/SARSrelatedCoVPlusMERSCoVRNAPrThrPtRespOrdPrbAmpTarLabObs"/>
+      </reference>
+      <name value="SAR Srelatedcoronavirus Plus MER Scoronavirus RNA Pr Thr Pt Resp"/>
+      <description value="SARSrelatedcoronavirusPlusMERScoronavirusRNAPrThrPtRespOrdPrbAmpTar is a combined test for SARS coronavirus 2 RNA (not gene specific) and MERS coronavirus RNA. LOINC code 94532-9."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="StructureDefinition-c19-reporting-priority.html"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/c19-reporting-priority"/>
+      </reference>
+      <name value="Reporting Priority"/>
+      <description value="The urgency level for which an observation must be reported."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <page>
+      <nameUrl value="toc.html"/>
+      <title value="Table of Contents"/>
+      <generation value="html"/>
+      <page>
+        <nameUrl value="index.html"/>
+        <title value="Home"/>
+        <generation value="markdown"/>
+      </page>
+    </page>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/capabilities"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/examples"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/extensions"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/models"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/operations"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/profiles"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/resources"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/vocabulary"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/maps"/>
+    </parameter>
+    <parameter>
+      <code value="path-pages"/>
+      <value value="template/config"/>
+    </parameter>
+    <parameter>
+      <code value="path-pages"/>
+      <value value="input/images"/>
+    </parameter>
+    <parameter>
+      <code value="path-tx-cache"/>
+      <value value="input-cache/txcache"/>
+    </parameter>
+  </definition>
+</ImplementationGuide>
