@@ -43,7 +43,7 @@
       </type>
       <binding>
         <strength value="preferred"/>
-        <valueSet value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+        <valueSet value="https://fhir.logicahealth.org/ValueSet/reportingPriorityVS"/>
       </binding>
     </element>
   </differential>
