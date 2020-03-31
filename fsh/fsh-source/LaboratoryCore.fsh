@@ -41,8 +41,7 @@ Id: c19-reporting-priority
 Description: "The urgency level for which an observation must be reported."
 Title: "Reporting Priority"
 * value[x] only CodeableConcept
-// MK added binding, the binding in old-source didn't make sense
-* valueCodeableConcept from http://terminology.hl7.org/ValueSet/v2-0485 (preferred)
+* valueCodeableConcept from ReportingPriorityVS (preferred)
 
 Profile: QuantitativeLaboratoryObservationBase
 Parent:  LaboratoryObservationBase
