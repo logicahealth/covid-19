@@ -3,7 +3,8 @@
     <!--© 2018 IHC Health Services, Inc. All Rights Reserved. This document is machine generated.-->
     <id value="SARScoronavirus2RNAPrThrPtRespOrdPrbAmpTarLabObs"/>
     <url value="https://fhir.logicahealth.org/StructureDefinition/SARScoronavirus2RNAPrThrPtRespOrdPrbAmpTarLabObs"/>
-    <name value="SARS coronavirus 2 RNA Pr Thr Pt Resp Ord Prb Amp"/>
+    <name value="SARScoronavirus2RNAPrThrPtRespOrdPrbAmpTar"/>
+    <title value="SARS coronavirus 2 RNA [Presence] in Respiratory specimen by NAA with probe detection"/>
     <status value="draft"/>
     <date value="2020-03-30"/>
     <publisher value="Logica Health"/>

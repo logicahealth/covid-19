@@ -3,7 +3,8 @@
     <!--© 2018 IHC Health Services, Inc. All Rights Reserved. This document is machine generated.-->
     <id value="SARScoronavirus2AbIgGandIgMpanelPtSerPlasQnIALabObs"/>
     <url value="https://fhir.logicahealth.org/StructureDefinition/SARScoronavirus2AbIgGandIgMpanelPtSerPlasQnIALabObs"/>
-    <name value="SARS coronavirus 2 Ab Ig Gand Ig Mpanel Pt Ser Plas"/>
+    <name value="SARScoronavirus2AbIgGandIgMpanelPtSerPlas"/>
+    <title value="SARS coronavirus 2 IgG and IgM panel - Serum or Plasma by Immunoassay"/>
     <status value="draft"/>
     <date value="2020-03-30"/>
     <publisher value="Logica Health"/>

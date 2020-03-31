@@ -3,7 +3,8 @@
     <!--© 2018 IHC Health Services, Inc. All Rights Reserved. This document is machine generated.-->
     <id value="SARScoronavirus2AbIgGPrThrPtSerPlasOrdIArapidLabObs"/>
     <url value="https://fhir.logicahealth.org/StructureDefinition/SARScoronavirus2AbIgGPrThrPtSerPlasOrdIArapidLabObs"/>
-    <name value="SARS coronavirus 2 Ab Ig G Pr Thr Pt Ser Plas"/>
+    <name value="SARScoronavirus2AbIgGPrThrPtSerPlas"/>
+    <title value="SARS coronavirus 2 IgG Ab [Presence] in Serum or Plasma by Rapid immunoassay"/>
     <status value="draft"/>
     <date value="2020-03-30"/>
     <publisher value="Logica Health"/>

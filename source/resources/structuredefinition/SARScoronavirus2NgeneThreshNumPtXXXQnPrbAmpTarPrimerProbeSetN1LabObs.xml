@@ -3,7 +3,8 @@
     <!--© 2018 IHC Health Services, Inc. All Rights Reserved. This document is machine generated.-->
     <id value="SARScoronavirus2NgeneThreshNumPtXXXQnPrbAmpTarPrimerProbeSetN1LabObs"/>
     <url value="https://fhir.logicahealth.org/StructureDefinition/SARScoronavirus2NgeneThreshNumPtXXXQnPrbAmpTarPrimerProbeSetN1LabObs"/>
-    <name value="SARS coronavirus 2 Ngene Thresh Num Pt XXX Qn Prb Amp"/>
+    <name value="SARScoronavirus2NgeneThreshNumPtXXXQnPrbAmpTarPrimerProbeSetN1"/>
+    <title value="SARS coronavirus 2 N gene [Cycle Threshold #] in Unspecified specimen by Nucleic acid amplification using primer-probe set N1"/>
     <status value="draft"/>
     <date value="2020-03-30"/>
     <publisher value="Logica Health"/>

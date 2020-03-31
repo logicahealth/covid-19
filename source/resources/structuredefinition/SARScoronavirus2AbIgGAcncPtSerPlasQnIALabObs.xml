@@ -3,7 +3,8 @@
     <!--© 2018 IHC Health Services, Inc. All Rights Reserved. This document is machine generated.-->
     <id value="SARScoronavirus2AbIgGAcncPtSerPlasQnIALabObs"/>
     <url value="https://fhir.logicahealth.org/StructureDefinition/SARScoronavirus2AbIgGAcncPtSerPlasQnIALabObs"/>
-    <name value="SARS coronavirus 2 Ab Ig G Acnc Pt Ser Plas Qn"/>
+    <name value="SARScoronavirus2AbIgGAcncPtSerPlasQn"/>
+    <title value="SARS coronavirus 2 IgG Ab [Units/volume] in Serum or Plasma by Immunoassay"/>
     <status value="draft"/>
     <date value="2020-03-30"/>
     <publisher value="Logica Health"/>

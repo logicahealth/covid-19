@@ -3,7 +3,8 @@
     <!--© 2018 IHC Health Services, Inc. All Rights Reserved. This document is machine generated.-->
     <id value="SARScoronavirus2EGenePrThrPtXXXOrdPrbAmpTarLabObs"/>
     <url value="https://fhir.logicahealth.org/StructureDefinition/SARScoronavirus2EGenePrThrPtXXXOrdPrbAmpTarLabObs"/>
-    <name value="SARS coronavirus 2 E Gene Pr Thr Pt XXX Ord Prb"/>
+    <name value="SARScoronavirus2EGenePrThrPtXXXOrdPrb"/>
+    <title value="SARS coronavirus 2 E gene [Presence] in Unspecified specimen by NAA with probe detection"/>
     <status value="draft"/>
     <date value="2020-03-30"/>
     <publisher value="Logica Health"/>
