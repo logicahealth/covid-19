@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="covid19-reporting-priority-vs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>Reporting Priorities Value Set</h2><div><p>A set of SNOMED codes representing how important it is to report a lab or other observation.</p>
+</div><ul><li>Include these codes as defined in <a href="http://www.snomed.org/"><code>http://snomed.info/sct</code></a><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=50811001">50811001</a></td><td>Routine (qualifier value)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=49499008">49499008</a></td><td>Stat (qualifier value)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=709122007">709122007</a></td><td>As soon as possible (qualifier value)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=103391001">103391001</a></td><td>Urgent (qualifier value)</td><td/></tr></table></li></ul></div>
+  </text>
+  <url value="http://fhir.logicahealth.org/covid19/ValueSet/covid19-reporting-priority-vs"/>
+  <version value="0.1.0"/>
+  <name value="ReportingPriorityVS"/>
+  <title value="Reporting Priorities Value Set"/>
+  <status value="active"/>
+  <date value="2020-04-01T14:05:14-06:00"/>
+  <publisher value="COVID-19 Healthcare Coalition"/>
+  <contact>
+    <name value="Logica Health"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://c19hcc.org/"/>
+    </telecom>
+  </contact>
+  <description value="A set of SNOMED codes representing how important it is to report a lab or other observation."/>
+  <compose>
+    <include>
+      <system value="http://snomed.info/sct"/>
+      <concept>
+        <code value="50811001"/>
+        <display value="Routine (qualifier value)"/>
+      </concept>
+      <concept>
+        <code value="49499008"/>
+        <display value="Stat (qualifier value)"/>
+      </concept>
+      <concept>
+        <code value="709122007"/>
+        <display value="As soon as possible (qualifier value)"/>
+      </concept>
+      <concept>
+        <code value="103391001"/>
+        <display value="Urgent (qualifier value)"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>
