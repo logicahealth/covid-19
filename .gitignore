@@ -1,6 +1,6 @@
 /output**
-/temp**
-/input**
+/temp
+/input
 ig.ini
 package.json
 package-list.json
