@@ -1,0 +1,52 @@
+{
+  "resourceType": "ValueSet",
+  "id": "covid19-reporting-priority-vs",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Reporting Priorities Value Set</h2><div><p>A set of SNOMED codes representing how important it is to report a lab or other observation.</p>\n</div><ul><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=50811001\">50811001</a></td><td>Routine (qualifier value)</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=49499008\">49499008</a></td><td>Stat (qualifier value)</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=709122007\">709122007</a></td><td>As soon as possible (qualifier value)</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=103391001\">103391001</a></td><td>Urgent (qualifier value)</td><td/></tr></table></li></ul></div>"
+  },
+  "url": "http://fhir.logicahealth.org/covid19/ValueSet/covid19-reporting-priority-vs",
+  "version": "0.1.0",
+  "name": "ReportingPriorityVS",
+  "title": "Reporting Priorities Value Set",
+  "status": "active",
+  "date": "2020-04-01T14:05:14-06:00",
+  "publisher": "COVID-19 Healthcare Coalition",
+  "contact": [
+    {
+      "name": "Logica Health",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://c19hcc.org/"
+        }
+      ]
+    }
+  ],
+  "description": "A set of SNOMED codes representing how important it is to report a lab or other observation.",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "50811001",
+            "display": "Routine (qualifier value)"
+          },
+          {
+            "code": "49499008",
+            "display": "Stat (qualifier value)"
+          },
+          {
+            "code": "709122007",
+            "display": "As soon as possible (qualifier value)"
+          },
+          {
+            "code": "103391001",
+            "display": "Urgent (qualifier value)"
+          }
+        ]
+      }
+    ]
+  }
+}

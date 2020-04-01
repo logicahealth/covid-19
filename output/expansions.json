@@ -1,0 +1,124 @@
+{
+  "resourceType" : "Bundle",
+  "id" : "9a06f4c4-e9ce-4b85-8a81-a1294fce6272",
+  "meta" : {
+    "lastUpdated" : "2020-04-01T14:05:14.034-06:00"
+  },
+  "type" : "collection",
+  "entry" : [{
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 4 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px\"/>Expansion based on SNOMED CT International edition 09-Mar 2020<p>All codes from system <a href=\"http://hl7.org/fhir/R4/codesystem-snomedct.html\"><code>http://snomed.info/sct</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-260415000\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=260415000\">260415000</a></td><td>Not detected (qualifier value)</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-419984006\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=419984006\">419984006</a></td><td>Inconclusive (qualifier value)</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-42425007\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=42425007\">42425007</a></td><td>Equivocal (qualifier value)</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-260373001\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=260373001\">260373001</a></td><td>Detected (qualifier value)</td><td/></tr></table></div>"
+      },
+      "status" : "active",
+      "expansion" : {
+        "identifier" : "urn:uuid:5e1ebe01-f1c3-4a30-8531-d6a22a3dd16f",
+        "timestamp" : "2020-04-01T17:21:00.580Z",
+        "parameter" : [{
+          "name" : "limitedExpansion",
+          "valueBoolean" : true
+        },
+        {
+          "name" : "version",
+          "valueString" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20200309"
+        }],
+        "contains" : [{
+          "system" : "http://snomed.info/sct",
+          "code" : "260415000",
+          "display" : "Not detected (qualifier value)"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "419984006",
+          "display" : "Inconclusive (qualifier value)"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "42425007",
+          "display" : "Equivocal (qualifier value)"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "260373001",
+          "display" : "Detected (qualifier value)"
+        }]
+      }
+    }
+  },
+  {
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 2 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px\"/>Expansion based on SNOMED CT International edition 09-Mar 2020<p>All codes from system <a href=\"http://hl7.org/fhir/R4/codesystem-snomedct.html\"><code>http://snomed.info/sct</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-10828004\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=10828004\">10828004</a></td><td>Positive (qualifier value)</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-260385009\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=260385009\">260385009</a></td><td>Negative (qualifier value)</td><td/></tr></table></div>"
+      },
+      "status" : "active",
+      "expansion" : {
+        "identifier" : "urn:uuid:d6409329-2fcb-4727-9323-61ce76926489",
+        "timestamp" : "2020-04-01T17:21:01.111Z",
+        "parameter" : [{
+          "name" : "limitedExpansion",
+          "valueBoolean" : true
+        },
+        {
+          "name" : "version",
+          "valueString" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20200309"
+        }],
+        "contains" : [{
+          "system" : "http://snomed.info/sct",
+          "code" : "10828004",
+          "display" : "Positive (qualifier value)"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "260385009",
+          "display" : "Negative (qualifier value)"
+        }]
+      }
+    }
+  },
+  {
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 4 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px\"/>Expansion based on SNOMED CT International edition 09-Mar 2020<p>All codes from system <a href=\"http://hl7.org/fhir/R4/codesystem-snomedct.html\"><code>http://snomed.info/sct</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-50811001\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=50811001\">50811001</a></td><td>Routine (qualifier value)</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-49499008\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=49499008\">49499008</a></td><td>Stat (qualifier value)</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-709122007\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=709122007\">709122007</a></td><td>As soon as possible (qualifier value)</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-103391001\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=103391001\">103391001</a></td><td>Urgent (qualifier value)</td><td/></tr></table></div>"
+      },
+      "status" : "active",
+      "expansion" : {
+        "identifier" : "urn:uuid:676cfdc4-e10d-4dab-884e-3f43cc3ab751",
+        "timestamp" : "2020-04-01T17:21:01.486Z",
+        "parameter" : [{
+          "name" : "limitedExpansion",
+          "valueBoolean" : true
+        },
+        {
+          "name" : "version",
+          "valueString" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20200309"
+        }],
+        "contains" : [{
+          "system" : "http://snomed.info/sct",
+          "code" : "50811001",
+          "display" : "Routine (qualifier value)"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "49499008",
+          "display" : "Stat (qualifier value)"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "709122007",
+          "display" : "As soon as possible (qualifier value)"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "103391001",
+          "display" : "Urgent (qualifier value)"
+        }]
+      }
+    }
+  }]
+}

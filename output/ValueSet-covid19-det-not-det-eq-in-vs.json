@@ -1,0 +1,52 @@
+{
+  "resourceType": "ValueSet",
+  "id": "covid19-det-not-det-eq-in-vs",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Detected-Not Detected-Equivalent-Inconclusive Value Set</h2><div><p>A set of SNOMED codes representing the result of a test as detected, not detected, equivalent, or inconclusive.</p>\n</div><ul><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=260415000\">260415000</a></td><td>Not detected (qualifier value)</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=419984006\">419984006</a></td><td>Inconclusive (qualifier value)</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=42425007\">42425007</a></td><td>Equivocal (qualifier value)</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=260373001\">260373001</a></td><td>Detected (qualifier value)</td><td/></tr></table></li></ul></div>"
+  },
+  "url": "http://fhir.logicahealth.org/covid19/ValueSet/covid19-det-not-det-eq-in-vs",
+  "version": "0.1.0",
+  "name": "DetNotDetEqInVS",
+  "title": "Detected-Not Detected-Equivalent-Inconclusive Value Set",
+  "status": "active",
+  "date": "2020-04-01T14:05:14-06:00",
+  "publisher": "COVID-19 Healthcare Coalition",
+  "contact": [
+    {
+      "name": "Logica Health",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://c19hcc.org/"
+        }
+      ]
+    }
+  ],
+  "description": "A set of SNOMED codes representing the result of a test as detected, not detected, equivalent, or inconclusive.",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "260415000",
+            "display": "Not detected (qualifier value)"
+          },
+          {
+            "code": "419984006",
+            "display": "Inconclusive (qualifier value)"
+          },
+          {
+            "code": "42425007",
+            "display": "Equivocal (qualifier value)"
+          },
+          {
+            "code": "260373001",
+            "display": "Detected (qualifier value)"
+          }
+        ]
+      }
+    ]
+  }
+}
