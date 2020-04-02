@@ -1,14 +1,9 @@
-<<<<<<< HEAD
-/output**
-/temp
-/input
-=======
+#/output**
 /temp**
 /template**
 /input**
 /input-cache**
->>>>>>> fsh-initial-commit-2
-ig.ini
-package.json
-package-list.json
+#ig.ini
+#package.json
+#package-list.json
 .DS_Store
