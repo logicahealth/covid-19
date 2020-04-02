@@ -2,10 +2,10 @@
 =========================================
 
 err = 128, warn = 74, info = 0
-IG Publisher Version: v1.0.76-SNAPSHOT
-Generated Wed Apr 01 15:15:43 MDT 2020. FHIR version 4.0.1 for covid19#0.1.0 (canonical = http://fhir.logicahealth.org/covid19)
+IG Publisher Version: v1.0.77-SNAPSHOT
+Generated Thu Apr 02 16:15:03 MDT 2020. FHIR version 4.0.1 for covid19#0.1.0 (canonical = http://fhir.logicahealth.org/covid19)
 
- Build Errors : 0 / 0
+ Build Errors : 1 / 0
  /Users/lpplangf/biz/ig/covid-19/input/ImplementationGuide-covid19 : 0 / 0
  /Users/lpplangf/biz/ig/covid-19/input/extensions/structuredefinition-c19-reporting-priority : 0 / 1
  /Users/lpplangf/biz/ig/covid-19/input/profiles/structuredefinition-Humancoronavirus229ERNAPrThrPtNphOrdNonprobeamptarLabObs : 0 / 1
@@ -53,6 +53,7 @@ Generated Wed Apr 01 15:15:43 MDT 2020. FHIR version 4.0.1 for covid19#0.1.0 (ca
  /Users/lpplangf/biz/ig/covid-19/input/vocabulary/valueset-covid19-reporting-priority-vs : 0 / 0
 </table>
 == n/a ==
+ERROR: ImplementationGuide.definition.parameter[20].value: Supressed messages file is not using the new format (see https://confluence.hl7.org/display/FHIR/Implementation+Guide+Parameters)
 == /Users/lpplangf/biz/ig/covid-19/input/ImplementationGuide-covid19.json ==
 == /Users/lpplangf/biz/ig/covid-19/input/extensions/StructureDefinition-c19-reporting-priority.json ==
 WARNING: http://fhir.logicahealth.org/covid19/StructureDefinition/c19-reporting-priority: The Implementation Guide contains no examples for this extension

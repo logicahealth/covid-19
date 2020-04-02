@@ -19,6 +19,16 @@
     <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
     <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
     <!-- Placeholder for child template CSS declarations -->
+<style>
+body {
+        background-image: url("https://www.logicahealth.org/wp-content/uploads/triangled-background.png");
+        background-repeat: no-repeat;
+        background-position: top center;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+</style>
+
 
     <script type="text/javascript" src="fhir-table-scripts.js"> </script>
 
@@ -41,7 +51,8 @@
     h3,h4,h5,h6{--heading-prefix:"2.3"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
-        
+        <center><img src="assets/images/logo.png"></center>
+
 
         <div id="ig-status">
           <p><span style="font-size:12pt;font-weight:bold">Logica Implementation Guide: Covid-19</span><br/>0.1.0 - CI Build</p>
@@ -178,20 +189,8 @@
  <tr><td>&nbsp;&nbsp;&nbsp;specimen</td><td>&lt; 123038009 |Specimen|</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;device</td><td>&lt; 49062001 |Device|</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;referenceRange</td><td></td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;type</td><td>&lt; 260245000 |Findings values| OR  
-&lt; 365860008 |General clinical state finding| 
-OR 
-&lt; 250171008 |Clinical history or observation findings| OR  
-&lt; 415229000 |Racial group| OR 
-&lt; 365400002 |Finding of puberty stage| OR
-&lt; 443938003 |Procedure carried out on subject|</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;appliesTo</td><td>&lt; 260245000 |Findings values| OR  
-&lt; 365860008 |General clinical state finding| 
-OR 
-&lt; 250171008 |Clinical history or observation findings| OR  
-&lt; 415229000 |Racial group| OR 
-&lt; 365400002 |Finding of puberty stage| OR
-&lt; 443938003 |Procedure carried out on subject|</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;type</td><td>&lt; 260245000 |Findings values| OR  &lt; 365860008 |General clinical state finding| OR &lt; 250171008 |Clinical history or observation findings| OR  &lt; 415229000 |Racial group| OR &lt; 365400002 |Finding of puberty stage| OR&lt; 443938003 |Procedure carried out on subject|</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;appliesTo</td><td>&lt; 260245000 |Findings values| OR  &lt; 365860008 |General clinical state finding| OR &lt; 250171008 |Clinical history or observation findings| OR  &lt; 415229000 |Racial group| OR &lt; 365400002 |Finding of puberty stage| OR&lt; 443938003 |Procedure carried out on subject|</td> </tr>
 </table>
 <a name="v2"> </a><h3>Mappings for HL7 v2 Mapping (<a href="http://hl7.org/comparison-v2.html">http://hl7.org/v2</a>)</h3><table class="grid">
  <tr><td colspan="3"><b>LaboratoryObservationPanelBase</b></td></tr>
@@ -388,7 +387,7 @@ OR
     <div class="container">  <!-- container -->
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2020+ <a style="color: #81BEF7" href="https://c19hcc.org/">COVID-19 Healthcare Coalition</a>.  Package covid19#0.1.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Apr 1, 2020 14:05-0600">2020-04-01</span>
+          IG &#169; 2020+ <a style="color: #81BEF7" href="https://c19hcc.org/">COVID-19 Healthcare Coalition</a>.  Package covid19#0.1.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Apr 2, 2020 16:13-0600">2020-04-02</span>
           <br/>
           <span style="color: #FFFF77">
                       Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |

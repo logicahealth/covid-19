@@ -1,6 +1,6 @@
 ﻿<!DOCTYPE HTML>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<!-- broken links = 0, errors = 64, warn = 37, info = 0 -->
+<!-- broken links = 1, errors = 64, warn = 37, info = 0 -->
 <head>
   <title>LogicaImplementationGuideCovid19 : Validation Results</title>
   <link href="fhir.css" rel="stylesheet"/>
@@ -23,8 +23,8 @@
 </head>
 <body style="margin: 20px; background-color: #ffffff">
  <h1>Validation Results for LogicaImplementationGuideCovid19</h1>
- <p>Generated Wed Apr 01 15:15:43 MDT 2020, FHIR version 4.0.1 for covid19#0.1.0 (canonical = <a href="http://fhir.logicahealth.org/covid19">http://fhir.logicahealth.org/covid19</a> (<a href="http://fhir.logicahealth.org/covid19/history.html">history</a>))</p>
-<p>IG Publisher Version: v1.0.76-SNAPSHOT</p>
+ <p>Generated Thu Apr 02 16:15:03 MDT 2020, FHIR version 4.0.1 for covid19#0.1.0 (canonical = <a href="http://fhir.logicahealth.org/covid19">http://fhir.logicahealth.org/covid19</a> (<a href="http://fhir.logicahealth.org/covid19/history.html">history</a>))</p>
+<p>IG Publisher Version: v1.0.77-SNAPSHOT</p>
 <p>No Suppressed Errors</p>
  <p>HL7 Publication check:</p> <ul><li>n/a - not an HL7.org or FHIR.org implementation guide</li></ul>
 
@@ -32,8 +32,8 @@
    <tr>
      <td><b>Filename</b></td><td><b>Errors</b></td><td><b>Information messages &amp; Warnings</b></td>
    </tr>
-   <tr style="background-color: #EFFFEF">
-     <td><a href="#internal"><b>Build Errors</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#internal"><b>Build Errors</b></a></td><td><b>1</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
      <td><a href="#_Users_lpplangf_biz_ig_covid-19_input_ImplementationGuide-covid19"><b>/Users/lpplangf/biz/ig/covid-19/input/ImplementationGuide-covid19</b></a></td><td><b>0</b></td><td><b>0</b></td>
@@ -175,6 +175,9 @@
 <a name="internal"> </a>
 <h2><a href="">n/a</a></h2>
  <table class="grid">
+   <tr style="background-color: #ffcccc">
+     <td><b>ImplementationGuide.definition.parameter[20].value</b></td><td><b>error</b></td><td><b>Supressed messages file is not using the new format (see https://confluence.hl7.org/display/FHIR/Implementation+Guide+Parameters)</b></td>
+   </tr>
 </table>
 <hr/>
 <a name="_Users_lpplangf_biz_ig_covid-19_input_ImplementationGuide-covid19"> </a>
@@ -425,10 +428,10 @@
      <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b>StructureDefinition/SARScoronavirus2AbIgAPrThrPtSerPlasOrdIALabObs: StructureDefinition.snapshot.element[43].pattern.ofType(CodeableConcept).coding[0]</b></td><td><b>error</b></td><td><b>The code &quot;94562-6&quot; is not valid in the system http://loinc.org; The code provided (http://loinc.org#94562-6) is not  valid in the value set All codes known to the system for &quot;http://loinc.org#94562-6&quot;</b> (<a href="qa-tx.html#l6">see Tx log</a>)</td>
+     <td><b>StructureDefinition/SARScoronavirus2AbIgAPrThrPtSerPlasOrdIALabObs: StructureDefinition.snapshot.element[43].pattern.ofType(CodeableConcept).coding[0]</b></td><td><b>error</b></td><td><b>The code &quot;94562-6&quot; is not valid in the system http://loinc.org; The code provided (http://loinc.org#94562-6) is not  valid in the value set All codes known to the system for &quot;http://loinc.org#94562-6&quot;</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b>StructureDefinition/SARScoronavirus2AbIgAPrThrPtSerPlasOrdIALabObs: StructureDefinition.differential.element[1].pattern.ofType(CodeableConcept).coding[0]</b></td><td><b>error</b></td><td><b>The code &quot;94562-6&quot; is not valid in the system http://loinc.org; The code provided (http://loinc.org#94562-6) is not  valid in the value set All codes known to the system for &quot;http://loinc.org#94562-6&quot;</b> (<a href="qa-tx.html#l6">see Tx log</a>)</td>
+     <td><b>StructureDefinition/SARScoronavirus2AbIgAPrThrPtSerPlasOrdIALabObs: StructureDefinition.differential.element[1].pattern.ofType(CodeableConcept).coding[0]</b></td><td><b>error</b></td><td><b>The code &quot;94562-6&quot; is not valid in the system http://loinc.org; The code provided (http://loinc.org#94562-6) is not  valid in the value set All codes known to the system for &quot;http://loinc.org#94562-6&quot;</b></td>
    </tr>
    <tr style="background-color: #ffebcc">
      <td><b>http://fhir.logicahealth.org/covid19/StructureDefinition/SARScoronavirus2AbIgAPrThrPtSerPlasOrdIALabObs</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this profile</b></td>
@@ -476,10 +479,10 @@
      <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b>StructureDefinition/SARScoronavirus2AbIgGPrThrPtSerPlasOrdIALabObs: StructureDefinition.snapshot.element[43].pattern.ofType(CodeableConcept).coding[0]</b></td><td><b>error</b></td><td><b>The code &quot;94563-4&quot; is not valid in the system http://loinc.org; The code provided (http://loinc.org#94563-4) is not  valid in the value set All codes known to the system for &quot;http://loinc.org#94563-4&quot;</b> (<a href="qa-tx.html#l7">see Tx log</a>)</td>
+     <td><b>StructureDefinition/SARScoronavirus2AbIgGPrThrPtSerPlasOrdIALabObs: StructureDefinition.snapshot.element[43].pattern.ofType(CodeableConcept).coding[0]</b></td><td><b>error</b></td><td><b>The code &quot;94563-4&quot; is not valid in the system http://loinc.org; The code provided (http://loinc.org#94563-4) is not  valid in the value set All codes known to the system for &quot;http://loinc.org#94563-4&quot;</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b>StructureDefinition/SARScoronavirus2AbIgGPrThrPtSerPlasOrdIALabObs: StructureDefinition.differential.element[1].pattern.ofType(CodeableConcept).coding[0]</b></td><td><b>error</b></td><td><b>The code &quot;94563-4&quot; is not valid in the system http://loinc.org; The code provided (http://loinc.org#94563-4) is not  valid in the value set All codes known to the system for &quot;http://loinc.org#94563-4&quot;</b> (<a href="qa-tx.html#l7">see Tx log</a>)</td>
+     <td><b>StructureDefinition/SARScoronavirus2AbIgGPrThrPtSerPlasOrdIALabObs: StructureDefinition.differential.element[1].pattern.ofType(CodeableConcept).coding[0]</b></td><td><b>error</b></td><td><b>The code &quot;94563-4&quot; is not valid in the system http://loinc.org; The code provided (http://loinc.org#94563-4) is not  valid in the value set All codes known to the system for &quot;http://loinc.org#94563-4&quot;</b></td>
    </tr>
    <tr style="background-color: #ffebcc">
      <td><b>http://fhir.logicahealth.org/covid19/StructureDefinition/SARScoronavirus2AbIgGPrThrPtSerPlasOrdIALabObs</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this profile</b></td>
@@ -544,10 +547,10 @@
      <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b>StructureDefinition/SARScoronavirus2AbIgMPrThrPtSerPlasOrdIALabObs: StructureDefinition.snapshot.element[43].pattern.ofType(CodeableConcept).coding[0]</b></td><td><b>error</b></td><td><b>The code &quot;94564-2&quot; is not valid in the system http://loinc.org; The code provided (http://loinc.org#94564-2) is not  valid in the value set All codes known to the system for &quot;http://loinc.org#94564-2&quot;</b> (<a href="qa-tx.html#l8">see Tx log</a>)</td>
+     <td><b>StructureDefinition/SARScoronavirus2AbIgMPrThrPtSerPlasOrdIALabObs: StructureDefinition.snapshot.element[43].pattern.ofType(CodeableConcept).coding[0]</b></td><td><b>error</b></td><td><b>The code &quot;94564-2&quot; is not valid in the system http://loinc.org; The code provided (http://loinc.org#94564-2) is not  valid in the value set All codes known to the system for &quot;http://loinc.org#94564-2&quot;</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b>StructureDefinition/SARScoronavirus2AbIgMPrThrPtSerPlasOrdIALabObs: StructureDefinition.differential.element[1].pattern.ofType(CodeableConcept).coding[0]</b></td><td><b>error</b></td><td><b>The code &quot;94564-2&quot; is not valid in the system http://loinc.org; The code provided (http://loinc.org#94564-2) is not  valid in the value set All codes known to the system for &quot;http://loinc.org#94564-2&quot;</b> (<a href="qa-tx.html#l8">see Tx log</a>)</td>
+     <td><b>StructureDefinition/SARScoronavirus2AbIgMPrThrPtSerPlasOrdIALabObs: StructureDefinition.differential.element[1].pattern.ofType(CodeableConcept).coding[0]</b></td><td><b>error</b></td><td><b>The code &quot;94564-2&quot; is not valid in the system http://loinc.org; The code provided (http://loinc.org#94564-2) is not  valid in the value set All codes known to the system for &quot;http://loinc.org#94564-2&quot;</b></td>
    </tr>
    <tr style="background-color: #ffebcc">
      <td><b>http://fhir.logicahealth.org/covid19/StructureDefinition/SARScoronavirus2AbIgMPrThrPtSerPlasOrdIALabObs</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this profile</b></td>
@@ -697,10 +700,10 @@
      <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b>StructureDefinition/SARScoronavirus2RNAPrThrPtNphOrdNonprobeamptarLabObs: StructureDefinition.snapshot.element[43].pattern.ofType(CodeableConcept).coding[0]</b></td><td><b>error</b></td><td><b>The code &quot;94565-9&quot; is not valid in the system http://loinc.org; The code provided (http://loinc.org#94565-9) is not  valid in the value set All codes known to the system for &quot;http://loinc.org#94565-9&quot;</b> (<a href="qa-tx.html#l9">see Tx log</a>)</td>
+     <td><b>StructureDefinition/SARScoronavirus2RNAPrThrPtNphOrdNonprobeamptarLabObs: StructureDefinition.snapshot.element[43].pattern.ofType(CodeableConcept).coding[0]</b></td><td><b>error</b></td><td><b>The code &quot;94565-9&quot; is not valid in the system http://loinc.org; The code provided (http://loinc.org#94565-9) is not  valid in the value set All codes known to the system for &quot;http://loinc.org#94565-9&quot;</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b>StructureDefinition/SARScoronavirus2RNAPrThrPtNphOrdNonprobeamptarLabObs: StructureDefinition.differential.element[1].pattern.ofType(CodeableConcept).coding[0]</b></td><td><b>error</b></td><td><b>The code &quot;94565-9&quot; is not valid in the system http://loinc.org; The code provided (http://loinc.org#94565-9) is not  valid in the value set All codes known to the system for &quot;http://loinc.org#94565-9&quot;</b> (<a href="qa-tx.html#l9">see Tx log</a>)</td>
+     <td><b>StructureDefinition/SARScoronavirus2RNAPrThrPtNphOrdNonprobeamptarLabObs: StructureDefinition.differential.element[1].pattern.ofType(CodeableConcept).coding[0]</b></td><td><b>error</b></td><td><b>The code &quot;94565-9&quot; is not valid in the system http://loinc.org; The code provided (http://loinc.org#94565-9) is not  valid in the value set All codes known to the system for &quot;http://loinc.org#94565-9&quot;</b></td>
    </tr>
    <tr style="background-color: #ffebcc">
      <td><b>http://fhir.logicahealth.org/covid19/StructureDefinition/SARScoronavirus2RNAPrThrPtNphOrdNonprobeamptarLabObs</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this profile</b></td>
@@ -839,5 +842,7 @@
      <td>&check;</td>
    </tr>
 </table>
+<a name="suppressed"> </a>
+<p><b>Suppressed Error Messages</b></p>
 </body>
 </html>
