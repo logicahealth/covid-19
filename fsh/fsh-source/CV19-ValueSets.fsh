@@ -112,3 +112,20 @@ Id: healthcare-occupation-value-set
 Title: "Healthcare Occupation Value Set"
 Description: "A set of SNOMED CT codes that represent occupations within the health care industry."
 * codes from system SCT where concept is-a #223366009 "Healthcare professional (occupation)"
+
+ValueSet: KnowExposureLAVS
+Id: known-exposure-la-ValueSet
+Title: "Known Exposure LOINC Answer Value Set"
+Description: "A set of LOINC answers for known expopsure"
+* LNC#LA30830-6 "Travel to Wuhan"
+* LNC#LA30831-4 "Travel to Hubei"
+* LNC#LA30832-2 "Travel to mainland China"
+* LNC#LA30833-0 "Travel to other non-US country"
+* LNC#LA30834-8 "Household contact with other lab-confirmedCOVID-19 case-patient"
+* LNC#LA30835-5 "Community contact with other lab-confirmedCOVID-19 case-patient"
+* LNC#LA30836-3 "Any healthcare contact with other lab-confirmedCOVID-19 case-patient"
+* LNC#LA30837-1 "Any healthcare contact wiht a Patient who is lab-confirmed COVID-19 case-patient"
+* LNC#LA30838-9 "Any healthcare contact wiht a Visitor who is lab-confirmed COVID-19 case-patient"
+* LNC#LA30839-7 "Any healthcare contact wiht a Healthcare Worker who is lab-confirmed COVID-19 case-patient"
+* LNC#LA30840-5 "Animal Exposure"
+* LNC#LA30841-3 "Exposure to a cluster of patients with severe acute lower respiratory distress of unknown etiology"
