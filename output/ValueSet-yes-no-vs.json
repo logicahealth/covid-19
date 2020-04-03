@@ -1,0 +1,44 @@
+{
+  "resourceType": "ValueSet",
+  "id": "yes-no-vs",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Yes/No Value Set</h2><div><p>The SNOMED CT codes to answer in the affirmative or negative.</p>\n</div><ul><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=373066001\">373066001</a></td><td>Yes (qualifier value)</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=373067005\">373067005</a></td><td>No (qualifier value)</td><td/></tr></table></li></ul></div>"
+  },
+  "url": "http://fhir.logicahealth.org/covid19/ValueSet/yes-no-vs",
+  "version": "0.1.0",
+  "name": "YesNoVS",
+  "title": "Yes/No Value Set",
+  "status": "active",
+  "date": "2020-04-03T17:43:26-06:00",
+  "publisher": "COVID-19 Healthcare Coalition",
+  "contact": [
+    {
+      "name": "Logica Health",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://c19hcc.org/"
+        }
+      ]
+    }
+  ],
+  "description": "The SNOMED CT codes to answer in the affirmative or negative.",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "373066001",
+            "display": "Yes (qualifier value)"
+          },
+          {
+            "code": "373067005",
+            "display": "No (qualifier value)"
+          }
+        ]
+      }
+    ]
+  }
+}

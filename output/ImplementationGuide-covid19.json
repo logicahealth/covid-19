@@ -10,7 +10,7 @@
   "name": "LogicaImplementationGuideCovid19",
   "title": "Logica Implementation Guide: Covid-19",
   "status": "active",
-  "date": "2020-04-03T11:00:56-06:00",
+  "date": "2020-04-03T17:43:26-06:00",
   "publisher": "COVID-19 Healthcare Coalition",
   "contact": [
     {
@@ -304,6 +304,96 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-COVID-19-Diagnosis.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/COVID-19-Diagnosis"
+        },
+        "name": "COVID 19 Diagnosis",
+        "description": "A diagnosis or diagnoses asserted about the subject that is due to infection by the SARS coronavirus 2 virus.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource:abstract"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-covid-19-exposure-core.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/covid-19-exposure-core"
+        },
+        "name": "COVID 19 Exposure Core profile",
+        "description": "A parent, abstract profile to be used for the CDC COVID 19 PUI report form exposure section elements.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-covid19-symptoms-absent.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/covid19-symptoms-absent"
+        },
+        "name": "COVID 19 Symptoms Absent",
+        "description": "A parent profile for the assertion of the Absence COVID 19 symptoms.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-covid19-symptoms-present.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/covid19-symptoms-present"
+        },
+        "name": "COVID 19 Symptoms Present",
+        "description": "A parent profile for the assertion of the presence COVID 19 symptoms.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-case-patient-report-id.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/case-patient-report-id"
+        },
+        "name": "Case-Patient Report Identifying Information",
+        "description": "The identifying information for a reportable disease or condition.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "StructureDefinition:resource:abstract"
           },
           {
@@ -316,6 +406,24 @@
         },
         "name": "Coded Laboratory Observation Base",
         "description": "Abstract base class for coded laboratory observations.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-Humancoronavirus229EHKU1OC43NL63RNAPresNsphLabObs.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/Humancoronavirus229EHKU1OC43NL63RNAPresNsphLabObs"
+        },
+        "name": "Human coronavirus 229E+HKU1+OC43+NL63 RNA [Presence] in Nasopharynx by NAA with non-probe detection",
+        "description": "Humancoronavirus229EHKU1OC43NL63RNAPrThrPtNphOrdNonprobeamptar is a test for the Human coronavirus 229EHKU1, OC43, NL63 nucleaic acids in nasopharynx specimens via non-probe, target amplification method",
         "exampleBoolean": false
       },
       {
@@ -388,6 +496,24 @@
         },
         "name": "Human coronavirus OC43 RNA [Presence] in Nasopharynx by NAA with non-probe detection",
         "description": "HumancoronavirusOC43RNAPrThrPtNphOrdNonprobeamptarLabObs is a test for the Human coronavirus OC43 nucleaic acid in nasopharynx specimens via non-probe, target amplification method.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-known-exposure.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/known-exposure"
+        },
+        "name": "Known Exposure",
+        "description": "Known Exposure is a description of how, when, where, and with whom and individual was exposed to a contagion.",
         "exampleBoolean": false
       },
       {
@@ -1024,6 +1150,60 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-travel-history.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/travel-history"
+        },
+        "name": "Travel History",
+        "description": "The country or countries to which the subject may have traveled.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-certainty-of-absence.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/certainty-of-absence"
+        },
+        "name": "Certainty of Absence",
+        "description": "An extension to capture the degree certainty of the non-existence of a condition.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-certainty-of-presence.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/certainty-of-presence"
+        },
+        "name": "Certainty of Presence",
+        "description": "An extension to capture the degree certainty of the existence of a condition.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "StructureDefinition:extension"
           },
           {
@@ -1046,6 +1226,114 @@
           },
           {
             "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "ValueSet-covid-19-diagnosis-vs.html"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/covid-19-diagnosis-vs"
+        },
+        "name": "COVID 19 Diagnosis Value Set",
+        "description": "A set of SNOMED CT codes that describe the diagnosed condition that is due to SARS coronavirus 2 infection.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "ValueSet-covid19-signs-1nd-symptoms-value-set.html"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/covid19-signs-1nd-symptoms-value-set"
+        },
+        "name": "COVID 19 Signs and Symptoms Value Set",
+        "description": "The set of SNOMED CT codes that represent the signs and symptoms associated with COVID 19.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "ValueSet-certainty-0f-absence-value-set.html"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/certainty-0f-absence-value-set"
+        },
+        "name": "Certainty of Absence Value Set",
+        "description": "The set of SNOMED CT codes that represent the leve of certainty that a condition does not exist.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "ValueSet-certainty-of-presence-value-set.html"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/certainty-of-presence-value-set"
+        },
+        "name": "Certainty of PresenceVS",
+        "description": "The set of SNOMED CT codes that represent the level of certainty that a condition exists.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "ValueSet-close-contact-setting-vs.html"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/close-contact-setting-vs"
+        },
+        "name": "Close Contact Setting Value Set",
+        "description": "The SNOMED CT codes that describe teh situation in which a close contact exposure was made with an infected individual.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "ValueSet-country-codes-vs.html"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/country-codes-vs"
+        },
+        "name": "Country Codes Value Set",
+        "description": "The set of SNOMED CT codes that represent countries.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
             "valueUri": "ValueSet-covid19-det-not-det-eq-in-vs.html"
           }
         ],
@@ -1054,6 +1342,42 @@
         },
         "name": "Detected-Not Detected-Equivalent-Inconclusive Value Set",
         "description": "A set of SNOMED codes representing the result of a test as detected, not detected, equivalent, or inconclusive.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "ValueSet-healthcare-occupation-value-set.html"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/healthcare-occupation-value-set"
+        },
+        "name": "Healthcare Occupation Value Set",
+        "description": "A set of SNOMED CT codes that represent occupations within the health care industry.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "ValueSet-known-exposure-la-ValueSet.html"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/known-exposure-la-ValueSet"
+        },
+        "name": "Known Exposure LOINC Answer Value Set",
+        "description": "A set of LOINC answers for known expopsure",
         "exampleBoolean": false
       },
       {
@@ -1091,6 +1415,42 @@
         "name": "Reporting Priorities Value Set",
         "description": "A set of SNOMED codes representing how important it is to report a lab or other observation.",
         "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "ValueSet-state-codes-vs.html"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/state-codes-vs"
+        },
+        "name": "State Codes Value Set",
+        "description": "The list of SNOMED CT codes that represent states.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "ValueSet-yes-no-vs.html"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/yes-no-vs"
+        },
+        "name": "Yes/No Value Set",
+        "description": "The SNOMED CT codes to answer in the affirmative or negative.",
+        "exampleBoolean": false
       }
     ],
     "page": {
@@ -1101,6 +1461,26 @@
         {
           "nameUrl": "index.html",
           "title": "Home",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "CaseReportingInfo.html",
+          "title": "Case Reporting Info",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "ExposureInfo.html",
+          "title": "Exposure Info",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "SignsSymptoms.html",
+          "title": "Signs Symptoms",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "LabProfiles.html",
+          "title": "Lab Profiles",
           "generation": "markdown"
         }
       ]

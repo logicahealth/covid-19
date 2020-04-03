@@ -3,9 +3,9 @@
   "name": "LogicaImplementationGuideCovid19",
   "package-id": "covid19",
   "ig-ver": "0.1.0",
-  "date": "Fri, 03 Apr, 2020 11:00:56 -0600",
-  "errs": 128,
-  "warnings": 74,
+  "date": "Fri, 03 Apr, 2020 17:43:26 -0600",
+  "errs": 144,
+  "warnings": 92,
   "hints": 0,
   "version": "4.0.1",
   "tool": "4.2.0 (3)"

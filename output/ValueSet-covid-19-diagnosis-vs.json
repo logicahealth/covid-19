@@ -1,0 +1,68 @@
+{
+  "resourceType": "ValueSet",
+  "id": "covid-19-diagnosis-vs",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>COVID 19 Diagnosis Value Set</h2><div><p>A set of SNOMED CT codes that describe the diagnosed condition that is due to SARS coronavirus 2 infection.</p>\n</div><ul><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=840539006\">840539006</a></td><td>Disease caused by 2019 novel coronavirus (disorder)</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=840544004\">840544004</a></td><td>Suspected disease caused by 2019 novel coronavirus (situation)</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=882784691000119000\">882784691000119000</a></td><td>Pneumonia caused by severe acute respiratory syndrome coronavirus 2 (disorder)</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=674814021000119000\">674814021000119000</a></td><td>Acute respiratory distress syndrome caused by severe acute respiratory syndrome coronavirus 2 (disorder)</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=880529761000119000\">880529761000119000</a></td><td>Lower respiratory infection caused by severe acute respiratory syndrome coronavirus 2 (disorder)</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=138389411000119000\">138389411000119000</a></td><td>Acute bronchitis caused by severe acute respiratory syndrome coronavirus 2 (disorder)</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=866151004\">866151004</a></td><td>Lymphocytopenia associated with severe acute respiratory syndrome coronavirus 2 (disorder)</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=866152006\">866152006</a></td><td>Thrombocytopenia associated with severe acute respiratory syndrome coronavirus 2 (disorder)</td><td/></tr></table></li></ul></div>"
+  },
+  "url": "http://fhir.logicahealth.org/covid19/ValueSet/covid-19-diagnosis-vs",
+  "version": "0.1.0",
+  "name": "COVID19DiagnosisVS",
+  "title": "COVID 19 Diagnosis Value Set",
+  "status": "active",
+  "date": "2020-04-03T17:43:26-06:00",
+  "publisher": "COVID-19 Healthcare Coalition",
+  "contact": [
+    {
+      "name": "Logica Health",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://c19hcc.org/"
+        }
+      ]
+    }
+  ],
+  "description": "A set of SNOMED CT codes that describe the diagnosed condition that is due to SARS coronavirus 2 infection.",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "840539006",
+            "display": "Disease caused by 2019 novel coronavirus (disorder)"
+          },
+          {
+            "code": "840544004",
+            "display": "Suspected disease caused by 2019 novel coronavirus (situation)"
+          },
+          {
+            "code": "882784691000119000",
+            "display": "Pneumonia caused by severe acute respiratory syndrome coronavirus 2 (disorder)"
+          },
+          {
+            "code": "674814021000119000",
+            "display": "Acute respiratory distress syndrome caused by severe acute respiratory syndrome coronavirus 2 (disorder)"
+          },
+          {
+            "code": "880529761000119000",
+            "display": "Lower respiratory infection caused by severe acute respiratory syndrome coronavirus 2 (disorder)"
+          },
+          {
+            "code": "138389411000119000",
+            "display": "Acute bronchitis caused by severe acute respiratory syndrome coronavirus 2 (disorder)"
+          },
+          {
+            "code": "866151004",
+            "display": "Lymphocytopenia associated with severe acute respiratory syndrome coronavirus 2 (disorder)"
+          },
+          {
+            "code": "866152006",
+            "display": "Thrombocytopenia associated with severe acute respiratory syndrome coronavirus 2 (disorder)"
+          }
+        ]
+      }
+    ]
+  }
+}

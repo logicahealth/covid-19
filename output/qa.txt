@@ -1,13 +1,17 @@
 ﻿LogicaImplementationGuideCovid19 : Validation Results
 =========================================
 
-err = 128, warn = 74, info = 0
+err = 144, warn = 92, info = 0
 IG Publisher Version: v1.0.77-SNAPSHOT
-Generated Fri Apr 03 11:02:59 MDT 2020. FHIR version 4.0.1 for covid19#0.1.0 (canonical = http://fhir.logicahealth.org/covid19)
+Generated Fri Apr 03 17:45:45 MDT 2020. FHIR version 4.0.1 for covid19#0.1.0 (canonical = http://fhir.logicahealth.org/covid19)
 
- Build Errors : 1 / 0
+ Build Errors : 8 / 0
  /Users/lpplangf/biz/ig/covid-19/input/ImplementationGuide-covid19 : 0 / 0
  /Users/lpplangf/biz/ig/covid-19/input/extensions/structuredefinition-c19-reporting-priority : 0 / 1
+ /Users/lpplangf/biz/ig/covid-19/input/extensions/structuredefinition-certainty-of-absence : 0 / 1
+ /Users/lpplangf/biz/ig/covid-19/input/extensions/structuredefinition-certainty-of-presence : 0 / 1
+ /Users/lpplangf/biz/ig/covid-19/input/profiles/structuredefinition-COVID-19-Diagnosis : 0 / 1
+ /Users/lpplangf/biz/ig/covid-19/input/profiles/structuredefinition-Humancoronavirus229EHKU1OC43NL63RNAPresNsphLabObs : 0 / 1
  /Users/lpplangf/biz/ig/covid-19/input/profiles/structuredefinition-Humancoronavirus229ERNAPrThrPtNphOrdNonprobeamptarLabObs : 0 / 1
  /Users/lpplangf/biz/ig/covid-19/input/profiles/structuredefinition-HumancoronavirusHKU1RNAPrThrPtNphOrdNonprobeamptarLabObs : 0 / 1
  /Users/lpplangf/biz/ig/covid-19/input/profiles/structuredefinition-HumancoronavirusNL63RNAPrThrPtNphOrdNonprobeamptarLabObs : 0 / 1
@@ -48,15 +52,46 @@ Generated Fri Apr 03 11:02:59 MDT 2020. FHIR version 4.0.1 for covid19#0.1.0 (ca
  /Users/lpplangf/biz/ig/covid-19/input/profiles/structuredefinition-c19-coded-laboratory-observation-base : 0 / 0
  /Users/lpplangf/biz/ig/covid-19/input/profiles/structuredefinition-c19-laboratory-observation-base : 0 / 0
  /Users/lpplangf/biz/ig/covid-19/input/profiles/structuredefinition-c19-quantitative-laboratory-observation-base : 0 / 0
+ /Users/lpplangf/biz/ig/covid-19/input/profiles/structuredefinition-case-patient-report-id : 2 / 1
+ /Users/lpplangf/biz/ig/covid-19/input/profiles/structuredefinition-covid-19-exposure-core : 0 / 0
+ /Users/lpplangf/biz/ig/covid-19/input/profiles/structuredefinition-covid19-symptoms-absent : 0 / 1
+ /Users/lpplangf/biz/ig/covid-19/input/profiles/structuredefinition-covid19-symptoms-present : 0 / 1
+ /Users/lpplangf/biz/ig/covid-19/input/profiles/structuredefinition-known-exposure : 0 / 1
+ /Users/lpplangf/biz/ig/covid-19/input/profiles/structuredefinition-travel-history : 4 / 1
+ /Users/lpplangf/biz/ig/covid-19/input/vocabulary/valueset-certainty-0f-absence-value-set : 0 / 0
+ /Users/lpplangf/biz/ig/covid-19/input/vocabulary/valueset-certainty-of-presence-value-set : 0 / 0
+ /Users/lpplangf/biz/ig/covid-19/input/vocabulary/valueset-close-contact-setting-vs : 1 / 0
+ /Users/lpplangf/biz/ig/covid-19/input/vocabulary/valueset-country-codes-vs : 0 / 0
+ /Users/lpplangf/biz/ig/covid-19/input/vocabulary/valueset-covid-19-diagnosis-vs : 1 / 0
  /Users/lpplangf/biz/ig/covid-19/input/vocabulary/valueset-covid19-det-not-det-eq-in-vs : 0 / 0
  /Users/lpplangf/biz/ig/covid-19/input/vocabulary/valueset-covid19-pos-neg-vs : 0 / 0
  /Users/lpplangf/biz/ig/covid-19/input/vocabulary/valueset-covid19-reporting-priority-vs : 0 / 0
+ /Users/lpplangf/biz/ig/covid-19/input/vocabulary/valueset-covid19-signs-1nd-symptoms-value-set : 0 / 0
+ /Users/lpplangf/biz/ig/covid-19/input/vocabulary/valueset-healthcare-occupation-value-set : 0 / 0
+ /Users/lpplangf/biz/ig/covid-19/input/vocabulary/valueset-known-exposure-la-ValueSet : 0 / 0
+ /Users/lpplangf/biz/ig/covid-19/input/vocabulary/valueset-state-codes-vs : 0 / 0
+ /Users/lpplangf/biz/ig/covid-19/input/vocabulary/valueset-yes-no-vs : 0 / 0
 </table>
 == n/a ==
-ERROR: ImplementationGuide.definition.parameter[20].value: Supressed messages file is not using the new format (see https://confluence.hl7.org/display/FHIR/Implementation+Guide+Parameters)
+ERROR: /Users/lpplangf/biz/ig/covid-19/output/CaseReportingInfo.html#/html/body/div/div/center/img/div/div/div/div/div/p/a at Line 147, column 5: The link '' for "CasePatientIdentifyingInfo" cannot be resolved
+ERROR: /Users/lpplangf/biz/ig/covid-19/output/ExposureInfo.html#/html/body/div/div/center/img/div/div/div/div/div/p/a at Line 143, column 5: The link '' for "KnownExposure" cannot be resolved
+ERROR: /Users/lpplangf/biz/ig/covid-19/output/ExposureInfo.html#/html/body/div/div/center/img/div/div/div/div/div/p/a at Line 144, column 2: The link '' for "TravelHistory" cannot be resolved
+ERROR: /Users/lpplangf/biz/ig/covid-19/output/LabProfiles.html#/html/body/div/div/center/img/div/div/div/div/div/p/a at Line 172, column 21: The link '' for "SARS coronavirus 2 IgG Ab [Presence] in Serum or Plasma by Immunoassay" cannot be resolved
+ERROR: /Users/lpplangf/biz/ig/covid-19/output/LabProfiles.html#/html/body/div/div/center/img/div/div/div/div/div/p/a at Line 175, column 21: The link '' for "Human coronavirus 229E+HKU1+OC43+NL63 RNA [Presence] in Nasopharynx by NAA with non-probe detection" cannot be resolved
+ERROR: /Users/lpplangf/biz/ig/covid-19/output/SignsSymptoms.html#/html/body/div/div/center/img/div/div/div/div/div/p/a at Line 147, column 5: The link '' for "Signs and Sympotoms Present" cannot be resolved
+ERROR: /Users/lpplangf/biz/ig/covid-19/output/SignsSymptoms.html#/html/body/div/div/center/img/div/div/div/div/div/p/a at Line 148, column 2: The link '' for "Signs and Symptoms Absent" cannot be resolved
+ERROR: /Users/lpplangf/biz/ig/covid-19/output/SignsSymptoms.html#/html/body/div/div/center/img/div/div/div/div/div/p/a at Line 154, column 5: The link '' for "COVID19 Diagnoses" cannot be resolved
 == /Users/lpplangf/biz/ig/covid-19/input/ImplementationGuide-covid19.json ==
 == /Users/lpplangf/biz/ig/covid-19/input/extensions/StructureDefinition-c19-reporting-priority.json ==
 WARNING: http://fhir.logicahealth.org/covid19/StructureDefinition/c19-reporting-priority: The Implementation Guide contains no examples for this extension
+== /Users/lpplangf/biz/ig/covid-19/input/extensions/StructureDefinition-certainty-of-absence.json ==
+WARNING: http://fhir.logicahealth.org/covid19/StructureDefinition/certainty-of-absence: The Implementation Guide contains no examples for this extension
+== /Users/lpplangf/biz/ig/covid-19/input/extensions/StructureDefinition-certainty-of-presence.json ==
+WARNING: http://fhir.logicahealth.org/covid19/StructureDefinition/certainty-of-presence: The Implementation Guide contains no examples for this extension
+== /Users/lpplangf/biz/ig/covid-19/input/profiles/StructureDefinition-COVID-19-Diagnosis.json ==
+WARNING: http://fhir.logicahealth.org/covid19/StructureDefinition/COVID-19-Diagnosis: The Implementation Guide contains no examples for this profile
+== /Users/lpplangf/biz/ig/covid-19/input/profiles/StructureDefinition-Humancoronavirus229EHKU1OC43NL63RNAPresNsphLabObs.json ==
+WARNING: http://fhir.logicahealth.org/covid19/StructureDefinition/Humancoronavirus229EHKU1OC43NL63RNAPresNsphLabObs: The Implementation Guide contains no examples for this profile
 == /Users/lpplangf/biz/ig/covid-19/input/profiles/StructureDefinition-Humancoronavirus229ERNAPrThrPtNphOrdNonprobeamptarLabObs.json ==
 WARNING: http://fhir.logicahealth.org/covid19/StructureDefinition/Humancoronavirus229ERNAPrThrPtNphOrdNonprobeamptarLabObs: The Implementation Guide contains no examples for this profile
 == /Users/lpplangf/biz/ig/covid-19/input/profiles/StructureDefinition-HumancoronavirusHKU1RNAPrThrPtNphOrdNonprobeamptarLabObs.json ==
@@ -197,6 +232,35 @@ WARNING: http://fhir.logicahealth.org/covid19/StructureDefinition/SARSrelatedCoV
 == /Users/lpplangf/biz/ig/covid-19/input/profiles/StructureDefinition-c19-coded-laboratory-observation-base.json ==
 == /Users/lpplangf/biz/ig/covid-19/input/profiles/StructureDefinition-c19-laboratory-observation-base.json ==
 == /Users/lpplangf/biz/ig/covid-19/input/profiles/StructureDefinition-c19-quantitative-laboratory-observation-base.json ==
+== /Users/lpplangf/biz/ig/covid-19/input/profiles/StructureDefinition-case-patient-report-id.json ==
+ERROR: StructureDefinition/case-patient-report-id: StructureDefinition.snapshot.element[63].pattern.ofType(CodeableConcept).coding[0]: The code "94657-4" is not valid in the system http://loinc.org; The code provided (http://loinc.org#94657-4) is not  valid in the value set All codes known to the system for "http://loinc.org#94657-4"
+ERROR: StructureDefinition/case-patient-report-id: StructureDefinition.differential.element[12].pattern.ofType(CodeableConcept).coding[0]: The code "94657-4" is not valid in the system http://loinc.org; The code provided (http://loinc.org#94657-4) is not  valid in the value set All codes known to the system for "http://loinc.org#94657-4"
+WARNING: http://fhir.logicahealth.org/covid19/StructureDefinition/case-patient-report-id: The Implementation Guide contains no examples for this profile
+== /Users/lpplangf/biz/ig/covid-19/input/profiles/StructureDefinition-covid-19-exposure-core.json ==
+== /Users/lpplangf/biz/ig/covid-19/input/profiles/StructureDefinition-covid19-symptoms-absent.json ==
+WARNING: http://fhir.logicahealth.org/covid19/StructureDefinition/covid19-symptoms-absent: The Implementation Guide contains no examples for this profile
+== /Users/lpplangf/biz/ig/covid-19/input/profiles/StructureDefinition-covid19-symptoms-present.json ==
+WARNING: http://fhir.logicahealth.org/covid19/StructureDefinition/covid19-symptoms-present: The Implementation Guide contains no examples for this profile
+== /Users/lpplangf/biz/ig/covid-19/input/profiles/StructureDefinition-known-exposure.json ==
+WARNING: http://fhir.logicahealth.org/covid19/StructureDefinition/known-exposure: The Implementation Guide contains no examples for this profile
+== /Users/lpplangf/biz/ig/covid-19/input/profiles/StructureDefinition-travel-history.json ==
+ERROR: StructureDefinition/travel-history: StructureDefinition.snapshot.element[63].pattern.ofType(CodeableConcept).coding[0]: The code "94651-7" is not valid in the system http://loinc.org; The code provided (http://loinc.org#94651-7) is not  valid in the value set All codes known to the system for "http://loinc.org#94651-7"
+ERROR: StructureDefinition/travel-history: StructureDefinition.snapshot.element[83].pattern.ofType(CodeableConcept).coding[0]: The code "94653-3" is not valid in the system http://loinc.org; The code provided (http://loinc.org#94653-3) is not  valid in the value set All codes known to the system for "http://loinc.org#94653-3"
+ERROR: StructureDefinition/travel-history: StructureDefinition.differential.element[8].pattern.ofType(CodeableConcept).coding[0]: The code "94651-7" is not valid in the system http://loinc.org; The code provided (http://loinc.org#94651-7) is not  valid in the value set All codes known to the system for "http://loinc.org#94651-7"
+ERROR: StructureDefinition/travel-history: StructureDefinition.differential.element[16].pattern.ofType(CodeableConcept).coding[0]: The code "94653-3" is not valid in the system http://loinc.org; The code provided (http://loinc.org#94653-3) is not  valid in the value set All codes known to the system for "http://loinc.org#94653-3"
+WARNING: http://fhir.logicahealth.org/covid19/StructureDefinition/travel-history: The Implementation Guide contains no examples for this profile
+== /Users/lpplangf/biz/ig/covid-19/input/vocabulary/ValueSet-certainty-0f-absence-value-set.json ==
+== /Users/lpplangf/biz/ig/covid-19/input/vocabulary/ValueSet-certainty-of-presence-value-set.json ==
+== /Users/lpplangf/biz/ig/covid-19/input/vocabulary/ValueSet-close-contact-setting-vs.json ==
+ERROR: close-contact-setting-vs: Error from server: unable to find code 24721000205109 in http://snomed.info/sct (version http://snomed.info/sct/900000000000207008/version/20200309)
+== /Users/lpplangf/biz/ig/covid-19/input/vocabulary/ValueSet-country-codes-vs.json ==
+== /Users/lpplangf/biz/ig/covid-19/input/vocabulary/ValueSet-covid-19-diagnosis-vs.json ==
+ERROR: covid-19-diagnosis-vs: Error from server: unable to find code 882784691000119000 in http://snomed.info/sct (version http://snomed.info/sct/900000000000207008/version/20200309)
 == /Users/lpplangf/biz/ig/covid-19/input/vocabulary/ValueSet-covid19-det-not-det-eq-in-vs.json ==
 == /Users/lpplangf/biz/ig/covid-19/input/vocabulary/ValueSet-covid19-pos-neg-vs.json ==
 == /Users/lpplangf/biz/ig/covid-19/input/vocabulary/ValueSet-covid19-reporting-priority-vs.json ==
+== /Users/lpplangf/biz/ig/covid-19/input/vocabulary/ValueSet-covid19-signs-1nd-symptoms-value-set.json ==
+== /Users/lpplangf/biz/ig/covid-19/input/vocabulary/ValueSet-healthcare-occupation-value-set.json ==
+== /Users/lpplangf/biz/ig/covid-19/input/vocabulary/ValueSet-known-exposure-la-ValueSet.json ==
+== /Users/lpplangf/biz/ig/covid-19/input/vocabulary/ValueSet-state-codes-vs.json ==
+== /Users/lpplangf/biz/ig/covid-19/input/vocabulary/ValueSet-yes-no-vs.json ==
