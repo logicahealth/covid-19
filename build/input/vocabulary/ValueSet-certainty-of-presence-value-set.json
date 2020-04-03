@@ -1,0 +1,31 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "CertaintyOfPresenceVS",
+  "id": "certainty-of-presence-value-set",
+  "title": "Certainty of PresenceVS",
+  "description": "The set of SNOMED CT codes that represent the level of certainty that a condition exists.",
+  "version": "0.1.0",
+  "url": "http://fhir.logicahealth.org/covid19/ValueSet/certainty-of-presence-value-set",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "60022001",
+            "display": "Possible diagnosis (contextual qualifier) (qualifier value)"
+          },
+          {
+            "code": "410592001",
+            "display": "Probably present (qualifier value)"
+          },
+          {
+            "code": "410591008",
+            "display": "Definitely present (qualifier value)"
+          }
+        ]
+      }
+    ]
+  }
+}

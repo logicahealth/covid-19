@@ -1,0 +1,80 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "LaboratoryObservationPanelBase",
+  "url": "http://fhir.logicahealth.org/covid19/StructureDefinition/LaboratoryObservationPanelBase",
+  "version": "0.1.0",
+  "name": "LaboratoryObservationPanelBase",
+  "title": "Laboratory Observation Panel Base",
+  "status": "active",
+  "description": "A panel that contains member observations",
+  "fhirVersion": "4.0.1",
+  "mapping": [
+    {
+      "identity": "argonaut-dq-dstu2",
+      "uri": "http://unknown.org/Argonaut-DQ-DSTU2",
+      "name": "Argonaut-DQ-DSTU2"
+    },
+    {
+      "identity": "workflow",
+      "uri": "http://hl7.org/fhir/workflow",
+      "name": "Workflow Pattern"
+    },
+    {
+      "identity": "sct-concept",
+      "uri": "http://snomed.info/conceptdomain",
+      "name": "SNOMED CT Concept Domain Binding"
+    },
+    {
+      "identity": "v2",
+      "uri": "http://hl7.org/v2",
+      "name": "HL7 v2 Mapping"
+    },
+    {
+      "identity": "rim",
+      "uri": "http://hl7.org/v3",
+      "name": "RIM Mapping"
+    },
+    {
+      "identity": "w5",
+      "uri": "http://hl7.org/fhir/fivews",
+      "name": "FiveWs Pattern Mapping"
+    },
+    {
+      "identity": "sct-attr",
+      "uri": "http://snomed.org/attributebinding",
+      "name": "SNOMED CT Attribute Binding"
+    }
+  ],
+  "kind": "resource",
+  "abstract": true,
+  "type": "Observation",
+  "baseDefinition": "http://fhir.logicahealth.org/covid19/StructureDefinition/c19-laboratory-observation-base",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Observation.value[x]",
+        "path": "Observation.value[x]",
+        "max": "0"
+      },
+      {
+        "id": "Observation.hasMember",
+        "path": "Observation.hasMember",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "profile",
+              "path": "$this.resolve()"
+            }
+          ],
+          "rules": "open"
+        }
+      },
+      {
+        "id": "Observation.component",
+        "path": "Observation.component",
+        "max": "0"
+      }
+    ]
+  }
+}

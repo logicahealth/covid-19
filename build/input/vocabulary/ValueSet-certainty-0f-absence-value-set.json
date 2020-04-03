@@ -1,0 +1,27 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "CertaintyOfAbsenceVS",
+  "id": "certainty-0f-absence-value-set",
+  "title": "Certainty of Absence Value Set",
+  "description": "The set of SNOMED CT codes that represent the leve of certainty that a condition does not exist.",
+  "version": "0.1.0",
+  "url": "http://fhir.logicahealth.org/covid19/ValueSet/certainty-0f-absence-value-set",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "410594000",
+            "display": "Definitely NOT present (qualifier value)"
+          },
+          {
+            "code": "723511001",
+            "display": "Refuted (qualifier value)"
+          }
+        ]
+      }
+    ]
+  }
+}

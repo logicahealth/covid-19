@@ -1,0 +1,259 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "travel-history",
+  "url": "http://fhir.logicahealth.org/covid19/StructureDefinition/travel-history",
+  "version": "0.1.0",
+  "name": "TravelHistory",
+  "title": "Travel History",
+  "status": "active",
+  "description": "The country or countries to which the subject may have traveled.",
+  "fhirVersion": "4.0.1",
+  "mapping": [
+    {
+      "identity": "workflow",
+      "uri": "http://hl7.org/fhir/workflow",
+      "name": "Workflow Pattern"
+    },
+    {
+      "identity": "sct-concept",
+      "uri": "http://snomed.info/conceptdomain",
+      "name": "SNOMED CT Concept Domain Binding"
+    },
+    {
+      "identity": "v2",
+      "uri": "http://hl7.org/v2",
+      "name": "HL7 v2 Mapping"
+    },
+    {
+      "identity": "rim",
+      "uri": "http://hl7.org/v3",
+      "name": "RIM Mapping"
+    },
+    {
+      "identity": "w5",
+      "uri": "http://hl7.org/fhir/fivews",
+      "name": "FiveWs Pattern Mapping"
+    },
+    {
+      "identity": "sct-attr",
+      "uri": "http://snomed.org/attributebinding",
+      "name": "SNOMED CT Attribute Binding"
+    }
+  ],
+  "kind": "resource",
+  "abstract": false,
+  "type": "Observation",
+  "baseDefinition": "http://fhir.logicahealth.org/covid19/StructureDefinition/covid-19-exposure-core",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Observation.code",
+        "path": "Observation.code",
+        "patternCodeableConcept": {
+          "coding": [
+            {
+              "code": "8691-8",
+              "system": "http://loinc.org",
+              "display": "History of travel"
+            }
+          ]
+        }
+      },
+      {
+        "id": "Observation.value[x]",
+        "path": "Observation.value[x]",
+        "max": "0"
+      },
+      {
+        "id": "Observation.component",
+        "path": "Observation.component",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "code"
+            }
+          ],
+          "rules": "open"
+        }
+      },
+      {
+        "id": "Observation.component:TravelStartDate",
+        "path": "Observation.component",
+        "sliceName": "TravelStartDate",
+        "max": "1"
+      },
+      {
+        "id": "Observation.component:TravelStartDate.code",
+        "path": "Observation.component.code",
+        "patternCodeableConcept": {
+          "coding": [
+            {
+              "code": "82752-7",
+              "system": "http://loinc.org",
+              "display": "Date travel started"
+            }
+          ]
+        }
+      },
+      {
+        "id": "Observation.component:TravelStartDate.value[x]",
+        "path": "Observation.component.value[x]",
+        "type": [
+          {
+            "code": "dateTime"
+          }
+        ]
+      },
+      {
+        "id": "Observation.component:Country",
+        "path": "Observation.component",
+        "sliceName": "Country",
+        "max": "1"
+      },
+      {
+        "id": "Observation.component:Country.code",
+        "path": "Observation.component.code",
+        "patternCodeableConcept": {
+          "coding": [
+            {
+              "code": "94651-7",
+              "system": "http://loinc.org",
+              "display": "Country of travel"
+            }
+          ]
+        }
+      },
+      {
+        "id": "Observation.component:Country.value[x]",
+        "path": "Observation.component.value[x]",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "type",
+              "path": "$this"
+            }
+          ],
+          "ordered": false,
+          "rules": "open"
+        },
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ]
+      },
+      {
+        "id": "Observation.component:Country.valueCodeableConcept",
+        "path": "Observation.component.valueCodeableConcept",
+        "binding": {
+          "strength": "preferred",
+          "valueSet": "http://fhir.logicahealth.org/covid19/ValueSet/country-codes-vs"
+        }
+      },
+      {
+        "id": "Observation.component:State",
+        "path": "Observation.component",
+        "sliceName": "State",
+        "max": "1"
+      },
+      {
+        "id": "Observation.component:State.code",
+        "path": "Observation.component.code",
+        "patternCodeableConcept": {
+          "coding": [
+            {
+              "code": "82754-3",
+              "system": "http://loinc.org",
+              "display": "State of travel"
+            }
+          ]
+        }
+      },
+      {
+        "id": "Observation.component:State.value[x]",
+        "path": "Observation.component.value[x]",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "type",
+              "path": "$this"
+            }
+          ],
+          "ordered": false,
+          "rules": "open"
+        },
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ]
+      },
+      {
+        "id": "Observation.component:State.valueCodeableConcept",
+        "path": "Observation.component.valueCodeableConcept",
+        "binding": {
+          "strength": "preferred",
+          "valueSet": "http://fhir.logicahealth.org/covid19/ValueSet/state-codes-vs"
+        }
+      },
+      {
+        "id": "Observation.component:City",
+        "path": "Observation.component",
+        "sliceName": "City",
+        "max": "1"
+      },
+      {
+        "id": "Observation.component:City.code",
+        "path": "Observation.component.code",
+        "patternCodeableConcept": {
+          "coding": [
+            {
+              "code": "94653-3",
+              "system": "http://loinc.org",
+              "display": "City of travel"
+            }
+          ]
+        }
+      },
+      {
+        "id": "Observation.component:City.value[x]",
+        "path": "Observation.component.value[x]",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "Observation.component:TravelEndDate",
+        "path": "Observation.component",
+        "sliceName": "TravelEndDate",
+        "max": "1"
+      },
+      {
+        "id": "Observation.component:TravelEndDate.code",
+        "path": "Observation.component.code",
+        "patternCodeableConcept": {
+          "coding": [
+            {
+              "code": "91560-3",
+              "system": "http://loinc.org",
+              "display": "Date of departure from travel destination"
+            }
+          ]
+        }
+      },
+      {
+        "id": "Observation.component:TravelEndDate.value[x]",
+        "path": "Observation.component.value[x]",
+        "type": [
+          {
+            "code": "dateTime"
+          }
+        ]
+      }
+    ]
+  }
+}

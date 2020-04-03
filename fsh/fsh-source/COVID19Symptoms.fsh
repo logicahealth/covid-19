@@ -4,7 +4,7 @@ Id: covid19-symptoms-present
 Title: "COVID 19 Symptoms Present"
 Description: "A parent profile for the assertion of the presence COVID 19 symptoms."
 * extension contains
-    CertaintyOfPresence 0..1
+    CertaintyOfPresence named certaintyOfPresence 0..1
 * code from COVID19SignsAndSymptomsVS (preferred)
 
 Extension: CertaintyOfPresence
@@ -20,7 +20,7 @@ Id: covid19-symptoms-absent
 Title: "COVID 19 Symptoms Absent"
 Description: "A parent profile for the assertion of the Absence COVID 19 symptoms."
 * extension contains
-    CertaintyOfAbsence 1..1
+    CertaintyOfAbsence named certaintyOfAbsence 1..1
 * code from COVID19SignsAndSymptomsVS (preferred)
 
 Extension: CertaintyOfAbsence
