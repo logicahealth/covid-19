@@ -19,7 +19,7 @@ Title: "Known Exposure"
 Description: "Known Exposure is a description of how, when, where, and with whom and individual was exposed to a contagion."
 * code = LNC#88636-6 "Known Exposure"
 * value[x] only CodeableConcept
-* valueCodeableConcept from KnownExposureVS (preferred)
+* valueCodeableConcept from KnownExposureLAVS (preferred)
 
 Profile: TravelHistory
 Parent: COVID19ExposureCore
