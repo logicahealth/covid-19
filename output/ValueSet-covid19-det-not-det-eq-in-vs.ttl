@@ -17,7 +17,7 @@
   fhir:ValueSet.name [ fhir:value "DetNotDetEqInVS"];
   fhir:ValueSet.title [ fhir:value "Detected-Not Detected-Equivalent-Inconclusive Value Set"];
   fhir:ValueSet.status [ fhir:value "active"];
-  fhir:ValueSet.date [ fhir:value "2020-04-02T16:13:12-06:00"^^xsd:dateTime];
+  fhir:ValueSet.date [ fhir:value "2020-04-03T11:00:56-06:00"^^xsd:dateTime];
   fhir:ValueSet.publisher [ fhir:value "COVID-19 Healthcare Coalition"];
   fhir:ValueSet.contact [
      fhir:index 0;
