@@ -18,7 +18,7 @@ Id: known-exposure
 Title: "Known Exposure"
 Description: "Known Exposure is a desription of how, when, where, and with whom and individual was exposed to a contagion."
 * code = LNC#88636-6 "Known Exposure"
-* value only CodeableConcept
+* value[x] only CodeableConcept
 * valueCodeableConcept from KnownExposureVS (preferred)
 
 Profile: TravelHistory
@@ -28,8 +28,8 @@ Title: "Travel History"
 Description: "The country or countries to which the subject may have traveled."
 * code = LNC#8691-8 "History of travel"
 * value[x] 0..0
-* component ^slicing.descriminator.type = #value
-* component ^slicing.descriminator.path = "code"
+* component ^slicing.discriminator.type = #value
+* component ^slicing.discriminator.path = "code"
 * component ^slicing.rules = #open
 * component contains
     TravelStartDate 0..1 and 

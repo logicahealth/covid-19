@@ -3,15 +3,15 @@ Parent: Observation
 Id: case-patient-report-id
 Title: "Case-Patient Report Identifying Information"
 Description: "The identifying information for a reportable disease or condition."
-//* code = LNC# ""
+// * code = LNC# ""
 * value[x] 0..0
 * specimen 0..0
 * bodySite 0..0
 * referenceRange 0..0
 * method 0..0
 * device 0..0
-* component ^slicing.descriminator.type = #value
-* component ^slicing.descriminator.path = "code"
+* component ^slicing.discriminator.type = #value
+* component ^slicing.discriminator.path = "code"
 * component ^slicing.rules = #open
 * component contains
     PatientID 0..1 and
