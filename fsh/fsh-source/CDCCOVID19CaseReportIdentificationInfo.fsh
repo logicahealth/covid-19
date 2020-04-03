@@ -18,8 +18,8 @@ Description: "The identifying information for a reportable disease or condition.
     CaseID 0..1 and
     AssigningAuthority 0..1
 * component[PatientID].code = LNC#76435-7 "Patient identifier"
-* component[PatientID].value only string
+* component[PatientID].value[x] only string
 * component[CaseID].code = LNC#94657-4 "Case identifier"
-* component[CaseID].value only string
+* component[CaseID].value[x] only string
 * component[AssigningAuthority].code = LNC#76698-0 "Identifier assigning authority"
-* component[AssigningAuthority].value only string
+* component[AssigningAuthority].value[x] only string

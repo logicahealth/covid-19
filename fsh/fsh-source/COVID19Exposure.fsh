@@ -16,7 +16,7 @@ Profile: KnownExposure
 Parent: COVID19ExposureCore
 Id: known-exposure
 Title: "Known Exposure"
-Description: "Known Exposure is a desription of how, when, where, and with whom and individual was exposed to a contagion."
+Description: "Known Exposure is a description of how, when, where, and with whom and individual was exposed to a contagion."
 * code = LNC#88636-6 "Known Exposure"
 * value[x] only CodeableConcept
 * valueCodeableConcept from KnownExposureVS (preferred)
@@ -44,7 +44,7 @@ Description: "The country or countries to which the subject may have traveled."
 * component[Country].valueCodeableConcept from CountryCodesVS (preferred)
 * component[State].code = LNC#82754-3 "State of travel"
 * component[State].value[x] only CodeableConcept
-* component[State].valueCodeableConcept from SateCodesVS (preferred)
+* component[State].valueCodeableConcept from StateCodesVS (preferred)
 * component[City].code = LNC#94653-3 "City of travel"
 * component[City].value[x] only string
 * component[TravelEndDate].code = LNC#91560-3 "Date of departure from travel destination"
