@@ -1,0 +1,13 @@
+{
+"name": "logica.fhir.template",
+"version": "0.1.0",
+"type": "fhir.template",
+"license": "CC0-1.0",
+"description": "Logica FHIR Template",
+"author": "http://logicahealth.org",
+"canonical": "http://logicahealth.org/templates/logica.fhir.template",
+"base": "fhir.base.template",
+"dependencies": {
+    "fhir.base.template": "current"
+    }
+}
