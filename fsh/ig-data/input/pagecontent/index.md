@@ -4,7 +4,7 @@ The COVID-19 crisis presents an unprecedented need to share information in a sta
 
 The models are provided without warrantee or guarantee that they are accurate, complete, or fit for purpose. 
 
-We would like to gratefully acknowledge contributions and collaborations from the following organizations, individuals and sources: American College of Obstetricians and Gynecologists, American Academy of Family Physicians, American College of Surgeons, American Medical Association, Veterans Administration, Argonauts, CDC COVID-19 Case Report Form, HL7 Clinical Information Modeling Initiative, Clinical Architecture, Cognitive Medical Systems, Saperi Systems, Health Catalyst, HL7 International, LOINC, MITRE, Intermountain Healthcare, ONC US Core, Regenstrief Institute, and the University of Utah Department of Biomedical Informatics.
+We would like to gratefully acknowledge contributions and collaborations from the following organizations, individuals and sources: American College of Obstetricians and Gynecologists, American Academy of Family Physicians, American College of Surgeons, American Medical Association, Veterans Administration, Argonauts, CDC COVID-19 Case Report Form, HL7 Clinical Information Modeling Initiative, Clinical Architecture, Cognitive Medical Systems, Saperi Systems, Health Catalyst, HL7 International, LOINC, MITRE, Intermountain Healthcare, ONC US Core, Regenstrief Institute, James E. Tcheng, MD, Duke University Health System, and the University of Utah Department of Biomedical Informatics.
 
 
 ### Patient demographics
@@ -16,4 +16,4 @@ For patient demographic data we recommend using the US Core patient FHIR profile
 
 For vital signs data we recommend using the FHIR profiles that were developed by the HL7 FHIR working group.  [HL7 FHIR core Vital Signs](http://hl7.org/fhir/R4/observation-vitalsigns.html).
 
-For oxygen saturation via pulse oximetry data we recommend the profile developed by the US Core HL7 working group. [Oxygen saturation in Arterial blood by Pulse oximetry.  LOINC code59408-5](https://build.fhir.org/ig/HL7/US-Core-R4/StructureDefinition-us-core-pulse-oximetry.html)
+For oxygen saturation via pulse oximetry data we recommend the profile developed by the US Core HL7 working group. [Oxygen saturation in Arterial blood by Pulse oximetry.  LOINC code 59408-5](https://build.fhir.org/ig/HL7/US-Core-R4/StructureDefinition-us-core-pulse-oximetry.html)
