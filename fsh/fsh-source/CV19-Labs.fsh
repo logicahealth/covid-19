@@ -57,7 +57,7 @@ Parent:   QuantitativeLaboratoryObservationBase
 Title:    "SARS coronavirus 2 E gene [Cycle Threshold #] in Unspecified specimen by NAA with probe detection"
 Description: "SARScoronavirus2EGeneThreshNumPtXXXQnPrbAmpTarLabObs is a quantitative test for the SARS coronavirus 2 E gene via probe target ampification and with a threshold for detection in non-respiratory specimens. LOINC code 94509-7."
 * code = LNC#94509-7
-* valueQuantity units = UCUM#{cT_value}
+* valueQuantity units = UCUM#{Ct_value}
 
 Profile:  SARScoronavirus2NGenePrThrPtRespOrdPrbAmpTarLabObs
 Parent:   CodedLaboratoryObservationBase
@@ -92,28 +92,28 @@ Parent:   QuantitativeLaboratoryObservationBase
 Title:    "SARS coronavirus 2 N gene [Cycle Threshold #] in Unspecified specimen by NAA with probe detection"
 Description: "SARScoronavirus2NgeneThreshNumPtXXXQnPrbAmpTarLabObs is a quantitative test for the SARS coronavirus 2 RNA via probe target amplification and a requirement for a certain threshold for detection. LOINC code 94510-5."
 * code = LNC#94510-5
-* valueQuantity units = UCUM#{cT_value}
+* valueQuantity units = UCUM#{Ct_value}
 
 Profile:  SARSCoV2NgeneThreshNumPtXXXQnPrbAmpTarPrimerProbeSetN1LabObs
 Parent:   QuantitativeLaboratoryObservationBase
 Title:    "SARS coronavirus 2 N gene [Cycle Threshold #] in Unspecified specimen by Nucleic acid amplification using primer-probe set N1"
 Description: "SARSCoV2NgeneThreshNumPtXXXQnPrbAmpTarPrimerProbeSetN1LabObs is a quantitative test for the SARS coronavirus 2 N gene via the probe target amplification, primer probe set N1 method in non-respiratory specimens. LOINC code 94311-8."
 * code = LNC#94311-8
-* valueQuantity units = UCUM#{cT_value}
+* valueQuantity units = UCUM#{Ct_value}
 
 Profile:  SARSCoV2NgeneThreshNumPtXXXQnPrbAmpTarPrimerProbeSetN2LabObs
 Parent:   QuantitativeLaboratoryObservationBase
 Title:    "SARS coronavirus 2 N gene [Cycle Threshold #] in Unspecified specimen by Nucleic acid amplification using primer-probe set N2"
 Description: "SARSCoV2NgeneThreshNumPtXXXQnPrbAmpTarPrimerProbeSetN2LabObs is a quantitative test for the SARS coronavirus 2 N gene via the probe target amplification, primer probe set N2 method in non-respiratory specimens. LOINC code 94312-6."
 * code = LNC#94312-6
-* valueQuantity units = UCUM#{cT_value}
+* valueQuantity units = UCUM#{Ct_value}
 
 Profile:  SARScoronavirus2ORF1AbRegionThreshNumPtXXXQnPrbAmpTarLabObs
 Parent:   QuantitativeLaboratoryObservationBase
 Title:    "SARS coronavirus 2 ORF1ab region [Cycle Threshold #] in Unspecified specimen by NAA with probe detection"
 Description: "SARScoronavirus2ORF1AbRegionThreshNumPtXXXQnPrbAmpTarLabObs is a quantitative test for the SARS coronavirus 2 ORF Ab region via the probe target ampificatio method and with a threshold for detection in non-respiratory specimens. LOINC code 94511-3"
 * code = LNC#94511-3
-* valueQuantity units = UCUM#{cT_value}
+* valueQuantity units = UCUM#{Ct_value}
 
 Profile:  SARScoronavirus2RdRpGenePrThePtRespOrdPrbAmpTarLabObs
 Parent:   CodedLaboratoryObservationBase
@@ -188,7 +188,7 @@ Parent:   QuantitativeLaboratoryObservationBase
 Title:    "SARS-like coronavirus N gene [Cycle Threshold #] in Unspecified specimen by NAA with probe detection"
 Description: "SARSLikecoronavirusNGeneThreshNumPtXXXQnPrbAmpTarLabObs is a quantitative test for the SARS-like coronavirus N gene via the probe target amplification method and a threshold for detection in non-respiratory specimens. LOINC code 94313-4."
 * code = LNC#94313-4
-* valueQuantity units = UCUM#{cT_value}
+* valueQuantity units = UCUM#{Ct_value}
 
 Profile:  SARSrelatedCoVPlusMERSCoVRNAPrThrPtRespOrdPrbAmpTarLabObs
 Parent:   CodedLaboratoryObservationBase
@@ -232,12 +232,12 @@ Description: "SARScoronavirus2RNAPrThrPtNphOrdNonprobeamptarLabObs is a test for
 * code = LNC#94565-9
 * valueCodeableConcept from DetNotDetEqInVS (preferred)
 
-//Profile: Humancoronavirus229EHKU1OC43NL63RNAPresNsphLabObs
-//Parent: CodedLaboratoryObservationBase
-//Title: "Human coronavirus 229E+HKU1+OC43+NL63 RNA [Presence] in Nasopharynx by NAA with non-probe detection"
-//Description: "Humancoronavirus229EHKU1OC43NL63RNAPrThrPtNphOrdNonprobeamptar is a test for the Human coronavirus 229EHKU1, OC43, NL63 nucleaic acids in nasopharynx specimens via non-probe, target amplification method"
-//* code = LNC#88891-7
-//* valueCodeableConcept from DetNotDetEqInVS (preferred)
+Profile: Humancoronavirus229EHKU1OC43NL63RNAPresNsphLabObs
+Parent: CodedLaboratoryObservationBase
+Title: "Human coronavirus 229E+HKU1+OC43+NL63 RNA [Presence] in Nasopharynx by NAA with non-probe detection"
+Description: "Humancoronavirus229EHKU1OC43NL63RNAPrThrPtNphOrdNonprobeamptar is a test for the Human coronavirus 229EHKU1, OC43, NL63 nucleaic acids in nasopharynx specimens via non-probe, target amplification method"
+* code = LNC#88891-7
+* valueCodeableConcept from DetNotDetEqInVS (preferred)
 
 Profile: Humancoronavirus229ERNAPrThrPtNphOrdNonprobeamptarLabObs
 Parent: CodedLaboratoryObservationBase
