@@ -1,22 +1,43 @@
 {
   "resourceType" : "Bundle",
-  "id" : "bf42fe7e-eb8b-4855-a70a-3ea7d2bb67de",
+  "id" : "8d023cde-d539-4425-aa9f-2b1b2938744d",
   "meta" : {
-    "lastUpdated" : "2020-04-02T16:13:12.074-06:00"
+    "lastUpdated" : "2020-04-03T11:00:56.360-06:00"
   },
   "type" : "collection",
   "entry" : [{
+    "fullUrl" : "http://fhir.logicahealth.org/covid19/ValueSet/covid19-det-not-det-eq-in-vs",
     "resource" : {
       "resourceType" : "ValueSet",
+      "id" : "covid19-det-not-det-eq-in-vs",
       "text" : {
         "status" : "generated",
         "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 4 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px\"/>Expansion based on SNOMED CT International edition 09-Mar 2020<p>All codes from system <a href=\"http://hl7.org/fhir/R4/codesystem-snomedct.html\"><code>http://snomed.info/sct</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-260415000\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=260415000\">260415000</a></td><td>Not detected (qualifier value)</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-419984006\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=419984006\">419984006</a></td><td>Inconclusive (qualifier value)</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-42425007\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=42425007\">42425007</a></td><td>Equivocal (qualifier value)</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-260373001\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=260373001\">260373001</a></td><td>Detected (qualifier value)</td><td/></tr></table></div>"
       },
+      "url" : "http://fhir.logicahealth.org/covid19/ValueSet/covid19-det-not-det-eq-in-vs",
+      "version" : "0.1.0",
+      "name" : "DetNotDetEqInVS",
+      "title" : "Detected-Not Detected-Equivalent-Inconclusive Value Set",
       "status" : "active",
+      "date" : "2020-04-03T11:00:56-06:00",
+      "publisher" : "COVID-19 Healthcare Coalition",
+      "contact" : [{
+        "name" : "Logica Health",
+        "telecom" : [{
+          "system" : "url",
+          "value" : "https://c19hcc.org/"
+        }]
+      }],
+      "description" : "A set of SNOMED codes representing the result of a test as detected, not detected, equivalent, or inconclusive.",
       "expansion" : {
-        "identifier" : "urn:uuid:7de9f792-0077-4ba1-9b84-bba7010235b4",
-        "timestamp" : "2020-04-02T18:14:57.645Z",
+        "identifier" : "urn:uuid:0bb0389a-0b17-4670-8c36-542cf0a143e3",
+        "timestamp" : "2020-04-03T11:01:51-06:00",
+        "total" : 4,
         "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
           "name" : "limitedExpansion",
           "valueBoolean" : true
         },
@@ -48,17 +69,38 @@
     }
   },
   {
+    "fullUrl" : "http://fhir.logicahealth.org/covid19/ValueSet/covid19-pos-neg-vs",
     "resource" : {
       "resourceType" : "ValueSet",
+      "id" : "covid19-pos-neg-vs",
       "text" : {
         "status" : "generated",
         "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 2 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px\"/>Expansion based on SNOMED CT International edition 09-Mar 2020<p>All codes from system <a href=\"http://hl7.org/fhir/R4/codesystem-snomedct.html\"><code>http://snomed.info/sct</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-10828004\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=10828004\">10828004</a></td><td>Positive (qualifier value)</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-260385009\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=260385009\">260385009</a></td><td>Negative (qualifier value)</td><td/></tr></table></div>"
       },
+      "url" : "http://fhir.logicahealth.org/covid19/ValueSet/covid19-pos-neg-vs",
+      "version" : "0.1.0",
+      "name" : "PosNegVS",
+      "title" : "Positive/Negative Value Set",
       "status" : "active",
+      "date" : "2020-04-03T11:00:56-06:00",
+      "publisher" : "COVID-19 Healthcare Coalition",
+      "contact" : [{
+        "name" : "Logica Health",
+        "telecom" : [{
+          "system" : "url",
+          "value" : "https://c19hcc.org/"
+        }]
+      }],
+      "description" : "A set of SNOMED codes representing the result of a test as positive or negative.",
       "expansion" : {
-        "identifier" : "urn:uuid:67213424-254b-48d6-be1e-b78a5091b048",
-        "timestamp" : "2020-04-02T18:14:57.942Z",
+        "identifier" : "urn:uuid:fd1b92d9-b00d-42bd-94b1-acc90cd3685e",
+        "timestamp" : "2020-04-03T11:01:51-06:00",
+        "total" : 2,
         "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
           "name" : "limitedExpansion",
           "valueBoolean" : true
         },
@@ -80,17 +122,38 @@
     }
   },
   {
+    "fullUrl" : "http://fhir.logicahealth.org/covid19/ValueSet/covid19-reporting-priority-vs",
     "resource" : {
       "resourceType" : "ValueSet",
+      "id" : "covid19-reporting-priority-vs",
       "text" : {
         "status" : "generated",
         "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 4 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px\"/>Expansion based on SNOMED CT International edition 09-Mar 2020<p>All codes from system <a href=\"http://hl7.org/fhir/R4/codesystem-snomedct.html\"><code>http://snomed.info/sct</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-50811001\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=50811001\">50811001</a></td><td>Routine (qualifier value)</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-49499008\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=49499008\">49499008</a></td><td>Stat (qualifier value)</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-709122007\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=709122007\">709122007</a></td><td>As soon as possible (qualifier value)</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-103391001\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=103391001\">103391001</a></td><td>Urgent (qualifier value)</td><td/></tr></table></div>"
       },
+      "url" : "http://fhir.logicahealth.org/covid19/ValueSet/covid19-reporting-priority-vs",
+      "version" : "0.1.0",
+      "name" : "ReportingPriorityVS",
+      "title" : "Reporting Priorities Value Set",
       "status" : "active",
+      "date" : "2020-04-03T11:00:56-06:00",
+      "publisher" : "COVID-19 Healthcare Coalition",
+      "contact" : [{
+        "name" : "Logica Health",
+        "telecom" : [{
+          "system" : "url",
+          "value" : "https://c19hcc.org/"
+        }]
+      }],
+      "description" : "A set of SNOMED codes representing how important it is to report a lab or other observation.",
       "expansion" : {
-        "identifier" : "urn:uuid:9763bd07-1761-46fd-9e66-c61acecfa216",
-        "timestamp" : "2020-04-02T18:14:58.239Z",
+        "identifier" : "urn:uuid:ac5b8263-36e3-48c2-895f-e91348f8d97d",
+        "timestamp" : "2020-04-03T11:01:51-06:00",
+        "total" : 4,
         "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
           "name" : "limitedExpansion",
           "valueBoolean" : true
         },

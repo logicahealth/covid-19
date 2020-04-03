@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="bf42fe7e-eb8b-4855-a70a-3ea7d2bb67de"/>
+  <id value="8d023cde-d539-4425-aa9f-2b1b2938744d"/>
   <meta>
-    <lastUpdated value="2020-04-02T16:13:12.074-06:00"/>
+    <lastUpdated value="2020-04-03T11:00:56.360-06:00"/>
   </meta>
   <type value="collection"/>
   <entry>
+    <fullUrl value="http://fhir.logicahealth.org/covid19/ValueSet/covid19-det-not-det-eq-in-vs"/>
     <resource>
       <ValueSet>
+        <id value="covid19-det-not-det-eq-in-vs"/>
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
@@ -66,10 +68,29 @@
             </table>
           </div>
         </text>
+        <url value="http://fhir.logicahealth.org/covid19/ValueSet/covid19-det-not-det-eq-in-vs"/>
+        <version value="0.1.0"/>
+        <name value="DetNotDetEqInVS"/>
+        <title value="Detected-Not Detected-Equivalent-Inconclusive Value Set"/>
         <status value="active"/>
+        <date value="2020-04-03T11:00:56-06:00"/>
+        <publisher value="COVID-19 Healthcare Coalition"/>
+        <contact>
+          <name value="Logica Health"/>
+          <telecom>
+            <system value="url"/>
+            <value value="https://c19hcc.org/"/>
+          </telecom>
+        </contact>
+        <description value="A set of SNOMED codes representing the result of a test as detected, not detected, equivalent, or inconclusive."/>
         <expansion>
-          <identifier value="urn:uuid:7de9f792-0077-4ba1-9b84-bba7010235b4"/>
-          <timestamp value="2020-04-02T18:14:57.645Z"/>
+          <identifier value="urn:uuid:0bb0389a-0b17-4670-8c36-542cf0a143e3"/>
+          <timestamp value="2020-04-03T11:01:51-06:00"/>
+          <total value="4"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
           <parameter>
             <name value="limitedExpansion"/>
             <valueBoolean value="true"/>
@@ -103,8 +124,10 @@
     </resource>
   </entry>
   <entry>
+    <fullUrl value="http://fhir.logicahealth.org/covid19/ValueSet/covid19-pos-neg-vs"/>
     <resource>
       <ValueSet>
+        <id value="covid19-pos-neg-vs"/>
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
@@ -146,10 +169,29 @@
             </table>
           </div>
         </text>
+        <url value="http://fhir.logicahealth.org/covid19/ValueSet/covid19-pos-neg-vs"/>
+        <version value="0.1.0"/>
+        <name value="PosNegVS"/>
+        <title value="Positive/Negative Value Set"/>
         <status value="active"/>
+        <date value="2020-04-03T11:00:56-06:00"/>
+        <publisher value="COVID-19 Healthcare Coalition"/>
+        <contact>
+          <name value="Logica Health"/>
+          <telecom>
+            <system value="url"/>
+            <value value="https://c19hcc.org/"/>
+          </telecom>
+        </contact>
+        <description value="A set of SNOMED codes representing the result of a test as positive or negative."/>
         <expansion>
-          <identifier value="urn:uuid:67213424-254b-48d6-be1e-b78a5091b048"/>
-          <timestamp value="2020-04-02T18:14:57.942Z"/>
+          <identifier value="urn:uuid:fd1b92d9-b00d-42bd-94b1-acc90cd3685e"/>
+          <timestamp value="2020-04-03T11:01:51-06:00"/>
+          <total value="2"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
           <parameter>
             <name value="limitedExpansion"/>
             <valueBoolean value="true"/>
@@ -173,8 +215,10 @@
     </resource>
   </entry>
   <entry>
+    <fullUrl value="http://fhir.logicahealth.org/covid19/ValueSet/covid19-reporting-priority-vs"/>
     <resource>
       <ValueSet>
+        <id value="covid19-reporting-priority-vs"/>
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
@@ -232,10 +276,29 @@
             </table>
           </div>
         </text>
+        <url value="http://fhir.logicahealth.org/covid19/ValueSet/covid19-reporting-priority-vs"/>
+        <version value="0.1.0"/>
+        <name value="ReportingPriorityVS"/>
+        <title value="Reporting Priorities Value Set"/>
         <status value="active"/>
+        <date value="2020-04-03T11:00:56-06:00"/>
+        <publisher value="COVID-19 Healthcare Coalition"/>
+        <contact>
+          <name value="Logica Health"/>
+          <telecom>
+            <system value="url"/>
+            <value value="https://c19hcc.org/"/>
+          </telecom>
+        </contact>
+        <description value="A set of SNOMED codes representing how important it is to report a lab or other observation."/>
         <expansion>
-          <identifier value="urn:uuid:9763bd07-1761-46fd-9e66-c61acecfa216"/>
-          <timestamp value="2020-04-02T18:14:58.239Z"/>
+          <identifier value="urn:uuid:ac5b8263-36e3-48c2-895f-e91348f8d97d"/>
+          <timestamp value="2020-04-03T11:01:51-06:00"/>
+          <total value="4"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
           <parameter>
             <name value="limitedExpansion"/>
             <valueBoolean value="true"/>

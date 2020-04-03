@@ -1,0 +1,77 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "SARScoronavirus2AbIgMPrThrPtSerPlasOrdIArapidLabObs",
+  "url": "http://fhir.logicahealth.org/covid19/StructureDefinition/SARScoronavirus2AbIgMPrThrPtSerPlasOrdIArapidLabObs",
+  "version": "0.1.0",
+  "name": "SARScoronavirus2AbIgMPrThrPtSerPlasOrdIArapidLabObs",
+  "title": "SARS coronavirus 2 IgM Ab [Presence] in Serum or Plasma by Rapid immunoassay",
+  "status": "active",
+  "description": "SARScoronavirus2AbIgMPrThrPtSerPlasOrdIArapidLabObs is a test for the SARS coronavisus 2 IgM antibody via rapid immunoassay. LOINC code 94508-9.",
+  "fhirVersion": "4.0.1",
+  "mapping": [
+    {
+      "identity": "argonaut-dq-dstu2",
+      "uri": "http://unknown.org/Argonaut-DQ-DSTU2",
+      "name": "Argonaut-DQ-DSTU2"
+    },
+    {
+      "identity": "workflow",
+      "uri": "http://hl7.org/fhir/workflow",
+      "name": "Workflow Pattern"
+    },
+    {
+      "identity": "sct-concept",
+      "uri": "http://snomed.info/conceptdomain",
+      "name": "SNOMED CT Concept Domain Binding"
+    },
+    {
+      "identity": "v2",
+      "uri": "http://hl7.org/v2",
+      "name": "HL7 v2 Mapping"
+    },
+    {
+      "identity": "rim",
+      "uri": "http://hl7.org/v3",
+      "name": "RIM Mapping"
+    },
+    {
+      "identity": "w5",
+      "uri": "http://hl7.org/fhir/fivews",
+      "name": "FiveWs Pattern Mapping"
+    },
+    {
+      "identity": "sct-attr",
+      "uri": "http://snomed.org/attributebinding",
+      "name": "SNOMED CT Attribute Binding"
+    }
+  ],
+  "kind": "resource",
+  "abstract": false,
+  "type": "Observation",
+  "baseDefinition": "http://fhir.logicahealth.org/covid19/StructureDefinition/c19-coded-laboratory-observation-base",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Observation.code",
+        "path": "Observation.code",
+        "patternCodeableConcept": {
+          "coding": [
+            {
+              "code": "94508-9",
+              "system": "http://loinc.org"
+            }
+          ]
+        }
+      },
+      {
+        "id": "Observation.valueCodeableConcept",
+        "path": "Observation.valueCodeableConcept",
+        "binding": {
+          "strength": "preferred",
+          "valueSet": "http://fhir.logicahealth.org/covid19/ValueSet/covid19-det-not-det-eq-in-vs"
+        }
+      }
+    ]
+  }
+}

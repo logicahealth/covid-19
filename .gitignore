@@ -2,7 +2,7 @@
 /template**
 /input**
 /input-cache**
-ig.ini
-package.json
-package-list.json
+#ig.ini
+#package.json
+#package-list.json
 .DS_Store
