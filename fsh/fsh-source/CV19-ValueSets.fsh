@@ -113,7 +113,7 @@ Title: "Healthcare Occupation Value Set"
 Description: "A set of SNOMED CT codes that represent occupations within the health care industry."
 * codes from system SCT where concept is-a #223366009 "Healthcare professional (occupation)"
 
-ValueSet: KnowExposureLAVS
+ValueSet: KnownExposureLAVS
 Id: known-exposure-la-ValueSet
 Title: "Known Exposure LOINC Answer Value Set"
 Description: "A set of LOINC answers for known expopsure"
