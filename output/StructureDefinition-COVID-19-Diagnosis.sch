@@ -13,6 +13,8 @@
     <sch:title>f:Condition</sch:title>
     <sch:rule context="f:Condition">
       <sch:assert test="count(f:bodySite) &lt;= 0">bodySite: maximum cardinality of 'bodySite' is 0</sch:assert>
+      <sch:assert test="count(f:stage) &lt;= 0">stage: maximum cardinality of 'stage' is 0</sch:assert>
+      <sch:assert test="count(f:evidence) &lt;= 0">evidence: maximum cardinality of 'evidence' is 0</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>

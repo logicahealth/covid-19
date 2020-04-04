@@ -17,11 +17,7 @@
   fhir:ValueSet.name [ fhir:value "CloseContactSettingVS"];
   fhir:ValueSet.title [ fhir:value "Close Contact Setting Value Set"];
   fhir:ValueSet.status [ fhir:value "active"];
-<<<<<<< HEAD
-  fhir:ValueSet.date [ fhir:value "2020-04-04T09:35:56-06:00"^^xsd:dateTime];
-=======
-  fhir:ValueSet.date [ fhir:value "2020-04-04T11:14:11-06:00"^^xsd:dateTime];
->>>>>>> 192096c230a06afbe17193dd08b4ff5d6fa039ad
+  fhir:ValueSet.date [ fhir:value "2020-04-04T12:16:32-06:00"^^xsd:dateTime];
   fhir:ValueSet.publisher [ fhir:value "COVID-19 Healthcare Coalition"];
   fhir:ValueSet.contact [
      fhir:index 0;
