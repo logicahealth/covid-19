@@ -11,7 +11,11 @@
   <name value="StateCodesVS"/>
   <title value="State Codes Value Set"/>
   <status value="active"/>
+<<<<<<< HEAD
   <date value="2020-04-04T09:35:56-06:00"/>
+=======
+  <date value="2020-04-04T11:14:11-06:00"/>
+>>>>>>> 192096c230a06afbe17193dd08b4ff5d6fa039ad
   <publisher value="COVID-19 Healthcare Coalition"/>
   <contact>
     <name value="Logica Health"/>

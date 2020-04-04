@@ -10,7 +10,11 @@
   "name": "TravelHistory",
   "title": "Travel History",
   "status": "active",
+<<<<<<< HEAD
   "date": "2020-04-04T09:35:56-06:00",
+=======
+  "date": "2020-04-04T11:14:11-06:00",
+>>>>>>> 192096c230a06afbe17193dd08b4ff5d6fa039ad
   "publisher": "COVID-19 Healthcare Coalition",
   "contact": [
     {
