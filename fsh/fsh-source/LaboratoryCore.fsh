@@ -4,6 +4,9 @@ Id:             c19-laboratory-observation-base
 Title:          "Laboratory Observation Base"
 Description:    "Abstract base class for laboratory observations."
 * ^abstract = true
+* bodySite 0..0
+* method 0..0
+* component 0..0
 // slicing rules for identifier
 * identifier ^slicing.discriminator.type = #pattern
 * identifier ^slicing.discriminator.path = "type"

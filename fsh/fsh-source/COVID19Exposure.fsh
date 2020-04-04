@@ -10,6 +10,7 @@ Description: "A parent, abstract profile to be used for the CDC COVID 19 PUI rep
 * bodySite 0..0
 * referenceRange 0..0
 * hasMember 0..0
+* interpretation 0..0
 
 
 Profile: KnownExposure
