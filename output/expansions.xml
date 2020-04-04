@@ -2,6 +2,7 @@
 
 <Bundle xmlns="http://hl7.org/fhir">
 <<<<<<< HEAD
+<<<<<<< HEAD
   <id value="a0c34eef-27a1-46a6-9b68-2e42e0cecaf8"/>
   <meta>
     <lastUpdated value="2020-04-04T09:35:56.046-06:00"/>
@@ -10,6 +11,11 @@
   <meta>
     <lastUpdated value="2020-04-04T11:14:11.029-06:00"/>
 >>>>>>> 192096c230a06afbe17193dd08b4ff5d6fa039ad
+=======
+  <id value="eff5a0b4-e2de-4c49-9fb1-a287ec669b9b"/>
+  <meta>
+    <lastUpdated value="2020-04-03T20:44:19.732-06:00"/>
+>>>>>>> fsh-initial-commit-2
   </meta>
   <type value="collection"/>
   <entry>

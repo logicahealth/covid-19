@@ -14,7 +14,6 @@
     <sch:rule context="f:Observation">
       <sch:assert test="count(f:extension[@url = 'http://fhir.logicahealth.org/covid19/StructureDefinition/c19-reporting-priority']) &lt;= 1">extension with URL = 'http://fhir.logicahealth.org/covid19/StructureDefinition/c19-reporting-priority': maximum cardinality of 'extension' is 1</sch:assert>
       <sch:assert test="count(f:value[x]) &lt;= 0">value[x]: maximum cardinality of 'value[x]' is 0</sch:assert>
-      <sch:assert test="count(f:component) &lt;= 0">component: maximum cardinality of 'component' is 0</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>

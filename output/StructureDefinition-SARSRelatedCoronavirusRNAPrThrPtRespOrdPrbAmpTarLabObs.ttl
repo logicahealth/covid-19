@@ -19,10 +19,14 @@
   fhir:StructureDefinition.title [ fhir:value "SARS-related coronavirus RNA [Presence] in Respiratory specimen by NAA with probe detection"];
   fhir:StructureDefinition.status [ fhir:value "active"];
 <<<<<<< HEAD
+<<<<<<< HEAD
   fhir:StructureDefinition.date [ fhir:value "2020-04-04T09:35:56-06:00"^^xsd:dateTime];
 =======
   fhir:StructureDefinition.date [ fhir:value "2020-04-04T11:14:11-06:00"^^xsd:dateTime];
 >>>>>>> 192096c230a06afbe17193dd08b4ff5d6fa039ad
+=======
+  fhir:StructureDefinition.date [ fhir:value "2020-04-03T20:44:19-06:00"^^xsd:dateTime];
+>>>>>>> fsh-initial-commit-2
   fhir:StructureDefinition.publisher [ fhir:value "COVID-19 Healthcare Coalition"];
   fhir:StructureDefinition.contact [
      fhir:index 0;
@@ -3441,7 +3445,7 @@
        fhir:ElementDefinition.definition [ fhir:value "Indicates the site on the subject's body where the observation was made (i.e. the target site)." ];
        fhir:ElementDefinition.comment [ fhir:value "Only used if not implicit in code found in Observation.code.  In many systems, this may be represented as a related observation instead of an inline component.   \n\nIf the use case requires BodySite to be handled as a separate resource (e.g. to identify and track separately) then use the standard extension[ bodySite](http://hl7.org/fhir/R4/extension-bodysite.html)." ];
        fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
-       fhir:ElementDefinition.max [ fhir:value "1" ];
+       fhir:ElementDefinition.max [ fhir:value "0" ];
        fhir:ElementDefinition.base [
          fhir:ElementDefinition.base.path [ fhir:value "Observation.bodySite" ];
          fhir:ElementDefinition.base.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
@@ -3504,7 +3508,7 @@
        fhir:ElementDefinition.comment [ fhir:value "Only used if not implicit in code for Observation.code." ];
        fhir:ElementDefinition.requirements [ fhir:value "In some cases, method can impact results and is thus used for determining whether results can be compared or determining significance of results." ];
        fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
-       fhir:ElementDefinition.max [ fhir:value "1" ];
+       fhir:ElementDefinition.max [ fhir:value "0" ];
        fhir:ElementDefinition.base [
          fhir:ElementDefinition.base.path [ fhir:value "Observation.method" ];
          fhir:ElementDefinition.base.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
@@ -4281,7 +4285,7 @@
        fhir:ElementDefinition.comment [ fhir:value "For a discussion on the ways Observations can be assembled in groups together see [Notes](http://hl7.org/fhir/R4/observation.html#notes) below." ];
        fhir:ElementDefinition.requirements [ fhir:value "Component observations share the same attributes in the Observation resource as the primary observation and are always treated a part of a single observation (they are not separable).   However, the reference range for the primary observation value is not inherited by the component values and is required when appropriate for each component observation." ];
        fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
-       fhir:ElementDefinition.max [ fhir:value "*" ];
+       fhir:ElementDefinition.max [ fhir:value "0" ];
        fhir:ElementDefinition.base [
          fhir:ElementDefinition.base.path [ fhir:value "Observation.component" ];
          fhir:ElementDefinition.base.min [ fhir:value "0"^^xsd:nonNegativeInteger ];

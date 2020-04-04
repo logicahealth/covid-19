@@ -11,10 +11,14 @@
   "title": "SARS coronavirus 2 IgG Ab [Units/volume] in Serum or Plasma by Immunoassay",
   "status": "active",
 <<<<<<< HEAD
+<<<<<<< HEAD
   "date": "2020-04-04T09:35:56-06:00",
 =======
   "date": "2020-04-04T11:14:11-06:00",
 >>>>>>> 192096c230a06afbe17193dd08b4ff5d6fa039ad
+=======
+  "date": "2020-04-03T20:44:19-06:00",
+>>>>>>> fsh-initial-commit-2
   "publisher": "COVID-19 Healthcare Coalition",
   "contact": [
     {
@@ -3256,7 +3260,7 @@
         "definition": "Indicates the site on the subject's body where the observation was made (i.e. the target site).",
         "comment": "Only used if not implicit in code found in Observation.code.  In many systems, this may be represented as a related observation instead of an inline component.   \n\nIf the use case requires BodySite to be handled as a separate resource (e.g. to identify and track separately) then use the standard extension[ bodySite](http://hl7.org/fhir/R4/extension-bodysite.html).",
         "min": 0,
-        "max": "1",
+        "max": "0",
         "base": {
           "path": "Observation.bodySite",
           "min": 0,
@@ -3317,7 +3321,7 @@
         "comment": "Only used if not implicit in code for Observation.code.",
         "requirements": "In some cases, method can impact results and is thus used for determining whether results can be compared or determining significance of results.",
         "min": 0,
-        "max": "1",
+        "max": "0",
         "base": {
           "path": "Observation.method",
           "min": 0,
@@ -4038,7 +4042,7 @@
         "comment": "For a discussion on the ways Observations can be assembled in groups together see [Notes](http://hl7.org/fhir/R4/observation.html#notes) below.",
         "requirements": "Component observations share the same attributes in the Observation resource as the primary observation and are always treated a part of a single observation (they are not separable).   However, the reference range for the primary observation value is not inherited by the component values and is required when appropriate for each component observation.",
         "min": 0,
-        "max": "*",
+        "max": "0",
         "base": {
           "path": "Observation.component",
           "min": 0,
