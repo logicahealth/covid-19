@@ -17,7 +17,7 @@
   fhir:ImplementationGuide.name [ fhir:value "LogicaImplementationGuideCovid19"];
   fhir:ImplementationGuide.title [ fhir:value "Logica Implementation Guide: Covid-19"];
   fhir:ImplementationGuide.status [ fhir:value "active"];
-  fhir:ImplementationGuide.date [ fhir:value "2020-04-03T18:31:01-06:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2020-04-03T18:55:05-06:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "COVID-19 Healthcare Coalition"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;

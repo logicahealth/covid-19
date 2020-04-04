@@ -3,7 +3,7 @@
 
 err = 144, warn = 92, info = 0
 IG Publisher Version: v1.0.77-SNAPSHOT
-Generated Fri Apr 03 18:33:16 MDT 2020. FHIR version 4.0.1 for covid19#0.2.0 (canonical = http://fhir.logicahealth.org/covid19)
+Generated Fri Apr 03 18:57:19 MDT 2020. FHIR version 4.0.1 for covid19#0.2.0 (canonical = http://fhir.logicahealth.org/covid19)
 
  Build Errors : 8 / 0
  /Users/lpplangf/biz/ig/covid-19/input/ImplementationGuide-covid19 : 0 / 0
@@ -73,14 +73,14 @@ Generated Fri Apr 03 18:33:16 MDT 2020. FHIR version 4.0.1 for covid19#0.2.0 (ca
  /Users/lpplangf/biz/ig/covid-19/input/vocabulary/valueset-yes-no-vs : 0 / 0
 </table>
 == n/a ==
-ERROR: /Users/lpplangf/biz/ig/covid-19/output/CaseReportingInfo.html#/html/body/div/div/img/div/div/div/div/div/p/a at Line 159, column 5: The link '' for "CasePatientIdentifyingInfo" cannot be resolved
-ERROR: /Users/lpplangf/biz/ig/covid-19/output/ExposureInfo.html#/html/body/div/div/img/div/div/div/div/div/p/a at Line 155, column 5: The link '' for "KnownExposure" cannot be resolved
-ERROR: /Users/lpplangf/biz/ig/covid-19/output/ExposureInfo.html#/html/body/div/div/img/div/div/div/div/div/p/a at Line 156, column 2: The link '' for "TravelHistory" cannot be resolved
-ERROR: /Users/lpplangf/biz/ig/covid-19/output/LabProfiles.html#/html/body/div/div/img/div/div/div/div/div/p/a at Line 184, column 21: The link '' for "SARS coronavirus 2 IgG Ab [Presence] in Serum or Plasma by Immunoassay" cannot be resolved
-ERROR: /Users/lpplangf/biz/ig/covid-19/output/LabProfiles.html#/html/body/div/div/img/div/div/div/div/div/p/a at Line 187, column 21: The link '' for "Human coronavirus 229E+HKU1+OC43+NL63 RNA [Presence] in Nasopharynx by NAA with non-probe detection" cannot be resolved
-ERROR: /Users/lpplangf/biz/ig/covid-19/output/SignsSymptoms.html#/html/body/div/div/img/div/div/div/div/div/p/a at Line 159, column 5: The link '' for "Signs and Sympotoms Present" cannot be resolved
-ERROR: /Users/lpplangf/biz/ig/covid-19/output/SignsSymptoms.html#/html/body/div/div/img/div/div/div/div/div/p/a at Line 160, column 2: The link '' for "Signs and Symptoms Absent" cannot be resolved
-ERROR: /Users/lpplangf/biz/ig/covid-19/output/SignsSymptoms.html#/html/body/div/div/img/div/div/div/div/div/p/a at Line 166, column 5: The link '' for "COVID19 Diagnoses" cannot be resolved
+ERROR: /Users/lpplangf/biz/ig/covid-19/output/CaseReportingInfo.html#/html/body/div/div/div/div/div/p/a at Line 160, column 5: The link '' for "CasePatientIdentifyingInfo" cannot be resolved
+ERROR: /Users/lpplangf/biz/ig/covid-19/output/ExposureInfo.html#/html/body/div/div/div/div/div/p/a at Line 156, column 5: The link '' for "KnownExposure" cannot be resolved
+ERROR: /Users/lpplangf/biz/ig/covid-19/output/ExposureInfo.html#/html/body/div/div/div/div/div/p/a at Line 157, column 2: The link '' for "TravelHistory" cannot be resolved
+ERROR: /Users/lpplangf/biz/ig/covid-19/output/LabProfiles.html#/html/body/div/div/div/div/div/p/a at Line 185, column 21: The link '' for "SARS coronavirus 2 IgG Ab [Presence] in Serum or Plasma by Immunoassay" cannot be resolved
+ERROR: /Users/lpplangf/biz/ig/covid-19/output/LabProfiles.html#/html/body/div/div/div/div/div/p/a at Line 188, column 21: The link '' for "Human coronavirus 229E+HKU1+OC43+NL63 RNA [Presence] in Nasopharynx by NAA with non-probe detection" cannot be resolved
+ERROR: /Users/lpplangf/biz/ig/covid-19/output/SignsSymptoms.html#/html/body/div/div/div/div/div/p/a at Line 160, column 5: The link '' for "Signs and Sympotoms Present" cannot be resolved
+ERROR: /Users/lpplangf/biz/ig/covid-19/output/SignsSymptoms.html#/html/body/div/div/div/div/div/p/a at Line 161, column 2: The link '' for "Signs and Symptoms Absent" cannot be resolved
+ERROR: /Users/lpplangf/biz/ig/covid-19/output/SignsSymptoms.html#/html/body/div/div/div/div/div/p/a at Line 167, column 5: The link '' for "COVID19 Diagnoses" cannot be resolved
 == /Users/lpplangf/biz/ig/covid-19/input/ImplementationGuide-covid19.json ==
 == /Users/lpplangf/biz/ig/covid-19/input/extensions/StructureDefinition-c19-reporting-priority.json ==
 WARNING: http://fhir.logicahealth.org/covid19/StructureDefinition/c19-reporting-priority: The Implementation Guide contains no examples for this extension

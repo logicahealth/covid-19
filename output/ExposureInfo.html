@@ -28,11 +28,12 @@ body {
   background-size: cover;
 }
 
-.center {
+.logo {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 238px;
+  height: 120px;
 }
 
 .segment &gt; .container {
@@ -63,14 +64,14 @@ body {
     h3,h4,h5,h6{--heading-prefix:"3"}</style>
     <div id="segment-header" class="segment">    <!-- segment-header -->
       <div class="container">    <!-- container -->
-        <img src="assets/images/logo.png" class="center">
+        <div class="logo"><img src="assets/images/logo.png"/></div>
 
 
         <div id="ig-status">
           <p><span style="font-size:12pt;font-weight:bold">Logica Implementation Guide: Covid-19</span><br/>0.2.0 - CI Build</p>
         </div>
-         <!-- /container -->
-        <!-- /segment-header -->
+      </div>   <!-- /container -->
+    </div>    <!-- /segment-header -->
     
     <div id="segment-navbar" class="segment">    <!-- segment-navbar -->
       <div id="stripe"> </div>
@@ -152,7 +153,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 <p>These profiles should be used to record/transmit the data surrounding the context of how, when, and where an individual’s exposure to SARS CoV 2 occurred.  The profiles consist of a question about known exposure (where, how, etc.) and travel history (where, when, etc.)</p>
 
-<p><a name="132da3f7-ee07-4042-b44a-2cc4bb0d64aa">​</a><a href="null">KnownExposure</a>  todo: add link
+<p><a name="394dc75c-695a-4551-a314-4dcada7a9122">​</a><a href="null">KnownExposure</a>  todo: add link
 <a href="null">TravelHistory</a>  todo: add link</p>
 
 
@@ -167,7 +168,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
     <div class="container">    <!-- container -->
       <div class="inner-wrapper">
         <p>
-          IG &copy; 2020+ <a style="color: #81BEF7" href="https://c19hcc.org/">COVID-19 Healthcare Coalition</a>.  Package covid19#0.2.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Apr 3, 2020 18:31-0600">2020-04-03</span>
+          IG &copy; 2020+ <a style="color: #81BEF7" href="https://c19hcc.org/">COVID-19 Healthcare Coalition</a>.  Package covid19#0.2.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Apr 3, 2020 18:55-0600">2020-04-03</span>
           <br/>
           <span style="color: #FFFF77">
                       Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |
@@ -196,5 +197,5 @@ anchors.add()</script>
   
     <!-- Analytics Below
   ================================================== -->
-  
-</img></div></div></body></html>
+  </body>
+</html>
