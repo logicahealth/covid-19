@@ -18,7 +18,7 @@
   fhir:StructureDefinition.name [ fhir:value "SARScoronavirus2RNAPanelPtRespPrbAmpTarLabObs"];
   fhir:StructureDefinition.title [ fhir:value "SARS coronavirus 2 RNA panel - Respiratory specimen by NAA with probe detection"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2020-04-03T18:55:05-06:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2020-04-04T11:14:11-06:00"^^xsd:dateTime];
   fhir:StructureDefinition.publisher [ fhir:value "COVID-19 Healthcare Coalition"];
   fhir:StructureDefinition.contact [
      fhir:index 0;
