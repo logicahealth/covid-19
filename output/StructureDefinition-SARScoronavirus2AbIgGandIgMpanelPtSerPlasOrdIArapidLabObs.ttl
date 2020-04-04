@@ -18,7 +18,7 @@
   fhir:StructureDefinition.name [ fhir:value "SARScoronavirus2AbIgGandIgMpanelPtSerPlasOrdIArapidLabObs"];
   fhir:StructureDefinition.title [ fhir:value "SARS coronavirus 2 IgG and IgM panel - Serum or Plasma Qualitative by Rapid immunoassay"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2020-04-03T11:00:56-06:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2020-04-03T20:44:19-06:00"^^xsd:dateTime];
   fhir:StructureDefinition.publisher [ fhir:value "COVID-19 Healthcare Coalition"];
   fhir:StructureDefinition.contact [
      fhir:index 0;
@@ -3355,7 +3355,7 @@
        fhir:ElementDefinition.definition [ fhir:value "Indicates the site on the subject's body where the observation was made (i.e. the target site)." ];
        fhir:ElementDefinition.comment [ fhir:value "Only used if not implicit in code found in Observation.code.  In many systems, this may be represented as a related observation instead of an inline component.   \n\nIf the use case requires BodySite to be handled as a separate resource (e.g. to identify and track separately) then use the standard extension[ bodySite](http://hl7.org/fhir/R4/extension-bodysite.html)." ];
        fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
-       fhir:ElementDefinition.max [ fhir:value "1" ];
+       fhir:ElementDefinition.max [ fhir:value "0" ];
        fhir:ElementDefinition.base [
          fhir:ElementDefinition.base.path [ fhir:value "Observation.bodySite" ];
          fhir:ElementDefinition.base.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
@@ -3418,7 +3418,7 @@
        fhir:ElementDefinition.comment [ fhir:value "Only used if not implicit in code for Observation.code." ];
        fhir:ElementDefinition.requirements [ fhir:value "In some cases, method can impact results and is thus used for determining whether results can be compared or determining significance of results." ];
        fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
-       fhir:ElementDefinition.max [ fhir:value "1" ];
+       fhir:ElementDefinition.max [ fhir:value "0" ];
        fhir:ElementDefinition.base [
          fhir:ElementDefinition.base.path [ fhir:value "Observation.method" ];
          fhir:ElementDefinition.base.min [ fhir:value "0"^^xsd:nonNegativeInteger ];

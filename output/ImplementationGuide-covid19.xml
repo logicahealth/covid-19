@@ -11,7 +11,7 @@
   <name value="LogicaImplementationGuideCovid19"/>
   <title value="Logica Implementation Guide: Covid-19"/>
   <status value="active"/>
-  <date value="2020-04-03T11:00:56-06:00"/>
+  <date value="2020-04-03T20:44:19-06:00"/>
   <publisher value="COVID-19 Healthcare Coalition"/>
   <contact>
     <name value="Logica Health"/>
@@ -192,6 +192,76 @@
     </extension>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="StructureDefinition-COVID-19-Diagnosis.html"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/COVID-19-Diagnosis"/>
+      </reference>
+      <name value="COVID 19 Diagnosis"/>
+      <description value="A diagnosis or diagnoses asserted about the subject that is due to infection by the SARS coronavirus 2 virus."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="StructureDefinition-covid-19-exposure-core.html"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/covid-19-exposure-core"/>
+      </reference>
+      <name value="COVID 19 Exposure Core profile"/>
+      <description value="A parent, abstract profile to be used for the CDC COVID 19 PUI report form exposure section elements."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="StructureDefinition-covid19-symptoms-absent.html"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/covid19-symptoms-absent"/>
+      </reference>
+      <name value="COVID 19 Symptoms Absent"/>
+      <description value="A parent profile for the assertion of the Absence COVID 19 symptoms."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="StructureDefinition-covid19-symptoms-present.html"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/covid19-symptoms-present"/>
+      </reference>
+      <name value="COVID 19 Symptoms Present"/>
+      <description value="A parent profile for the assertion of the presence COVID 19 symptoms."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="StructureDefinition-case-patient-report-id.html"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/case-patient-report-id"/>
+      </reference>
+      <name value="Case-Patient Report Identifying Information"/>
+      <description value="The identifying information for a reportable disease or condition."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="StructureDefinition:resource:abstract"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
@@ -202,6 +272,20 @@
       </reference>
       <name value="Coded Laboratory Observation Base"/>
       <description value="Abstract base class for coded laboratory observations."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="StructureDefinition-Humancoronavirus229EHKU1OC43NL63RNAPresNsphLabObs.html"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/Humancoronavirus229EHKU1OC43NL63RNAPresNsphLabObs"/>
+      </reference>
+      <name value="Human coronavirus 229E+HKU1+OC43+NL63 RNA [Presence] in Nasopharynx by NAA with non-probe detection"/>
+      <description value="Humancoronavirus229EHKU1OC43NL63RNAPrThrPtNphOrdNonprobeamptar is a test for the Human coronavirus 229EHKU1, OC43, NL63 nucleaic acids in nasopharynx specimens via non-probe, target amplification method"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -258,6 +342,20 @@
       </reference>
       <name value="Human coronavirus OC43 RNA [Presence] in Nasopharynx by NAA with non-probe detection"/>
       <description value="HumancoronavirusOC43RNAPrThrPtNphOrdNonprobeamptarLabObs is a test for the Human coronavirus OC43 nucleaic acid in nasopharynx specimens via non-probe, target amplification method."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="StructureDefinition-known-exposure.html"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/known-exposure"/>
+      </reference>
+      <name value="Known Exposure"/>
+      <description value="Known Exposure is a description of how, when, where, and with whom and individual was exposed to a contagion."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -752,6 +850,48 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="StructureDefinition-travel-history.html"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/travel-history"/>
+      </reference>
+      <name value="Travel History"/>
+      <description value="The country or countries to which the subject may have traveled."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="StructureDefinition-certainty-of-absence.html"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/certainty-of-absence"/>
+      </reference>
+      <name value="Certainty of Absence"/>
+      <description value="An extension to capture the degree certainty of the non-existence of a condition."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="StructureDefinition-certainty-of-presence.html"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/certainty-of-presence"/>
+      </reference>
+      <name value="Certainty of Presence"/>
+      <description value="An extension to capture the degree certainty of the existence of a condition."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
@@ -769,6 +909,90 @@
         <valueString value="ValueSet"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="ValueSet-covid-19-diagnosis-vs.html"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/covid-19-diagnosis-vs"/>
+      </reference>
+      <name value="COVID 19 Diagnosis Value Set"/>
+      <description value="A set of SNOMED CT codes that describe the diagnosed condition that is due to SARS coronavirus 2 infection."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="ValueSet-covid19-signs-1nd-symptoms-value-set.html"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/covid19-signs-1nd-symptoms-value-set"/>
+      </reference>
+      <name value="COVID 19 Signs and Symptoms Value Set"/>
+      <description value="The set of SNOMED CT codes that represent the signs and symptoms associated with COVID 19."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="ValueSet-certainty-0f-absence-value-set.html"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/certainty-0f-absence-value-set"/>
+      </reference>
+      <name value="Certainty of Absence Value Set"/>
+      <description value="The set of SNOMED CT codes that represent the leve of certainty that a condition does not exist."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="ValueSet-certainty-of-presence-value-set.html"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/certainty-of-presence-value-set"/>
+      </reference>
+      <name value="Certainty of PresenceVS"/>
+      <description value="The set of SNOMED CT codes that represent the level of certainty that a condition exists."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="ValueSet-close-contact-setting-vs.html"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/close-contact-setting-vs"/>
+      </reference>
+      <name value="Close Contact Setting Value Set"/>
+      <description value="The SNOMED CT codes that describe teh situation in which a close contact exposure was made with an infected individual."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="ValueSet-country-codes-vs.html"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/country-codes-vs"/>
+      </reference>
+      <name value="Country Codes Value Set"/>
+      <description value="The set of SNOMED CT codes that represent countries."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
         <valueUri value="ValueSet-covid19-det-not-det-eq-in-vs.html"/>
       </extension>
       <reference>
@@ -776,6 +1000,34 @@
       </reference>
       <name value="Detected-Not Detected-Equivalent-Inconclusive Value Set"/>
       <description value="A set of SNOMED codes representing the result of a test as detected, not detected, equivalent, or inconclusive."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="ValueSet-healthcare-occupation-value-set.html"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/healthcare-occupation-value-set"/>
+      </reference>
+      <name value="Healthcare Occupation Value Set"/>
+      <description value="A set of SNOMED CT codes that represent occupations within the health care industry."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="ValueSet-known-exposure-la-ValueSet.html"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/known-exposure-la-ValueSet"/>
+      </reference>
+      <name value="Known Exposure LOINC Answer Value Set"/>
+      <description value="A set of LOINC answers for known expopsure"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -806,6 +1058,34 @@
       <description value="A set of SNOMED codes representing how important it is to report a lab or other observation."/>
       <exampleBoolean value="false"/>
     </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="ValueSet-state-codes-vs.html"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/state-codes-vs"/>
+      </reference>
+      <name value="State Codes Value Set"/>
+      <description value="The list of SNOMED CT codes that represent states."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="ValueSet-yes-no-vs.html"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/yes-no-vs"/>
+      </reference>
+      <name value="Yes/No Value Set"/>
+      <description value="The SNOMED CT codes to answer in the affirmative or negative."/>
+      <exampleBoolean value="false"/>
+    </resource>
     <page>
       <nameUrl value="toc.html"/>
       <title value="Table of Contents"/>
@@ -813,6 +1093,26 @@
       <page>
         <nameUrl value="index.html"/>
         <title value="Home"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <nameUrl value="CaseReportingInfo.html"/>
+        <title value="Case Reporting Info"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <nameUrl value="ExposureInfo.html"/>
+        <title value="Exposure Info"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <nameUrl value="SignsSymptoms.html"/>
+        <title value="Signs Symptoms"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <nameUrl value="LabProfiles.html"/>
+        <title value="Lab Profiles"/>
         <generation value="markdown"/>
       </page>
     </page>

@@ -10,175 +10,55 @@
         "CodeableConcept",
         "CodeableConcept"
       ]
+    },
+    {
+      "url": "http://fhir.logicahealth.org/covid19/StructureDefinition/certainty-of-absence",
+      "title": "Certainty of Absence",
+      "types": [
+        "CodeableConcept",
+        "CodeableConcept"
+      ]
+    },
+    {
+      "url": "http://fhir.logicahealth.org/covid19/StructureDefinition/certainty-of-presence",
+      "title": "Certainty of Presence",
+      "types": [
+        "CodeableConcept",
+        "CodeableConcept"
+      ]
     }
   ],
   "profiles": {
+    "Condition": [
+      {
+        "url": "http://fhir.logicahealth.org/covid19/StructureDefinition/covid19-symptoms-absent",
+        "title": "COVID 19 Symptoms Absent"
+      },
+      {
+        "url": "http://fhir.logicahealth.org/covid19/StructureDefinition/covid19-symptoms-present",
+        "title": "COVID 19 Symptoms Present"
+      }
+    ],
     "Observation": [
       {
-        "url": "http://fhir.logicahealth.org/covid19/StructureDefinition/Humancoronavirus229ERNAPrThrPtNphOrdNonprobeamptarLabObs",
-        "title": "Human coronavirus 229E RNA [Presence] in Nasopharynx by NAA with non-probe detection"
+        "url": "http://fhir.logicahealth.org/covid19/StructureDefinition/known-exposure",
+        "title": "Known Exposure"
       },
       {
-        "url": "http://fhir.logicahealth.org/covid19/StructureDefinition/HumancoronavirusHKU1RNAPrThrPtNphOrdNonprobeamptarLabObs",
-        "title": "Human coronavirus HKU1 RNA [Presence] in Nasopharynx by NAA with non-probe detection"
-      },
-      {
-        "url": "http://fhir.logicahealth.org/covid19/StructureDefinition/HumancoronavirusNL63RNAPrThrPtNphOrdNonprobeamptarLabObs",
-        "title": "Human coronavirus NL63 RNA [Presence] in Nasopharynx by NAA with non-probe detection"
-      },
-      {
-        "url": "http://fhir.logicahealth.org/covid19/StructureDefinition/HumancoronavirusOC43RNAPrThrPtNphOrdNonprobeamptarLabObs",
-        "title": "Human coronavirus OC43 RNA [Presence] in Nasopharynx by NAA with non-probe detection"
-      },
-      {
-        "url": "http://fhir.logicahealth.org/covid19/StructureDefinition/LaboratoryObservationPanelBase",
-        "title": "Laboratory Observation Panel Base"
-      },
-      {
-        "url": "http://fhir.logicahealth.org/covid19/StructureDefinition/SARSCoV2AgRespQlIArapidLabObs",
-        "title": "SARS coronavirus 2 Ag [Presence] in Respiratory specimen by Rapid immunoassay"
-      },
-      {
-        "url": "http://fhir.logicahealth.org/covid19/StructureDefinition/SARSCoV2NgenePrThrPtXXXOrdPrbAmpTarPrimerProbeSetN1LabObs",
-        "title": "SARS coronavirus 2 N gene [Presence] in Unspecified specimen by Nucleic acid amplification using primer-probe set N1"
-      },
-      {
-        "url": "http://fhir.logicahealth.org/covid19/StructureDefinition/SARSCoV2NgenePrThrPtXXXOrdPrbAmpTarPrimerProbeSetN2LabObs",
-        "title": "SARS coronavirus 2 N gene [Presence] in Unspecified specimen by Nucleic acid amplification using primer-probe set N2"
-      },
-      {
-        "url": "http://fhir.logicahealth.org/covid19/StructureDefinition/SARSCoV2NgeneThreshNumPtXXXQnPrbAmpTarPrimerProbeSetN1LabObs",
-        "title": "SARS coronavirus 2 N gene [Cycle Threshold #] in Unspecified specimen by Nucleic acid amplification using primer-probe set N1"
-      },
-      {
-        "url": "http://fhir.logicahealth.org/covid19/StructureDefinition/SARSCoV2NgeneThreshNumPtXXXQnPrbAmpTarPrimerProbeSetN2LabObs",
-        "title": "SARS coronavirus 2 N gene [Cycle Threshold #] in Unspecified specimen by Nucleic acid amplification using primer-probe set N2"
-      },
-      {
-        "url": "http://fhir.logicahealth.org/covid19/StructureDefinition/SARSCoV2ORF1abRespQlNAAprobeLabObs",
-        "title": "SARS coronavirus 2 ORF1ab region [Presence] in Respiratory specimen by NAA with probe detection"
-      },
-      {
-        "url": "http://fhir.logicahealth.org/covid19/StructureDefinition/SARSCoV2RNAPnlXXXNAAprobePanelLabObs",
-        "title": "SARS coronavirus 2 RNA panel - Unspecified specimen by NAA with probe detection"
-      },
-      {
-        "url": "http://fhir.logicahealth.org/covid19/StructureDefinition/SARSLikecoronavirusNGenePrThrPtXXXOrdPrbAmpTarLabObs",
-        "title": "SARS-like coronavirus N gene [Presence] in Unspecified specimen by NAA with probe detection"
-      },
-      {
-        "url": "http://fhir.logicahealth.org/covid19/StructureDefinition/SARSLikecoronavirusNGeneThreshNumPtXXXQnPrbAmpTarLabObs",
-        "title": "SARS-like coronavirus N gene [Cycle Threshold #] in Unspecified specimen by NAA with probe detection"
-      },
-      {
-        "url": "http://fhir.logicahealth.org/covid19/StructureDefinition/SARSRelatedCoronavirusRNAPrThrPtRespOrdPrbAmpTarLabObs",
-        "title": "SARS-related coronavirus RNA [Presence] in Respiratory specimen by NAA with probe detection"
-      },
-      {
-        "url": "http://fhir.logicahealth.org/covid19/StructureDefinition/SARScoronavirus2AbIgAPrThrPtSerPlasOrdIALabObs",
-        "title": "SARS coronavirus 2 IgA Ab [Presence] in Serum or Plasma by Immunoassay"
-      },
-      {
-        "url": "http://fhir.logicahealth.org/covid19/StructureDefinition/SARScoronavirus2AbIgGAcncPtSerPlasQnIALabObs",
-        "title": "SARS coronavirus 2 IgG Ab [Units/volume] in Serum or Plasma by Immunoassay"
-      },
-      {
-        "url": "http://fhir.logicahealth.org/covid19/StructureDefinition/SARScoronavirus2AbIgGPlusIgMPrThrPtSerPlasOrdIALabObs",
-        "title": "SARS coronavirus 2 IgG+IgM Ab [Presence] in Serum or Plasma by Immunoassay"
-      },
-      {
-        "url": "http://fhir.logicahealth.org/covid19/StructureDefinition/SARScoronavirus2AbIgGPrThrPtSerPlasOrdIALabObs",
-        "title": "SARS coronavirus 2 IgG Ab [Presence] in Serum or Plasma by Immunoassay"
-      },
-      {
-        "url": "http://fhir.logicahealth.org/covid19/StructureDefinition/SARScoronavirus2AbIgGandIgMpanelPtSerPlasOrdIArapidLabObs",
-        "title": "SARS coronavirus 2 IgG and IgM panel - Serum or Plasma Qualitative by Rapid immunoassay"
-      },
-      {
-        "url": "http://fhir.logicahealth.org/covid19/StructureDefinition/SARScoronavirus2AbIgGandIgMpanelPtSerPlasQnIALabObs",
-        "title": "SARS coronavirus 2 IgG and IgM panel - Serum or Plasma by Immunoassay"
-      },
-      {
-        "url": "http://fhir.logicahealth.org/covid19/StructureDefinition/SARScoronavirus2AbIgMAcncPtSerPlasQnIALabObs",
-        "title": "SARS coronavirus 2 IgM Ab [Units/volume] in Serum or Plasma by Immunoassay"
-      },
-      {
-        "url": "http://fhir.logicahealth.org/covid19/StructureDefinition/SARScoronavirus2AbIgMPrThrPtSerPlasOrdIALabObs",
-        "title": "SARS coronavirus 2 IgM Ab [Presence] in Serum or Plasma by Immunoassay"
-      },
-      {
-        "url": "http://fhir.logicahealth.org/covid19/StructureDefinition/SARScoronavirus2AbIgMPrThrPtSerPlasOrdIArapidLabObs",
-        "title": "SARS coronavirus 2 IgM Ab [Presence] in Serum or Plasma by Rapid immunoassay"
-      },
-      {
-        "url": "http://fhir.logicahealth.org/covid19/StructureDefinition/SARScoronavirus2EGenePrThrPtXXXOrdPrbAmpTarLabObs",
-        "title": "SARS coronavirus 2 E gene [Presence] in Unspecified specimen by NAA with probe detection"
-      },
-      {
-        "url": "http://fhir.logicahealth.org/covid19/StructureDefinition/SARScoronavirus2EGeneThreshNumPtXXXQnPrbAmpTarLabObs",
-        "title": "SARS coronavirus 2 E gene [Cycle Threshold #] in Unspecified specimen by NAA with probe detection"
-      },
-      {
-        "url": "http://fhir.logicahealth.org/covid19/StructureDefinition/SARScoronavirus2NGenePrThrPtRespOrdPrbAmpTarLabObs",
-        "title": "SARS coronavirus 2 N gene [Presence] in Respiratory specimen by NAA with probe detection"
-      },
-      {
-        "url": "http://fhir.logicahealth.org/covid19/StructureDefinition/SARScoronavirus2NgenePrThrPtXXXOrdPrbAmpTarLabObs",
-        "title": "SARS coronavirus 2 N gene [Presence] in Unspecified specimen by NAA with probe detection"
-      },
-      {
-        "url": "http://fhir.logicahealth.org/covid19/StructureDefinition/SARScoronavirus2NgeneThreshNumPtXXXQnPrbAmpTarLabObs",
-        "title": "SARS coronavirus 2 N gene [Cycle Threshold #] in Unspecified specimen by NAA with probe detection"
-      },
-      {
-        "url": "http://fhir.logicahealth.org/covid19/StructureDefinition/SARScoronavirus2ORF1AbRegionThreshNumPtXXXQnPrbAmpTarLabObs",
-        "title": "SARS coronavirus 2 ORF1ab region [Cycle Threshold #] in Unspecified specimen by NAA with probe detection"
-      },
-      {
-        "url": "http://fhir.logicahealth.org/covid19/StructureDefinition/SARScoronavirus2RNAPanelPtRespPrbAmpTarLabObs",
-        "title": "SARS coronavirus 2 RNA panel - Respiratory specimen by NAA with probe detection"
-      },
-      {
-        "url": "http://fhir.logicahealth.org/covid19/StructureDefinition/SARScoronavirus2RNAPrThrPtNphOrdNonprobeamptarLabObs",
-        "title": "SARS coronavirus 2 RNA [Presence] in Nasopharynx by NAA with non-probe detection"
-      },
-      {
-        "url": "http://fhir.logicahealth.org/covid19/StructureDefinition/SARScoronavirus2RNAPrThrPtRespOrdPrbAmpTarLabObs",
-        "title": "SARS coronavirus 2 RNA [Presence] in Respiratory specimen by NAA with probe detection"
-      },
-      {
-        "url": "http://fhir.logicahealth.org/covid19/StructureDefinition/SARScoronavirus2RNAPrThrPtXXXOrdPrbAmpTarLabObs",
-        "title": "SARS coronavirus 2 RNA [Presence] in Unspecified specimen by NAA with probe detection"
-      },
-      {
-        "url": "http://fhir.logicahealth.org/covid19/StructureDefinition/SARScoronavirus2RdRpGenePrThePtRespOrdPrbAmpTarLabObs",
-        "title": "SARS coronavirus 2 RdRp gene [Presence] in Respiratory specimen by NAA with probe detection"
-      },
-      {
-        "url": "http://fhir.logicahealth.org/covid19/StructureDefinition/SARScoronavirus2RdRpGenePrThrPtXXXOrdPrbAmpTarLabObs",
-        "title": "SARS coronavirus 2 RdRp gene [Presence] in Unspecified specimen by NAA with probe detection"
-      },
-      {
-        "url": "http://fhir.logicahealth.org/covid19/StructureDefinition/SARSrelatedCoVPlusMERSCoVRNAPrThrPtRespOrdPrbAmpTarLabObs",
-        "title": "SARS-related coronavirus+MERS coronavirus RNA [Presence] in Respiratory specimen by NAA with probe detection"
-      },
-      {
-        "url": "http://fhir.logicahealth.org/covid19/StructureDefinition/c19-coded-laboratory-observation-base",
-        "title": "Coded Laboratory Observation Base"
-      },
-      {
-        "url": "http://fhir.logicahealth.org/covid19/StructureDefinition/c19-laboratory-observation-base",
-        "title": "Laboratory Observation Base"
-      },
-      {
-        "url": "http://fhir.logicahealth.org/covid19/StructureDefinition/c19-quantitative-laboratory-observation-base",
-        "title": "Quantitative Laboratory Observation Base"
+        "url": "http://fhir.logicahealth.org/covid19/StructureDefinition/travel-history",
+        "title": "Travel History"
       }
     ]
   },
   "usage": {
     "http://fhir.logicahealth.org/covid19/StructureDefinition/c19-reporting-priority": [
       "Observation"
+    ],
+    "http://fhir.logicahealth.org/covid19/StructureDefinition/certainty-of-absence": [
+      "Condition"
+    ],
+    "http://fhir.logicahealth.org/covid19/StructureDefinition/certainty-of-presence": [
+      "Condition"
     ],
     "http://hl7.org/fhir/StructureDefinition/elementdefinition-bestpractice": [
       "StructureDefinition.snapshot.element.constraint"
