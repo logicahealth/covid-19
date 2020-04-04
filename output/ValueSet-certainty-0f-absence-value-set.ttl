@@ -17,7 +17,7 @@
   fhir:ValueSet.name [ fhir:value "CertaintyOfAbsenceVS"];
   fhir:ValueSet.title [ fhir:value "Certainty of Absence Value Set"];
   fhir:ValueSet.status [ fhir:value "active"];
-  fhir:ValueSet.date [ fhir:value "2020-04-04T12:16:32-06:00"^^xsd:dateTime];
+  fhir:ValueSet.date [ fhir:value "2020-04-04T12:44:17-06:00"^^xsd:dateTime];
   fhir:ValueSet.publisher [ fhir:value "COVID-19 Healthcare Coalition"];
   fhir:ValueSet.contact [
      fhir:index 0;
