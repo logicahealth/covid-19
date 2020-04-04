@@ -4,13 +4,13 @@ Id: covid-19-exposure-core
 Title: "COVID 19 Exposure Core profile"
 Description: "A parent, abstract profile to be used for the CDC COVID 19 PUI report form exposure section elements."
 * ^abstract = true
-* device 0..0
+* interpretation 0..0
+* bodySite 0..0
 * method 0..0
 * specimen 0..0
-* bodySite 0..0
+* device 0..0
 * referenceRange 0..0
 * hasMember 0..0
-* interpretation 0..0
 
 
 Profile: KnownExposure
