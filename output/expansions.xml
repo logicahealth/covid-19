@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="4befdc3c-63ef-4a4b-a9cb-ad3cd186f95d"/>
+  <id value="e278315b-b4fa-4cf3-9ec2-d6ff0ae91519"/>
   <meta>
-    <lastUpdated value="2020-04-03T17:43:26.531-06:00"/>
+    <lastUpdated value="2020-04-03T17:57:07.176-06:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -9975,10 +9975,8 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://fhir.logicahealth.org/covid19/ValueSet/known-exposure-la-ValueSet"/>
     <resource>
       <ValueSet>
-        <id value="known-exposure-la-ValueSet"/>
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
@@ -10083,29 +10081,10 @@
             </table>
           </div>
         </text>
-        <url value="http://fhir.logicahealth.org/covid19/ValueSet/known-exposure-la-ValueSet"/>
-        <version value="0.1.0"/>
-        <name value="KnownExposureLAVS"/>
-        <title value="Known Exposure LOINC Answer Value Set"/>
         <status value="active"/>
-        <date value="2020-04-03T17:43:26-06:00"/>
-        <publisher value="COVID-19 Healthcare Coalition"/>
-        <contact>
-          <name value="Logica Health"/>
-          <telecom>
-            <system value="url"/>
-            <value value="https://c19hcc.org/"/>
-          </telecom>
-        </contact>
-        <description value="A set of LOINC answers for known expopsure"/>
         <expansion>
-          <identifier value="urn:uuid:f599a01d-0928-4b80-afeb-f8227d5e51f5"/>
-          <timestamp value="2020-04-03T17:44:18-06:00"/>
-          <total value="12"/>
-          <parameter>
-            <name value="excludeNested"/>
-            <valueBoolean value="false"/>
-          </parameter>
+          <identifier value="urn:uuid:14ec9849-a708-4c75-9201-c00945b6efcd"/>
+          <timestamp value="2020-04-03T23:44:18.302Z"/>
           <parameter>
             <name value="limitedExpansion"/>
             <valueBoolean value="true"/>

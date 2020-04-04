@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "4befdc3c-63ef-4a4b-a9cb-ad3cd186f95d",
+  "id" : "e278315b-b4fa-4cf3-9ec2-d6ff0ae91519",
   "meta" : {
-    "lastUpdated" : "2020-04-03T17:43:26.531-06:00"
+    "lastUpdated" : "2020-04-03T17:57:07.176-06:00"
   },
   "type" : "collection",
   "entry" : [{
@@ -3876,38 +3876,17 @@
     }
   },
   {
-    "fullUrl" : "http://fhir.logicahealth.org/covid19/ValueSet/known-exposure-la-ValueSet",
     "resource" : {
       "resourceType" : "ValueSet",
-      "id" : "known-exposure-la-ValueSet",
       "text" : {
         "status" : "generated",
         "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 12 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px\"/>Expansion based on LOINC version 2.66<p>All codes from system <code>http://loinc.org</code></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA30830-6\"> </a><a href=\"http://details.loinc.org/LOINC/LA30830-6.html\">LA30830-6</a></td><td>Travel to Wuhan</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA30831-4\"> </a><a href=\"http://details.loinc.org/LOINC/LA30831-4.html\">LA30831-4</a></td><td>Travel to Hubei</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA30832-2\"> </a><a href=\"http://details.loinc.org/LOINC/LA30832-2.html\">LA30832-2</a></td><td>Travel to mainland China</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA30833-0\"> </a><a href=\"http://details.loinc.org/LOINC/LA30833-0.html\">LA30833-0</a></td><td>Travel to other non-US country</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA30834-8\"> </a><a href=\"http://details.loinc.org/LOINC/LA30834-8.html\">LA30834-8</a></td><td>Household contact with other lab-confirmedCOVID-19 case-patient</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA30835-5\"> </a><a href=\"http://details.loinc.org/LOINC/LA30835-5.html\">LA30835-5</a></td><td>Community contact with other lab-confirmedCOVID-19 case-patient</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA30836-3\"> </a><a href=\"http://details.loinc.org/LOINC/LA30836-3.html\">LA30836-3</a></td><td>Any healthcare contact with other lab-confirmedCOVID-19 case-patient</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA30837-1\"> </a><a href=\"http://details.loinc.org/LOINC/LA30837-1.html\">LA30837-1</a></td><td>Any healthcare contact wiht a Patient who is lab-confirmed COVID-19 case-patient</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA30838-9\"> </a><a href=\"http://details.loinc.org/LOINC/LA30838-9.html\">LA30838-9</a></td><td>Any healthcare contact wiht a Visitor who is lab-confirmed COVID-19 case-patient</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA30839-7\"> </a><a href=\"http://details.loinc.org/LOINC/LA30839-7.html\">LA30839-7</a></td><td>Any healthcare contact wiht a Healthcare Worker who is lab-confirmed COVID-19 case-patient</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA30840-5\"> </a><a href=\"http://details.loinc.org/LOINC/LA30840-5.html\">LA30840-5</a></td><td>Animal Exposure</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA30841-3\"> </a><a href=\"http://details.loinc.org/LOINC/LA30841-3.html\">LA30841-3</a></td><td>Exposure to a cluster of patients with severe acute lower respiratory distress of unknown etiology</td></tr></table></div>"
       },
-      "url" : "http://fhir.logicahealth.org/covid19/ValueSet/known-exposure-la-ValueSet",
-      "version" : "0.1.0",
-      "name" : "KnownExposureLAVS",
-      "title" : "Known Exposure LOINC Answer Value Set",
       "status" : "active",
-      "date" : "2020-04-03T17:43:26-06:00",
-      "publisher" : "COVID-19 Healthcare Coalition",
-      "contact" : [{
-        "name" : "Logica Health",
-        "telecom" : [{
-          "system" : "url",
-          "value" : "https://c19hcc.org/"
-        }]
-      }],
-      "description" : "A set of LOINC answers for known expopsure",
       "expansion" : {
-        "identifier" : "urn:uuid:f599a01d-0928-4b80-afeb-f8227d5e51f5",
-        "timestamp" : "2020-04-03T17:44:18-06:00",
-        "total" : 12,
+        "identifier" : "urn:uuid:14ec9849-a708-4c75-9201-c00945b6efcd",
+        "timestamp" : "2020-04-03T23:44:18.302Z",
         "parameter" : [{
-          "name" : "excludeNested",
-          "valueBoolean" : false
-        },
-        {
           "name" : "limitedExpansion",
           "valueBoolean" : true
         },

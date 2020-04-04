@@ -18,7 +18,7 @@
   fhir:StructureDefinition.name [ fhir:value "SARScoronavirus2EGenePrThrPtXXXOrdPrbAmpTarLabObs"];
   fhir:StructureDefinition.title [ fhir:value "SARS coronavirus 2 E gene [Presence] in Unspecified specimen by NAA with probe detection"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2020-04-03T17:43:26-06:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2020-04-03T17:57:07-06:00"^^xsd:dateTime];
   fhir:StructureDefinition.publisher [ fhir:value "COVID-19 Healthcare Coalition"];
   fhir:StructureDefinition.contact [
      fhir:index 0;

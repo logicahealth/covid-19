@@ -18,7 +18,7 @@
   fhir:StructureDefinition.name [ fhir:value "Humancoronavirus229ERNAPrThrPtNphOrdNonprobeamptarLabObs"];
   fhir:StructureDefinition.title [ fhir:value "Human coronavirus 229E RNA [Presence] in Nasopharynx by NAA with non-probe detection"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2020-04-03T17:43:26-06:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2020-04-03T17:57:07-06:00"^^xsd:dateTime];
   fhir:StructureDefinition.publisher [ fhir:value "COVID-19 Healthcare Coalition"];
   fhir:StructureDefinition.contact [
      fhir:index 0;
