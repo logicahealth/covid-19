@@ -21,12 +21,24 @@
       <!-- Placeholder for child template CSS declarations -->
 <style>
 body {
-        background-image: url("https://www.logicahealth.org/wp-content/uploads/triangled-background.png");
-        background-repeat: no-repeat;
-        background-position: top center;
-        background-attachment: fixed;
-        background-size: cover;
-    }
+  background-image: url("https://www.logicahealth.org/wp-content/uploads/triangled-background.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.segment &gt; .container {
+  padding-left: 10px;
+  padding-right: 10px;
+}
 </style>
 
 
@@ -51,11 +63,11 @@ body {
     h3,h4,h5,h6{--heading-prefix:"4"}</style>
     <div id="segment-header" class="segment">    <!-- segment-header -->
       <div class="container">    <!-- container -->
-        <center><img src="assets/images/logo.png">
+        <img src="assets/images/logo.png" class="center">
 
 
         <div id="ig-status">
-          <p><span style="font-size:12pt;font-weight:bold">Logica Implementation Guide: Covid-19</span><br/>0.1.0 - CI Build</p>
+          <p><span style="font-size:12pt;font-weight:bold">Logica Implementation Guide: Covid-19</span><br/>0.2.0 - CI Build</p>
         </div>
          <!-- /container -->
         <!-- /segment-header -->
@@ -127,7 +139,7 @@ h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) ".
 h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
 </style>
 <div class="col-12">
-    <!-- ReleaseHeader --><p id="publish-box">Logica Implementation Guide: Covid-19 - Local Development build (v0.1.0). See the <a href="http://fhir.logicahealth.org/covid19/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
+    <!-- ReleaseHeader --><p id="publish-box">Logica Implementation Guide: Covid-19 - Local Development build (v0.2.0). See the <a href="http://fhir.logicahealth.org/covid19/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
   <h2>Signs Symptoms</h2>
   
   
@@ -144,14 +156,14 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 <p>There are two profiles in this area, one for the assertion of the presence of the sign or symptom and one for the assertion of the absence of the sign or symptom.  We fell this adds a level of safety to the recoding/transmitting of this data.  Using a single profile to represent the presence and absence of a symptom could result in the mis-identification of a symptom’s being present when it is absent.</p>
 
-<p><a name="a5fc979f-acfc-4ce5-b1f6-b02b63c24f3a">​</a><a href="null">Signs and Sympotoms Present</a>  todo: add link
+<p><a name="e51ca4b9-4157-48a6-88a3-39072500a41c">​</a><a href="null">Signs and Sympotoms Present</a>  todo: add link
 <a href="null">Signs and Symptoms Absent</a>  todo: add link</p>
 
 <h4 id="covid19-diagnoses">COVID19 Diagnoses</h4>
 
 <p>The following is a profile to record/transmit any COVID19 associated diagnoses.</p>
 
-<p><a name="7bbe1202-e24f-4677-973a-af9dafc5c5b8">​</a><a href="null">COVID19 Diagnoses</a>   todo:  add link</p>
+<p><a name="1e397016-3a6e-491b-b8ad-495c5df41464">​</a><a href="null">COVID19 Diagnoses</a>   todo:  add link</p>
 
 
 </div>
@@ -165,7 +177,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
     <div class="container">    <!-- container -->
       <div class="inner-wrapper">
         <p>
-          IG &copy; 2020+ <a style="color: #81BEF7" href="https://c19hcc.org/">COVID-19 Healthcare Coalition</a>.  Package covid19#0.1.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Apr 3, 2020 17:57-0600">2020-04-03</span>
+          IG &copy; 2020+ <a style="color: #81BEF7" href="https://c19hcc.org/">COVID-19 Healthcare Coalition</a>.  Package covid19#0.2.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Apr 3, 2020 18:31-0600">2020-04-03</span>
           <br/>
           <span style="color: #FFFF77">
                       Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |
@@ -195,4 +207,4 @@ anchors.add()</script>
     <!-- Analytics Below
   ================================================== -->
   
-</img></center></div></div></body></html>
+</img></div></div></body></html>

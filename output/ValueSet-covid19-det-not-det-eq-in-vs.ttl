@@ -13,11 +13,11 @@
      fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Detected-Not Detected-Equivalent-Inconclusive Value Set</h2><div><p>A set of SNOMED codes representing the result of a test as detected, not detected, equivalent, or inconclusive.</p>\n</div><ul><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=260415000\">260415000</a></td><td>Not detected (qualifier value)</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=419984006\">419984006</a></td><td>Inconclusive (qualifier value)</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=42425007\">42425007</a></td><td>Equivocal (qualifier value)</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=260373001\">260373001</a></td><td>Detected (qualifier value)</td><td/></tr></table></li></ul></div>"
   ];
   fhir:ValueSet.url [ fhir:value "http://fhir.logicahealth.org/covid19/ValueSet/covid19-det-not-det-eq-in-vs"];
-  fhir:ValueSet.version [ fhir:value "0.1.0"];
+  fhir:ValueSet.version [ fhir:value "0.2.0"];
   fhir:ValueSet.name [ fhir:value "DetNotDetEqInVS"];
   fhir:ValueSet.title [ fhir:value "Detected-Not Detected-Equivalent-Inconclusive Value Set"];
   fhir:ValueSet.status [ fhir:value "active"];
-  fhir:ValueSet.date [ fhir:value "2020-04-03T17:57:07-06:00"^^xsd:dateTime];
+  fhir:ValueSet.date [ fhir:value "2020-04-03T18:31:01-06:00"^^xsd:dateTime];
   fhir:ValueSet.publisher [ fhir:value "COVID-19 Healthcare Coalition"];
   fhir:ValueSet.contact [
      fhir:index 0;

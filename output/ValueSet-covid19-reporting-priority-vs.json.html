@@ -21,12 +21,24 @@
     <!-- Placeholder for child template CSS declarations -->
 <style>
 body {
-        background-image: url("https://www.logicahealth.org/wp-content/uploads/triangled-background.png");
-        background-repeat: no-repeat;
-        background-position: top center;
-        background-attachment: fixed;
-        background-size: cover;
-    }
+  background-image: url("https://www.logicahealth.org/wp-content/uploads/triangled-background.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.segment > .container {
+  padding-left: 10px;
+  padding-right: 10px;
+}
 </style>
 
 
@@ -51,11 +63,11 @@ body {
     h3,h4,h5,h6{--heading-prefix:"6.62"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
-        <center><img src="assets/images/logo.png"></center>
+        <img src="assets/images/logo.png" class="center">
 
 
         <div id="ig-status">
-          <p><span style="font-size:12pt;font-weight:bold">Logica Implementation Guide: Covid-19</span><br/>0.1.0 - CI Build</p>
+          <p><span style="font-size:12pt;font-weight:bold">Logica Implementation Guide: Covid-19</span><br/>0.2.0 - CI Build</p>
         </div>
       </div> <!-- /container -->
     </div>  <!-- /segment-header -->
@@ -120,7 +132,7 @@ body {
         <div class="row">
           <div class="inner-wrapper">
 <div class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">Logica Implementation Guide: Covid-19 - Local Development build (v0.1.0). See the <a href="http://fhir.logicahealth.org/covid19/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  <!--ReleaseHeader--><p id="publish-box">Logica Implementation Guide: Covid-19 - Local Development build (v0.2.0). See the <a href="http://fhir.logicahealth.org/covid19/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
   <a name="root"> </a>
   <h2 id="root">Reporting Priorities Value Set - JSON Representation</h2>
   <p>
@@ -145,11 +157,11 @@ body {
     "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;h2&gt;Reporting Priorities Value Set&lt;/h2&gt;&lt;div&gt;&lt;p&gt;A set of SNOMED codes representing how important it is to report a lab or other observation.&lt;/p&gt;\n&lt;/div&gt;&lt;ul&gt;&lt;li&gt;Include these codes as defined in &lt;a href=\&quot;http://www.snomed.org/\&quot;&gt;&lt;code&gt;http://snomed.info/sct&lt;/code&gt;&lt;/a&gt;&lt;table class=\&quot;none\&quot;&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Display&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;http://browser.ihtsdotools.org/?perspective=full&amp;amp;conceptId1=50811001\&quot;&gt;50811001&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Routine (qualifier value)&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;http://browser.ihtsdotools.org/?perspective=full&amp;amp;conceptId1=49499008\&quot;&gt;49499008&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Stat (qualifier value)&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;http://browser.ihtsdotools.org/?perspective=full&amp;amp;conceptId1=709122007\&quot;&gt;709122007&lt;/a&gt;&lt;/td&gt;&lt;td&gt;As soon as possible (qualifier value)&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;http://browser.ihtsdotools.org/?perspective=full&amp;amp;conceptId1=103391001\&quot;&gt;103391001&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Urgent (qualifier value)&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;"<a name="end-xhtml"></a>
   },
   "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.url">url</a>" : "http://fhir.logicahealth.org/covid19/ValueSet/covid19-reporting-priority-vs",
-  "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.version">version</a>" : "0.1.0",
+  "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.version">version</a>" : "0.2.0",
   "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.name">name</a>" : "ReportingPriorityVS",
   "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.title">title</a>" : "Reporting Priorities Value Set",
   "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.status">status</a>" : "active",
-  "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.date">date</a>" : "2020-04-03T17:57:07-06:00",
+  "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.date">date</a>" : "2020-04-03T18:31:01-06:00",
   "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.publisher">publisher</a>" : "COVID-19 Healthcare Coalition",
   "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.contact">contact</a>" : [
     {
@@ -204,7 +216,7 @@ body {
     <div class="container">  <!-- container -->
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2020+ <a style="color: #81BEF7" href="https://c19hcc.org/">COVID-19 Healthcare Coalition</a>.  Package covid19#0.1.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Apr 3, 2020 17:57-0600">2020-04-03</span>
+          IG &#169; 2020+ <a style="color: #81BEF7" href="https://c19hcc.org/">COVID-19 Healthcare Coalition</a>.  Package covid19#0.2.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Apr 3, 2020 18:31-0600">2020-04-03</span>
           <br/>
           <span style="color: #FFFF77">
                       Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |

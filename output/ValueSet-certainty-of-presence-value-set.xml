@@ -7,11 +7,11 @@
 </div><ul><li>Include these codes as defined in <a href="http://www.snomed.org/"><code>http://snomed.info/sct</code></a><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=60022001">60022001</a></td><td>Possible diagnosis (contextual qualifier) (qualifier value)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=410592001">410592001</a></td><td>Probably present (qualifier value)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=410591008">410591008</a></td><td>Definitely present (qualifier value)</td><td/></tr></table></li></ul></div>
   </text>
   <url value="http://fhir.logicahealth.org/covid19/ValueSet/certainty-of-presence-value-set"/>
-  <version value="0.1.0"/>
+  <version value="0.2.0"/>
   <name value="CertaintyOfPresenceVS"/>
   <title value="Certainty of PresenceVS"/>
   <status value="active"/>
-  <date value="2020-04-03T17:57:07-06:00"/>
+  <date value="2020-04-03T18:31:01-06:00"/>
   <publisher value="COVID-19 Healthcare Coalition"/>
   <contact>
     <name value="Logica Health"/>

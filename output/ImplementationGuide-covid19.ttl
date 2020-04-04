@@ -13,11 +13,11 @@
      fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>LogicaImplementationGuideCovid19</h2><p>The official URL for this implementation guide is: </p><pre>http://fhir.logicahealth.org/covid19/ImplementationGuide/covid19</pre><div><p>The COVID-19 IG describes structured data to be collected and communicated between providers and aggregators.</p>\n</div></div>"
   ];
   fhir:ImplementationGuide.url [ fhir:value "http://fhir.logicahealth.org/covid19/ImplementationGuide/covid19"];
-  fhir:ImplementationGuide.version [ fhir:value "0.1.0"];
+  fhir:ImplementationGuide.version [ fhir:value "0.2.0"];
   fhir:ImplementationGuide.name [ fhir:value "LogicaImplementationGuideCovid19"];
   fhir:ImplementationGuide.title [ fhir:value "Logica Implementation Guide: Covid-19"];
   fhir:ImplementationGuide.status [ fhir:value "active"];
-  fhir:ImplementationGuide.date [ fhir:value "2020-04-03T17:57:07-06:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2020-04-03T18:31:01-06:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "COVID-19 Healthcare Coalition"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
