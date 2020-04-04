@@ -18,11 +18,7 @@
   <name value="KnownExposure"/>
   <title value="Known Exposure"/>
   <status value="active"/>
-<<<<<<< HEAD
-  <date value="2020-04-04T09:35:56-06:00"/>
-=======
-  <date value="2020-04-04T11:14:11-06:00"/>
->>>>>>> 192096c230a06afbe17193dd08b4ff5d6fa039ad
+  <date value="2020-04-04T12:16:32-06:00"/>
   <publisher value="COVID-19 Healthcare Coalition"/>
   <contact>
     <name value="Logica Health"/>
@@ -1159,7 +1155,7 @@
       <requirements value="For some results, particularly numeric results, an interpretation is necessary to fully understand the significance of a result."/>
       <alias value="Abnormal Flag"/>
       <min value="0"/>
-      <max value="*"/>
+      <max value="0"/>
       <base>
         <path value="Observation.interpretation"/>
         <min value="0"/>

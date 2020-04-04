@@ -1,21 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-<<<<<<< HEAD
-<<<<<<< HEAD
-  <id value="a0c34eef-27a1-46a6-9b68-2e42e0cecaf8"/>
+  <id value="29c87a51-c4b1-4d45-a1ef-2fc685b204e9"/>
   <meta>
-    <lastUpdated value="2020-04-04T09:35:56.046-06:00"/>
-=======
-  <id value="5909c962-e271-4cc6-9243-7fe9f4b75d5b"/>
-  <meta>
-    <lastUpdated value="2020-04-04T11:14:11.029-06:00"/>
->>>>>>> 192096c230a06afbe17193dd08b4ff5d6fa039ad
-=======
-  <id value="eff5a0b4-e2de-4c49-9fb1-a287ec669b9b"/>
-  <meta>
-    <lastUpdated value="2020-04-03T20:44:19.732-06:00"/>
->>>>>>> fsh-initial-commit-2
+    <lastUpdated value="2020-04-04T12:16:32.063-06:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -216,8 +204,8 @@
         </text>
         <status value="active"/>
         <expansion>
-          <identifier value="urn:uuid:d43d2a6b-d1af-4a80-88e6-5ae74a25f0d8"/>
-          <timestamp value="2020-04-04T00:06:44.830Z"/>
+          <identifier value="urn:uuid:36bca8dd-f7cb-4f49-8cca-bbda3502d687"/>
+          <timestamp value="2020-04-04T18:06:46.551Z"/>
           <parameter>
             <name value="limitedExpansion"/>
             <valueBoolean value="true"/>
@@ -381,8 +369,8 @@
         </text>
         <status value="active"/>
         <expansion>
-          <identifier value="urn:uuid:172ebab1-4380-4151-a211-231b2ca07285"/>
-          <timestamp value="2020-04-04T00:06:45.236Z"/>
+          <identifier value="urn:uuid:a37521fa-1315-413f-b0f7-69065b5f0026"/>
+          <timestamp value="2020-04-04T18:06:46.832Z"/>
           <parameter>
             <name value="limitedExpansion"/>
             <valueBoolean value="true"/>
@@ -459,8 +447,8 @@
         </text>
         <status value="active"/>
         <expansion>
-          <identifier value="urn:uuid:ce817813-411e-41ad-bee1-870f60d87935"/>
-          <timestamp value="2020-04-04T00:06:45.611Z"/>
+          <identifier value="urn:uuid:92be9bc4-5acd-4c07-8d1c-d5c7afabf941"/>
+          <timestamp value="2020-04-04T18:06:47.113Z"/>
           <parameter>
             <name value="limitedExpansion"/>
             <valueBoolean value="true"/>
@@ -2345,8 +2333,8 @@
           <extension url="http://hl7.org/fhir/StructureDefinition/valueset-unclosed">
             <valueBoolean value="true"/>
           </extension>
-          <identifier value="urn:uuid:1d43a3b3-7fd5-4747-aab2-492c524e3139"/>
-          <timestamp value="2020-04-04T00:06:47.018Z"/>
+          <identifier value="urn:uuid:edcbcc25-4609-45d2-a288-7233661353e2"/>
+          <timestamp value="2020-04-04T18:06:48.082Z"/>
           <parameter>
             <name value="limitedExpansion"/>
             <valueBoolean value="true"/>
@@ -3561,8 +3549,8 @@
         </text>
         <status value="active"/>
         <expansion>
-          <identifier value="urn:uuid:5e1ebe01-f1c3-4a30-8531-d6a22a3dd16f"/>
-          <timestamp value="2020-04-01T17:21:00.580Z"/>
+          <identifier value="urn:uuid:3f41f362-7a5f-47d0-8069-c8b2bafaa451"/>
+          <timestamp value="2020-04-04T18:07:01.613Z"/>
           <parameter>
             <name value="limitedExpansion"/>
             <valueBoolean value="true"/>
@@ -7532,8 +7520,8 @@
           <extension url="http://hl7.org/fhir/StructureDefinition/valueset-unclosed">
             <valueBoolean value="true"/>
           </extension>
-          <identifier value="urn:uuid:a67d55f0-6aa6-4f4d-a502-b2e97d97d3ef"/>
-          <timestamp value="2020-04-04T00:06:58.658Z"/>
+          <identifier value="urn:uuid:4176b739-dc40-491e-86ff-8c7e4f4f0e54"/>
+          <timestamp value="2020-04-04T18:07:01.926Z"/>
           <parameter>
             <name value="limitedExpansion"/>
             <valueBoolean value="true"/>
@@ -10095,8 +10083,8 @@
         </text>
         <status value="active"/>
         <expansion>
-          <identifier value="urn:uuid:e4dd0935-d675-4778-8c77-34805a1af3c3"/>
-          <timestamp value="2020-04-04T00:07:21.627Z"/>
+          <identifier value="urn:uuid:e794c9b8-17c1-4eea-b309-378d1985d425"/>
+          <timestamp value="2020-04-04T18:07:27.254Z"/>
           <parameter>
             <name value="limitedExpansion"/>
             <valueBoolean value="true"/>
@@ -10215,8 +10203,8 @@
         </text>
         <status value="active"/>
         <expansion>
-          <identifier value="urn:uuid:d6409329-2fcb-4727-9323-61ce76926489"/>
-          <timestamp value="2020-04-01T17:21:01.111Z"/>
+          <identifier value="urn:uuid:2525e546-2e0d-4013-9b20-753314eeb6a3"/>
+          <timestamp value="2020-04-04T18:07:27.504Z"/>
           <parameter>
             <name value="limitedExpansion"/>
             <valueBoolean value="true"/>
@@ -10301,8 +10289,8 @@
         </text>
         <status value="active"/>
         <expansion>
-          <identifier value="urn:uuid:676cfdc4-e10d-4dab-884e-3f43cc3ab751"/>
-          <timestamp value="2020-04-01T17:21:01.486Z"/>
+          <identifier value="urn:uuid:382382a4-5933-42cf-bacb-ea6ba14ada2a"/>
+          <timestamp value="2020-04-04T18:07:27.754Z"/>
           <parameter>
             <name value="limitedExpansion"/>
             <valueBoolean value="true"/>
@@ -10840,8 +10828,8 @@
           <extension url="http://hl7.org/fhir/StructureDefinition/valueset-unclosed">
             <valueBoolean value="true"/>
           </extension>
-          <identifier value="urn:uuid:dd64010f-9714-4dac-8ef5-f0e067e9d00e"/>
-          <timestamp value="2020-04-04T00:07:22.205Z"/>
+          <identifier value="urn:uuid:1f27cfb4-19d8-488e-90b3-1741dd89b837"/>
+          <timestamp value="2020-04-04T18:07:27.988Z"/>
           <parameter>
             <name value="limitedExpansion"/>
             <valueBoolean value="true"/>
@@ -11195,8 +11183,8 @@
         </text>
         <status value="active"/>
         <expansion>
-          <identifier value="urn:uuid:2646db3b-2425-4a87-9457-06e13c834791"/>
-          <timestamp value="2020-04-04T00:07:25.283Z"/>
+          <identifier value="urn:uuid:505a7b3c-df38-4b32-8a9e-d7e7b057bf0c"/>
+          <timestamp value="2020-04-04T18:07:30.941Z"/>
           <parameter>
             <name value="limitedExpansion"/>
             <valueBoolean value="true"/>

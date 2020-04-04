@@ -88,7 +88,17 @@ body {
             </button>
             <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
             <div class="nav-collapse collapse navbar-inverse-collapse">
-              <ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+              
+
+
+
+
+
+
+
+
+
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
   <li><a href="index.html">IG Home</a></li>
   <li><a href="toc.html">Table of Contents</a></li>
   <li><a href="artifacts.html">Artifact Index</a></li>
@@ -181,10 +191,8 @@ body {
  <tr><td>&nbsp;&nbsp;&nbsp;status</td><td>&lt; 445584004 |Report by finality status|</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;code</td><td>&lt; 363787002 |Observable entity| OR &lt; 386053000 |Evaluation procedure|</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;value[x]</td><td>&lt; 441742003 |Evaluation finding|</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;interpretation</td><td>&lt; 260245000 |Findings values|</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;component</td><td></td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;code</td><td>&lt; 363787002 |Observable entity| OR 
-&lt; 386053000 |Evaluation procedure|</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;code</td><td>&lt; 363787002 |Observable entity| OR &lt; 386053000 |Evaluation procedure|</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;value[x]</td><td>363714003 |Interprets| &lt; 441742003 |Evaluation finding|</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;interpretation</td><td>&lt; 260245000 |Findings values|</td> </tr>
 </table>
@@ -204,7 +212,6 @@ body {
  <tr><td>&nbsp;&nbsp;&nbsp;performer</td><td>OBX.15 / (Practitioner)  OBX-16,  PRT-5:PRT-4='RO' /  (Device)  OBX-18 , PRT-10:PRT-4='EQUIP' / (Organization)  OBX-23,  PRT-8:PRT-4='PO'</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;value[x]</td><td>OBX.2, OBX.5, OBX.6</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;dataAbsentReason</td><td>N/A</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;interpretation</td><td>OBX-8</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;note</td><td>NTE.3 (partner NTE to OBX, or sometimes another (child?) OBX)</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;derivedFrom</td><td>Relationships established by OBX-4 usage</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;component</td><td>containment by OBX-4?</td> </tr>
@@ -235,7 +242,6 @@ body {
  <tr><td>&nbsp;&nbsp;&nbsp;performer</td><td>participation[typeCode=PRF]</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;value[x]</td><td>value</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;dataAbsentReason</td><td>value.nullFlavor</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;interpretation</td><td>interpretationCode</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;note</td><td>subjectOf.observationEvent[code=&quot;annotation&quot;].value</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;derivedFrom</td><td>.targetObservation</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;component</td><td>outBoundRelationship[typeCode=COMP]</td> </tr>
@@ -269,7 +275,6 @@ body {
  <tr><td>Observation</td><td></td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;code</td><td>116680003 |Is a|</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;value[x]</td><td>363714003 |Interprets|</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;interpretation</td><td>363713009 |Has interpretation|</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;component</td><td></td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;value[x]</td><td>363714003 |Interprets|</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;interpretation</td><td>363713009 |Has interpretation|</td> </tr>
@@ -315,11 +320,7 @@ body {
     <div class="container">  <!-- container -->
       <div class="inner-wrapper">
         <p>
-<<<<<<< HEAD
-          IG &#169; 2020+ <a style="color: #81BEF7" href="https://c19hcc.org/">COVID-19 Healthcare Coalition</a>.  Package covid19#0.2.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Sat, Apr 4, 2020 09:35-0600">2020-04-04</span>
-=======
-          IG &#169; 2020+ <a style="color: #81BEF7" href="https://c19hcc.org/">COVID-19 Healthcare Coalition</a>.  Package covid19#0.2.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Sat, Apr 4, 2020 11:14-0600">2020-04-04</span>
->>>>>>> 192096c230a06afbe17193dd08b4ff5d6fa039ad
+          IG &#169; 2020+ <a style="color: #81BEF7" href="https://c19hcc.org/">COVID-19 Healthcare Coalition</a>.  Package covid19#0.2.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Sat, Apr 4, 2020 12:16-0600">2020-04-04</span>
           <br/>
           <span style="color: #FFFF77">
                       Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |
