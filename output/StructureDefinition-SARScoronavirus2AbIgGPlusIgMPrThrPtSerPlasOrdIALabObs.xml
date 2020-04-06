@@ -16,13 +16,13 @@
   <name value="SARScoronavirus2AbIgGPlusIgMPrThrPtSerPlasOrdIALabObs"/>
   <title value="SARS coronavirus 2 IgG+IgM Ab [Presence] in Serum or Plasma by Immunoassay"/>
   <status value="active"/>
-  <date value="2020-04-04T12:44:17-06:00"/>
-  <publisher value="COVID-19 Healthcare Coalition"/>
+  <date value="2020-04-06T17:10:49-06:00"/>
+  <publisher value="Logica"/>
   <contact>
-    <name value="Logica Health"/>
+    <name value="Logica"/>
     <telecom>
       <system value="url"/>
-      <value value="https://c19hcc.org/"/>
+      <value value="https://logicahealth.org/"/>
     </telecom>
   </contact>
   <description value="SARScoronavirus2AbIgGPlusIgMPrThrPtSerPlasOrdIALabObs is a test for the SARS coronavirus 2 IgG and IgM antibodies via immunoassay. It does not differentiate which is detected. LOINC code 94547-7."/>

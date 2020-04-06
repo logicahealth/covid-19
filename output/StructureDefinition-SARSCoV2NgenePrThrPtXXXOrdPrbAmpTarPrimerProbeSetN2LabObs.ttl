@@ -18,15 +18,15 @@
   fhir:StructureDefinition.name [ fhir:value "SARSCoV2NgenePrThrPtXXXOrdPrbAmpTarPrimerProbeSetN2LabObs"];
   fhir:StructureDefinition.title [ fhir:value "SARS coronavirus 2 N gene [Presence] in Unspecified specimen by Nucleic acid amplification using primer-probe set N2"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2020-04-04T12:44:17-06:00"^^xsd:dateTime];
-  fhir:StructureDefinition.publisher [ fhir:value "COVID-19 Healthcare Coalition"];
+  fhir:StructureDefinition.date [ fhir:value "2020-04-06T17:10:49-06:00"^^xsd:dateTime];
+  fhir:StructureDefinition.publisher [ fhir:value "Logica"];
   fhir:StructureDefinition.contact [
      fhir:index 0;
-     fhir:ContactDetail.name [ fhir:value "Logica Health" ];
+     fhir:ContactDetail.name [ fhir:value "Logica" ];
      fhir:ContactDetail.telecom [
        fhir:index 0;
        fhir:ContactPoint.system [ fhir:value "url" ];
-       fhir:ContactPoint.value [ fhir:value "https://c19hcc.org/" ]
+       fhir:ContactPoint.value [ fhir:value "https://logicahealth.org/" ]
      ]
   ];
   fhir:StructureDefinition.description [ fhir:value "SARScoronavirus2NgenePrThrPtXXXOrdPrbAmpTarPrimerProbeSetN2 is a test for the SARS coronavirus 2 RNA using the CDC defined method of probe amplification target primer probe set N2 and used for non-respiratory specimens. LOINC code 94308-4."];

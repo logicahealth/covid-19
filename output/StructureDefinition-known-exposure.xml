@@ -18,13 +18,13 @@
   <name value="KnownExposure"/>
   <title value="Known Exposure"/>
   <status value="active"/>
-  <date value="2020-04-04T12:44:17-06:00"/>
-  <publisher value="COVID-19 Healthcare Coalition"/>
+  <date value="2020-04-06T17:10:49-06:00"/>
+  <publisher value="Logica"/>
   <contact>
-    <name value="Logica Health"/>
+    <name value="Logica"/>
     <telecom>
       <system value="url"/>
-      <value value="https://c19hcc.org/"/>
+      <value value="https://logicahealth.org/"/>
     </telecom>
   </contact>
   <description value="Known Exposure is a description of how, when, where, and with whom and individual was exposed to a contagion."/>

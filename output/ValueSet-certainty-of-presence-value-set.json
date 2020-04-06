@@ -10,15 +10,15 @@
   "name": "CertaintyOfPresenceVS",
   "title": "Certainty of PresenceVS",
   "status": "active",
-  "date": "2020-04-04T12:44:17-06:00",
-  "publisher": "COVID-19 Healthcare Coalition",
+  "date": "2020-04-06T17:10:49-06:00",
+  "publisher": "Logica",
   "contact": [
     {
-      "name": "Logica Health",
+      "name": "Logica",
       "telecom": [
         {
           "system": "url",
-          "value": "https://c19hcc.org/"
+          "value": "https://logicahealth.org/"
         }
       ]
     }

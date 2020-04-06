@@ -16,13 +16,13 @@
   <name value="Humancoronavirus229ERNAPrThrPtNphOrdNonprobeamptarLabObs"/>
   <title value="Human coronavirus 229E RNA [Presence] in Nasopharynx by NAA with non-probe detection"/>
   <status value="active"/>
-  <date value="2020-04-04T12:44:17-06:00"/>
-  <publisher value="COVID-19 Healthcare Coalition"/>
+  <date value="2020-04-06T17:10:49-06:00"/>
+  <publisher value="Logica"/>
   <contact>
-    <name value="Logica Health"/>
+    <name value="Logica"/>
     <telecom>
       <system value="url"/>
-      <value value="https://c19hcc.org/"/>
+      <value value="https://logicahealth.org/"/>
     </telecom>
   </contact>
   <description value="Humancoronavirus229ERNAPrThrPtNphOrdNonprobeamptarLabObs is a test for the Human coronavirus 229E nucleaic acid in nasopharynx specimens via non-probe, target amplification method."/>

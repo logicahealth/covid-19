@@ -16,13 +16,13 @@
   <name value="SARSLikecoronavirusNGenePrThrPtXXXOrdPrbAmpTarLabObs"/>
   <title value="SARS-like coronavirus N gene [Presence] in Unspecified specimen by NAA with probe detection"/>
   <status value="active"/>
-  <date value="2020-04-04T12:44:17-06:00"/>
-  <publisher value="COVID-19 Healthcare Coalition"/>
+  <date value="2020-04-06T17:10:49-06:00"/>
+  <publisher value="Logica"/>
   <contact>
-    <name value="Logica Health"/>
+    <name value="Logica"/>
     <telecom>
       <system value="url"/>
-      <value value="https://c19hcc.org/"/>
+      <value value="https://logicahealth.org/"/>
     </telecom>
   </contact>
   <description value="SARSLikecoronavirusNGenePrThrPtXXXOrdPrbAmpTarLabObs is a test for the SARS-like coronavirus N gene in non-respiratory specimens and via the probe target amplification method. LOINC code 94310-0."/>

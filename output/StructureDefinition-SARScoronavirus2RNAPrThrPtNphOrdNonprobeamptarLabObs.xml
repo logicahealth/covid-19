@@ -16,13 +16,13 @@
   <name value="SARScoronavirus2RNAPrThrPtNphOrdNonprobeamptarLabObs"/>
   <title value="SARS coronavirus 2 RNA [Presence] in Nasopharynx by NAA with non-probe detection"/>
   <status value="active"/>
-  <date value="2020-04-04T12:44:17-06:00"/>
-  <publisher value="COVID-19 Healthcare Coalition"/>
+  <date value="2020-04-06T17:10:49-06:00"/>
+  <publisher value="Logica"/>
   <contact>
-    <name value="Logica Health"/>
+    <name value="Logica"/>
     <telecom>
       <system value="url"/>
-      <value value="https://c19hcc.org/"/>
+      <value value="https://logicahealth.org/"/>
     </telecom>
   </contact>
   <description value="SARScoronavirus2RNAPrThrPtNphOrdNonprobeamptarLabObs is a test for SARS coronavirus 2 RNA nucleaic acids in nasopharynx specimens via non-probe, target amplification method."/>

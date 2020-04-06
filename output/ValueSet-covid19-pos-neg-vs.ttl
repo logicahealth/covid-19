@@ -17,15 +17,15 @@
   fhir:ValueSet.name [ fhir:value "PosNegVS"];
   fhir:ValueSet.title [ fhir:value "Positive/Negative Value Set"];
   fhir:ValueSet.status [ fhir:value "active"];
-  fhir:ValueSet.date [ fhir:value "2020-04-04T12:44:17-06:00"^^xsd:dateTime];
-  fhir:ValueSet.publisher [ fhir:value "COVID-19 Healthcare Coalition"];
+  fhir:ValueSet.date [ fhir:value "2020-04-06T17:10:49-06:00"^^xsd:dateTime];
+  fhir:ValueSet.publisher [ fhir:value "Logica"];
   fhir:ValueSet.contact [
      fhir:index 0;
-     fhir:ContactDetail.name [ fhir:value "Logica Health" ];
+     fhir:ContactDetail.name [ fhir:value "Logica" ];
      fhir:ContactDetail.telecom [
        fhir:index 0;
        fhir:ContactPoint.system [ fhir:value "url" ];
-       fhir:ContactPoint.value [ fhir:value "https://c19hcc.org/" ]
+       fhir:ContactPoint.value [ fhir:value "https://logicahealth.org/" ]
      ]
   ];
   fhir:ValueSet.description [ fhir:value "A set of SNOMED codes representing the result of a test as positive or negative."];

@@ -18,15 +18,15 @@
   fhir:StructureDefinition.name [ fhir:value "Humancoronavirus229EHKU1OC43NL63RNAPresNsphLabObs"];
   fhir:StructureDefinition.title [ fhir:value "Human coronavirus 229E+HKU1+OC43+NL63 RNA [Presence] in Nasopharynx by NAA with non-probe detection"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2020-04-04T12:44:17-06:00"^^xsd:dateTime];
-  fhir:StructureDefinition.publisher [ fhir:value "COVID-19 Healthcare Coalition"];
+  fhir:StructureDefinition.date [ fhir:value "2020-04-06T17:10:49-06:00"^^xsd:dateTime];
+  fhir:StructureDefinition.publisher [ fhir:value "Logica"];
   fhir:StructureDefinition.contact [
      fhir:index 0;
-     fhir:ContactDetail.name [ fhir:value "Logica Health" ];
+     fhir:ContactDetail.name [ fhir:value "Logica" ];
      fhir:ContactDetail.telecom [
        fhir:index 0;
        fhir:ContactPoint.system [ fhir:value "url" ];
-       fhir:ContactPoint.value [ fhir:value "https://c19hcc.org/" ]
+       fhir:ContactPoint.value [ fhir:value "https://logicahealth.org/" ]
      ]
   ];
   fhir:StructureDefinition.description [ fhir:value "Humancoronavirus229EHKU1OC43NL63RNAPrThrPtNphOrdNonprobeamptar is a test for the Human coronavirus 229EHKU1, OC43, NL63 nucleaic acids in nasopharynx specimens via non-probe, target amplification method"];
