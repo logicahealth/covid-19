@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="healthcare-occupation-value-set"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>Healthcare Occupation Value Set</h2><div><p>A set of SNOMED CT codes that represent occupations within the health care industry.</p>
+</div><ul><li>Include codes from <a href="http://www.snomed.org/"><code>http://snomed.info/sct</code></a> where concept  is-a  223366009 (Healthcare professional)</li></ul></div>
+  </text>
+  <url value="http://fhir.logicahealth.org/covid19/ValueSet/healthcare-occupation-value-set"/>
+  <version value="0.2.0"/>
+  <name value="HealthcareOccupationVS"/>
+  <title value="Healthcare Occupation Value Set"/>
+  <status value="active"/>
+  <date value="2020-04-06T16:59:30-06:00"/>
+  <publisher value="Logica"/>
+  <contact>
+    <name value="Logica"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://logicahealth.org/"/>
+    </telecom>
+  </contact>
+  <description value="A set of SNOMED CT codes that represent occupations within the health care industry."/>
+  <compose>
+    <include>
+      <system value="http://snomed.info/sct"/>
+      <filter>
+        <property value="concept"/>
+        <op value="is-a"/>
+        <value value="223366009"/>
+      </filter>
+    </include>
+  </compose>
+</ValueSet>

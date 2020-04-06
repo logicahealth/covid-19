@@ -1,0 +1,94 @@
+{
+  "package": "covid19",
+  "version": "0.2.0",
+  "fhirVersion": "4.0.1",
+  "extensions": [
+    {
+      "url": "http://fhir.logicahealth.org/covid19/StructureDefinition/c19-reporting-priority",
+      "title": "Reporting Priority",
+      "types": [
+        "CodeableConcept",
+        "CodeableConcept"
+      ]
+    },
+    {
+      "url": "http://fhir.logicahealth.org/covid19/StructureDefinition/certainty-of-absence",
+      "title": "Certainty of Absence",
+      "types": [
+        "CodeableConcept",
+        "CodeableConcept"
+      ]
+    },
+    {
+      "url": "http://fhir.logicahealth.org/covid19/StructureDefinition/certainty-of-presence",
+      "title": "Certainty of Presence",
+      "types": [
+        "CodeableConcept",
+        "CodeableConcept"
+      ]
+    }
+  ],
+  "profiles": {
+    "Condition": [
+      {
+        "url": "http://fhir.logicahealth.org/covid19/StructureDefinition/covid19-symptoms-absent",
+        "title": "COVID 19 Symptoms Absent"
+      },
+      {
+        "url": "http://fhir.logicahealth.org/covid19/StructureDefinition/covid19-symptoms-present",
+        "title": "COVID 19 Symptoms Present"
+      }
+    ],
+    "Observation": [
+      {
+        "url": "http://fhir.logicahealth.org/covid19/StructureDefinition/known-exposure",
+        "title": "Known Exposure"
+      },
+      {
+        "url": "http://fhir.logicahealth.org/covid19/StructureDefinition/travel-history",
+        "title": "Travel History"
+      }
+    ]
+  },
+  "usage": {
+    "http://fhir.logicahealth.org/covid19/StructureDefinition/c19-reporting-priority": [
+      "Observation"
+    ],
+    "http://fhir.logicahealth.org/covid19/StructureDefinition/certainty-of-absence": [
+      "Condition"
+    ],
+    "http://fhir.logicahealth.org/covid19/StructureDefinition/certainty-of-presence": [
+      "Condition"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-bestpractice": [
+      "StructureDefinition.snapshot.element.constraint"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-bestpractice-explanation": [
+      "StructureDefinition.snapshot.element.constraint"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName": [
+      "StructureDefinition.snapshot.element.binding"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-isCommonBinding": [
+      "StructureDefinition.snapshot.element.binding"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet": [
+      "StructureDefinition.snapshot.element.binding"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-display-hint": [
+      "StructureDefinition.snapshot.element"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type": [
+      "StructureDefinition.snapshot.element.type"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status": [
+      "StructureDefinition.snapshot.element"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter": [
+      "ImplementationGuide.definition"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/resource-information": [
+      "ImplementationGuide.definition.resource"
+    ]
+  }
+}
