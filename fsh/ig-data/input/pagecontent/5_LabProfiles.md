@@ -1,6 +1,6 @@
 ﻿### Lab data
 
-The profiles listed below are all of the currently released and pre-released codes from the LOINC code system.  The represent all of the testing that could be reported via a reporting form, like the CDC COVID19 PUI form.  Many of them are in a pre-release state and are subject to change.
+The profiles listed below are all of the currently released and pre-released codes from the LOINC code system.  They represent all of the testing that could be reported via a reporting form, like the CDC COVID19 PUI form.  Many of them are in a pre-release state and are subject to change.
 
 LOINC code 94505-5 [SARS coronavirus 2 IgG Ab \[Units/volume\] in Serum or Plasma by Immunoassay](StructureDefinition-SARScoronavirus2AbIgGAcncPtSerPlasQnIALabObs.html)
 

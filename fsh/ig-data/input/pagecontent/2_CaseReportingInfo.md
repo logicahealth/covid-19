@@ -1,5 +1,4 @@
-﻿#### Case Reporting Identifying Info and Exposure Info
-
+﻿
 The data outline on this page is garnered from the CDC COVID19 PUI reporting form.  Due to the need to rapidly publish FHIR profiles for this form, not everything from the form is here.  We do plan on adding the remaining data elements in the coming days/weeks.
 
 #### Case reporting information

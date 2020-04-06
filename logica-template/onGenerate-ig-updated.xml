@@ -23,7 +23,7 @@
       <name value="Logica Health"/>
       <telecom>
          <system value="url"/>
-         <value value="https://c19hcc.org/"/>
+         <value value="https://www.logicahealth.org/"/>
       </telecom>
    </contact>
    <description value="The COVID-19 IG describes structured data to be collected and communicated between providers and aggregators."/>
