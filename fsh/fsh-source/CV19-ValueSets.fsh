@@ -30,9 +30,9 @@ Description: "A set of SNOMED CT codes that describe the diagnosed condition tha
 * SCT#840539006 "Disease caused by 2019 novel coronavirus (disorder)"
 * SCT#840544004 "Suspected disease caused by 2019 novel coronavirus (situation)"
 * SCT#882784691000119000 "Pneumonia caused by severe acute respiratory syndrome coronavirus 2 (disorder)"
-* SCT#674814021000119000 "Acute respiratory distress syndrome caused by severe acute respiratory syndrome coronavirus 2 (disorder)"
-* SCT#880529761000119000 "Lower respiratory infection caused by severe acute respiratory syndrome coronavirus 2 (disorder)"
-* SCT#138389411000119000 "Acute bronchitis caused by severe acute respiratory syndrome coronavirus 2 (disorder)"
+* SCT#674814021000119106 "Acute respiratory distress syndrome caused by severe acute respiratory syndrome coronavirus 2 (disorder)"
+* SCT#880529761000119102 "Lower respiratory infection caused by severe acute respiratory syndrome coronavirus 2 (disorder)"
+* SCT#138389411000119105 "Acute bronchitis caused by severe acute respiratory syndrome coronavirus 2 (disorder)"
 * SCT#866151004 "Lymphocytopenia associated with severe acute respiratory syndrome coronavirus 2 (disorder)"
 * SCT#866152006 "Thrombocytopenia associated with severe acute respiratory syndrome coronavirus 2 (disorder)"
 
