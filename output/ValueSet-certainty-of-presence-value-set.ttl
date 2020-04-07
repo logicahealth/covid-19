@@ -17,7 +17,11 @@
   fhir:ValueSet.name [ fhir:value "CertaintyOfPresenceVS"];
   fhir:ValueSet.title [ fhir:value "Certainty of PresenceVS"];
   fhir:ValueSet.status [ fhir:value "active"];
+<<<<<<< HEAD
   fhir:ValueSet.date [ fhir:value "2020-04-06T17:10:49-06:00"^^xsd:dateTime];
+=======
+  fhir:ValueSet.date [ fhir:value "2020-04-06T16:59:30-06:00"^^xsd:dateTime];
+>>>>>>> fsh-initial-commit-2
   fhir:ValueSet.publisher [ fhir:value "Logica"];
   fhir:ValueSet.contact [
      fhir:index 0;

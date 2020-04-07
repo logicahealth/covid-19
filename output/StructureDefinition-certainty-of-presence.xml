@@ -15,7 +15,11 @@
   <name value="CertaintyOfPresence"/>
   <title value="Certainty of Presence"/>
   <status value="active"/>
+<<<<<<< HEAD
   <date value="2020-04-06T17:10:49-06:00"/>
+=======
+  <date value="2020-04-06T16:59:30-06:00"/>
+>>>>>>> fsh-initial-commit-2
   <publisher value="Logica"/>
   <contact>
     <name value="Logica"/>

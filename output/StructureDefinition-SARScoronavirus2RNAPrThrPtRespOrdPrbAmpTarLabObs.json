@@ -10,7 +10,11 @@
   "name": "SARScoronavirus2RNAPrThrPtRespOrdPrbAmpTarLabObs",
   "title": "SARS coronavirus 2 RNA [Presence] in Respiratory specimen by NAA with probe detection",
   "status": "active",
+<<<<<<< HEAD
   "date": "2020-04-06T17:10:49-06:00",
+=======
+  "date": "2020-04-06T16:59:30-06:00",
+>>>>>>> fsh-initial-commit-2
   "publisher": "Logica",
   "contact": [
     {

@@ -16,7 +16,11 @@
   <name value="Humancoronavirus229ERNAPrThrPtNphOrdNonprobeamptarLabObs"/>
   <title value="Human coronavirus 229E RNA [Presence] in Nasopharynx by NAA with non-probe detection"/>
   <status value="active"/>
+<<<<<<< HEAD
   <date value="2020-04-06T17:10:49-06:00"/>
+=======
+  <date value="2020-04-06T16:59:30-06:00"/>
+>>>>>>> fsh-initial-commit-2
   <publisher value="Logica"/>
   <contact>
     <name value="Logica"/>

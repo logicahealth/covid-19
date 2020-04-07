@@ -18,7 +18,11 @@
   fhir:StructureDefinition.name [ fhir:value "HumancoronavirusOC43RNAPrThrPtNphOrdNonprobeamptarLabObs"];
   fhir:StructureDefinition.title [ fhir:value "Human coronavirus OC43 RNA [Presence] in Nasopharynx by NAA with non-probe detection"];
   fhir:StructureDefinition.status [ fhir:value "active"];
+<<<<<<< HEAD
   fhir:StructureDefinition.date [ fhir:value "2020-04-06T17:10:49-06:00"^^xsd:dateTime];
+=======
+  fhir:StructureDefinition.date [ fhir:value "2020-04-06T16:59:30-06:00"^^xsd:dateTime];
+>>>>>>> fsh-initial-commit-2
   fhir:StructureDefinition.publisher [ fhir:value "Logica"];
   fhir:StructureDefinition.contact [
      fhir:index 0;

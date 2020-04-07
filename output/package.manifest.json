@@ -1,6 +1,10 @@
 {
   "version": "0.2.0",
   "fhirVersion": "[4.0.1]",
+<<<<<<< HEAD
   "date": "20200406171029",
+=======
+  "date": "20200406165907",
+>>>>>>> fsh-initial-commit-2
   "name": "covid19"
 }
