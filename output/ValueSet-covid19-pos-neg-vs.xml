@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="covid19-pos-neg-vs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>Positive/Negative Value Set</h2><div><p>A set of SNOMED codes representing the result of a test as positive or negative.</p>
+</div><ul><li>Include these codes as defined in <a href="http://www.snomed.org/"><code>http://snomed.info/sct</code></a><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=10828004">10828004</a></td><td>Positive (qualifier value)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=260385009">260385009</a></td><td>Negative (qualifier value)</td><td/></tr></table></li></ul></div>
+  </text>
+  <url value="http://fhir.logicahealth.org/covid19/ValueSet/covid19-pos-neg-vs"/>
+  <version value="0.2.0"/>
+  <name value="PosNegVS"/>
+  <title value="Positive/Negative Value Set"/>
+  <status value="active"/>
+  <date value="2020-04-06T16:59:30-06:00"/>
+  <publisher value="Logica"/>
+  <contact>
+    <name value="Logica"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://logicahealth.org/"/>
+    </telecom>
+  </contact>
+  <description value="A set of SNOMED codes representing the result of a test as positive or negative."/>
+  <compose>
+    <include>
+      <system value="http://snomed.info/sct"/>
+      <concept>
+        <code value="10828004"/>
+        <display value="Positive (qualifier value)"/>
+      </concept>
+      <concept>
+        <code value="260385009"/>
+        <display value="Negative (qualifier value)"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

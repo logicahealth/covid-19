@@ -16,7 +16,7 @@
     "pandemic"
   ],
   "language": "en",
-  "author": "COVID-19 Healthcare Coalition",
+  "author": "Logica",
   "contact": [
     {
       "telecom": [
@@ -29,9 +29,9 @@
   ],
   "maintainers": [
     {
-      "name": "Logica Health",
+      "name": "Logica",
       "organization": "Logica",
-      "url": "https://www.logicahealth.org/"
+      "url": "https://logicahealth.org/"
     }
   ],
   "license": "CC0-1.0"
