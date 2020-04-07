@@ -3,11 +3,7 @@
   "name": "LogicaImplementationGuideCovid19",
   "package-id": "covid19",
   "ig-ver": "0.2.0",
-<<<<<<< HEAD
-  "date": "Mon, 06 Apr, 2020 17:10:49 -0600",
-=======
-  "date": "Mon, 06 Apr, 2020 16:59:30 -0600",
->>>>>>> fsh-initial-commit-2
+  "date": "Tue, 07 Apr, 2020 11:18:16 -0600",
   "errs": 144,
   "warnings": 92,
   "hints": 0,

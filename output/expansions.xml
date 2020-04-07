@@ -1,22 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-<<<<<<< HEAD
-  <id value="2ed33869-17fa-4060-9720-5b940849bf0b"/>
+  <id value="8ed0760a-80f6-4b0c-815f-7e9f5329b620"/>
   <meta>
-    <lastUpdated value="2020-04-06T17:10:49.045-06:00"/>
-=======
-  <id value="ced1d882-561b-4235-a5d7-1caf1812be33"/>
-  <meta>
-    <lastUpdated value="2020-04-06T16:59:30.395-06:00"/>
->>>>>>> fsh-initial-commit-2
+    <lastUpdated value="2020-04-07T11:18:16.462-06:00"/>
   </meta>
   <type value="collection"/>
   <entry>
-    <fullUrl value="http://fhir.logicahealth.org/covid19/ValueSet/covid19-signs-1nd-symptoms-value-set"/>
     <resource>
       <ValueSet>
-        <id value="covid19-signs-1nd-symptoms-value-set"/>
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
@@ -210,34 +202,10 @@
             </table>
           </div>
         </text>
-        <url value="http://fhir.logicahealth.org/covid19/ValueSet/covid19-signs-1nd-symptoms-value-set"/>
-        <version value="0.2.0"/>
-        <name value="COVID19SignsAndSymptomsVS"/>
-        <title value="COVID 19 Signs and Symptoms Value Set"/>
         <status value="active"/>
-        <date value="2020-04-06T16:59:30-06:00"/>
-        <publisher value="Logica"/>
-        <contact>
-          <name value="Logica"/>
-          <telecom>
-            <system value="url"/>
-            <value value="https://logicahealth.org/"/>
-          </telecom>
-        </contact>
-        <description value="The set of SNOMED CT codes that represent the signs and symptoms associated with COVID 19."/>
         <expansion>
-<<<<<<< HEAD
           <identifier value="urn:uuid:7cfc3196-eb46-402a-93f7-561f68ab7d99"/>
           <timestamp value="2020-04-06T23:00:35.189Z"/>
-=======
-          <identifier value="urn:uuid:12fd2e9b-1d32-4280-96b4-f1f383672f13"/>
-          <timestamp value="2020-04-06T17:00:34-06:00"/>
-          <total value="21"/>
-          <parameter>
-            <name value="excludeNested"/>
-            <valueBoolean value="false"/>
-          </parameter>
->>>>>>> fsh-initial-commit-2
           <parameter>
             <name value="limitedExpansion"/>
             <valueBoolean value="true"/>
@@ -356,10 +324,8 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://fhir.logicahealth.org/covid19/ValueSet/certainty-0f-absence-value-set"/>
     <resource>
       <ValueSet>
-        <id value="certainty-0f-absence-value-set"/>
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
@@ -401,34 +367,10 @@
             </table>
           </div>
         </text>
-        <url value="http://fhir.logicahealth.org/covid19/ValueSet/certainty-0f-absence-value-set"/>
-        <version value="0.2.0"/>
-        <name value="CertaintyOfAbsenceVS"/>
-        <title value="Certainty of Absence Value Set"/>
         <status value="active"/>
-        <date value="2020-04-06T16:59:30-06:00"/>
-        <publisher value="Logica"/>
-        <contact>
-          <name value="Logica"/>
-          <telecom>
-            <system value="url"/>
-            <value value="https://logicahealth.org/"/>
-          </telecom>
-        </contact>
-        <description value="The set of SNOMED CT codes that represent the leve of certainty that a condition does not exist."/>
         <expansion>
-<<<<<<< HEAD
           <identifier value="urn:uuid:aa34ff91-80fd-4670-8656-fc4ffefda872"/>
           <timestamp value="2020-04-06T23:00:35.610Z"/>
-=======
-          <identifier value="urn:uuid:5e054a83-2ab3-4221-8079-003ba6173e84"/>
-          <timestamp value="2020-04-06T17:00:35-06:00"/>
-          <total value="2"/>
-          <parameter>
-            <name value="excludeNested"/>
-            <valueBoolean value="false"/>
-          </parameter>
->>>>>>> fsh-initial-commit-2
           <parameter>
             <name value="limitedExpansion"/>
             <valueBoolean value="true"/>
@@ -452,10 +394,8 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://fhir.logicahealth.org/covid19/ValueSet/certainty-of-presence-value-set"/>
     <resource>
       <ValueSet>
-        <id value="certainty-of-presence-value-set"/>
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
@@ -505,34 +445,10 @@
             </table>
           </div>
         </text>
-        <url value="http://fhir.logicahealth.org/covid19/ValueSet/certainty-of-presence-value-set"/>
-        <version value="0.2.0"/>
-        <name value="CertaintyOfPresenceVS"/>
-        <title value="Certainty of PresenceVS"/>
         <status value="active"/>
-        <date value="2020-04-06T16:59:30-06:00"/>
-        <publisher value="Logica"/>
-        <contact>
-          <name value="Logica"/>
-          <telecom>
-            <system value="url"/>
-            <value value="https://logicahealth.org/"/>
-          </telecom>
-        </contact>
-        <description value="The set of SNOMED CT codes that represent the level of certainty that a condition exists."/>
         <expansion>
-<<<<<<< HEAD
           <identifier value="urn:uuid:50c799ab-7644-4ace-a594-ea5cfb17fd40"/>
           <timestamp value="2020-04-06T23:00:35.892Z"/>
-=======
-          <identifier value="urn:uuid:9ab9145e-32a3-4c35-b267-ae3ed04ebd5b"/>
-          <timestamp value="2020-04-06T17:00:35-06:00"/>
-          <total value="3"/>
-          <parameter>
-            <name value="excludeNested"/>
-            <valueBoolean value="false"/>
-          </parameter>
->>>>>>> fsh-initial-commit-2
           <parameter>
             <name value="limitedExpansion"/>
             <valueBoolean value="true"/>
@@ -561,10 +477,8 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://fhir.logicahealth.org/covid19/ValueSet/country-codes-vs"/>
     <resource>
       <ValueSet>
-        <id value="country-codes-vs"/>
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
@@ -2414,37 +2328,13 @@
             </table>
           </div>
         </text>
-        <url value="http://fhir.logicahealth.org/covid19/ValueSet/country-codes-vs"/>
-        <version value="0.2.0"/>
-        <name value="CountryCodesVS"/>
-        <title value="Country Codes Value Set"/>
         <status value="active"/>
-        <date value="2020-04-06T16:59:30-06:00"/>
-        <publisher value="Logica"/>
-        <contact>
-          <name value="Logica"/>
-          <telecom>
-            <system value="url"/>
-            <value value="https://logicahealth.org/"/>
-          </telecom>
-        </contact>
-        <description value="The set of SNOMED CT codes that represent countries."/>
         <expansion>
           <extension url="http://hl7.org/fhir/StructureDefinition/valueset-unclosed">
             <valueBoolean value="true"/>
           </extension>
-<<<<<<< HEAD
           <identifier value="urn:uuid:3a673990-cd01-4e9e-8c7a-c444c2f63a65"/>
           <timestamp value="2020-04-06T23:00:36.814Z"/>
-=======
-          <identifier value="urn:uuid:b31e4240-a91a-49ec-af7d-48eb176884ee"/>
-          <timestamp value="2020-04-06T17:00:36-06:00"/>
-          <total value="228"/>
-          <parameter>
-            <name value="excludeNested"/>
-            <valueBoolean value="false"/>
-          </parameter>
->>>>>>> fsh-initial-commit-2
           <parameter>
             <name value="limitedExpansion"/>
             <valueBoolean value="true"/>
@@ -3598,10 +3488,8 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://fhir.logicahealth.org/covid19/ValueSet/covid19-det-not-det-eq-in-vs"/>
     <resource>
       <ValueSet>
-        <id value="covid19-det-not-det-eq-in-vs"/>
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
@@ -3659,34 +3547,10 @@
             </table>
           </div>
         </text>
-        <url value="http://fhir.logicahealth.org/covid19/ValueSet/covid19-det-not-det-eq-in-vs"/>
-        <version value="0.2.0"/>
-        <name value="DetNotDetEqInVS"/>
-        <title value="Detected-Not Detected-Equivalent-Inconclusive Value Set"/>
         <status value="active"/>
-        <date value="2020-04-06T16:59:30-06:00"/>
-        <publisher value="Logica"/>
-        <contact>
-          <name value="Logica"/>
-          <telecom>
-            <system value="url"/>
-            <value value="https://logicahealth.org/"/>
-          </telecom>
-        </contact>
-        <description value="A set of SNOMED codes representing the result of a test as detected, not detected, equivalent, or inconclusive."/>
         <expansion>
-<<<<<<< HEAD
           <identifier value="urn:uuid:8eb6a498-f9f1-41af-bb0b-7d83385a72d5"/>
           <timestamp value="2020-04-06T23:00:47.392Z"/>
-=======
-          <identifier value="urn:uuid:b86acd6e-1375-4a61-bddf-f6e537a8f792"/>
-          <timestamp value="2020-04-06T17:00:47-06:00"/>
-          <total value="4"/>
-          <parameter>
-            <name value="excludeNested"/>
-            <valueBoolean value="false"/>
-          </parameter>
->>>>>>> fsh-initial-commit-2
           <parameter>
             <name value="limitedExpansion"/>
             <valueBoolean value="true"/>
@@ -3720,10 +3584,8 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://fhir.logicahealth.org/covid19/ValueSet/healthcare-occupation-value-set"/>
     <resource>
       <ValueSet>
-        <id value="healthcare-occupation-value-set"/>
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
@@ -7653,37 +7515,13 @@
             </table>
           </div>
         </text>
-        <url value="http://fhir.logicahealth.org/covid19/ValueSet/healthcare-occupation-value-set"/>
-        <version value="0.2.0"/>
-        <name value="HealthcareOccupationVS"/>
-        <title value="Healthcare Occupation Value Set"/>
         <status value="active"/>
-        <date value="2020-04-06T16:59:30-06:00"/>
-        <publisher value="Logica"/>
-        <contact>
-          <name value="Logica"/>
-          <telecom>
-            <system value="url"/>
-            <value value="https://logicahealth.org/"/>
-          </telecom>
-        </contact>
-        <description value="A set of SNOMED CT codes that represent occupations within the health care industry."/>
         <expansion>
           <extension url="http://hl7.org/fhir/StructureDefinition/valueset-unclosed">
             <valueBoolean value="true"/>
           </extension>
-<<<<<<< HEAD
           <identifier value="urn:uuid:bfdae5b7-c87a-43d1-a844-21014d76176a"/>
           <timestamp value="2020-04-06T23:00:47.657Z"/>
-=======
-          <identifier value="urn:uuid:1a50687e-df04-4399-a30d-f88fc2d3a8c2"/>
-          <timestamp value="2020-04-06T17:00:47-06:00"/>
-          <total value="488"/>
-          <parameter>
-            <name value="excludeNested"/>
-            <valueBoolean value="false"/>
-          </parameter>
->>>>>>> fsh-initial-commit-2
           <parameter>
             <name value="limitedExpansion"/>
             <valueBoolean value="true"/>
@@ -10137,10 +9975,8 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://fhir.logicahealth.org/covid19/ValueSet/known-exposure-la-ValueSet"/>
     <resource>
       <ValueSet>
-        <id value="known-exposure-la-ValueSet"/>
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
@@ -10245,34 +10081,10 @@
             </table>
           </div>
         </text>
-        <url value="http://fhir.logicahealth.org/covid19/ValueSet/known-exposure-la-ValueSet"/>
-        <version value="0.2.0"/>
-        <name value="KnownExposureLAVS"/>
-        <title value="Known Exposure LOINC Answer Value Set"/>
         <status value="active"/>
-        <date value="2020-04-06T16:59:30-06:00"/>
-        <publisher value="Logica"/>
-        <contact>
-          <name value="Logica"/>
-          <telecom>
-            <system value="url"/>
-            <value value="https://logicahealth.org/"/>
-          </telecom>
-        </contact>
-        <description value="A set of LOINC answers for known expopsure"/>
         <expansion>
-<<<<<<< HEAD
           <identifier value="urn:uuid:d5996f00-b016-4ae1-8385-93c8043e3f50"/>
           <timestamp value="2020-04-06T23:01:12.173Z"/>
-=======
-          <identifier value="urn:uuid:b657d474-8471-4846-a915-625f6a0b9612"/>
-          <timestamp value="2020-04-06T17:01:11-06:00"/>
-          <total value="12"/>
-          <parameter>
-            <name value="excludeNested"/>
-            <valueBoolean value="false"/>
-          </parameter>
->>>>>>> fsh-initial-commit-2
           <parameter>
             <name value="limitedExpansion"/>
             <valueBoolean value="true"/>
@@ -10346,10 +10158,8 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://fhir.logicahealth.org/covid19/ValueSet/covid19-pos-neg-vs"/>
     <resource>
       <ValueSet>
-        <id value="covid19-pos-neg-vs"/>
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
@@ -10391,34 +10201,10 @@
             </table>
           </div>
         </text>
-        <url value="http://fhir.logicahealth.org/covid19/ValueSet/covid19-pos-neg-vs"/>
-        <version value="0.2.0"/>
-        <name value="PosNegVS"/>
-        <title value="Positive/Negative Value Set"/>
         <status value="active"/>
-        <date value="2020-04-06T16:59:30-06:00"/>
-        <publisher value="Logica"/>
-        <contact>
-          <name value="Logica"/>
-          <telecom>
-            <system value="url"/>
-            <value value="https://logicahealth.org/"/>
-          </telecom>
-        </contact>
-        <description value="A set of SNOMED codes representing the result of a test as positive or negative."/>
         <expansion>
-<<<<<<< HEAD
           <identifier value="urn:uuid:0b81bd8d-3b24-4ec1-9463-6023f95b7ee5"/>
           <timestamp value="2020-04-06T23:01:12.423Z"/>
-=======
-          <identifier value="urn:uuid:26f830e0-0c49-4ffd-8746-213f1d21adf6"/>
-          <timestamp value="2020-04-06T17:01:12-06:00"/>
-          <total value="2"/>
-          <parameter>
-            <name value="excludeNested"/>
-            <valueBoolean value="false"/>
-          </parameter>
->>>>>>> fsh-initial-commit-2
           <parameter>
             <name value="limitedExpansion"/>
             <valueBoolean value="true"/>
@@ -10442,10 +10228,8 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://fhir.logicahealth.org/covid19/ValueSet/covid19-reporting-priority-vs"/>
     <resource>
       <ValueSet>
-        <id value="covid19-reporting-priority-vs"/>
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
@@ -10503,34 +10287,10 @@
             </table>
           </div>
         </text>
-        <url value="http://fhir.logicahealth.org/covid19/ValueSet/covid19-reporting-priority-vs"/>
-        <version value="0.2.0"/>
-        <name value="ReportingPriorityVS"/>
-        <title value="Reporting Priorities Value Set"/>
         <status value="active"/>
-        <date value="2020-04-06T16:59:30-06:00"/>
-        <publisher value="Logica"/>
-        <contact>
-          <name value="Logica"/>
-          <telecom>
-            <system value="url"/>
-            <value value="https://logicahealth.org/"/>
-          </telecom>
-        </contact>
-        <description value="A set of SNOMED codes representing how important it is to report a lab or other observation."/>
         <expansion>
-<<<<<<< HEAD
           <identifier value="urn:uuid:3ae70583-4161-4ce5-8d4b-be02c0e226c3"/>
           <timestamp value="2020-04-06T23:01:12.673Z"/>
-=======
-          <identifier value="urn:uuid:e1ef1ef7-1572-488e-ac74-fb2dca7e7e29"/>
-          <timestamp value="2020-04-06T17:01:12-06:00"/>
-          <total value="4"/>
-          <parameter>
-            <name value="excludeNested"/>
-            <valueBoolean value="false"/>
-          </parameter>
->>>>>>> fsh-initial-commit-2
           <parameter>
             <name value="limitedExpansion"/>
             <valueBoolean value="true"/>
@@ -10564,10 +10324,8 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://fhir.logicahealth.org/covid19/ValueSet/state-codes-vs"/>
     <resource>
       <ValueSet>
-        <id value="state-codes-vs"/>
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
@@ -11065,37 +10823,13 @@
             </table>
           </div>
         </text>
-        <url value="http://fhir.logicahealth.org/covid19/ValueSet/state-codes-vs"/>
-        <version value="0.2.0"/>
-        <name value="StateCodesVS"/>
-        <title value="State Codes Value Set"/>
         <status value="active"/>
-        <date value="2020-04-06T16:59:30-06:00"/>
-        <publisher value="Logica"/>
-        <contact>
-          <name value="Logica"/>
-          <telecom>
-            <system value="url"/>
-            <value value="https://logicahealth.org/"/>
-          </telecom>
-        </contact>
-        <description value="The list of SNOMED CT codes that represent states."/>
         <expansion>
           <extension url="http://hl7.org/fhir/StructureDefinition/valueset-unclosed">
             <valueBoolean value="true"/>
           </extension>
-<<<<<<< HEAD
           <identifier value="urn:uuid:d180552d-fd87-44cb-b199-0f2399e1d84c"/>
           <timestamp value="2020-04-06T23:01:12.939Z"/>
-=======
-          <identifier value="urn:uuid:56a90c59-aff2-4f06-a040-2af0c722da14"/>
-          <timestamp value="2020-04-06T17:01:12-06:00"/>
-          <total value="59"/>
-          <parameter>
-            <name value="excludeNested"/>
-            <valueBoolean value="false"/>
-          </parameter>
->>>>>>> fsh-initial-commit-2
           <parameter>
             <name value="limitedExpansion"/>
             <valueBoolean value="true"/>
@@ -11404,10 +11138,8 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://fhir.logicahealth.org/covid19/ValueSet/yes-no-vs"/>
     <resource>
       <ValueSet>
-        <id value="yes-no-vs"/>
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
@@ -11449,34 +11181,10 @@
             </table>
           </div>
         </text>
-        <url value="http://fhir.logicahealth.org/covid19/ValueSet/yes-no-vs"/>
-        <version value="0.2.0"/>
-        <name value="YesNoVS"/>
-        <title value="Yes/No Value Set"/>
         <status value="active"/>
-        <date value="2020-04-06T16:59:30-06:00"/>
-        <publisher value="Logica"/>
-        <contact>
-          <name value="Logica"/>
-          <telecom>
-            <system value="url"/>
-            <value value="https://logicahealth.org/"/>
-          </telecom>
-        </contact>
-        <description value="The SNOMED CT codes to answer in the affirmative or negative."/>
         <expansion>
-<<<<<<< HEAD
           <identifier value="urn:uuid:fca84aa9-7c76-4d12-a83f-6027658bb97d"/>
           <timestamp value="2020-04-06T23:01:15.876Z"/>
-=======
-          <identifier value="urn:uuid:9ff6d7ca-35d8-41ea-a017-304a36a75108"/>
-          <timestamp value="2020-04-06T17:01:15-06:00"/>
-          <total value="2"/>
-          <parameter>
-            <name value="excludeNested"/>
-            <valueBoolean value="false"/>
-          </parameter>
->>>>>>> fsh-initial-commit-2
           <parameter>
             <name value="limitedExpansion"/>
             <valueBoolean value="true"/>

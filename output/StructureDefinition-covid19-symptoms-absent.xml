@@ -14,11 +14,7 @@
   <name value="COVID19SymptomsAbsent"/>
   <title value="COVID 19 Symptoms Absent"/>
   <status value="active"/>
-<<<<<<< HEAD
-  <date value="2020-04-06T17:10:49-06:00"/>
-=======
-  <date value="2020-04-06T16:59:30-06:00"/>
->>>>>>> fsh-initial-commit-2
+  <date value="2020-04-07T11:18:16-06:00"/>
   <publisher value="Logica"/>
   <contact>
     <name value="Logica"/>

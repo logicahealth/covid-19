@@ -10,11 +10,7 @@
   "name": "COVID19SymptomsAbsent",
   "title": "COVID 19 Symptoms Absent",
   "status": "active",
-<<<<<<< HEAD
-  "date": "2020-04-06T17:10:49-06:00",
-=======
-  "date": "2020-04-06T16:59:30-06:00",
->>>>>>> fsh-initial-commit-2
+  "date": "2020-04-07T11:18:16-06:00",
   "publisher": "Logica",
   "contact": [
     {

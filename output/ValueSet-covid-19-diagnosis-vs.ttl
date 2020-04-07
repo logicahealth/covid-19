@@ -10,18 +10,14 @@
   fhir:Resource.id [ fhir:value "covid-19-diagnosis-vs"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>COVID 19 Diagnosis Value Set</h2><div><p>A set of SNOMED CT codes that describe the diagnosed condition that is due to SARS coronavirus 2 infection.</p>\n</div><ul><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=840539006\">840539006</a></td><td>Disease caused by 2019 novel coronavirus (disorder)</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=840544004\">840544004</a></td><td>Suspected disease caused by 2019 novel coronavirus (situation)</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=882784691000119000\">882784691000119000</a></td><td>Pneumonia caused by severe acute respiratory syndrome coronavirus 2 (disorder)</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=674814021000119000\">674814021000119000</a></td><td>Acute respiratory distress syndrome caused by severe acute respiratory syndrome coronavirus 2 (disorder)</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=880529761000119000\">880529761000119000</a></td><td>Lower respiratory infection caused by severe acute respiratory syndrome coronavirus 2 (disorder)</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=138389411000119000\">138389411000119000</a></td><td>Acute bronchitis caused by severe acute respiratory syndrome coronavirus 2 (disorder)</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=866151004\">866151004</a></td><td>Lymphocytopenia associated with severe acute respiratory syndrome coronavirus 2 (disorder)</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=866152006\">866152006</a></td><td>Thrombocytopenia associated with severe acute respiratory syndrome coronavirus 2 (disorder)</td><td/></tr></table></li></ul></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>COVID 19 Diagnosis Value Set</h2><div><p>A set of SNOMED CT codes that describe the diagnosed condition that is due to SARS coronavirus 2 infection.</p>\n</div><ul><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=840539006\">840539006</a></td><td>Disease caused by 2019 novel coronavirus (disorder)</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=840544004\">840544004</a></td><td>Suspected disease caused by 2019 novel coronavirus (situation)</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=882784691000119000\">882784691000119000</a></td><td>Pneumonia caused by severe acute respiratory syndrome coronavirus 2 (disorder)</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=674814021000119106\">674814021000119106</a></td><td>Acute respiratory distress syndrome caused by severe acute respiratory syndrome coronavirus 2 (disorder)</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=880529761000119102\">880529761000119102</a></td><td>Lower respiratory infection caused by severe acute respiratory syndrome coronavirus 2 (disorder)</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=138389411000119105\">138389411000119105</a></td><td>Acute bronchitis caused by severe acute respiratory syndrome coronavirus 2 (disorder)</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=866151004\">866151004</a></td><td>Lymphocytopenia associated with severe acute respiratory syndrome coronavirus 2 (disorder)</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=866152006\">866152006</a></td><td>Thrombocytopenia associated with severe acute respiratory syndrome coronavirus 2 (disorder)</td><td/></tr></table></li></ul></div>"
   ];
   fhir:ValueSet.url [ fhir:value "http://fhir.logicahealth.org/covid19/ValueSet/covid-19-diagnosis-vs"];
   fhir:ValueSet.version [ fhir:value "0.2.0"];
   fhir:ValueSet.name [ fhir:value "COVID19DiagnosisVS"];
   fhir:ValueSet.title [ fhir:value "COVID 19 Diagnosis Value Set"];
   fhir:ValueSet.status [ fhir:value "active"];
-<<<<<<< HEAD
-  fhir:ValueSet.date [ fhir:value "2020-04-06T17:10:49-06:00"^^xsd:dateTime];
-=======
-  fhir:ValueSet.date [ fhir:value "2020-04-06T16:59:30-06:00"^^xsd:dateTime];
->>>>>>> fsh-initial-commit-2
+  fhir:ValueSet.date [ fhir:value "2020-04-07T11:18:16-06:00"^^xsd:dateTime];
   fhir:ValueSet.publisher [ fhir:value "Logica"];
   fhir:ValueSet.contact [
      fhir:index 0;
@@ -51,15 +47,15 @@
          fhir:ValueSet.compose.include.concept.display [ fhir:value "Pneumonia caused by severe acute respiratory syndrome coronavirus 2 (disorder)" ]
        ], [
          fhir:index 3;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "674814021000119000" ];
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "674814021000119106" ];
          fhir:ValueSet.compose.include.concept.display [ fhir:value "Acute respiratory distress syndrome caused by severe acute respiratory syndrome coronavirus 2 (disorder)" ]
        ], [
          fhir:index 4;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "880529761000119000" ];
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "880529761000119102" ];
          fhir:ValueSet.compose.include.concept.display [ fhir:value "Lower respiratory infection caused by severe acute respiratory syndrome coronavirus 2 (disorder)" ]
        ], [
          fhir:index 5;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "138389411000119000" ];
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "138389411000119105" ];
          fhir:ValueSet.compose.include.concept.display [ fhir:value "Acute bronchitis caused by severe acute respiratory syndrome coronavirus 2 (disorder)" ]
        ], [
          fhir:index 6;
