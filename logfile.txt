@@ -1,0 +1,17 @@
+
+4/4/2020 - 5:52:06 AM - C:\Users\nrdavis1\covid-19
+git.exe push --progress "origin" staging:staging
+fatal: NotSupportedException encountered.
+The ServicePointManager does not support proxies with the https scheme.
+fatal: NotSupportedException encountered.
+The ServicePointManager does not support proxies with the https scheme.
+To https://github.com/logicahealth/covid-19.git
+! [rejected]        staging -> staging (non-fast-forward)
+error: failed to push some refs to 'https://github.com/logicahealth/covid-19.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+
+git did not exit cleanly (exit code 1) (20764 ms @ 4/4/2020 5:52:03 AM)
