@@ -2,8 +2,8 @@
 /template**
 /input**
 /input-cache**
-#ig.ini
-#package.json
-#package-list.json
+/ig.ini
+/package.json
+/package-list.json
 logfile.txt
 .DS_Store
