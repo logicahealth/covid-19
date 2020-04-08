@@ -7,17 +7,17 @@
 </div><ul><li>Include codes from <a href="http://www.snomed.org/"><code>http://snomed.info/sct</code></a> where concept  is-a  223369002 (Countries)</li></ul></div>
   </text>
   <url value="http://fhir.logicahealth.org/covid19/ValueSet/country-codes-vs"/>
-  <version value="0.1.0"/>
+  <version value="0.3.0"/>
   <name value="CountryCodesVS"/>
   <title value="Country Codes Value Set"/>
   <status value="active"/>
-  <date value="2020-04-03T17:43:26-06:00"/>
-  <publisher value="COVID-19 Healthcare Coalition"/>
+  <date value="2020-04-07T11:25:19-06:00"/>
+  <publisher value="Logica"/>
   <contact>
-    <name value="Logica Health"/>
+    <name value="Logica"/>
     <telecom>
       <system value="url"/>
-      <value value="https://c19hcc.org/"/>
+      <value value="https://logicahealth.org/"/>
     </telecom>
   </contact>
   <description value="The set of SNOMED CT codes that represent countries."/>

@@ -18,12 +18,12 @@
    <title value="Logica Implementation Guide: Covid-19"/>
    <status value="active"/>
    <date value="2020-04-02T15:10:51-06:00"/>
-   <publisher value="COVID-19 Healthcare Coalition"/>
+   <publisher value="Logica"/>
    <contact>
-      <name value="Logica Health"/>
+      <name value="Logica"/>
       <telecom>
          <system value="url"/>
-         <value value="https://c19hcc.org/"/>
+         <value value="https://logicahealth.org/"/>
       </telecom>
    </contact>
    <description value="The COVID-19 IG describes structured data to be collected and communicated between providers and aggregators."/>

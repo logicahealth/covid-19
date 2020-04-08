@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="4befdc3c-63ef-4a4b-a9cb-ad3cd186f95d"/>
+  <id value="f0e3d193-870d-41ce-9d1f-0451a65b9721"/>
   <meta>
-    <lastUpdated value="2020-04-03T17:43:26.531-06:00"/>
+    <lastUpdated value="2020-04-07T11:25:19.977-06:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -204,8 +204,8 @@
         </text>
         <status value="active"/>
         <expansion>
-          <identifier value="urn:uuid:2e9eca49-e540-46f7-9446-01fedc63bcfc"/>
-          <timestamp value="2020-04-03T22:50:49.707Z"/>
+          <identifier value="urn:uuid:7cfc3196-eb46-402a-93f7-561f68ab7d99"/>
+          <timestamp value="2020-04-06T23:00:35.189Z"/>
           <parameter>
             <name value="limitedExpansion"/>
             <valueBoolean value="true"/>
@@ -369,8 +369,8 @@
         </text>
         <status value="active"/>
         <expansion>
-          <identifier value="urn:uuid:fe8a08b1-60d9-4f7a-93d1-4fae01b9d399"/>
-          <timestamp value="2020-04-03T22:50:49.957Z"/>
+          <identifier value="urn:uuid:aa34ff91-80fd-4670-8656-fc4ffefda872"/>
+          <timestamp value="2020-04-06T23:00:35.610Z"/>
           <parameter>
             <name value="limitedExpansion"/>
             <valueBoolean value="true"/>
@@ -447,8 +447,8 @@
         </text>
         <status value="active"/>
         <expansion>
-          <identifier value="urn:uuid:3789021d-207b-4907-a8fb-c2567706684b"/>
-          <timestamp value="2020-04-03T22:50:50.191Z"/>
+          <identifier value="urn:uuid:50c799ab-7644-4ace-a594-ea5cfb17fd40"/>
+          <timestamp value="2020-04-06T23:00:35.892Z"/>
           <parameter>
             <name value="limitedExpansion"/>
             <valueBoolean value="true"/>
@@ -2333,8 +2333,8 @@
           <extension url="http://hl7.org/fhir/StructureDefinition/valueset-unclosed">
             <valueBoolean value="true"/>
           </extension>
-          <identifier value="urn:uuid:b98fefbf-15b5-4a77-87bf-0971acfe4355"/>
-          <timestamp value="2020-04-03T22:50:51.113Z"/>
+          <identifier value="urn:uuid:3a673990-cd01-4e9e-8c7a-c444c2f63a65"/>
+          <timestamp value="2020-04-06T23:00:36.814Z"/>
           <parameter>
             <name value="limitedExpansion"/>
             <valueBoolean value="true"/>
@@ -3549,8 +3549,8 @@
         </text>
         <status value="active"/>
         <expansion>
-          <identifier value="urn:uuid:f44ddd56-d9ba-40a9-905b-b33c5ca66dd8"/>
-          <timestamp value="2020-04-03T22:51:01.629Z"/>
+          <identifier value="urn:uuid:8eb6a498-f9f1-41af-bb0b-7d83385a72d5"/>
+          <timestamp value="2020-04-06T23:00:47.392Z"/>
           <parameter>
             <name value="limitedExpansion"/>
             <valueBoolean value="true"/>
@@ -7520,8 +7520,8 @@
           <extension url="http://hl7.org/fhir/StructureDefinition/valueset-unclosed">
             <valueBoolean value="true"/>
           </extension>
-          <identifier value="urn:uuid:d35cb82b-0134-4e9e-90fd-f839e344e1c9"/>
-          <timestamp value="2020-04-03T22:51:01.926Z"/>
+          <identifier value="urn:uuid:bfdae5b7-c87a-43d1-a844-21014d76176a"/>
+          <timestamp value="2020-04-06T23:00:47.657Z"/>
           <parameter>
             <name value="limitedExpansion"/>
             <valueBoolean value="true"/>
@@ -9975,10 +9975,8 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://fhir.logicahealth.org/covid19/ValueSet/known-exposure-la-ValueSet"/>
     <resource>
       <ValueSet>
-        <id value="known-exposure-la-ValueSet"/>
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
@@ -10083,29 +10081,10 @@
             </table>
           </div>
         </text>
-        <url value="http://fhir.logicahealth.org/covid19/ValueSet/known-exposure-la-ValueSet"/>
-        <version value="0.1.0"/>
-        <name value="KnownExposureLAVS"/>
-        <title value="Known Exposure LOINC Answer Value Set"/>
         <status value="active"/>
-        <date value="2020-04-03T17:43:26-06:00"/>
-        <publisher value="COVID-19 Healthcare Coalition"/>
-        <contact>
-          <name value="Logica Health"/>
-          <telecom>
-            <system value="url"/>
-            <value value="https://c19hcc.org/"/>
-          </telecom>
-        </contact>
-        <description value="A set of LOINC answers for known expopsure"/>
         <expansion>
-          <identifier value="urn:uuid:f599a01d-0928-4b80-afeb-f8227d5e51f5"/>
-          <timestamp value="2020-04-03T17:44:18-06:00"/>
-          <total value="12"/>
-          <parameter>
-            <name value="excludeNested"/>
-            <valueBoolean value="false"/>
-          </parameter>
+          <identifier value="urn:uuid:d5996f00-b016-4ae1-8385-93c8043e3f50"/>
+          <timestamp value="2020-04-06T23:01:12.173Z"/>
           <parameter>
             <name value="limitedExpansion"/>
             <valueBoolean value="true"/>
@@ -10224,8 +10203,8 @@
         </text>
         <status value="active"/>
         <expansion>
-          <identifier value="urn:uuid:f5707331-e1ab-455f-be5b-dffd772c47e6"/>
-          <timestamp value="2020-04-03T22:51:25.535Z"/>
+          <identifier value="urn:uuid:0b81bd8d-3b24-4ec1-9463-6023f95b7ee5"/>
+          <timestamp value="2020-04-06T23:01:12.423Z"/>
           <parameter>
             <name value="limitedExpansion"/>
             <valueBoolean value="true"/>
@@ -10310,8 +10289,8 @@
         </text>
         <status value="active"/>
         <expansion>
-          <identifier value="urn:uuid:a1df7e55-f90b-4f87-be8a-98320a080413"/>
-          <timestamp value="2020-04-03T22:51:25.800Z"/>
+          <identifier value="urn:uuid:3ae70583-4161-4ce5-8d4b-be02c0e226c3"/>
+          <timestamp value="2020-04-06T23:01:12.673Z"/>
           <parameter>
             <name value="limitedExpansion"/>
             <valueBoolean value="true"/>
@@ -10849,8 +10828,8 @@
           <extension url="http://hl7.org/fhir/StructureDefinition/valueset-unclosed">
             <valueBoolean value="true"/>
           </extension>
-          <identifier value="urn:uuid:ff62d18a-7d6b-43af-b2c1-0f53402e5dcf"/>
-          <timestamp value="2020-04-03T22:51:26.035Z"/>
+          <identifier value="urn:uuid:d180552d-fd87-44cb-b199-0f2399e1d84c"/>
+          <timestamp value="2020-04-06T23:01:12.939Z"/>
           <parameter>
             <name value="limitedExpansion"/>
             <valueBoolean value="true"/>
@@ -11204,8 +11183,8 @@
         </text>
         <status value="active"/>
         <expansion>
-          <identifier value="urn:uuid:87ea7453-4e65-4985-a2db-6b72426526a2"/>
-          <timestamp value="2020-04-03T22:51:28.988Z"/>
+          <identifier value="urn:uuid:fca84aa9-7c76-4d12-a83f-6027658bb97d"/>
+          <timestamp value="2020-04-06T23:01:15.876Z"/>
           <parameter>
             <name value="limitedExpansion"/>
             <valueBoolean value="true"/>

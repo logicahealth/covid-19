@@ -13,19 +13,19 @@
      fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Country Codes Value Set</h2><div><p>The set of SNOMED CT codes that represent countries.</p>\n</div><ul><li>Include codes from <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a> where concept  is-a  223369002 (Countries)</li></ul></div>"
   ];
   fhir:ValueSet.url [ fhir:value "http://fhir.logicahealth.org/covid19/ValueSet/country-codes-vs"];
-  fhir:ValueSet.version [ fhir:value "0.1.0"];
+  fhir:ValueSet.version [ fhir:value "0.3.0"];
   fhir:ValueSet.name [ fhir:value "CountryCodesVS"];
   fhir:ValueSet.title [ fhir:value "Country Codes Value Set"];
   fhir:ValueSet.status [ fhir:value "active"];
-  fhir:ValueSet.date [ fhir:value "2020-04-03T17:43:26-06:00"^^xsd:dateTime];
-  fhir:ValueSet.publisher [ fhir:value "COVID-19 Healthcare Coalition"];
+  fhir:ValueSet.date [ fhir:value "2020-04-07T11:25:19-06:00"^^xsd:dateTime];
+  fhir:ValueSet.publisher [ fhir:value "Logica"];
   fhir:ValueSet.contact [
      fhir:index 0;
-     fhir:ContactDetail.name [ fhir:value "Logica Health" ];
+     fhir:ContactDetail.name [ fhir:value "Logica" ];
      fhir:ContactDetail.telecom [
        fhir:index 0;
        fhir:ContactPoint.system [ fhir:value "url" ];
-       fhir:ContactPoint.value [ fhir:value "https://c19hcc.org/" ]
+       fhir:ContactPoint.value [ fhir:value "https://logicahealth.org/" ]
      ]
   ];
   fhir:ValueSet.description [ fhir:value "The set of SNOMED CT codes that represent countries."];

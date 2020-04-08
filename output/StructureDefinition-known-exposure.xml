@@ -14,17 +14,17 @@
 <tr><td colspan="5" class="hierarchy"><br/><a href="http://hl7.org/fhir/R4/formats.html#table" title="Legend for this format"><img src="http://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr></table></div>
   </text>
   <url value="http://fhir.logicahealth.org/covid19/StructureDefinition/known-exposure"/>
-  <version value="0.1.0"/>
+  <version value="0.3.0"/>
   <name value="KnownExposure"/>
   <title value="Known Exposure"/>
   <status value="active"/>
-  <date value="2020-04-03T17:43:26-06:00"/>
-  <publisher value="COVID-19 Healthcare Coalition"/>
+  <date value="2020-04-07T11:25:19-06:00"/>
+  <publisher value="Logica"/>
   <contact>
-    <name value="Logica Health"/>
+    <name value="Logica"/>
     <telecom>
       <system value="url"/>
-      <value value="https://c19hcc.org/"/>
+      <value value="https://logicahealth.org/"/>
     </telecom>
   </contact>
   <description value="Known Exposure is a description of how, when, where, and with whom and individual was exposed to a contagion."/>
@@ -1155,7 +1155,7 @@
       <requirements value="For some results, particularly numeric results, an interpretation is necessary to fully understand the significance of a result."/>
       <alias value="Abnormal Flag"/>
       <min value="0"/>
-      <max value="*"/>
+      <max value="0"/>
       <base>
         <path value="Observation.interpretation"/>
         <min value="0"/>

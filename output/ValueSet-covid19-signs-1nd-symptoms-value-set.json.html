@@ -21,12 +21,25 @@
     <!-- Placeholder for child template CSS declarations -->
 <style>
 body {
-        background-image: url("https://www.logicahealth.org/wp-content/uploads/triangled-background.png");
-        background-repeat: no-repeat;
-        background-position: top center;
-        background-attachment: fixed;
-        background-size: cover;
-    }
+  background-image: url("https://www.logicahealth.org/wp-content/uploads/triangled-background.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 238px;
+  height: 120px;
+}
+
+.segment > .container {
+  padding-left: 10px;
+  padding-right: 10px;
+}
 </style>
 
 
@@ -51,11 +64,11 @@ body {
     h3,h4,h5,h6{--heading-prefix:"6.53"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
-        <center><img src="assets/images/logo.png"></center>
+        <div class="logo"><img src="assets/images/logo.png" /></div>
 
 
         <div id="ig-status">
-          <p><span style="font-size:12pt;font-weight:bold">Logica Implementation Guide: Covid-19</span><br/>0.1.0 - CI Build</p>
+          <p><span style="font-size:12pt;font-weight:bold">Logica Implementation Guide: Covid-19</span><br/>0.3.0 - CI Build</p>
         </div>
       </div> <!-- /container -->
     </div>  <!-- /segment-header -->
@@ -120,7 +133,7 @@ body {
         <div class="row">
           <div class="inner-wrapper">
 <div class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">Logica Implementation Guide: Covid-19 - Local Development build (v0.1.0). See the <a href="http://fhir.logicahealth.org/covid19/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  <!--ReleaseHeader--><p id="publish-box">Logica Implementation Guide: Covid-19 - Local Development build (v0.3.0). See the <a href="http://fhir.logicahealth.org/covid19/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
   <a name="root"> </a>
   <h2 id="root">COVID 19 Signs and Symptoms Value Set - JSON Representation</h2>
   <p>
@@ -145,19 +158,19 @@ body {
     "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;h2&gt;COVID 19 Signs and Symptoms Value Set&lt;/h2&gt;&lt;div&gt;&lt;p&gt;The set of SNOMED CT codes that represent the signs and symptoms associated with COVID 19.&lt;/p&gt;\n&lt;/div&gt;&lt;ul&gt;&lt;li&gt;Include these codes as defined in &lt;a href=\&quot;http://www.snomed.org/\&quot;&gt;&lt;code&gt;http://snomed.info/sct&lt;/code&gt;&lt;/a&gt;&lt;table class=\&quot;none\&quot;&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Display&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;http://browser.ihtsdotools.org/?perspective=full&amp;amp;conceptId1=43724002\&quot;&gt;43724002&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Chill (finding)&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;http://browser.ihtsdotools.org/?perspective=full&amp;amp;conceptId1=162397003\&quot;&gt;162397003&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Pain in throat (finding)&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;http://browser.ihtsdotools.org/?perspective=full&amp;amp;conceptId1=49727002\&quot;&gt;49727002&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Cough (finding)&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;http://browser.ihtsdotools.org/?perspective=full&amp;amp;conceptId1=267036007\&quot;&gt;267036007&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Dyspnea (finding)&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;http://browser.ihtsdotools.org/?perspective=full&amp;amp;conceptId1=426000000\&quot;&gt;426000000&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Fever greater than 100.4 Fahrenheit (finding)&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;http://browser.ihtsdotools.org/?perspective=full&amp;amp;conceptId1=103001002\&quot;&gt;103001002&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Feeling feverish (finding)&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;http://browser.ihtsdotools.org/?perspective=full&amp;amp;conceptId1=68962001\&quot;&gt;68962001&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Muscle pain (finding)&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;http://browser.ihtsdotools.org/?perspective=full&amp;amp;conceptId1=64531003\&quot;&gt;64531003&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Nasal discharge (finding)&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;http://browser.ihtsdotools.org/?perspective=full&amp;amp;conceptId1=422587007\&quot;&gt;422587007&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Nausea (finding)&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;http://browser.ihtsdotools.org/?perspective=full&amp;amp;conceptId1=422400008\&quot;&gt;422400008&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Vomiting (disorder)&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;http://browser.ihtsdotools.org/?perspective=full&amp;amp;conceptId1=25064002\&quot;&gt;25064002&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Headache (finding)&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;http://browser.ihtsdotools.org/?perspective=full&amp;amp;conceptId1=21522001\&quot;&gt;21522001&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Abdominal pain (finding)&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;http://browser.ihtsdotools.org/?perspective=full&amp;amp;conceptId1=62315008\&quot;&gt;62315008&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Diarrhea (finding)&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;http://browser.ihtsdotools.org/?perspective=full&amp;amp;conceptId1=13791008\&quot;&gt;13791008&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Asthenia (finding)&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;http://browser.ihtsdotools.org/?perspective=full&amp;amp;conceptId1=22253000\&quot;&gt;22253000&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Pain (finding)&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;http://browser.ihtsdotools.org/?perspective=full&amp;amp;conceptId1=29857009\&quot;&gt;29857009&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Chest pain (finding)&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;http://browser.ihtsdotools.org/?perspective=full&amp;amp;conceptId1=79890006\&quot;&gt;79890006&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Loss of appetite (finding)&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;http://browser.ihtsdotools.org/?perspective=full&amp;amp;conceptId1=44169009\&quot;&gt;44169009&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Loss of sense of smell (finding)&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;http://browser.ihtsdotools.org/?perspective=full&amp;amp;conceptId1=36955009\&quot;&gt;36955009&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Loss of taste (finding)&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;http://browser.ihtsdotools.org/?perspective=full&amp;amp;conceptId1=28743005\&quot;&gt;28743005&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Productive cough (finding)&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;http://browser.ihtsdotools.org/?perspective=full&amp;amp;conceptId1=11833005\&quot;&gt;11833005&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Dry cough (finding)&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;"<a name="end-xhtml"></a>
   },
   "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.url">url</a>" : "http://fhir.logicahealth.org/covid19/ValueSet/covid19-signs-1nd-symptoms-value-set",
-  "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.version">version</a>" : "0.1.0",
+  "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.version">version</a>" : "0.3.0",
   "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.name">name</a>" : "COVID19SignsAndSymptomsVS",
   "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.title">title</a>" : "COVID 19 Signs and Symptoms Value Set",
   "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.status">status</a>" : "active",
-  "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.date">date</a>" : "2020-04-03T17:43:26-06:00",
-  "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.publisher">publisher</a>" : "COVID-19 Healthcare Coalition",
+  "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.date">date</a>" : "2020-04-07T11:25:19-06:00",
+  "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.publisher">publisher</a>" : "Logica",
   "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.contact">contact</a>" : [
     {
-      "<a href="http://hl7.org/fhir/R4/metadatatypes.html#ContactDetail#ContactDetail.name">name</a>" : "Logica Health",
+      "<a href="http://hl7.org/fhir/R4/metadatatypes.html#ContactDetail#ContactDetail.name">name</a>" : "Logica",
       "<a href="http://hl7.org/fhir/R4/metadatatypes.html#ContactDetail#ContactDetail.telecom">telecom</a>" : [
         {
           "<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.system">system</a>" : "url",
-          "<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.value">value</a>" : "https://c19hcc.org/"
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.value">value</a>" : "https://logicahealth.org/"
         }
       ]
     }
@@ -272,7 +285,7 @@ body {
     <div class="container">  <!-- container -->
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2020+ <a style="color: #81BEF7" href="https://c19hcc.org/">COVID-19 Healthcare Coalition</a>.  Package covid19#0.1.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Apr 3, 2020 17:43-0600">2020-04-03</span>
+          IG &#169; 2020+ <a style="color: #81BEF7" href="https://logicahealth.org/">Logica</a>.  Package covid19#0.3.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Apr 7, 2020 11:25-0600">2020-04-07</span>
           <br/>
           <span style="color: #FFFF77">
                       Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |

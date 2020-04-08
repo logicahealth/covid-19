@@ -6,19 +6,19 @@
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Certainty of PresenceVS</h2><div><p>The set of SNOMED CT codes that represent the level of certainty that a condition exists.</p>\n</div><ul><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=60022001\">60022001</a></td><td>Possible diagnosis (contextual qualifier) (qualifier value)</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=410592001\">410592001</a></td><td>Probably present (qualifier value)</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=410591008\">410591008</a></td><td>Definitely present (qualifier value)</td><td/></tr></table></li></ul></div>"
   },
   "url": "http://fhir.logicahealth.org/covid19/ValueSet/certainty-of-presence-value-set",
-  "version": "0.1.0",
+  "version": "0.3.0",
   "name": "CertaintyOfPresenceVS",
   "title": "Certainty of PresenceVS",
   "status": "active",
-  "date": "2020-04-03T17:43:26-06:00",
-  "publisher": "COVID-19 Healthcare Coalition",
+  "date": "2020-04-07T11:25:19-06:00",
+  "publisher": "Logica",
   "contact": [
     {
-      "name": "Logica Health",
+      "name": "Logica",
       "telecom": [
         {
           "system": "url",
-          "value": "https://c19hcc.org/"
+          "value": "https://logicahealth.org/"
         }
       ]
     }

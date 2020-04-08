@@ -7,17 +7,17 @@
 </div></div>
   </text>
   <url value="http://fhir.logicahealth.org/covid19/ImplementationGuide/covid19"/>
-  <version value="0.1.0"/>
+  <version value="0.3.0"/>
   <name value="LogicaImplementationGuideCovid19"/>
   <title value="Logica Implementation Guide: Covid-19"/>
   <status value="active"/>
-  <date value="2020-04-03T17:43:26-06:00"/>
-  <publisher value="COVID-19 Healthcare Coalition"/>
+  <date value="2020-04-07T11:25:19-06:00"/>
+  <publisher value="Logica"/>
   <contact>
-    <name value="Logica Health"/>
+    <name value="Logica"/>
     <telecom>
       <system value="url"/>
-      <value value="https://c19hcc.org/"/>
+      <value value="https://logicahealth.org/"/>
     </telecom>
   </contact>
   <description value="The COVID-19 IG describes structured data to be collected and communicated between providers and aggregators."/>

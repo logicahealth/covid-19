@@ -6,19 +6,19 @@
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Healthcare Occupation Value Set</h2><div><p>A set of SNOMED CT codes that represent occupations within the health care industry.</p>\n</div><ul><li>Include codes from <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a> where concept  is-a  223366009 (Healthcare professional)</li></ul></div>"
   },
   "url": "http://fhir.logicahealth.org/covid19/ValueSet/healthcare-occupation-value-set",
-  "version": "0.1.0",
+  "version": "0.3.0",
   "name": "HealthcareOccupationVS",
   "title": "Healthcare Occupation Value Set",
   "status": "active",
-  "date": "2020-04-03T17:43:26-06:00",
-  "publisher": "COVID-19 Healthcare Coalition",
+  "date": "2020-04-07T11:25:19-06:00",
+  "publisher": "Logica",
   "contact": [
     {
-      "name": "Logica Health",
+      "name": "Logica",
       "telecom": [
         {
           "system": "url",
-          "value": "https://c19hcc.org/"
+          "value": "https://logicahealth.org/"
         }
       ]
     }

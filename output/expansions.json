@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "4befdc3c-63ef-4a4b-a9cb-ad3cd186f95d",
+  "id" : "f0e3d193-870d-41ce-9d1f-0451a65b9721",
   "meta" : {
-    "lastUpdated" : "2020-04-03T17:43:26.531-06:00"
+    "lastUpdated" : "2020-04-07T11:25:19.977-06:00"
   },
   "type" : "collection",
   "entry" : [{
@@ -14,8 +14,8 @@
       },
       "status" : "active",
       "expansion" : {
-        "identifier" : "urn:uuid:2e9eca49-e540-46f7-9446-01fedc63bcfc",
-        "timestamp" : "2020-04-03T22:50:49.707Z",
+        "identifier" : "urn:uuid:7cfc3196-eb46-402a-93f7-561f68ab7d99",
+        "timestamp" : "2020-04-06T23:00:35.189Z",
         "parameter" : [{
           "name" : "limitedExpansion",
           "valueBoolean" : true
@@ -141,8 +141,8 @@
       },
       "status" : "active",
       "expansion" : {
-        "identifier" : "urn:uuid:fe8a08b1-60d9-4f7a-93d1-4fae01b9d399",
-        "timestamp" : "2020-04-03T22:50:49.957Z",
+        "identifier" : "urn:uuid:aa34ff91-80fd-4670-8656-fc4ffefda872",
+        "timestamp" : "2020-04-06T23:00:35.610Z",
         "parameter" : [{
           "name" : "limitedExpansion",
           "valueBoolean" : true
@@ -173,8 +173,8 @@
       },
       "status" : "active",
       "expansion" : {
-        "identifier" : "urn:uuid:3789021d-207b-4907-a8fb-c2567706684b",
-        "timestamp" : "2020-04-03T22:50:50.191Z",
+        "identifier" : "urn:uuid:50c799ab-7644-4ace-a594-ea5cfb17fd40",
+        "timestamp" : "2020-04-06T23:00:35.892Z",
         "parameter" : [{
           "name" : "limitedExpansion",
           "valueBoolean" : true
@@ -214,8 +214,8 @@
           "url" : "http://hl7.org/fhir/StructureDefinition/valueset-unclosed",
           "valueBoolean" : true
         }],
-        "identifier" : "urn:uuid:b98fefbf-15b5-4a77-87bf-0971acfe4355",
-        "timestamp" : "2020-04-03T22:50:51.113Z",
+        "identifier" : "urn:uuid:3a673990-cd01-4e9e-8c7a-c444c2f63a65",
+        "timestamp" : "2020-04-06T23:00:36.814Z",
         "parameter" : [{
           "name" : "limitedExpansion",
           "valueBoolean" : true
@@ -1376,8 +1376,8 @@
       },
       "status" : "active",
       "expansion" : {
-        "identifier" : "urn:uuid:f44ddd56-d9ba-40a9-905b-b33c5ca66dd8",
-        "timestamp" : "2020-04-03T22:51:01.629Z",
+        "identifier" : "urn:uuid:8eb6a498-f9f1-41af-bb0b-7d83385a72d5",
+        "timestamp" : "2020-04-06T23:00:47.392Z",
         "parameter" : [{
           "name" : "limitedExpansion",
           "valueBoolean" : true
@@ -1422,8 +1422,8 @@
           "url" : "http://hl7.org/fhir/StructureDefinition/valueset-unclosed",
           "valueBoolean" : true
         }],
-        "identifier" : "urn:uuid:d35cb82b-0134-4e9e-90fd-f839e344e1c9",
-        "timestamp" : "2020-04-03T22:51:01.926Z",
+        "identifier" : "urn:uuid:bfdae5b7-c87a-43d1-a844-21014d76176a",
+        "timestamp" : "2020-04-06T23:00:47.657Z",
         "parameter" : [{
           "name" : "limitedExpansion",
           "valueBoolean" : true
@@ -3876,38 +3876,17 @@
     }
   },
   {
-    "fullUrl" : "http://fhir.logicahealth.org/covid19/ValueSet/known-exposure-la-ValueSet",
     "resource" : {
       "resourceType" : "ValueSet",
-      "id" : "known-exposure-la-ValueSet",
       "text" : {
         "status" : "generated",
         "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 12 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px\"/>Expansion based on LOINC version 2.66<p>All codes from system <code>http://loinc.org</code></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA30830-6\"> </a><a href=\"http://details.loinc.org/LOINC/LA30830-6.html\">LA30830-6</a></td><td>Travel to Wuhan</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA30831-4\"> </a><a href=\"http://details.loinc.org/LOINC/LA30831-4.html\">LA30831-4</a></td><td>Travel to Hubei</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA30832-2\"> </a><a href=\"http://details.loinc.org/LOINC/LA30832-2.html\">LA30832-2</a></td><td>Travel to mainland China</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA30833-0\"> </a><a href=\"http://details.loinc.org/LOINC/LA30833-0.html\">LA30833-0</a></td><td>Travel to other non-US country</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA30834-8\"> </a><a href=\"http://details.loinc.org/LOINC/LA30834-8.html\">LA30834-8</a></td><td>Household contact with other lab-confirmedCOVID-19 case-patient</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA30835-5\"> </a><a href=\"http://details.loinc.org/LOINC/LA30835-5.html\">LA30835-5</a></td><td>Community contact with other lab-confirmedCOVID-19 case-patient</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA30836-3\"> </a><a href=\"http://details.loinc.org/LOINC/LA30836-3.html\">LA30836-3</a></td><td>Any healthcare contact with other lab-confirmedCOVID-19 case-patient</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA30837-1\"> </a><a href=\"http://details.loinc.org/LOINC/LA30837-1.html\">LA30837-1</a></td><td>Any healthcare contact wiht a Patient who is lab-confirmed COVID-19 case-patient</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA30838-9\"> </a><a href=\"http://details.loinc.org/LOINC/LA30838-9.html\">LA30838-9</a></td><td>Any healthcare contact wiht a Visitor who is lab-confirmed COVID-19 case-patient</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA30839-7\"> </a><a href=\"http://details.loinc.org/LOINC/LA30839-7.html\">LA30839-7</a></td><td>Any healthcare contact wiht a Healthcare Worker who is lab-confirmed COVID-19 case-patient</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA30840-5\"> </a><a href=\"http://details.loinc.org/LOINC/LA30840-5.html\">LA30840-5</a></td><td>Animal Exposure</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA30841-3\"> </a><a href=\"http://details.loinc.org/LOINC/LA30841-3.html\">LA30841-3</a></td><td>Exposure to a cluster of patients with severe acute lower respiratory distress of unknown etiology</td></tr></table></div>"
       },
-      "url" : "http://fhir.logicahealth.org/covid19/ValueSet/known-exposure-la-ValueSet",
-      "version" : "0.1.0",
-      "name" : "KnownExposureLAVS",
-      "title" : "Known Exposure LOINC Answer Value Set",
       "status" : "active",
-      "date" : "2020-04-03T17:43:26-06:00",
-      "publisher" : "COVID-19 Healthcare Coalition",
-      "contact" : [{
-        "name" : "Logica Health",
-        "telecom" : [{
-          "system" : "url",
-          "value" : "https://c19hcc.org/"
-        }]
-      }],
-      "description" : "A set of LOINC answers for known expopsure",
       "expansion" : {
-        "identifier" : "urn:uuid:f599a01d-0928-4b80-afeb-f8227d5e51f5",
-        "timestamp" : "2020-04-03T17:44:18-06:00",
-        "total" : 12,
+        "identifier" : "urn:uuid:d5996f00-b016-4ae1-8385-93c8043e3f50",
+        "timestamp" : "2020-04-06T23:01:12.173Z",
         "parameter" : [{
-          "name" : "excludeNested",
-          "valueBoolean" : false
-        },
-        {
           "name" : "limitedExpansion",
           "valueBoolean" : true
         },
@@ -3987,8 +3966,8 @@
       },
       "status" : "active",
       "expansion" : {
-        "identifier" : "urn:uuid:f5707331-e1ab-455f-be5b-dffd772c47e6",
-        "timestamp" : "2020-04-03T22:51:25.535Z",
+        "identifier" : "urn:uuid:0b81bd8d-3b24-4ec1-9463-6023f95b7ee5",
+        "timestamp" : "2020-04-06T23:01:12.423Z",
         "parameter" : [{
           "name" : "limitedExpansion",
           "valueBoolean" : true
@@ -4019,8 +3998,8 @@
       },
       "status" : "active",
       "expansion" : {
-        "identifier" : "urn:uuid:a1df7e55-f90b-4f87-be8a-98320a080413",
-        "timestamp" : "2020-04-03T22:51:25.800Z",
+        "identifier" : "urn:uuid:3ae70583-4161-4ce5-8d4b-be02c0e226c3",
+        "timestamp" : "2020-04-06T23:01:12.673Z",
         "parameter" : [{
           "name" : "limitedExpansion",
           "valueBoolean" : true
@@ -4065,8 +4044,8 @@
           "url" : "http://hl7.org/fhir/StructureDefinition/valueset-unclosed",
           "valueBoolean" : true
         }],
-        "identifier" : "urn:uuid:ff62d18a-7d6b-43af-b2c1-0f53402e5dcf",
-        "timestamp" : "2020-04-03T22:51:26.035Z",
+        "identifier" : "urn:uuid:d180552d-fd87-44cb-b199-0f2399e1d84c",
+        "timestamp" : "2020-04-06T23:01:12.939Z",
         "parameter" : [{
           "name" : "limitedExpansion",
           "valueBoolean" : true
@@ -4382,8 +4361,8 @@
       },
       "status" : "active",
       "expansion" : {
-        "identifier" : "urn:uuid:87ea7453-4e65-4985-a2db-6b72426526a2",
-        "timestamp" : "2020-04-03T22:51:28.988Z",
+        "identifier" : "urn:uuid:fca84aa9-7c76-4d12-a83f-6027658bb97d",
+        "timestamp" : "2020-04-06T23:01:15.876Z",
         "parameter" : [{
           "name" : "limitedExpansion",
           "valueBoolean" : true

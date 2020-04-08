@@ -2,10 +2,10 @@
 =========================================
 
 err = 144, warn = 92, info = 0
-IG Publisher Version: v1.0.77-SNAPSHOT
-Generated Fri Apr 03 17:45:45 MDT 2020. FHIR version 4.0.1 for covid19#0.1.0 (canonical = http://fhir.logicahealth.org/covid19)
+IG Publisher Version: v1.0.77-SNAPSHOT Out of date - current version is v1.0.78-SNAPSHOT
+Generated Tue Apr 07 11:27:28 MDT 2020. FHIR version 4.0.1 for covid19#0.3.0 (canonical = http://fhir.logicahealth.org/covid19)
 
- Build Errors : 8 / 0
+ Build Errors : 9 / 0
  /Users/lpplangf/biz/ig/covid-19/input/ImplementationGuide-covid19 : 0 / 0
  /Users/lpplangf/biz/ig/covid-19/input/extensions/structuredefinition-c19-reporting-priority : 0 / 1
  /Users/lpplangf/biz/ig/covid-19/input/extensions/structuredefinition-certainty-of-absence : 0 / 1
@@ -73,14 +73,15 @@ Generated Fri Apr 03 17:45:45 MDT 2020. FHIR version 4.0.1 for covid19#0.1.0 (ca
  /Users/lpplangf/biz/ig/covid-19/input/vocabulary/valueset-yes-no-vs : 0 / 0
 </table>
 == n/a ==
-ERROR: /Users/lpplangf/biz/ig/covid-19/output/CaseReportingInfo.html#/html/body/div/div/center/img/div/div/div/div/div/p/a at Line 147, column 5: The link '' for "CasePatientIdentifyingInfo" cannot be resolved
-ERROR: /Users/lpplangf/biz/ig/covid-19/output/ExposureInfo.html#/html/body/div/div/center/img/div/div/div/div/div/p/a at Line 143, column 5: The link '' for "KnownExposure" cannot be resolved
-ERROR: /Users/lpplangf/biz/ig/covid-19/output/ExposureInfo.html#/html/body/div/div/center/img/div/div/div/div/div/p/a at Line 144, column 2: The link '' for "TravelHistory" cannot be resolved
-ERROR: /Users/lpplangf/biz/ig/covid-19/output/LabProfiles.html#/html/body/div/div/center/img/div/div/div/div/div/p/a at Line 172, column 21: The link '' for "SARS coronavirus 2 IgG Ab [Presence] in Serum or Plasma by Immunoassay" cannot be resolved
-ERROR: /Users/lpplangf/biz/ig/covid-19/output/LabProfiles.html#/html/body/div/div/center/img/div/div/div/div/div/p/a at Line 175, column 21: The link '' for "Human coronavirus 229E+HKU1+OC43+NL63 RNA [Presence] in Nasopharynx by NAA with non-probe detection" cannot be resolved
-ERROR: /Users/lpplangf/biz/ig/covid-19/output/SignsSymptoms.html#/html/body/div/div/center/img/div/div/div/div/div/p/a at Line 147, column 5: The link '' for "Signs and Sympotoms Present" cannot be resolved
-ERROR: /Users/lpplangf/biz/ig/covid-19/output/SignsSymptoms.html#/html/body/div/div/center/img/div/div/div/div/div/p/a at Line 148, column 2: The link '' for "Signs and Symptoms Absent" cannot be resolved
-ERROR: /Users/lpplangf/biz/ig/covid-19/output/SignsSymptoms.html#/html/body/div/div/center/img/div/div/div/div/div/p/a at Line 154, column 5: The link '' for "COVID19 Diagnoses" cannot be resolved
+ERROR: /Users/lpplangf/biz/ig/covid-19/output/index.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 186, column 37: The link 'loinc.org/45392-8/' for "45392-8" cannot be resolved
+ERROR: /Users/lpplangf/biz/ig/covid-19/output/index.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 191, column 37: The link 'loinc.org/52461-1/' for "52461-1" cannot be resolved
+ERROR: /Users/lpplangf/biz/ig/covid-19/output/index.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 196, column 37: The link 'loinc.org/45394-4/' for "45394-4" cannot be resolved
+ERROR: /Users/lpplangf/biz/ig/covid-19/output/index.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 201, column 37: The link 'loinc.org/45394-4/' for "21112-8" cannot be resolved
+ERROR: /Users/lpplangf/biz/ig/covid-19/output/index.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 206, column 37: The link 'loinc.org/76435-7/' for "76435-7" cannot be resolved
+ERROR: /Users/lpplangf/biz/ig/covid-19/output/index.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 211, column 37: The link 'loinc.org/30525-0/' for "30525-0" cannot be resolved
+ERROR: /Users/lpplangf/biz/ig/covid-19/output/index.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 216, column 37: The link 'loinc.org/72143-4/' for "72143-4" cannot be resolved
+ERROR: /Users/lpplangf/biz/ig/covid-19/output/index.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 221, column 37: The link 'loinc.org/72826-1/' for "72826-1" cannot be resolved
+ERROR: /Users/lpplangf/biz/ig/covid-19/output/index.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 226, column 37: The link 'loinc.org/69490-1/' for "69490-1" cannot be resolved
 == /Users/lpplangf/biz/ig/covid-19/input/ImplementationGuide-covid19.json ==
 == /Users/lpplangf/biz/ig/covid-19/input/extensions/StructureDefinition-c19-reporting-priority.json ==
 WARNING: http://fhir.logicahealth.org/covid19/StructureDefinition/c19-reporting-priority: The Implementation Guide contains no examples for this extension
