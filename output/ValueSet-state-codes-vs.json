@@ -6,11 +6,11 @@
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>State Codes Value Set</h2><div><p>The list of SNOMED CT codes that represent states.</p>\n</div><ul><li>Include codes from <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a> where concept  is-a  224037005 (Regions of United States of America)</li></ul></div>"
   },
   "url": "http://fhir.logicahealth.org/covid19/ValueSet/state-codes-vs",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "name": "StateCodesVS",
   "title": "State Codes Value Set",
   "status": "active",
-  "date": "2020-04-07T21:21:10-06:00",
+  "date": "2020-04-07T21:41:39-06:00",
   "publisher": "Logica",
   "contact": [
     {

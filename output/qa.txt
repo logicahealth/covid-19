@@ -3,7 +3,7 @@
 
 err = 144, warn = 92, info = 0
 IG Publisher Version: v1.0.77-SNAPSHOT Out of date - current version is v1.0.78-SNAPSHOT
-Generated Tue Apr 07 21:23:32 MDT 2020. FHIR version 4.0.1 for covid19#0.3.0 (canonical = http://fhir.logicahealth.org/covid19)
+Generated Tue Apr 07 21:43:53 MDT 2020. FHIR version 4.0.1 for covid19#0.3.1 (canonical = http://fhir.logicahealth.org/covid19)
 
  Build Errors : 9 / 0
  /Users/lpplangf/biz/ig/covid-19/input/ImplementationGuide-covid19 : 0 / 0

@@ -6,11 +6,11 @@
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Country Codes Value Set</h2><div><p>The set of SNOMED CT codes that represent countries.</p>\n</div><ul><li>Include codes from <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a> where concept  is-a  223369002 (Countries)</li></ul></div>"
   },
   "url": "http://fhir.logicahealth.org/covid19/ValueSet/country-codes-vs",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "name": "CountryCodesVS",
   "title": "Country Codes Value Set",
   "status": "active",
-  "date": "2020-04-07T21:21:10-06:00",
+  "date": "2020-04-07T21:41:39-06:00",
   "publisher": "Logica",
   "contact": [
     {

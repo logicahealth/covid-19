@@ -1,6 +1,6 @@
 {
   "name": "covid19",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "canonical": "http://fhir.logicahealth.org/covid19",
   "url": "http://fhir.logicahealth.org/covid19",
   "title": "Logica Implementation Guide: Covid-19",

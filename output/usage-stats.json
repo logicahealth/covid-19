@@ -1,6 +1,6 @@
 {
   "package": "covid19",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "fhirVersion": "4.0.1",
   "extensions": [
     {

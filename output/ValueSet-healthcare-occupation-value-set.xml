@@ -7,11 +7,11 @@
 </div><ul><li>Include codes from <a href="http://www.snomed.org/"><code>http://snomed.info/sct</code></a> where concept  is-a  223366009 (Healthcare professional)</li></ul></div>
   </text>
   <url value="http://fhir.logicahealth.org/covid19/ValueSet/healthcare-occupation-value-set"/>
-  <version value="0.3.0"/>
+  <version value="0.3.1"/>
   <name value="HealthcareOccupationVS"/>
   <title value="Healthcare Occupation Value Set"/>
   <status value="active"/>
-  <date value="2020-04-07T21:21:10-06:00"/>
+  <date value="2020-04-07T21:41:39-06:00"/>
   <publisher value="Logica"/>
   <contact>
     <name value="Logica"/>
