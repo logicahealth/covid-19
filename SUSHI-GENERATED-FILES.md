@@ -31,10 +31,11 @@ lists those files generated from project configs or the contents in the ig-data 
 | input/images/UseCase_Receive.jpg       | copied    | fsh/ig-data/input/images/UseCase_Receive.jpg                          |
 | input/images/UseCase_Search.jpg        | copied    | fsh/ig-data/input/images/UseCase_Search.jpg                           |
 | input/images/org_logo.png              | copied    | fsh/ig-data/input/images/org_logo.png                                 |
-| input/pagecontent/CaseReportingInfo.md | copied    | fsh/ig-data/input/pagecontent/2_CaseReportingInfo.md                  |
-| input/pagecontent/ExposureInfo.md      | copied    | fsh/ig-data/input/pagecontent/3_ExposureInfo.md                       |
-| input/pagecontent/LabProfiles.md       | copied    | fsh/ig-data/input/pagecontent/5_LabProfiles.md                        |
-| input/pagecontent/SignsSymptoms.md     | copied    | fsh/ig-data/input/pagecontent/4_SignsSymptoms.md                      |
+| input/pagecontent/CaseReportingInfo.md | copied    | fsh/ig-data/input/pagecontent/3_CaseReportingInfo.md                  |
+| input/pagecontent/ExposureInfo.md      | copied    | fsh/ig-data/input/pagecontent/4_ExposureInfo.md                       |
+| input/pagecontent/LabProfiles.md       | copied    | fsh/ig-data/input/pagecontent/6_LabProfiles.md                        |
+| input/pagecontent/PatientVitals.md     | copied    | fsh/ig-data/input/pagecontent/2_PatientVitals.md                      |
+| input/pagecontent/SignsSymptoms.md     | copied    | fsh/ig-data/input/pagecontent/5_SignsSymptoms.md                      |
 | input/pagecontent/index.md             | copied    | fsh/ig-data/input/pagecontent/index.md                                |
 | package-list.json                      | copied    | fsh/ig-data/package-list.json                                         |
 | package.json                           | copied    | fsh/package.json                                                      |

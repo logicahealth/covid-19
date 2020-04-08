@@ -17,7 +17,7 @@
   fhir:ImplementationGuide.name [ fhir:value "LogicaImplementationGuideCovid19"];
   fhir:ImplementationGuide.title [ fhir:value "Logica Implementation Guide: Covid-19"];
   fhir:ImplementationGuide.status [ fhir:value "active"];
-  fhir:ImplementationGuide.date [ fhir:value "2020-04-07T11:25:19-06:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2020-04-07T21:21:10-06:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "Logica"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
@@ -1450,21 +1450,26 @@
          fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
        ], [
          fhir:index 1;
+         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "PatientVitals.html" ];
+         fhir:ImplementationGuide.definition.page.title [ fhir:value "Patient Vitals" ];
+         fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
+       ], [
+         fhir:index 2;
          fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "CaseReportingInfo.html" ];
          fhir:ImplementationGuide.definition.page.title [ fhir:value "Case Reporting Info" ];
          fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
        ], [
-         fhir:index 2;
+         fhir:index 3;
          fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "ExposureInfo.html" ];
          fhir:ImplementationGuide.definition.page.title [ fhir:value "Exposure Info" ];
          fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
        ], [
-         fhir:index 3;
+         fhir:index 4;
          fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "SignsSymptoms.html" ];
          fhir:ImplementationGuide.definition.page.title [ fhir:value "Signs Symptoms" ];
          fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
        ], [
-         fhir:index 4;
+         fhir:index 5;
          fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "LabProfiles.html" ];
          fhir:ImplementationGuide.definition.page.title [ fhir:value "Lab Profiles" ];
          fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]

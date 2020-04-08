@@ -3,7 +3,7 @@
 
 err = 144, warn = 92, info = 0
 IG Publisher Version: v1.0.77-SNAPSHOT Out of date - current version is v1.0.78-SNAPSHOT
-Generated Tue Apr 07 11:27:28 MDT 2020. FHIR version 4.0.1 for covid19#0.3.0 (canonical = http://fhir.logicahealth.org/covid19)
+Generated Tue Apr 07 21:23:32 MDT 2020. FHIR version 4.0.1 for covid19#0.3.0 (canonical = http://fhir.logicahealth.org/covid19)
 
  Build Errors : 9 / 0
  /Users/lpplangf/biz/ig/covid-19/input/ImplementationGuide-covid19 : 0 / 0
@@ -73,15 +73,15 @@ Generated Tue Apr 07 11:27:28 MDT 2020. FHIR version 4.0.1 for covid19#0.3.0 (ca
  /Users/lpplangf/biz/ig/covid-19/input/vocabulary/valueset-yes-no-vs : 0 / 0
 </table>
 == n/a ==
-ERROR: /Users/lpplangf/biz/ig/covid-19/output/index.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 186, column 37: The link 'loinc.org/45392-8/' for "45392-8" cannot be resolved
-ERROR: /Users/lpplangf/biz/ig/covid-19/output/index.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 191, column 37: The link 'loinc.org/52461-1/' for "52461-1" cannot be resolved
-ERROR: /Users/lpplangf/biz/ig/covid-19/output/index.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 196, column 37: The link 'loinc.org/45394-4/' for "45394-4" cannot be resolved
-ERROR: /Users/lpplangf/biz/ig/covid-19/output/index.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 201, column 37: The link 'loinc.org/45394-4/' for "21112-8" cannot be resolved
-ERROR: /Users/lpplangf/biz/ig/covid-19/output/index.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 206, column 37: The link 'loinc.org/76435-7/' for "76435-7" cannot be resolved
-ERROR: /Users/lpplangf/biz/ig/covid-19/output/index.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 211, column 37: The link 'loinc.org/30525-0/' for "30525-0" cannot be resolved
-ERROR: /Users/lpplangf/biz/ig/covid-19/output/index.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 216, column 37: The link 'loinc.org/72143-4/' for "72143-4" cannot be resolved
-ERROR: /Users/lpplangf/biz/ig/covid-19/output/index.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 221, column 37: The link 'loinc.org/72826-1/' for "72826-1" cannot be resolved
-ERROR: /Users/lpplangf/biz/ig/covid-19/output/index.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 226, column 37: The link 'loinc.org/69490-1/' for "69490-1" cannot be resolved
+ERROR: /Users/lpplangf/biz/ig/covid-19/output/PatientVitals.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 175, column 37: The link 'loinc.org/45392-8/' for "45392-8" cannot be resolved
+ERROR: /Users/lpplangf/biz/ig/covid-19/output/PatientVitals.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 180, column 37: The link 'loinc.org/52461-1/' for "52461-1" cannot be resolved
+ERROR: /Users/lpplangf/biz/ig/covid-19/output/PatientVitals.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 185, column 37: The link 'loinc.org/45394-4/' for "45394-4" cannot be resolved
+ERROR: /Users/lpplangf/biz/ig/covid-19/output/PatientVitals.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 190, column 37: The link 'loinc.org/45394-4/' for "21112-8" cannot be resolved
+ERROR: /Users/lpplangf/biz/ig/covid-19/output/PatientVitals.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 195, column 37: The link 'loinc.org/76435-7/' for "76435-7" cannot be resolved
+ERROR: /Users/lpplangf/biz/ig/covid-19/output/PatientVitals.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 200, column 37: The link 'loinc.org/30525-0/' for "30525-0" cannot be resolved
+ERROR: /Users/lpplangf/biz/ig/covid-19/output/PatientVitals.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 205, column 37: The link 'loinc.org/72143-4/' for "72143-4" cannot be resolved
+ERROR: /Users/lpplangf/biz/ig/covid-19/output/PatientVitals.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 210, column 37: The link 'loinc.org/72826-1/' for "72826-1" cannot be resolved
+ERROR: /Users/lpplangf/biz/ig/covid-19/output/PatientVitals.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 215, column 37: The link 'loinc.org/69490-1/' for "69490-1" cannot be resolved
 == /Users/lpplangf/biz/ig/covid-19/input/ImplementationGuide-covid19.json ==
 == /Users/lpplangf/biz/ig/covid-19/input/extensions/StructureDefinition-c19-reporting-priority.json ==
 WARNING: http://fhir.logicahealth.org/covid19/StructureDefinition/c19-reporting-priority: The Implementation Guide contains no examples for this extension

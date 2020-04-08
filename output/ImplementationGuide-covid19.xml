@@ -11,7 +11,7 @@
   <name value="LogicaImplementationGuideCovid19"/>
   <title value="Logica Implementation Guide: Covid-19"/>
   <status value="active"/>
-  <date value="2020-04-07T11:25:19-06:00"/>
+  <date value="2020-04-07T21:21:10-06:00"/>
   <publisher value="Logica"/>
   <contact>
     <name value="Logica"/>
@@ -1093,6 +1093,11 @@
       <page>
         <nameUrl value="index.html"/>
         <title value="Home"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <nameUrl value="PatientVitals.html"/>
+        <title value="Patient Vitals"/>
         <generation value="markdown"/>
       </page>
       <page>

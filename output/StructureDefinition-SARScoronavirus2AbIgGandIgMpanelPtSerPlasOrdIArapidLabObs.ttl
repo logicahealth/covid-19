@@ -18,7 +18,7 @@
   fhir:StructureDefinition.name [ fhir:value "SARScoronavirus2AbIgGandIgMpanelPtSerPlasOrdIArapidLabObs"];
   fhir:StructureDefinition.title [ fhir:value "SARS coronavirus 2 IgG and IgM panel - Serum or Plasma Qualitative by Rapid immunoassay"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2020-04-07T11:25:19-06:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2020-04-07T21:21:10-06:00"^^xsd:dateTime];
   fhir:StructureDefinition.publisher [ fhir:value "Logica"];
   fhir:StructureDefinition.contact [
      fhir:index 0;
