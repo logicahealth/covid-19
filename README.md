@@ -12,6 +12,10 @@ The easiest way to build and run this IG from source is using Docker, which leve
 	# Increase the RAM limit below if needed.
 	docker build -t logicahealth/covid-19-ig:latest --no-cache --memory=4g .
 
+	# To run it locally:
+	docker run -it --rm -p 8080:80 logicahealth/covid-19-ig:latest
+
+	open http://localhost:8080
 
 ## Licensing
 
