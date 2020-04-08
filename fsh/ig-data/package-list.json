@@ -1,0 +1,15 @@
+{
+  "package-id": "covid19",
+  "title": "Logica Implementation Guide: Covid-19",
+  "canonical": "http://fhir.logicahealth.org/covid19",
+  "introduction": "The COVID-19 IG describes structured data to be collected and communicated between providers and aggregators.",
+  "list": [
+    {
+      "version": "current",
+      "desc": "Continuous Integration Build (latest in version control)",
+      "path": "http://fhir.logicahealth.org/covid19",
+      "status": "ci-build",
+      "current": true
+    }
+  ]
+}

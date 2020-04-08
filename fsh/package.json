@@ -1,0 +1,38 @@
+{
+  "name": "covid19",
+  "version": "0.3.1",
+  "canonical": "http://fhir.logicahealth.org/covid19",
+  "url": "http://fhir.logicahealth.org/covid19",
+  "title": "Logica Implementation Guide: Covid-19",
+  "description": "The COVID-19 IG describes structured data to be collected and communicated between providers and aggregators.",
+  "dependencies": {
+    "hl7.fhir.r4.core": "4.0.1",
+    "hl7.fhir.us.core": "3.1.0"
+  },
+  "keywords": [
+    "Corona virus",
+    "COVID",
+    "COVID-19",
+    "pandemic"
+  ],
+  "language": "en",
+  "author": "Logica",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://fhir.logicahealth.org"
+        }
+      ]
+    }
+  ],
+  "maintainers": [
+    {
+      "name": "Logica",
+      "organization": "Logica",
+      "url": "https://logicahealth.org/"
+    }
+  ],
+  "license": "CC0-1.0"
+}
