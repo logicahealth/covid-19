@@ -6,6 +6,8 @@
 * [Logica COVID-19 Interoperability Project](https://www.logicahealth.org/covid-19-interoperability-project): https://www.logicahealth.org/covid-19-interoperability-project
 * [COVID-19 Interoperability Alliance](https://www.covid19ia.org): https://www.covid19ia.org
 
+*Part of the COVID-19 Interoperability Alliance – https://covid19ia.org*
+
 # Software Configuration Management Process
 
 We use a "featuring branching" strategy off the `staging` branch. We branching or submitting pull requests, please always use `staging`, not `master`. The `master` branch only contains the current production release and should never be committed to directly.
