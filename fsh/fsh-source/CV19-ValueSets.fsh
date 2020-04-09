@@ -101,7 +101,7 @@ Description: "The set of SNOMED CT codes that represent the level of certainty t
 
 
 ValueSet: CertaintyOfAbsenceVS
-Id: certainty-0f-absence-value-set
+Id: certainty-of-absence-value-set
 Title: "Certainty of Absence Value Set"
 Description: "The set of SNOMED CT codes that represent the leve of certainty that a condition does not exist."
 * SCT#410594000	"Definitely NOT present (qualifier value)"
