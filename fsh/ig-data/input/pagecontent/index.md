@@ -10,5 +10,17 @@ The models are provided without warrantee or guarantee that they are accurate, c
 
 This HL7 specification contains and references intellectual property owned by third parties ("Third Party IP").  Implementers and testers of this specification SHALL abide by the license requirements for each terminology content artifact utilized within a functioning implementation. Terminology licenses SHALL be obtained from the Third Party IP owner for each code system and/or other specified artifact used. It is the sole responsibility of each organization deploying or testing this specification to ensure their implementations comply with licensing requirements of each Third Party IP."
 
+
+#### Sources
+
+The following reporting forms, documents, and terminology sources were consulted when creating the profiles for this IG.  This list will grow as new profiles are added.
+
+- CDC COVID19 PUI
+- CSTE Standardized surveillance case definition and national notification for 2019 novel coronavirus disease (COVID19)
+- Salt Lake County COVID-19 form
+- CDC COVID-19-Associated Hospitalization Surveillance Case Report Form
+- Health Catalyst COVID19 terms
+- Clinical Architecture COVID19 terms
+
 #### Acknowlegements
 We would like to gratefully acknowledge contributions and collaborations from the following organizations, individuals and sources: American College of Obstetricians and Gynecologists, American Academy of Family Physicians, American College of Surgeons, American Medical Association, Veterans Administration, Argonauts, CDC COVID-19 Case Report Form, HL7 Clinical Information Modeling Initiative, Clinical Architecture, Cognitive Medical Systems, Saperi Systems, Health Catalyst, HL7 International, LOINC, MITRE, Intermountain Healthcare, ONC US Core, Regenstrief Institute, James E. Tcheng, MD, Duke University Health System, the University of Utah Department of Biomedical Informatics, and the COVID-19 Healthcare Coalition.

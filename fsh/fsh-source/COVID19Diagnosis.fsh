@@ -1,5 +1,5 @@
 Profile: COVID18Diagnosis
-Parent: Condition
+Parent: eICRCondition
 Id: COVID-19-Diagnosis
 Title: "COVID 19 Diagnosis"
 Description: "A diagnosis or diagnoses asserted about the subject that is due to infection by the SARS coronavirus 2 virus."

@@ -1,6 +1,4 @@
-### Patient Demographic and Vital Signs information
-
-#### Patient Demographics
+### Patient Demographics
 
 
 For patient demographic data we recommend using the US Core patient FHIR profile, [US Core Patient](http://hl7.org/fhir/us/core/STU3.1/StructureDefinition-us-core-patient.html).
@@ -21,7 +19,7 @@ The following table shows which FHIR Patient resource element is used for each p
 
 
 
-#### Vital Signs
+### Vital Signs
 
 For vital signs data we recommend using the FHIR profiles that were developed by the HL7 FHIR working group.  [HL7 FHIR core Vital Signs](http://hl7.org/fhir/R4/observation-vitalsigns.html).
 
