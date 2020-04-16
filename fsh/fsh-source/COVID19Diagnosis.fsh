@@ -1,5 +1,5 @@
 Profile: COVID18Diagnosis
-Parent: eICRCondition
+Parent: Condition
 Id: COVID-19-Diagnosis
 Title: "COVID 19 Diagnosis"
 Description: "A diagnosis or diagnoses asserted about the subject that is due to infection by the SARS coronavirus 2 virus."
@@ -7,3 +7,4 @@ Description: "A diagnosis or diagnoses asserted about the subject that is due to
 * code from COVID19DiagnosisVS (preferred)
 * stage 0..0
 * evidence 0..0
+

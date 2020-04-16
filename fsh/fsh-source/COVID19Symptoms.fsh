@@ -1,5 +1,5 @@
 Profile: COVID19SymptomsPresent
-Parent: eICRCondition
+Parent: Condition
 Id: covid19-symptoms-present
 Title: "COVID 19 Symptoms Present"
 Description: "A parent profile for the assertion of the presence COVID 19 symptoms."
@@ -15,7 +15,7 @@ Description: "An extension to capture the degree certainty of the existence of a
 * valueCodeableConcept from CertaintyOfPresenceVS (preferred)
 
 Profile: COVID19SymptomsAbsent
-Parent: eICRCondition
+Parent: Condition
 Id: covid19-symptoms-absent
 Title: "COVID 19 Symptoms Absent"
 Description: "A parent profile for the assertion of the Absence COVID 19 symptoms."
