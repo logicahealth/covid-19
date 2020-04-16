@@ -11,6 +11,7 @@ Extension: CertaintyOfPresence
 Id: certainty-of-presence
 Title: "Certainty of Presence"
 Description: "An extension to capture the degree certainty of the existence of a condition."
+* ^isModifier = true
 * value[x] only CodeableConcept
 * valueCodeableConcept from CertaintyOfPresenceVS (preferred)
 
@@ -27,5 +28,6 @@ Extension: CertaintyOfAbsence
 Id: certainty-of-absence
 Title: "Certainty of Absence"
 Description: "An extension to capture the degree certainty of the non-existence of a condition."
+* ^isModifier = true
 * value[x] only CodeableConcept
 * valueCodeableConcept from CertaintyOfAbsenceVS (preferred)
