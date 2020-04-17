@@ -6,10 +6,6 @@ If you are submitting data needed in public health electronic case reporting  (r
 
 DO NOT use the FHIR profiles or data elements defined in the COVID-19 HL7 FHIR Implementation Guide to transmit data to state or local health departments as part of electronic case reporting.
 
-The models are provided without warrantee or guarantee that they are accurate, complete, or fit for purpose.
-
-This HL7 specification contains and references intellectual property owned by third parties ("Third Party IP").  Implementers and testers of this specification SHALL abide by the license requirements for each terminology content artifact utilized within a functioning implementation. Terminology licenses SHALL be obtained from the Third Party IP owner for each code system and/or other specified artifact used. It is the sole responsibility of each organization deploying or testing this specification to ensure their implementations comply with licensing requirements of each Third Party IP."
-
 
 #### Sources
 
@@ -22,5 +18,16 @@ The following reporting forms, documents, and terminology sources were consulted
 - Health Catalyst COVID19 terms
 - Clinical Architecture COVID19 terms
 
+
 #### Acknowlegements
 We would like to gratefully acknowledge contributions and collaborations from the following organizations, individuals and sources: American College of Obstetricians and Gynecologists, American Academy of Family Physicians, American College of Surgeons, American Medical Association, Veterans Administration, Argonauts, CDC COVID-19 Case Report Form, HL7 Clinical Information Modeling Initiative, Clinical Architecture, Cognitive Medical Systems, Saperi Systems, Health Catalyst, HL7 International, LOINC, MITRE, Intermountain Healthcare, ONC US Core, Regenstrief Institute, James E. Tcheng, MD, Duke University Health System, the University of Utah Department of Biomedical Informatics, and the COVID-19 Healthcare Coalition.
+
+#### Copyright notices
+
+This HL7 specification contains and references intellectual property owned by third parties ("Third Party IP").  Implementers and testers of this specification SHALL abide by the license requirements for each terminology content artifact utilized within a functioning implementation. Terminology licenses SHALL be obtained from the Third Party IP owner for each code system and/or other specified artifact used. It is the sole responsibility of each organization deploying or testing this specification to ensure their implementations comply with licensing requirements of each Third Party IP."
+
+>This artifact includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyrighted material of the International Health Terminology Standards Development Organisation (IHTSDO). Where an implementation of this artefact makes use of SNOMED CT content, the implementer must have the appropriate SNOMED CT Affiliate license - for more information contact http://www.snomed.org/snomed-ct/get-snomed-ct or info@snomed.org
+
+>This material contains content from LOINC® (http://loinc.org). LOINC is copyright © 1995-2019, Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and is available at no cost under the license at http://loinc.org/license.
+
+The models are provided without warrantee or guarantee that they are accurate, complete, or fit for purpose.
