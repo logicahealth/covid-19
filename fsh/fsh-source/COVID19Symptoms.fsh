@@ -3,8 +3,8 @@ Parent: Condition
 Id: covid19-symptoms-present
 Title: "COVID 19 Symptoms Present"
 Description: "A parent profile for the assertion of the presence COVID 19 symptoms."
-* extension contains
-    CertaintyOfPresence named certaintyOfPresence 0..1
+* modifierExtension contains
+    CertaintyOfPresence named certaintyOfPresence 1..1
 * code from COVID19SignsAndSymptomsVS (preferred)
 
 Extension: CertaintyOfPresence
@@ -19,7 +19,7 @@ Parent: Condition
 Id: covid19-symptoms-absent
 Title: "COVID 19 Symptoms Absent"
 Description: "A parent profile for the assertion of the Absence COVID 19 symptoms."
-* extension contains
+* modifierExtension contains
     CertaintyOfAbsence named certaintyOfAbsence 1..1
 * code from COVID19SignsAndSymptomsVS (preferred)
 

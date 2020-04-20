@@ -1,10 +1,9 @@
 ValueSet: DetNotDetEqInVS
-Id: covid19-det-not-det-eq-in-vs 
-Title: "Detected-Not Detected-Equivalent-Inconclusive Value Set"
+Id: covid19-det-not-det-inconclusive-vs 
+Title: "Detected-Not Detected-Inconclusive Value Set"
 Description: "A set of SNOMED codes representing the result of a test as detected, not detected, equivalent, or inconclusive."
 * SCT#260415000 "Not detected (qualifier value)"
 * SCT#419984006 "Inconclusive (qualifier value)"
-* SCT#42425007 "Equivocal (qualifier value)" 
 * SCT#260373001 "Detected (qualifier value)"
 
 ValueSet: PosNegVS
@@ -101,7 +100,7 @@ Description: "The set of SNOMED CT codes that represent the level of certainty t
 
 
 ValueSet: CertaintyOfAbsenceVS
-Id: certainty-0f-absence-value-set
+Id: certainty-of-absence-value-set
 Title: "Certainty of Absence Value Set"
 Description: "The set of SNOMED CT codes that represent the leve of certainty that a condition does not exist."
 * SCT#410594000	"Definitely NOT present (qualifier value)"

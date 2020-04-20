@@ -40,7 +40,7 @@ Description:    "Abstract base class for laboratory observations."
     ReportingPriority named reportingPriority 0..1
 
 Extension:  ReportingPriority
-Id: c19-reporting-priority
+Id: reporting-priority
 Description: "The urgency level for which an observation must be reported."
 Title: "Reporting Priority"
 * value[x] only CodeableConcept
