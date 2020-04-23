@@ -12,7 +12,7 @@ Id: certainty-of-presence
 Title: "Certainty of Presence"
 Description: "An extension to capture the degree certainty of the existence of a condition."
 * value[x] only CodeableConcept
-* valueCodeableConcept from CertaintyOfPresenceVS (preferred)
+* valueCodeableConcept from CertaintyOfPresenceVS (required)
 
 Profile: COVID19SymptomsAbsent
 Parent: Condition
@@ -28,4 +28,4 @@ Id: certainty-of-absence
 Title: "Certainty of Absence"
 Description: "An extension to capture the degree certainty of the non-existence of a condition."
 * value[x] only CodeableConcept
-* valueCodeableConcept from CertaintyOfAbsenceVS (preferred)
+* valueCodeableConcept from CertaintyOfAbsenceVS (required)
