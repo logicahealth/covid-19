@@ -10,21 +10,18 @@
 {% endcomment %} -->
 <ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
   <li><a href="index.html">Home</a></li>
-  <!--li class="dropdown">
-    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Artifacts<b class="caret"> </b></a>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Background<b class="caret"> </b></a>
     <ul class="dropdown-menu">
-  <li><a href="Logica_comparison_to_eICR.html">Logica vs eICR</a></li>
-  <li><a href="Patient_Demographics_and_Vital_Signs.html#patient-demographics-and-vital-signs>Demographics and Vital Signs</a></li>
+       <li><a href="Logica_comparison_to_eICR.html">Logica vs eICR</a></li>
+       <li><a href="Patient_Demographics_and_Vital_Signs.html">Patient Demographics and Vital Signs</a></li>
+       <li><a href="CaseReportingInfo.html">Case Reporting Info</a></li>
+        <li><a href="SignsSymptoms.html">Signs and Symptoms</a></li>
+        <li><a href="LabProfiles.html">Lab Profiles</a></li>
+       </ul>
+  </li>
   <li><a href="artifacts.html#structures-resource-profiles">Profiles</a></li>
   <li><a href="artifacts.html#structures-extension-definitions">Extensions</a></li>
   <li><a href="artifacts.html#terminology-value-sets">Terminology</a></li>
-   <li><a href="http://www.hl7.org/fhir/us/davinci-pdex-plan-net/history.cfml">History</a></li>
-    </ul>
-  </li-->
-  <li><a href="Logica_comparison_to_eICR.html">Logica vs eICR</a></li>
-  <li><a href="Patient_Demographics_and_Vital_Signs.html#patient-demographics-and-vital-signs>Demographics and Vital Signs</a></li>
-  <li><a href="artifacts.html#structures-resource-profiles">Profiles</a></li>
-  <li><a href="artifacts.html#structures-extension-definitions">Extensions</a></li>
-  <li><a href="artifacts.html#terminology-value-sets">Terminology</a></li>
-   <li><a href="http://www.hl7.org/fhir/us/davinci-pdex-plan-net/history.cfml">History</a></li>
+   <li><a href="http://fhir.logicahealth.org/covid19/history.html">History</a></li>
 </ul>
