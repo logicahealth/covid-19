@@ -67,39 +67,55 @@ ValueSet: COVID19SignsAndSymptomsVS
 Id: covid19-signs-1nd-symptoms-value-set
 Title: "COVID 19 Signs and Symptoms Value Set"
 Description: "The set of SNOMED CT codes that represent the signs and symptoms associated with COVID 19."
-* SCT#43724002	"Chill (finding)"
+* SCT#43724002 "Chill (finding)"
 * SCT#162397003	"Pain in throat (finding)"
-* SCT#49727002	"Cough (finding)"
+* SCT#49727002 "Cough (finding)"
 * SCT#267036007	"Dyspnea (finding)"
 * SCT#426000000	"Fever greater than 100.4 Fahrenheit (finding)"
 * SCT#103001002	"Feeling feverish (finding)"
-* SCT#68962001	"Muscle pain (finding)"
-* SCT#64531003	"Nasal discharge (finding)"
+* SCT#68962001 "Muscle pain (finding)"
+* SCT#64531003 "Nasal discharge (finding)"
 * SCT#422587007	"Nausea (finding)"
 * SCT#422400008	"Vomiting (disorder)"
-* SCT#25064002	"Headache (finding)"
-* SCT#21522001	"Abdominal pain (finding)"
-* SCT#62315008	"Diarrhea (finding)"
-* SCT#13791008	"Asthenia (finding)"
-* SCT#22253000	"Pain (finding)"
-* SCT#29857009	"Chest pain (finding)"
-* SCT#79890006	"Loss of appetite (finding)"
-* SCT#44169009	"Loss of sense of smell (finding)"
-* SCT#36955009	"Loss of taste (finding)"
-* SCT#28743005	"Productive cough (finding)"
-* SCT#11833005	"Dry cough (finding)"
+* SCT#25064002 "Headache (finding)"
+* SCT#21522001 "Abdominal pain (finding)"
+* SCT#62315008 "Diarrhea (finding)"
+* SCT#13791008 "Asthenia (finding)"
+* SCT#29857009 "Chest pain (finding)"
+* SCT#79890006 "Loss of appetite (finding)"
+* SCT#44169009 "Loss of sense of smell (finding)"
+* SCT#36955009 "Loss of taste (finding)"
+* SCT#28743005 "Productive cough (finding)"
+* SCT#11833005 "Dry cough (finding)"
+* SCT#3006004 "Disturbance of consciousness (finding)"
+* SCT#9826008 "Conjunctivitis (disorder)"
+* SCT#30746006 "Lymphadenopathy (disorder)"
+* SCT#40917007 "Clouded consciousness (finding)"
+* SCT#46742003 "Skin ulcer (disorder)"
+* SCT#56018004 "Wheezing (finding)"
+* SCT#57676002 "Joint pain (finding)"
+* SCT#66857006 "Hemoptysis (finding)"
+* SCT#84229001 "Fatigue (finding)"
+* SCT#84387000 "Asymptomatic (finding)"
+* SCT#91175000 "Seizure (finding)"
+* SCT#131148009 "Bleeding (finding)"
+* SCT#248567008 "Indrawing of ribs during respiration (finding)"
+* SCT#282145008 "Unable to walk (finding)"
+* SCT#367391008 "Malaise (finding)"
+* SCT#38880002 "Rigor (finding)"
+
 
 ValueSet: CertaintyOfPresenceVS
 Id: certainty-of-presence-value-set
 Title: "Certainty of PresenceVS"
 Description: "The set of SNOMED CT codes that represent the level of certainty that a condition exists."
 //* SCT#410593006	"Probably NOT present (qualifier value)"
-* SCT#60022001	"Possible diagnosis (contextual qualifier) (qualifier value)"
+* SCT#415684004	"Suspected (qualifier value)"
 * SCT#410592001	"Probably present (qualifier value)"
-* SCT#410591008	"Definitely present (qualifier value)"
+* SCT#410605003	"Confirmed present (qualifier value)"
 
 
-ValueSet: CertaintyOfAbsenceVS
+ValueSet: CertaintyOfAbsenceVS 
 Id: certainty-of-absence-value-set
 Title: "Certainty of Absence Value Set"
 Description: "The set of SNOMED CT codes that represent the leve of certainty that a condition does not exist."
@@ -120,11 +136,68 @@ Description: "A set of LOINC answers for known expopsure"
 * LNC#LA30831-4 "Travel to Hubei"
 * LNC#LA30832-2 "Travel to mainland China"
 * LNC#LA30833-0 "Travel to other non-US country"
-* LNC#LA30834-8 "Household contact with other lab-confirmedCOVID-19 case-patient"
-* LNC#LA30835-5 "Community contact with other lab-confirmedCOVID-19 case-patient"
-* LNC#LA30836-3 "Any healthcare contact with other lab-confirmedCOVID-19 case-patient"
+* LNC#LA30834-8 "Household contact with other lab-confirmed COVID-19 case-patient"
+* LNC#LA30835-5 "Community contact with other lab-confirmed COVID-19 case-patient"
+* LNC#LA30836-3 "Any healthcare contact with other lab-confirmed COVID-19 case-patient"
 * LNC#LA30837-1 "Any healthcare contact wiht a Patient who is lab-confirmed COVID-19 case-patient"
 * LNC#LA30838-9 "Any healthcare contact wiht a Visitor who is lab-confirmed COVID-19 case-patient"
 * LNC#LA30839-7 "Any healthcare contact wiht a Healthcare Worker who is lab-confirmed COVID-19 case-patient"
 * LNC#LA30840-5 "Animal Exposure"
 * LNC#LA30841-3 "Exposure to a cluster of patients with severe acute lower respiratory distress of unknown etiology"
+
+ValueSet: COVID19GeneralComorbidityVS
+Id: covid-19-general-comorbidity-vs
+Title: "COVID19 Genreal Comorbidity Value Set"
+Description: "A set of SNOMED CT terms that descibe conditions that are present along with the COVID19 disease."
+* SCT#17097001 "Chronic disease of resporatory system (disorder)"
+* SCT#128289001 "Chronic metabolic disorder (disorder)"
+* SCT#80141007 "Hemoglobinopathy (disorder)"
+* SCT#118940003 "Disorder of nervous system (disorder)"
+* SCT#370388006 "Patient immunocompramised (finding)"
+* SCT#236423003 "Renal impairment (disorder)"
+* SCT#235856003 "Disorder fo liver (disorder)"
+* SCT#85828009 "Autoimmmune disease (disorder)"
+* SCT#27624003 "Chronic disease (disorder)"
+* SCT#128731000119101 "History of Guillain Barre syndrome (situation)"
+* SCT#49601007 "Disorder of cardiovascular system (disorder)"
+
+ValueSet: SmokingStatusVS
+Id: smoking-status-value-set
+Title: "Smoking Status Value Set"
+Description: "The set of SNOMED CT terms that describe the state of tobacco use."
+* SCT#77186002 "Smoker (finding)"
+* SCT#266919005 "Never smoked tovacco (finding)"
+* SCT#8517006 "Ex-smoker (finding)"
+* SCT#266927001 "Tobacco smoking consumption unknown (finding)"
+
+ValueSet: COVID19SignSymptomSeverityVS
+Id: covid-19-severity-value-set
+Title: "COVID19 Signs and Symptoms Severity Value Set"
+Description: "An assertion of the degree of severity of a sign or symptom as reported by the subject."
+* SCT#255604002 "Mild (qualifier value)"
+* SCT#6736007 "Moderate (severity modifier)(qualifier value)"
+* SCT#24484000 "Severe (severity modifier)(qualifier value)"
+* SCT#442452003 "Life threatening severity (qualifier value)"
+
+//ValueSet: COVID19DiseaseStageVS
+//Id: covid-19-disease-stage-value-set
+//Title: "COVID19 Disease Stage Value Set"
+//Description: "The set of codes that describe the clinical or therapeutic level of COVID19."
+//* codes from system COVID19ClinicalTherapeuticStagingScale
+
+ValueSet: COVID19DiseaseSeverityVS
+Id: covid-19-disease-severity-value-set
+Title: "COVID19 Disease Severity Value Set"
+Description: "The set of codes that describe the seriousness of the subject's COVID19 disease."
+* SCT#255604002 "Mild (qualifier value)"
+* SCT#6736007 "Moderate (severity modifier)(qualifier value)"
+* SCT#24484000 "Severe (severity modifier)(qualifier value)"
+* SCT#442452003 "Life threatening severity (qualifier value)"
+
+ValueSet: PregnancyStatusVS
+Id: pregnancy-status-value-set
+Title: "Pregnacy Status Value Set"
+Description: "The set of codes that describe one's state of pregnancy."
+* SCT#77386006 "Patient currently pregnant (finding)"
+* SCT#60001007 "Not pregnant (finding)"
+

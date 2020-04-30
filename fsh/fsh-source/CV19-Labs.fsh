@@ -301,11 +301,12 @@ Description: "HumancoronavirusOC43RNAPrThrPtNphOrdNonprobeamptarLabObs is a test
 * valueCodeableConcept from DetNotDetEqInVS (preferred)
 
 Profile: SARScoronavirus2ORF1abregionPrThrPtXXXOrdProbeamptarLabObs
+Id: SARS-Cov2-ORF1-ab-PrThr-Pt-xxx-Ord-ProbAmpTar-LabObs
 Parent: CodedLaboratoryObservationBase
 Title: "SARS coronavirus 2 ORF1ab region [Presence] in Unspecified specimen by NAA with probe detection"
 Description: "SARS coronavirus 2 ORF1ab region [Presence] in Unspecified specimen by NAA with probe detection"
 * code = LNC#94639-2
-* value only CodeableConcept
+* value[x] only CodeableConcept
 * valueCodeableConcept from DetNotDetEqInVS (preferred)
 
 Profile: SARScoronavirus2SgenePrThrPtRespiratoryOrdProbeamptarLabObs
@@ -313,7 +314,7 @@ Parent: CodedLaboratoryObservationBase
 Title: "SARS coronavirus 2 S gene [Presence] in Respiratory specimen by NAA with probe detection"
 Description: "SARScoronavirus2SgenePrThrPtRespiratoryOrdProbeamptarLabObs is a test for the SARS coronavirus 2 S Gene in respiratory specimen via probe target amplification method."
 * code = LNC#94640-0
-* value only CodeableConcept
+* value[x] only CodeableConcept
 * valueCodeableConcept from DetNotDetEqInVS (preferred)
 
 Profile: SARScoronavirus2SgenePrThrPtXXXOrdProbeamptarLabObs
@@ -321,7 +322,7 @@ Parent: CodedLaboratoryObservationBase
 Title: "SARS coronavirus 2 S gene [Presence] in Unspecified specimen by NAA with probe detection"
 Description: "SARScoronavirus2SgenePrThrPtXXXOrdProbeamptarLabObs is a test for the SARS coronavirus 2 S Gene in unspecified specimen via probe target amplification method."
 * code = LNC#94641-8
-* value only CodeableConcept
+* value[x] only CodeableConcept
 * valueCodeableConcept from DetNotDetEqInVS (preferred)
 
 Profile: SARScoronavirus2SgeneThreshNumPtRespiratoryQnProbeamptarLabObs
@@ -341,6 +342,7 @@ Description: "SARScoronavirus2SgeneThreshNumPtXXXQnProbeamptarLabObs is a quanti
 * valueQuantity units = UCUM#{Ct_value}
 
 Profile: SARScoronavirus2ORF1abregionThreshNumPtRespiratoryQnProbeamptarLabObs
+Id: sart-cov2-2orf1-abregion-threshnum-pt-resp-qn-probamptar
 Parent: QuantitativeLaboratoryObservationBase
 Title: "SARS coronavirus 2 ORF1ab region [Cycle Threshold #] in Respiratory specimen by NAA with probe detection"
 Description: "SARScoronavirus2ORF1abregionThreshNumPtRespiratoryQnProbeamptarLabObs is a quantitative test for the SARS coronavirus 2 ORFl antibody region in respiratory specimens via a number threshold, probe target amplification method."
@@ -357,6 +359,7 @@ Description: "SARScoronavirus2RdRpgeneThreshNumPtXXXQnProbeamptarLabObs is a qua
 * valueQuantity units = UCUM#{Ct_value}
 
 Profile: SARScoronavirus2RdRpgeneThreshNumPtRespiratoryQnProbeamptarLabObs
+Id: sars-cov2-2rdrpgene-threshnum-pt-resp-qn-ProbAmpTar
 Parent: QuantitativeLaboratoryObservationBase
 Title: "SARS coronavirus 2 RdRp gene [Cycle Threshold #] in Respiratory specimen by NAA with probe detection"
 Description: "SARScoronavirus2RdRpgeneThreshNumPtRespiratoryQnProbeamptarLabObs is a quantitative test for the SARS coronavirus 2 RdRp gene in respiratory specimens via a number threshold, probe target amplification method."
@@ -369,7 +372,7 @@ Parent: CodedLaboratoryObservationBase
 Title: "SARS-related coronavirus RNA [Presence] in Unspecified specimen by NAA with probe detection"
 Description: "SARSrelatedcoronavirusRNAPrThrPtXXXOrdProbeamptarLabObs is a test for the SARS related coronavirus RNA in unspecified specimens via probe target amplification method."
 * code = LNC#94647-5
-* value only CodeableConcept
+* value[x] only CodeableConcept
 * valueCodeableConcept from DetNotDetEqInVS (preferred)
 
 Profile: SARScoronavirus2RNAPrThrPtSerPlasOrdProbeamptarLabObs
@@ -377,7 +380,7 @@ Parent: CodedLaboratoryObservationBase
 Title: "SARS coronavirus 2 RNA [Presence] in Serum or Plasma by NAA with probe detection"
 Description: "SARScoronavirus2RNAPrThrPtSerPlasOrdProbeamptarLabObs is a test for SARS coronavirus 2 RNA in serum or plasma via a presence threshold, probe target amplification method."
 * code = LNC#94660-8
-* value only CodeableConcept
+* value[x] only CodeableConcept
 * valueCodeableConcept from DetNotDetEqInVS (preferred)
 
 Profile: SARScoronavirus2AbImpPtSerPlasNomLabObs
@@ -385,7 +388,7 @@ Parent: CodedLaboratoryObservationBase
 Title: "SARS coronavirus 2 Ab [Interpretation] in Serum or Plasma"
 Description: "SARScoronavirus2AbImpPtSerPlasNomLabObs is an impression or interpretation of a specified SARS coronavirus 2 lab test.  Values are Positive or Negative."
 * code = LNC#94661-6
-* value only CodeableConcept
+* value[x] only CodeableConcept
 * valueCodeableConcept from PosNegVS (preferred)
 
 Profile: SARScoronavirus2AbIgAACncPtSerPlasQnIALabObs

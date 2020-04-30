@@ -6,6 +6,7 @@ Description: "A parent profile for the assertion of the presence COVID 19 sympto
 * modifierExtension contains
     CertaintyOfPresence named certaintyOfPresence 1..1
 * code from COVID19SignsAndSymptomsVS (preferred)
+* severity from COVID19SignSymptomSeverityVS (preferred)
 
 Extension: CertaintyOfPresence
 Id: certainty-of-presence
