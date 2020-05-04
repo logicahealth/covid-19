@@ -29,7 +29,7 @@ Description: "An extension to capture the degree certainty of the existence of a
 Profile: COVID19GeneralComorbiditiesAbsent
 Parent: USCoreCondition
 Id: COVID-19-General-Comorbidites-Absent
-Title: "COVID 19 Genreal Comorbidities Absent"
+Title: "COVID 19 General Comorbidities Absent"
 Description: "An assertion that generalized conditions such as chronic respiratory disease ARE NOT present along with the COVID19 disease."
 * modifierExtension contains
     CertaintyOfAbsence named certaintyOfAbsence 1..1

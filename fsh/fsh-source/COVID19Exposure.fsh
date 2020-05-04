@@ -53,7 +53,7 @@ Description: "The country or countries to which the subject may have traveled."
 
 Profile: SmokingStatus
 Parent: Observation
-Id: smoking-statut
+Id: smoking-status
 Title: "Tobacco smoking status"
 Description: "Smoking Status describes an individual's current state of tobacco use."
 * code = LNC#72166-2 "Tobacco smoking status"
