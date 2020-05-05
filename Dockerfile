@@ -4,7 +4,7 @@ LABEL maintainer="Preston Lee <preston.lee@prestonlee.com>"
 COPY fsh fsh
 COPY logica-template logica-template 
 
-RUN java -jar input-cache/org.hl7.fhir.publisher.jar -ig .
+RUN java -Xmx4g -jar input-cache/org.hl7.fhir.publisher.jar -ig .
 # RUN ls -alh
 
 FROM nginx:latest
