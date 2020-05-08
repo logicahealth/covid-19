@@ -7,15 +7,15 @@ Description: "A diagnosis or diagnoses asserted about the subject that is due to
 * code from COVID19DiagnosisVS (preferred)
 * severity from COVID19DiseaseSeverityVS (preferred)
 
-Profile: COVID19GeneralComorbiditiesPrsent
+Profile: COVID19UnderlyingMedicalConditionPresent
 Parent: USCoreCondition
-Id: COVID-19-General-Comorbidites-Present
+Id: COVID-19-underlying-medical-condition-presesnt
 Title: "COVID 19 General Comorbidities Present"
 Description: "An assertion that genrealized conditions such as chronic respiratiory disease are also present with the COVID19 disease."
 * modifierExtension contains
     CertaintyOfPresence named certaintyOfPresence 1..1
 * bodySite 0..0
-* code from COVID19GeneralComorbidityVS (extensible)
+* code from COVID19UnderlyingMedicalConditionVS (extensible)
 * stage 0..0
 * evidence 0..0
 
@@ -26,15 +26,15 @@ Description: "An extension to capture the degree certainty of the existence of a
 * value[x] only CodeableConcept
 * valueCodeableConcept from CertaintyOfPresenceVS (required)
 
-Profile: COVID19GeneralComorbiditiesAbsent
+Profile: COVID19UnderlyingMedicalConditionAbsent
 Parent: USCoreCondition
-Id: COVID-19-General-Comorbidites-Absent
+Id: COVID-19-underlying-medical-condition-absent
 Title: "COVID 19 General Comorbidities Absent"
 Description: "An assertion that generalized conditions such as chronic respiratory disease ARE NOT present along with the COVID19 disease."
 * modifierExtension contains
     CertaintyOfAbsence named certaintyOfAbsence 1..1
 * bodySite 0..0
-* code from COVID19GeneralComorbidityVS (extensible)
+* code from COVID19UnderlyingMedicalConditionVS (extensible)
 * stage 0..0
 * evidence 0..0
 
