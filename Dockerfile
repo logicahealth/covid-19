@@ -1,4 +1,4 @@
-FROM logicahealth/fhir-ig-base:20200430 AS builder
+FROM logicahealth/fhir-ig-base:20200508 AS builder
 LABEL maintainer="Preston Lee <preston.lee@prestonlee.com>"
 
 COPY fsh fsh
