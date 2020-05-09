@@ -102,6 +102,7 @@ Description: "The set of SNOMED CT codes that represent the signs and symptoms a
 * SCT#30746006 "Lymphadenopathy (disorder)"
 * SCT#367391008 "Malaise (finding)"
 * SCT#68962001 "Muscle pain (finding)"
+* SCT#68235000 "Nasal congestion (finding)"
 * SCT#64531003 "Nasal discharge (finding)"
 * SCT#422587007 "Nausea (finding)"
 * SCT#162397003 "Pain in throat (finding)"
@@ -159,22 +160,28 @@ Description: "A set of LOINC answers for known expopsure"
 * LNC#LA30840-5 "Animal Exposure"
 * LNC#LA30841-3 "Exposure to a cluster of patients with severe acute lower respiratory distress of unknown etiology"
 
-ValueSet: COVID19GeneralComorbidityVS
-Id: covid-19-general-comorbidity-vs
+ValueSet: COVID19UnderlyingMedicalConditionVS
+Id: covid19-underlying-medical-condition-vs
 Title: "COVID19 Genreal Comorbidity Value Set"
 Description: "A set of SNOMED CT terms that descibe conditions that are present along with the COVID19 disease."
-* ^version = "0.1.0"
-* SCT#17097001 "Chronic disease of resporatory system (disorder)"
-* SCT#128289001 "Chronic metabolic disorder (disorder)"
-* SCT#80141007 "Hemoglobinopathy (disorder)"
-* SCT#118940003 "Disorder of nervous system (disorder)"
-* SCT#370388006 "Patient immunocompramised (finding)"
-* SCT#236423003 "Renal impairment (disorder)"
-* SCT#235856003 "Disorder fo liver (disorder)"
-* SCT#85828009 "Autoimmmune disease (disorder)"
-* SCT#27624003 "Chronic disease (disorder)"
-* SCT#128731000119101 "History of Guillain Barre syndrome (situation)"
-* SCT#49601007 "Disorder of cardiovascular system (disorder)"
+* ^version = "0.3.0"
+* SCT#78648007 "At risk for infection (finding)"
+* SCT#27624003 "Chronic disease (disorder)"
+* SCT#17097001 "Chronic disease of respiratory system (disorder)"
+* SCT#128289001 "Chronic metabolic disorder (disorder)"
+* SCT#235856003 "Disorder of liver (disorder)"
+* SCT#49601007 "Disorder of cardiovascular system (disorder)"
+* SCT#414029004 "Disorder of immune function (disorder)"
+* SCT#118940003 "Disorder of nervous system (disorder)"
+* SCT#80141007 "Hemoglobinopathy (disorder)"
+* SCT#128731000119101 "History of Guillain Barre syndrome (situation)"
+* SCT#90708001 "Kidney disease (disorder)"
+* SCT#363346000 "Mallignant neoplastic disease (disorder)"
+* SCT#414825006 "Neoplasm of hematopoietic cel type (disorder)"
+* SCT#414915002 "Obese (finding)"
+* SCT#370388006 "Patient immunocompramised (finding)"
+* SCT#370391006 "Patient immunosuppressed (finding)"
+
 
 ValueSet: SmokingStatusVS
 Id: smoking-status-value-set
