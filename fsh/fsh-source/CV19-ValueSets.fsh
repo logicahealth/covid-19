@@ -114,8 +114,6 @@ Description: "The set of SNOMED CT codes that represent the signs and symptoms a
 * SCT#422400008 "Vomiting (disorder)"
 * SCT#56018004 "Wheezing (finding)"
 
-
-
 ValueSet: CertaintyOfPresenceVS
 Id: certainty-of-presence-value-set
 Title: "Certainty of Presence Value Set"
@@ -125,7 +123,6 @@ Description: "The set of SNOMED CT codes that represent the level of certainty t
 * SCT#415684004	"Suspected (qualifier value)"
 * SCT#410592001	"Probably present (qualifier value)"
 * SCT#410605003	"Confirmed present (qualifier value)"
-
 
 ValueSet: CertaintyOfAbsenceVS 
 Id: certainty-of-absence-value-set
@@ -182,7 +179,6 @@ Description: "A set of SNOMED CT terms that descibe conditions that are present 
 * SCT#370388006 "Patient immunocompramised (finding)"
 * SCT#370391006 "Patient immunosuppressed (finding)"
 
-
 ValueSet: SmokingStatusVS
 Id: smoking-status-value-set
 Title: "Smoking Status Value Set"
@@ -226,4 +222,3 @@ Description: "The set of codes that describe one's state of pregnancy."
 * ^version = "0.1.0"
 * SCT#77386006 "Patient currently pregnant (finding)"
 * SCT#60001007 "Not pregnant (finding)"
-
