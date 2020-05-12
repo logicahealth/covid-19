@@ -22,4 +22,5 @@ The following is a profile to record/transmit any COVID19 associated diagnoses.
 These profiles are used to capture the existence or absence of conditions, situations, procedures, or other issues that could exacerbate COVID19 or that could be exacerbated by COVID19.  The value set for this is somewhat short for now and contains many general categories.  It will change over time as people and organizations make suggestions or have requirements.  Specific profiles for comorbid categories will also be created, such as "COVID19 Chronic Lung Diesase Comorbidities", and will have value sets of conditions specific to and members of the general category.
 
 [COVID19 Underlying Medical Conditions Present](StructureDefinition-COVID-19-underlying-medical-condition-presesnt.html)
+
 [COVID19 Underlying Medical Conditions Absent](StructureDefinition-COVID-19-underlying-medical-condition-absent.html)
