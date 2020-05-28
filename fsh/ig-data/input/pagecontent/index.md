@@ -10,6 +10,11 @@ If you are submitting data needed in public health electronic case reporting  (r
 DO NOT use the FHIR profiles or data elements defined in the COVID-19 HL7 FHIR Implementation Guide to transmit data to state or local health departments as part of electronic case reporting.
 
 
+#### User Response Survey
+
+If you are using profiles or guidance from this implementation guide or plan on using them, please fill out this survey so that we know may who is using it and in what capacity.  Thank you!  [User Response Survey](https://docs.google.com/forms/d/1oDzSapfUrAkH1pAz3hLR7NXjAm5v6OxMaiRvVnLfkFs/edit)
+
+
 #### Sources
 
 The following reporting forms, documents, and terminology sources were consulted when creating the profiles for this IG.  This list will grow as new profiles are added.
@@ -23,6 +28,7 @@ The following reporting forms, documents, and terminology sources were consulted
 
 
 #### Acknowlegements
+
 We would like to gratefully acknowledge contributions and collaborations from the following organizations, individuals and sources: American College of Obstetricians and Gynecologists, American Academy of Family Physicians, American College of Surgeons, American Medical Association, Veterans Administration, Argonauts, CDC COVID-19 Case Report Form, HL7 Clinical Information Modeling Initiative, Clinical Architecture, Cognitive Medical Systems, Saperi Systems, Health Catalyst, HL7 International, LOINC, MITRE, Intermountain Healthcare, ONC US Core, Regenstrief Institute, James E. Tcheng, MD, Duke University Health System, the University of Utah Department of Biomedical Informatics, and the COVID-19 Healthcare Coalition.
 
 #### Copyright notices
