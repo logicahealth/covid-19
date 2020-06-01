@@ -25,9 +25,9 @@ Description: "A set of SNOMED codes representing how important it is to report a
 * SCT#709122007 "As soon as possible (qualifier value)"
 * SCT#103391001 "Urgent (qualifier value)"
 
-ValueSet: COVID19DiagnosisVS
-Id: covid-19-diagnosis-vs
-Title: "COVID 19 Diagnosis Value Set"
+ValueSet: COVID19SNOMEDDiagnosisVS
+Id: covid-19-snomed-diagnosis-vs
+Title: "COVID 19 SNOEMD CT Diagnosis Value Set"
 Description: "A set of SNOMED CT codes that describe the diagnosed condition that is due to SARS coronavirus 2 infection."
 * ^version = "0.1.0"
 * SCT#840539006 "Disease caused by 2019 novel coronavirus (disorder)"
@@ -38,6 +38,18 @@ Description: "A set of SNOMED CT codes that describe the diagnosed condition tha
 * SCT#138389411000119105 "Acute bronchitis caused by severe acute respiratory syndrome coronavirus 2 (disorder)"
 * SCT#866151004 "Lymphocytopenia associated with severe acute respiratory syndrome coronavirus 2 (disorder)"
 * SCT#866152006 "Thrombocytopenia associated with severe acute respiratory syndrome coronavirus 2 (disorder)"
+
+ValueSet: COVID19ICDDiagnosisVS
+Id: covid-19-icd-diagnosis-vs
+Title: "COVID 19 ICD 10 Diagnosis Value Set"
+Description: "A set of ICD 10 codes that describe the diagnosed condition that is due to SARS coronavirus 2 infection."
+* ^version = "0.1.0"
+* ICD10CM#U07.1 "COVID-19"
+* ICD10CM#B34.2 "Coronavirus infection, unspecified"
+* ICD10CM#B97.2 "Coronavirus as teh cause of diseases classified elsewhere (Non-billable parent term)"
+* ICD10CM#B97.21 "SARS-associated coronavirus as teh cause of diseases classified elsewhere"
+* ICD10CM#B97.29 "Other coronavirus as the cause of diseases classified elsewhere"
+* ICD10CM#J12.81 "Pneumonia due to SARS-associated coronavirus"
 
 ValueSet: YesNoVS
 Id: yes-no-vs
@@ -159,7 +171,7 @@ Description: "A set of LOINC answers for known expopsure"
 
 ValueSet: COVID19UnderlyingMedicalConditionVS
 Id: covid19-underlying-medical-condition-vs
-Title: "COVID19 Genreal Comorbidity Value Set"
+Title: "COVID19 Underlying Medical Condition Value Set"
 Description: "A set of SNOMED CT terms that descibe conditions that are present along with the COVID19 disease."
 * ^version = "0.3.0"
 * SCT#78648007 "At risk for infection (finding)"
@@ -176,7 +188,7 @@ Description: "A set of SNOMED CT terms that descibe conditions that are present 
 * SCT#363346000 "Mallignant neoplastic disease (disorder)"
 * SCT#414825006 "Neoplasm of hematopoietic cel type (disorder)"
 * SCT#414915002 "Obese (finding)"
-* SCT#370388006 "Patient immunocompramised (finding)"
+* SCT#370388006 "Patient immunocompromised (finding)"
 * SCT#370391006 "Patient immunosuppressed (finding)"
 
 ValueSet: SmokingStatusVS

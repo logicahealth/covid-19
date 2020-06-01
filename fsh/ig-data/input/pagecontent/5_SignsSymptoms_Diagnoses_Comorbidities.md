@@ -15,7 +15,7 @@ There are two profiles in this area, one for the assertion of the presence of th
 
 The following is a profile to record/transmit any COVID19 associated diagnoses.
 
-[COVID19 Diagnoses](StructureDefinition-COVID-19-Diagnosis.html)
+[COVID19 Diagnoses](StructureDefinition-COVID-19-Snomed-Diagnosis.html)
 
 #### COVID19 Underlying Medical Conditions
 

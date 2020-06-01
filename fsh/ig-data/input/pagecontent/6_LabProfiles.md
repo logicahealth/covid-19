@@ -1,6 +1,4 @@
-﻿### Lab data
-
-
+﻿
 These profiles are based on LOINC codes specific to SARS coronavirus 2 (the causitive agent of COVID19) and a few others related to it.  Most of them are in a pre-release state and are therefore subject to change.  Their status will be updated on the normal release scheduled by Regenstrief.
 
 

@@ -1,10 +1,19 @@
-Profile: COVID19Diagnosis
+Profile: COVID19SNOMEDDiagnosis
 Parent: Condition
-Id: COVID-19-Diagnosis
-Title: "COVID 19 Diagnosis"
-Description: "A diagnosis or diagnoses asserted about the subject that is due to infection by the SARS coronavirus 2 virus."
+Id: COVID-19-Snomed-Diagnosis
+Title: "COVID 19 SNOMED Diagnosis"
+Description: "A diagnosis or diagnoses asserted about the subject that is due to infection by the SARS coronavirus 2 virus and using codes specifically from the SNOMED CT code system."
 * bodySite 0..0
-* code from COVID19DiagnosisVS (preferred)
+* code from COVID19SNOMEDDiagnosisVS (preferred)
+* severity from COVID19DiseaseSeverityVS (preferred)
+
+Profile: COVID19ICDTenDiagnosis
+Parent: Condition
+Id: COVID-19-ICD10-Diagnosis
+Title: "COVID 19 ICD 10 Diagnosis"
+Description: "A diagnosis or diagnoses asserted about the subject that is due to infection by the SARS coronavirus 2 virus and using codes specific to the ICD 10 code system."
+*bodySite 0..0
+* code from COVID19ICDDiagnosisVS (preferred)
 * severity from COVID19DiseaseSeverityVS (preferred)
 
 Profile: COVID19UnderlyingMedicalConditionPresent

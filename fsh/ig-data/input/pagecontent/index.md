@@ -12,7 +12,7 @@ DO NOT use the FHIR profiles or data elements defined in the COVID-19 HL7 FHIR I
 
 #### User Response Survey
 
-If you are using profiles or guidance from this implementation guide or plan on using them, please fill out this survey so that we know may who is using it and in what capacity.  Thank you!  [User Response Survey](https://docs.google.com/forms/d/1oDzSapfUrAkH1pAz3hLR7NXjAm5v6OxMaiRvVnLfkFs/edit)
+If you are using profiles or guidance from this implementation guide or plan on using them, please fill out this survey so that we may know who is using it and in what capacity.  Thank you!  [User Response Survey](https://docs.google.com/forms/d/1oDzSapfUrAkH1pAz3hLR7NXjAm5v6OxMaiRvVnLfkFs/edit)
 
 
 #### Sources
