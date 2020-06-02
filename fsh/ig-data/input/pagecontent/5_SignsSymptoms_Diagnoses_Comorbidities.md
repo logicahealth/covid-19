@@ -28,7 +28,7 @@ These profiles are used to capture the existence or absence of conditions, situa
 
 ##### Specific Underlying Medical Conditions
 
-These profiles are used to capture specific underlying conditions that belong to categories.  For example, underlying cardiovascular conditions.  This list will grow over time as more categories are identified.
+These profiles are used to capture specific underlying conditions that belong to categories.  For example, underlying cardiovascular conditions.  This list will grow over time as more categories are identified.  The value sets for these profiles will also grow over time as we recieve feedback and input from users and interested parties.
 
 [Underlying Cardiovascular Medical Condition](StructureDefinition-COVID-19-underlying-cardiovascular-medical-condition-present)
 
