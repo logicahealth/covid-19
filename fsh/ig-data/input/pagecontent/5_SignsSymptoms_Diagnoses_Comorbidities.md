@@ -13,9 +13,11 @@ There are two profiles in this area, one for the assertion of the presence of th
 
 #### COVID19 Diagnoses
 
-The following is a profile to record/transmit any COVID19 associated diagnoses.
+The following are profiles to record/transmit any COVID19 associated diagnoses; one for using SNOMED CT codes and one for using ICD 10 codes.
 
-[COVID19 Diagnoses](StructureDefinition-COVID-19-Snomed-Diagnosis.html)
+[COVID19 SNOMED CT Diagnoses](StructureDefinition-COVID-19-Snomed-Diagnosis.html)
+
+[COVID19 ICD10 Diagnoses](StructureDefinition-COVID-19-ICD10-Diagnosis.html)
 
 #### COVID19 Underlying Medical Conditions
 
@@ -26,7 +28,7 @@ These profiles are used to capture the existence or absence of conditions, situa
 [COVID19 Underlying Medical Conditions Absent](StructureDefinition-COVID-19-underlying-medical-condition-absent.html)
 
 
-##### Specific Underlying Medical Conditions
+<!-- ##### Specific Underlying Medical Conditions
 
 These profiles are used to capture specific underlying conditions that belong to categories.  For example, underlying cardiovascular conditions.  This list will grow over time as more categories are identified.  The value sets for these profiles will also grow over time as we recieve feedback and input from users and interested parties.
 
@@ -34,4 +36,4 @@ These profiles are used to capture specific underlying conditions that belong to
 
 [Underlying Neuroligic Medical Condition](StructureDefinition-COVID-19-underlying-neuroligic-medical-condition-present)
 
-[Underlying Immunocompromised Medical Condition](StructureDefinition-COVID-19-underlying-immunocompromised-medical-condition-present)
+[Underlying Immunocompromised Medical Condition](StructureDefinition-COVID-19-underlying-immunocompromised-medical-condition-present) -->
