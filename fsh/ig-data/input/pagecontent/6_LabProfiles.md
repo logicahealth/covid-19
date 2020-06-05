@@ -2,7 +2,7 @@
 These profiles are based on LOINC codes specific to SARS coronavirus 2 (the causitive agent of COVID19) and a few others related to it.  Most of them are in a pre-release state and are therefore subject to change.  Their status will be updated on the normal release scheduled by Regenstrief.
 
 
-For information about sending COVID19 laboratory test information using the FDA SHIELD project please visit their website here:  [FDA SHIELD project](https://mdic.org/program/systemic-harmonization-and-interoperability-enhancement-for-lab-data-shield/)
+For information about mapping COVID19 laboratory test codes to a specific test, click [here](https://www.cdc.gov/csels/dls/sars-cov-2-livd-codes.html) to download CDC's up to date test mapping tool site supported by [SHIELD](https://mdic.org/program/systemic-harmonization-and-interoperability-enhancement-for-lab-data-shield/).
 
 
 
