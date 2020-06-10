@@ -28,7 +28,7 @@ These profiles are used to capture the existence or absence of conditions, situa
 [COVID19 Underlying Medical Conditions Absent](StructureDefinition-COVID-19-underlying-medical-condition-absent.html)
 
 
-<!-- ##### Specific Underlying Medical Conditions
+##### Specific Underlying Medical Conditions
 
 These profiles are used to capture specific underlying conditions that belong to categories.  For example, underlying cardiovascular conditions.  This list will grow over time as more categories are identified.  The value sets for these profiles will also grow over time as we recieve feedback and input from users and interested parties.
 
@@ -36,4 +36,4 @@ These profiles are used to capture specific underlying conditions that belong to
 
 [Underlying Neuroligic Medical Condition](StructureDefinition-COVID-19-underlying-neuroligic-medical-condition-present)
 
-[Underlying Immunocompromised Medical Condition](StructureDefinition-COVID-19-underlying-immunocompromised-medical-condition-present) -->
+[Underlying Immunocompromised Medical Condition](StructureDefinition-COVID-19-underlying-immunocompromised-medical-condition-present)
