@@ -1,6 +1,7 @@
 {
   "package-id": "covid19",
   "title": "Logica Implementation Guide: Covid-19",
+  "url": "https://covid-19-ig.logicahealth.org",
   "canonical": "http://fhir.logicahealth.org/covid19",
   "introduction": "The COVID-19 IG describes structured data to be collected and communicated between providers and aggregators.",
   "list": [
@@ -10,6 +11,44 @@
       "path": "http://fhir.logicahealth.org/covid19",
       "status": "ci-build",
       "current": true
+    },
+    {
+      "version": "0.5.3",
+      "date": "2020-06-08",
+      "desc": "Official v0.5.3 release",
+      "path": "http://fhir.logicahealth.org/covid19",
+      "status": "draft",
+      "sequence": "Drafts",
+      "fhirversion": "4.0.1",
+      "current": true
+    },
+    {
+      "version": "0.5.2",
+      "date": "2020-06-03",
+      "desc": "Official v0.5.2 release.",
+      "path": "http://fhir.logicahealth.org/covid19/v0.5.2",
+      "status": "draft",
+      "sequence": "Drafts",
+      "fhirversion": "4.0.1",
+      "current": false
+    },
+    {
+      "version": "0.5.1",
+      "date": "2020-05-12",
+      "desc": "Official v0.5.1 release.",
+      "path": "http://fhir.logicahealth.org/covid19/v0.5.1",
+      "status": "draft",
+      "sequence": "Drafts",
+      "fhirversion": "4.0.1"
+    },
+    {
+      "version": "0.3.2",
+      "date": "2020-04-08",
+      "desc": "Official v0.3.2 release.",
+      "path": "http://fhir.logicahealth.org/covid19/v0.3.2",
+      "status": "draft",
+      "sequence": "Drafts",
+      "fhirversion": "4.0.1"
     }
   ]
 }

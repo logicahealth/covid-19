@@ -1,8 +1,8 @@
 {
   "name": "covid19",
   "version": "0.5.3",
+  "url": "https://covid-19-ig.logicahealth.org/",
   "canonical": "http://fhir.logicahealth.org/covid19",
-  "url": "http://fhir.logicahealth.org/covid19",
   "title": "Logica Implementation Guide: Covid-19",
   "description": "The COVID-19 IG describes structured data to be collected and communicated between providers and aggregators.",
   "dependencies": {
