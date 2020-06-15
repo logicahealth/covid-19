@@ -54,38 +54,38 @@ Description: "An extension to capture the degree certainty of the non-existence 
 * value[x] only CodeableConcept
 * valueCodeableConcept from CertaintyOfAbsenceVS (required)
 
-// Profile: UnderlyingCardiovascularMedicalConditionPresent
-// Parent: USCoreCondition
-// Id: underlying-cardiovascular-medical-condition-present
-// Title: "Underlying Cardiovascular Medial Condtition Present"
-// Description: "An assertion that a specific cardiovascular condition is present as an underlyer to another identified condition."
-// * modifierExtension contains
-//     CertaintyOfPresence named certaintyOfPresence 1..1
-// * bodySite 0..0
-// * code from CardivascularConditionsVS (extensible)
-// * stage 0..0
-// * evidence 0..0
+Profile: UnderlyingCardiovascularMedicalConditionPresent
+Parent: USCoreCondition
+Id: underlying-cardiovascular-medical-condition-present
+Title: "Underlying Cardiovascular Medial Condtition Present"
+Description: "An assertion that a specific cardiovascular condition is present as an underlyer to another identified condition."
+* modifierExtension contains
+    CertaintyOfPresence named certaintyOfPresence 1..1
+* bodySite 0..0
+* code from CardivascularConditionsVS (extensible)
+* stage 0..0
+* evidence 0..0
 
-// Profile: UnderlyingNeuroligicMedicalConditionPresent
-// Parent: USCoreCondition
-// Id: underlying-neuroligic-medical-condition-present
-// Title: "Underlying Neuroligic Medical Condition Present"
-// Description: "An assertion that a specific neuroligical condition is present as an underlyer to another identified condition."
-// * modifierExtension contains
-//     CertaintyOfPresence named certaintyOfPresence 1..1
-// * bodySite 0..0
-// * code from NeuroligicConditionsVS (extensible)
-// * stage 0..0
-// * evidence 0..0
+Profile: UnderlyingNeuroligicMedicalConditionPresent
+Parent: USCoreCondition
+Id: underlying-neuroligic-medical-condition-present
+Title: "Underlying Neuroligic Medical Condition Present"
+Description: "An assertion that a specific neuroligical condition is present as an underlyer to another identified condition."
+* modifierExtension contains
+    CertaintyOfPresence named certaintyOfPresence 1..1
+* bodySite 0..0
+* code from NeuroligicConditionsVS (extensible)
+* stage 0..0
+* evidence 0..0
 
-// Profile: UnderlyingImmunocompromiosedMedicalConditionPresent
-// Parent: USCoreCondition
-// Id: underlying-immunocompromised-medical-condition-present
-// Title: "Underlying Immunocompromised Medical Condition Present"
-// Description: "An assertion that a specific immunocompromised condition is present as an underlyer to another identified condition."
-// * modifierExtension contains    
-//     CertaintyOfPresence named certaintyOfPresence 1..1
-// * bodySite 0..0
-// * code from ImmunocompromisedConditionVS (extensible)
-// * stage 0..0
-// * evidence 0..0
+Profile: UnderlyingImmunocompromisedMedicalConditionPresent
+Parent: USCoreCondition
+Id: underlying-immunocompromised-medical-condition-present
+Title: "Underlying Immunocompromised Medical Condition Present"
+Description: "An assertion that a specific immunocompromised condition is present as an underlyer to another identified condition."
+* modifierExtension contains    
+    CertaintyOfPresence named certaintyOfPresence 1..1
+* bodySite 0..0
+* code from ImmunocompromisedConditionVS (extensible)
+* stage 0..0
+* evidence 0..0
