@@ -232,12 +232,11 @@ Description: "The set of codes that describe one's state of pregnancy."
 * SCT#77386006 "Patient currently pregnant (finding)"
 * SCT#60001007 "Not pregnant (finding)"
 
-ValueSet: CardivascularConditionsVS
-Id: cardiovascular-condition-value-set
-Title: "Cardiovascular Condition Value Set"
-Description: "A set of codes that describe cardiovascular medical conditions."
+ValueSet: COVID19CardivascularUnderlyingConditionsVS
+Id: covid19-underlying-cardiovascular-condition-value-set
+Title: "COVID-19 cardiovascular underlying condition reference set"
+Description: "A set of codes that describe underlying cardiovascular medical conditions for COVID19."
 * ^version = "0.1.0"
-* SCT#161514008 "History of - aortic aneurysm (situation)"
 * SCT#67362008 "Aortic aneurysm (disorder)"
 * SCT#1231000119100 "History of aortic valve replacement (situation)"
 * SCT#34068001 "Heart valve replacement (procedure)"
@@ -289,10 +288,10 @@ Description: "A set of codes that describe cardiovascular medical conditions."
 * SCT#6624005 "Ventricular tachyarrhythmia (disorder)"
 
 
-ValueSet: NeuroligicConditionsVS
-Id: neurolgic-condition-value-set
-Title: "Neurologic Condition Value Set"
-Description: "A set of codes that describe conditions of a neurologic nature."
+ValueSet: COVID19UnderlyingNeuroligicConditionsVS
+Id: covid19-underlying-neurolgic-condition-value-set
+Title: "COVID-19 neurologic underlying condition reference set"
+Description: "A set of codes that describe underlying conditions of a neurologic nature for COVID19."
 * ^version = "0.1.0"
 * SCT#86044005 "Amyotrophic lateral sclerosis (disorder)"
 * SCT#128188000 "Cerebral palsy (disorder)"
@@ -315,10 +314,10 @@ Description: "A set of codes that describe conditions of a neurologic nature."
 * SCT#127295002 "Traumatic brain injury (disorder)"
 
 
-ValueSet: ImmunocompromisedConditionVS
-Id: immunocompromised-condition-value-set
-Title: "Immunocompromised Condition Value Set"
-Description: "A set of codes that describe immmunocompromised conditions."
+ValueSet: COVID19UnderlyingImmunocompromisedConditionVS
+Id: covid19-underlying-immunocompromised-condition-value-set
+Title: "COVID-19 immunocompromised underlying condition reference set"
+Description: "A set of codes that describe underlying immmunocompromised conditions for COVID19."
 * ^version = "0.1.0"
 * SCT#62479008 "Acquired immune deficiency syndrome (AIDS) (disorder)"
 * SCT#24743004 "Complement deficiency disease (disorder)"
@@ -340,3 +339,62 @@ Description: "A set of codes that describe immmunocompromised conditions."
 * SCT#234336002 "Hemopoietic stem cell transplant (procedure)"
 * SCT#161663000 "History of - tissue/organ recipient (situation)"
 * SCT#313039003 "Solid organ transplant (procedure)"
+
+
+ValueSet: COVID19UnderlyingRespiratoryConditionVS
+Id: covid19-underlying-respiratory-condition-value-set
+Title: "COVID019 respiratory underlying condition reference set"
+Description: "A set of codes that describe underling respiratory conditions for COVID19."
+* ^version = "0.1.0"
+* SCT#427099000 "Active tuberculosis (disorder)"
+* SCT#22607003 "Asbestosis (disorder)"
+* SCT#195967001 "Asthma (disorder)"
+* SCT#12295008 "Bronchiectasis (disorder)"
+* SCT#63480004 "Chronic bronchitis (disorder)"
+* SCT#13645005 "Chronic obstructive lung disease (disorder)"
+* SCT#39871006 "Chronic respiratory failure (disorder)"
+* SCT#190905008 "Cystic fibrosis (disorder)"
+* SCT#931000119107 "Dependence on supplemental oxygen (finding)"
+* SCT#51615001 "Fibrosis of lung (disorder)"
+* SCT#233703007 "Interstitial lung disease (disorder)"
+* SCT#40100001 "Obliterative bronchiolitis (disorder)"
+* SCT#78275009 "Obstructive sleep apnea syndrome (disorder)"
+* SCT#991000119106 "Reactive airway disease (disorder)"
+* SCT#36485005 "Restrictive lung disease (disorder)"
+* SCT#31541009 "Sarcoidosis (disorder)"
+
+
+ValueSet: COVID19UnderlyingMetabolicConditionVS
+Id: covid19-underlying-metabolic-condition-value-set
+Title: "COVID-19 metabolic underlying conidition reference set"
+Description: "A set of codes that describe underlying metabolic conditions for COVID19"
+* ^version = "0.1.0"
+* SCT#128289001 "Chronic metabolic disorder (disorder)"
+* SCT#73211009 "Diabetes mellitus (disorder)"
+* SCT#30171000 "Disorder of adrenal gland (disorder)"
+* SCT#73132005 "Disorder of parathyroid gland (disorder)"
+* SCT#399244003 "Disorder of pituitary gland (disorder)"
+* SCT#86095007 "Inborn error of metabolism (disorder)"
+* SCT#237602007 "Metabolic syndrome X (disorder)"
+* SCT#34420000 "Storage disease (disorder)"
+* SCT#264580006 "Thyroid dysfunction (disorder)"
+
+
+ValueSet: COVID19UnderlyingHemoglobinopathyConditionVS
+Id: covid91-underlying-hemoglobinopathy-condition-value-set
+Title: "CVOID-19 hemoglobinopathy underlying condition reference set"
+Description: "A set of codes that describe underlying hemoglobinopathy conditions for COVID19"
+* ^version = "0.1.0"
+* SCT#68913001 "Alpha thalassemia (disorder)"
+* SCT#306058006 "Aplastic anemia (disorder)"
+* SCT#707147002 "Asplenia (disorder)"
+* SCT#65959000 "Beta thalassemia (disorder)"
+* SCT#64779008 "Blood coagulation disorder (disorder)"
+* SCT#127040003 "Sickle cell-hemoglobin SS disease (disorder)"
+* SCT#84828003 "Leukopenia (disorder)"
+* SCT#109995007 "Myelodysplastic syndrome (disorder)"
+* SCT#165517008 "Neutropenia (finding)"
+* SCT#127034005 "Pancytopenia (disorder)"
+* SCT#109992005 "Polycythemia vera (disorder)"
+* SCT#127041004 "Sickle cell-beta-thalassemia (disorder)"
+* SCT#302215000 "Thrombocytopenic disorder (disorder)"
