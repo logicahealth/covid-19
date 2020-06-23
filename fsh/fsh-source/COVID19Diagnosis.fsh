@@ -54,38 +54,74 @@ Description: "An extension to capture the degree certainty of the non-existence 
 * value[x] only CodeableConcept
 * valueCodeableConcept from CertaintyOfAbsenceVS (required)
 
-Profile: UnderlyingCardiovascularMedicalConditionPresent
+Profile: COVID19UnderlyingCardiovascularMedicalConditionPresent
 Parent: USCoreCondition
 Id: underlying-cardiovascular-medical-condition-present
 Title: "Underlying Cardiovascular Medial Condtition Present"
-Description: "An assertion that a specific cardiovascular condition is present as an underlyer to another identified condition."
+Description: "An assertion that a specific cardiovascular condition is present as an underlyer to COVID19."
 * modifierExtension contains
     CertaintyOfPresence named certaintyOfPresence 1..1
 * bodySite 0..0
-* code from CardivascularConditionsVS (extensible)
+* code from COVID19CardivascularUnderlyingConditionsVS (extensible)
 * stage 0..0
 * evidence 0..0
 
-Profile: UnderlyingNeuroligicMedicalConditionPresent
+Profile: COVID19UnderlyingNeuroligicMedicalConditionPresent
 Parent: USCoreCondition
 Id: underlying-neuroligic-medical-condition-present
 Title: "Underlying Neuroligic Medical Condition Present"
-Description: "An assertion that a specific neuroligical condition is present as an underlyer to another identified condition."
+Description: "An assertion that a specific neuroligical condition is present as an underlyer to COVID19."
 * modifierExtension contains
     CertaintyOfPresence named certaintyOfPresence 1..1
 * bodySite 0..0
-* code from NeuroligicConditionsVS (extensible)
+* code from COVID19UnderlyingNeuroligicConditionsVS (extensible)
 * stage 0..0
 * evidence 0..0
 
-Profile: UnderlyingImmunocompromisedMedicalConditionPresent
+Profile: COVID19UnderlyingImmunocompromisedMedicalConditionPresent
 Parent: USCoreCondition
 Id: underlying-immunocompromised-medical-condition-present
 Title: "Underlying Immunocompromised Medical Condition Present"
-Description: "An assertion that a specific immunocompromised condition is present as an underlyer to another identified condition."
+Description: "An assertion that a specific immunocompromised condition is present as an underlyer to COVID19."
 * modifierExtension contains    
     CertaintyOfPresence named certaintyOfPresence 1..1
 * bodySite 0..0
-* code from ImmunocompromisedConditionVS (extensible)
+* code from COVID19UnderlyingImmunocompromisedConditionVS (extensible)
+* stage 0..0
+* evidence 0..0
+
+Profile: COVID19RespiratoryUnderlyingMedicalConditionPresent
+Parent: USCoreCondition
+Id: underlying-respiratory-medical-condition-present
+Title: "COVID-19 respiratory underlying condition"
+Description: "An assertion that a specific repsiratory condition is present as an underlyer to COVID19."
+* modifierExtension contains
+    CertaintyOfPresence named certaintyOfPresence 1..1
+* bodySite 0..0
+* code from COVID19UnderlyingRespiratoryConditionVS (extensible)
+* stage 0..0
+* evidence 0..0
+
+Profile: COVID19UnderlyingMetabolicMedicalConditionPresent
+Parent: USCoreCondition
+Id: underlying-metabolic-medical-condition-present
+Title: "COVID-19 neuroligic underlying condition"
+Description: "An assertion that a specific metabolic condition is present as an underlyier to COVID19."
+* modifierExtension contains
+    CertaintyOfPresence named certaintyOfPresence 1..1
+* bodySite 0..0
+* code from COVID19UnderlyingMetabolicConditionVS (extensible)
+* stage 0..0
+* evidence 0..0
+
+Profile: COVID19HemoglobinopathyUnderlyingMedicalConditionPresent
+Parent: USCoreCondition
+Id: underlying-hemoglobinopathy-medical-condition-present
+Title: "COVID-19 hemoglobinopathy underlying condition"
+Description: "An assertion that a specific hemoglobinopathy condition is present as an underlying to COVID19."
+* modifierExtension contains
+    CertaintyOfPresence named certaintyOfPresence 1..1
+* bodySite 0..0
+* code from COVID19UnderlyingHemoglobinopathyConditionVS (extensible)
 * stage 0..0
 * evidence 0..0

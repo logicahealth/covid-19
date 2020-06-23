@@ -23,17 +23,23 @@ The following are profiles to record/transmit any COVID19 associated diagnoses; 
 
 These profiles are used to capture the existence or absence of conditions, situations, procedures, or other issues that could exacerbate COVID19 or that could be exacerbated by COVID19.  The value set for this is somewhat short for now and contains many general categories.  It will change over time as people and organizations make suggestions or have requirements.  Specific profiles for comorbid categories will also be created, such as "COVID19 Chronic Lung Diesase Comorbidities", and will have value sets of conditions specific to and members of the general category.
 
-[COVID19 Underlying Medical Conditions Present](StructureDefinition-COVID-19-underlying-medical-condition-presesnt.html)
+[COVID19 Underlying Medical Conditions Present](StructureDefinition-COVID-19-underlying-medical-condition-present.html)
 
 [COVID19 Underlying Medical Conditions Absent](StructureDefinition-COVID-19-underlying-medical-condition-absent.html)
 
 
-##### Specific Underlying Medical Conditions
+##### Specific COVID19 Underlying Medical Conditions
 
 These profiles are used to capture specific underlying conditions that belong to categories.  For example, underlying cardiovascular conditions.  This list will grow over time as more categories are identified.  The value sets for these profiles will also grow over time as we recieve feedback and input from users and interested parties.
 
-[Underlying Cardiovascular Medical Condition](StructureDefinition-COVID-19-underlying-cardiovascular-medical-condition-present)
+[COVID-19 cardiovascular underlying condition](StructureDefinition-COVID-19-underlying-cardiovascular-medical-condition-present)
 
-[Underlying Neuroligic Medical Condition](StructureDefinition-COVID-19-underlying-neuroligic-medical-condition-present)
+[COVID-19 neuroligic underlying condition](StructureDefinition-COVID-19-underlying-neuroligic-medical-condition-present)
 
-[Underlying Immunocompromised Medical Condition](StructureDefinition-COVID-19-underlying-immunocompromised-medical-condition-present)
+[COVID-19 immunocompromised underlying condition](StructureDefinition-COVID-19-underlying-immunocompromised-medical-condition-present)
+
+[COVID-19 respiratory underlying conditino](StructureDefinition-COVID-19-underlying-respiratory-medical-condition-present)
+
+[COVID-19 metabolic underlying condition](StructureDefinition-COVID-19-underlying-metabolic-medical-condition-present)
+
+[COVID-19 hemoglobinopathy underlying condition](StructureDefinition-COVID-19-underlying-hemoglobinopathy-medical-condition-present)
