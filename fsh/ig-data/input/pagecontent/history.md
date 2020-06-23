@@ -1,5 +1,5 @@
 
-### Pre-Built Imaages
+### Pre-Built Images
 All IG releases are published in the form of pre-built images on [the Docker Hub repository](https://hub.docker.com/r/logicahealth/covid-19-ig).
 
 ### Release Notes
