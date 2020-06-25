@@ -1,7 +1,7 @@
 Profile: COVID19SNOMEDDiagnosis
 Parent: Condition
 Id: COVID-19-Snomed-Diagnosis
-Title: "COVID 19 SNOMED Diagnosis"
+Title: "COVID-19 SNOMED Diagnosis"
 Description: "A diagnosis or diagnoses asserted about the subject that is due to infection by the SARS coronavirus 2 virus and using codes specifically from the SNOMED CT code system."
 * bodySite 0..0
 * code from COVID19SNOMEDDiagnosisVS (preferred)
@@ -10,7 +10,7 @@ Description: "A diagnosis or diagnoses asserted about the subject that is due to
 Profile: COVID19ICDTenDiagnosis
 Parent: Condition
 Id: COVID-19-ICD10-Diagnosis
-Title: "COVID 19 ICD 10 Diagnosis"
+Title: "COVID-19 ICD 10 Diagnosis"
 Description: "A diagnosis or diagnoses asserted about the subject that is due to infection by the SARS coronavirus 2 virus and using codes specific to the ICD 10 code system."
 * bodySite 0..0
 * code from COVID19ICDDiagnosisVS (preferred)
@@ -19,7 +19,7 @@ Description: "A diagnosis or diagnoses asserted about the subject that is due to
 Profile: COVID19UnderlyingMedicalConditionPresent
 Parent: USCoreCondition
 Id: COVID-19-underlying-medical-condition-present
-Title: "COVID 19 General Comorbidities Present"
+Title: "COVID-19 General Comorbidities Present"
 Description: "An assertion that genrealized conditions such as chronic respiratiory disease are also present with the COVID19 disease."
 * modifierExtension contains
     CertaintyOfPresence named certaintyOfPresence 1..1
@@ -38,7 +38,7 @@ Description: "An extension to capture the degree certainty of the existence of a
 Profile: COVID19UnderlyingMedicalConditionAbsent
 Parent: USCoreCondition
 Id: COVID-19-underlying-medical-condition-absent
-Title: "COVID 19 General Comorbidities Absent"
+Title: "COVID-19 General Comorbidities Absent"
 Description: "An assertion that generalized conditions such as chronic respiratory disease ARE NOT present along with the COVID19 disease."
 * modifierExtension contains
     CertaintyOfAbsence named certaintyOfAbsence 1..1
@@ -57,7 +57,7 @@ Description: "An extension to capture the degree certainty of the non-existence 
 Profile: COVID19UnderlyingCardiovascularMedicalConditionPresent
 Parent: USCoreCondition
 Id: underlying-cardiovascular-medical-condition-present
-Title: "Underlying Cardiovascular Medial Condtition Present"
+Title: "COVID-19 cardiovascular underlying condtition"
 Description: "An assertion that a specific cardiovascular condition is present as an underlyer to COVID19."
 * modifierExtension contains
     CertaintyOfPresence named certaintyOfPresence 1..1
@@ -69,7 +69,7 @@ Description: "An assertion that a specific cardiovascular condition is present a
 Profile: COVID19UnderlyingNeuroligicMedicalConditionPresent
 Parent: USCoreCondition
 Id: underlying-neuroligic-medical-condition-present
-Title: "Underlying Neuroligic Medical Condition Present"
+Title: "COVID-19 neuroligic underlying condition"
 Description: "An assertion that a specific neuroligical condition is present as an underlyer to COVID19."
 * modifierExtension contains
     CertaintyOfPresence named certaintyOfPresence 1..1
@@ -81,7 +81,7 @@ Description: "An assertion that a specific neuroligical condition is present as 
 Profile: COVID19UnderlyingImmunocompromisedMedicalConditionPresent
 Parent: USCoreCondition
 Id: underlying-immunocompromised-medical-condition-present
-Title: "Underlying Immunocompromised Medical Condition Present"
+Title: "COVID-19 immunocompromised underlying condition"
 Description: "An assertion that a specific immunocompromised condition is present as an underlyer to COVID19."
 * modifierExtension contains    
     CertaintyOfPresence named certaintyOfPresence 1..1
@@ -105,7 +105,7 @@ Description: "An assertion that a specific repsiratory condition is present as a
 Profile: COVID19UnderlyingMetabolicMedicalConditionPresent
 Parent: USCoreCondition
 Id: underlying-metabolic-medical-condition-present
-Title: "COVID-19 neuroligic underlying condition"
+Title: "COVID-19 metabolic underlying condition"
 Description: "An assertion that a specific metabolic condition is present as an underlyier to COVID19."
 * modifierExtension contains
     CertaintyOfPresence named certaintyOfPresence 1..1

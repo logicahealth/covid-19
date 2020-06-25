@@ -399,170 +399,170 @@ Description: "SARScoronavirus2AbIgAACncPtSerPlasQnIALabObs is a quantitative tes
 * value[x] only Quantity
 * valueQuantity units = UCUM#[arb'U]/ml
 
-// Profile: SARSCoV2RNACycleThresholdRespQnNAAProbAmpTar
-// Parent: QuantitativeLaboratoryObservationBase
-// Title: "SARS-CoV-2 (COVID19) RNA [Cycle Threshold#] in Respiratory specimen by NAA with probe detection"
-// Description: "SARSCoV2RNACycleThresholdRespQnNAAProbAmpTar is a quantitative test for SARS-CoV-2 (COVID19) RNA via NAA with probe dection cycle threshold # in respiratory specimens."
-// * code = LNC#94745-7
-// * value[x] only Quantity
-// * valueQuantity units = UCUM#[arb'U]/ml
+Profile: SARSCoV2RNACycleThresholdRespQnNAAProbAmpTar
+Parent: QuantitativeLaboratoryObservationBase
+Title: "SARS-CoV-2 (COVID19) RNA [Cycle Threshold#] in Respiratory specimen by NAA with probe detection"
+Description: "SARSCoV2RNACycleThresholdRespQnNAAProbAmpTar is a quantitative test for SARS-CoV-2 (COVID19) RNA via NAA with probe dection cycle threshold # in respiratory specimens."
+* code = LNC#94745-7
+* value[x] only Quantity
+* valueQuantity units = UCUM#[arb'U]/ml
 
-// Profile: SARSCoV2RNAThreshNumPtXXXQnProbAmpTar
-// Parent: QuantitativeLaboratoryObservationBase
-// Title: "SARS-CoV-2 (COVID19) RNA [Cycle Threshold#] in Unspecified specimen by NAA with probe detection"
-// Description: "SARSCoV2RNAThreshNumPtXXXQnProbAmpTar is a quantitative test for SARS-CoV-2 (COVID19) RNA via NAA with probe detection and a threshold number detection limit in unspecified specimens."
-// * code = LNC#94745-5
-// * value[x] only Quantity
-// * valueQuantity units = UCUM#[arb'U]/ml
+Profile: SARSCoV2RNAThreshNumPtXXXQnProbAmpTar
+Parent: QuantitativeLaboratoryObservationBase
+Title: "SARS-CoV-2 (COVID19) RNA [Cycle Threshold#] in Unspecified specimen by NAA with probe detection"
+Description: "SARSCoV2RNAThreshNumPtXXXQnProbAmpTar is a quantitative test for SARS-CoV-2 (COVID19) RNA via NAA with probe detection and a threshold number detection limit in unspecified specimens."
+* code = LNC#94745-5
+* value[x] only Quantity
+* valueQuantity units = UCUM#[arb'U]/ml
 
-// Profile: SARSCoV2EgenePrThrPtRespOrdProbAmpTar
-// Parent: CodedLaboratoryObservationBase
-// Title: "SARS-CoV-2 (COVID19) E gene [Presence] in Respiratory specimen by NAA with probe detection"
-// Description: "SARSCoV2EgenePrThrPtRespOrdProbAmpTar is a test for the detection of the SARS-CoV-2 (COVID19) E gene via NAA with probe detection in respiratory specimens"
-// * code = LNC#94758-0
-// * value[x] only CodeableConcept
-// * valueCodeableConcept from DetNotDetEqInVS
+Profile: SARSCoV2EgenePrThrPtRespOrdProbAmpTar
+Parent: CodedLaboratoryObservationBase
+Title: "SARS-CoV-2 (COVID19) E gene [Presence] in Respiratory specimen by NAA with probe detection"
+Description: "SARSCoV2EgenePrThrPtRespOrdProbAmpTar is a test for the detection of the SARS-CoV-2 (COVID19) E gene via NAA with probe detection in respiratory specimens"
+* code = LNC#94758-0
+* value[x] only CodeableConcept
+* valueCodeableConcept from DetNotDetEqInVS
 
-// Profile: SARSCoV2NgenePrThrPtRespOrdProbAmpTarN1
-// Parent: CodedLaboratoryObservationBase
-// Title: "SARS-CoV-2 (COVID19) N gene [Presence] in Respiratory specimen by Nucleic acid amplification using CDC primer-probe set N1"
-// Description: "SARSCoV2NgenePrThrPtRespOrdProbAmpTarN1 is a test for the detection of the SARS-CoV-2 (COVID19) N gene via nucleic acid amplification using CDC primer-probe set N1 in respiratory specimens."
-// * code = LNC#94756-4
-// * value[x] only CodeableConcept
-// * valueCodeableConcept from DetNotDetEqInVS
+Profile: SARSCoV2NgenePrThrPtRespOrdProbAmpTarN1
+Parent: CodedLaboratoryObservationBase
+Title: "SARS-CoV-2 (COVID19) N gene [Presence] in Respiratory specimen by Nucleic acid amplification using CDC primer-probe set N1"
+Description: "SARSCoV2NgenePrThrPtRespOrdProbAmpTarN1 is a test for the detection of the SARS-CoV-2 (COVID19) N gene via nucleic acid amplification using CDC primer-probe set N1 in respiratory specimens."
+* code = LNC#94756-4
+* value[x] only CodeableConcept
+* valueCodeableConcept from DetNotDetEqInVS
 
-// Profile: SARSCoV2NgenePrThrPtRespOrdProbAmpTarN2
-// Parent: CodedLaboratoryObservationBase
-// Title: "SARS-CoV-2 (COVID19) N gene [Presence] in Respiratory specimen by Nucleaic acid amplification using CDC primer-probe set N2"
-// Description: "SARSCoV2NgenePrThrPtRespOrdProbAmpTarN2 is a test for the detection of the SARS-CoV-2 (COVID19) N gene via nucleic acid amplification using CDC primer-probe set N2 in respiratroty specimens"
-// * code = LNC#947575-2
-// * value[x] only CodeableConcept
-// * valueCodeableConcept from DetNotDetEqInVS
+Profile: SARSCoV2NgenePrThrPtRespOrdProbAmpTarN2
+Parent: CodedLaboratoryObservationBase
+Title: "SARS-CoV-2 (COVID19) N gene [Presence] in Respiratory specimen by Nucleaic acid amplification using CDC primer-probe set N2"
+Description: "SARSCoV2NgenePrThrPtRespOrdProbAmpTarN2 is a test for the detection of the SARS-CoV-2 (COVID19) N gene via nucleic acid amplification using CDC primer-probe set N2 in respiratroty specimens"
+* code = LNC#947575-2
+* value[x] only CodeableConcept
+* valueCodeableConcept from DetNotDetEqInVS
 
-// Profile: SARCCoV2AbIgGPrThrPtBldDotOrsdIA
-// Parent: CodedLaboratoryObservationBase
-// Title: "SARS-CoV-2 (COVID19) IgG Ab [Presence] in DBS by Immunoassay"
-// Description: "SARCCoV2AbIgGPrThrPtBldDotOrsdIA is a test for the SARS-CoV-2 (COVID19) IgG antibody via immunoassay on blood filer paper."
-// * code = LNC#94761-4
-// * value[x] only CodedLaboratoryObservationBase
-// * valueCodeableConcept from DetNotDetEqInVS
+Profile: SARCCoV2AbIgGPrThrPtBldDotOrsdIA
+Parent: CodedLaboratoryObservationBase
+Title: "SARS-CoV-2 (COVID19) IgG Ab [Presence] in DBS by Immunoassay"
+Description: "SARCCoV2AbIgGPrThrPtBldDotOrsdIA is a test for the SARS-CoV-2 (COVID19) IgG antibody via immunoassay on blood filer paper."
+* code = LNC#94761-4
+* value[x] only CodeableConcept
+* valueCodeableConcept from DetNotDetEqInVS
 
-// Profile: SARSCoV2NgenePrThrPtNphOrdProbAmpTar
-// Parent: CodedLaboratoryObservationBase
-// Title: "SARS-CoV-2 (COVID19) N gene [Presence] in Nasopharynx by NAA with probe detection"
-// Description: "SARSCoV2NgenePrThrPtNphOrdProbAmpTar is a test for the detection of the SARS-CoV-2 (COVID19) N gene via target amplification in nasopharynx specimens"
-// * code = LNC#94760-6
-// * value[x] only CodeableConcept
-// * valueCodeableConcept from DetNotDetEqInVS
+Profile: SARSCoV2NgenePrThrPtNphOrdProbAmpTar
+Parent: CodedLaboratoryObservationBase
+Title: "SARS-CoV-2 (COVID19) N gene [Presence] in Nasopharynx by NAA with probe detection"
+Description: "SARSCoV2NgenePrThrPtNphOrdProbAmpTar is a test for the detection of the SARS-CoV-2 (COVID19) N gene via target amplification in nasopharynx specimens"
+* code = LNC#94760-6
+* value[x] only CodeableConcept
+* valueCodeableConcept from DetNotDetEqInVS
 
-// Profile: SARSCoV2RNAPrThrPtNphOrsdProbAmpTar
-// Parent: CodedLaboratoryObservationBase
-// Title: "Sars-CoV-2 (COVID19) RNA [Presence] in Nasopharynx by NAA with probe detection"
-// Description: "SARSCoV2RNAPrThrPtNphOrsdProbAmpTar is a test for the detection of SARS-CoV-2 (COVID19) RNA via probe target amplification in nasopharynx specimens."
-// * code = LNC#94759-8
-// * value[x] only CodeableConcept
-// * valueCodeableConcept from DetNotDetEqInVS
+Profile: SARSCoV2RNAPrThrPtNphOrsdProbAmpTar
+Parent: CodedLaboratoryObservationBase
+Title: "Sars-CoV-2 (COVID19) RNA [Presence] in Nasopharynx by NAA with probe detection"
+Description: "SARSCoV2RNAPrThrPtNphOrsdProbAmpTar is a test for the detection of SARS-CoV-2 (COVID19) RNA via probe target amplification in nasopharynx specimens."
+* code = LNC#94759-8
+* value[x] only CodeableConcept
+* valueCodeableConcept from DetNotDetEqInVS
 
-// Profile: SARSCoV2AbPrThrPtSerPlasOrdIA
-// Parent: CodedLaboratoryObservationBase
-// Title: "SARS-CoV-2 (COVID19) Ab [Presence] in Serum or Plasma by Immunoassay"
-// Description: "SARSCoV2AbPrThrPtSerPlasOrdIA is a test for the detection of antibodies to SARS-CoV-2 (COVID19) via imunoassay in serum or plasma."
-// * code = LNC#94762-2
-// * value[x] only CodedLaboratoryObservationBase
-// * valueCodeableConcept from DetNotDetEqInVS
+Profile: SARSCoV2AbPrThrPtSerPlasOrdIA
+Parent: CodedLaboratoryObservationBase
+Title: "SARS-CoV-2 (COVID19) Ab [Presence] in Serum or Plasma by Immunoassay"
+Description: "SARSCoV2AbPrThrPtSerPlasOrdIA is a test for the detection of antibodies to SARS-CoV-2 (COVID19) via imunoassay in serum or plasma."
+* code = LNC#94762-2
+* value[x] only CodeableConcept
+* valueCodeableConcept from DetNotDetEqInVS
 
-// Profile: SARSCoV2PrThrPtXXXOrdOrganismSpecificCulture
-// Parent: CodedLaboratoryObservationBase
-// Title: "SARS-CoV-2 (COVID19) [Presence] in Unspecified specimen by Organism specific culture"
-// Description: "SARSCoV2PrThrPtXXXOrdOrganismSpecificCulture is a test for the detection of growth of the SARS-CoV-2 (COVID19) organism via organism specific culture."
-// * code = LNC#94763-0
-// * value[x] only CodeableConcept
-// * valueCodeableConcept from DetNotDetEqInVS
+Profile: SARSCoV2PrThrPtXXXOrdOrganismSpecificCulture
+Parent: CodedLaboratoryObservationBase
+Title: "SARS-CoV-2 (COVID19) [Presence] in Unspecified specimen by Organism specific culture"
+Description: "SARSCoV2PrThrPtXXXOrdOrganismSpecificCulture is a test for the detection of growth of the SARS-CoV-2 (COVID19) organism via organism specific culture."
+* code = LNC#94763-0
+* value[x] only CodeableConcept
+* valueCodeableConcept from DetNotDetEqInVS
 
-// Profile: SARSCoV2wholegenomeSeqPtIsolateNomSequencing
-// Parent: CodedLaboratoryObservationBase
-// Title: "SARS-coV-2 (COVID19) whole genome [Nucleiotide sequence] in Isolate by Sequencing"
-// Description: "SARSCoV2wholegenomeSeqPtIsolateNomSequencing is a test to sequence the SARS-CoV-2 (COVID19) genome from an isolate specimen with coded results"
-// * code = LNC#94764-8
-// * value[x] only CodeableConcept
+Profile: SARSCoV2wholegenomeSeqPtIsolateNomSequencing
+Parent: CodedLaboratoryObservationBase
+Title: "SARS-coV-2 (COVID19) whole genome [Nucleiotide sequence] in Isolate by Sequencing"
+Description: "SARSCoV2wholegenomeSeqPtIsolateNomSequencing is a test to sequence the SARS-CoV-2 (COVID19) genome from an isolate specimen with coded results"
+* code = LNC#94764-8
+* value[x] only CodeableConcept
 
-// Profile: SARSCoV2SgenePrThrPtSerPlasOrdProbAmpTar
-// Parent: CodedLaboratoryObservationBase
-// Title: "SARS-CoV-2 (COVID19) S gene [Presence] in Serum or Plasma by NAA with probe detection"
-// Description "SARSCoV2SgenePrThrPtSerPlasOrdProbAmpTar is test for the detection of the SARS-CoV-2 (COVID19) S gene via target amplification in serum or plasma specimens."
-// * code = LNC#94767-1
-// * value[x] only CodeableConcept
-// * valueCodeableConcept from DetNotDetEqInVS
+Profile: SARSCoV2SgenePrThrPtSerPlasOrdProbAmpTar
+Parent: CodedLaboratoryObservationBase
+Title: "SARS-CoV-2 (COVID19) S gene [Presence] in Serum or Plasma by NAA with probe detection"
+Description: "SARSCoV2SgenePrThrPtSerPlasOrdProbAmpTar is test for the detection of the SARS-CoV-2 (COVID19) S gene via target amplification in serum or plasma specimens."
+* code = LNC#94767-1
+* value[x] only CodeableConcept
+* valueCodeableConcept from DetNotDetEqInVS
 
-// Profile: SARSCoV2EgenePrThrPtSerPlasOrdProbAmpTar
-// Parent: CodedLaboratoryObservationBase
-// Title: "SARS-CoV-2 (COVID19) E gene [Presence] in Serum or Plasma by NAA with probe detection"
-// Description: "SARSCoV2EgenePrThrPtSerPlasOrdProbAmpTar is a test for the detection of the SARS-CoV-2 (COVID19) E gene via NAA probe detection in serum or plasma specimens."
-// * code = LNC#94765-5
-// * value[x] only CodeableConcept
-// * valueCodeableConcept from DetNotDetEqInVS
+Profile: SARSCoV2EgenePrThrPtSerPlasOrdProbAmpTar
+Parent: CodedLaboratoryObservationBase
+Title: "SARS-CoV-2 (COVID19) E gene [Presence] in Serum or Plasma by NAA with probe detection"
+Description: "SARSCoV2EgenePrThrPtSerPlasOrdProbAmpTar is a test for the detection of the SARS-CoV-2 (COVID19) E gene via NAA probe detection in serum or plasma specimens."
+* code = LNC#94765-5
+* value[x] only CodeableConcept
+* valueCodeableConcept from DetNotDetEqInVS
 
-// Profile: SARSCoV2NgenePrThrPtSerPlasOrdProbAmpTar
-// Parent: CodedLaboratoryObservationBase
-// Title: "SARS-CoV-2 (COVID19) N gene [Presence] in Serum or Plasma by NAA with probe detection"
-// Description: "SARSCoV2NgenePrThrPtSerPlasOrdProbAmpTar is a test for the detection of the SARS-CoV-2 (COVID19) N gene via NAA probe detection in serum or plasma specimens."
-// * code = LNC#94766-3
-// * value[x] only CodeableConcept
-// * valueCodeableConcept from DetNotDetEqInVS
+Profile: SARSCoV2NgenePrThrPtSerPlasOrdProbAmpTar
+Parent: CodedLaboratoryObservationBase
+Title: "SARS-CoV-2 (COVID19) N gene [Presence] in Serum or Plasma by NAA with probe detection"
+Description: "SARSCoV2NgenePrThrPtSerPlasOrdProbAmpTar is a test for the detection of the SARS-CoV-2 (COVID19) N gene via NAA probe detection in serum or plasma specimens."
+* code = LNC#94766-3
+* value[x] only CodeableConcept
+* valueCodeableConcept from DetNotDetEqInVS
 
-// Profile: SARSCoV2AbIgAPrThrPtSerPlasBldOrdIARapid
-// Parent: CodedLaboratoryObservationBase
-// Title: "SARS-CoV-2 (COVID19) IgA Ab [Presence] in Serum, Plasma, or Blood by Rapid imunoassay"
-// Description: "SARSCoV2AbIgAPrThrPtSerPlasBldOrdIARapid is a test for the presence of the SARS-CoV-2 (COVID19) IgA antibody in serum, plasma, or blood via rapid immunoassay."
-// * code = LNC#94768-9
-// * value[x] only CodeableConcept
-// * valueCodeableConcept from DetNotDetEqInVS
+Profile: SARSCoV2AbIgAPrThrPtSerPlasBldOrdIARapid
+Parent: CodedLaboratoryObservationBase
+Title: "SARS-CoV-2 (COVID19) IgA Ab [Presence] in Serum, Plasma, or Blood by Rapid imunoassay"
+Description: "SARSCoV2AbIgAPrThrPtSerPlasBldOrdIARapid is a test for the presence of the SARS-CoV-2 (COVID19) IgA antibody in serum, plasma, or blood via rapid immunoassay."
+* code = LNC#94768-9
+* value[x] only CodeableConcept
+* valueCodeableConcept from DetNotDetEqInVS
 
-// Profile: SARSCoV2AbACncPtSerPlasQnIA
-// Parent: QuantitativeLaboratoryObservationBase
-// Title: "SARS-CoV-2 (COVID19) Ab [Units/volume] in Serum or Plasma by Immunoassay"
-// Description: "SARSCoV2AbACncPtSerPlasQnIA is a quantitative test for the amount of SARS-CoV-2 (COVID19) anitboy in serum or plasma via immnoassay."
-// * code = LNC#94769-7
-// * value[x] only Quantity
-// * valueQuantity units = UCUM#[arb'U]/ml
+Profile: SARSCoV2AbACncPtSerPlasQnIA
+Parent: QuantitativeLaboratoryObservationBase
+Title: "SARS-CoV-2 (COVID19) Ab [Units/volume] in Serum or Plasma by Immunoassay"
+Description: "SARSCoV2AbACncPtSerPlasQnIA is a quantitative test for the amount of SARS-CoV-2 (COVID19) anitboy in serum or plasma via immnoassay."
+* code = LNC#94769-7
+* value[x] only Quantity
+* valueQuantity units = UCUM#[arb'U]/ml
 
-// Profile: SARSCoV2RNALnCncPtXXXQnProbAmpTar
-// Parent: QuantitativeLaboratoryObservationBase
-// Title: "SARS-CoV-2 (COVID19) RNA [Log#/volume] (viral load) in Unspecified specimen by NAA with probe detection"
-// Description: "SARSCoV2RNALnCncPtXXXQnProbAmpTar is a quantitative test for the viral load (log number per volume) of SARS-CoV-2 (COVID19) RNA via NAA probe detection in unspecified specimens."
-// * code = LNC#94819-0
-// * value[x] only Quantity
-// * valueQuantity units = UCUM#[arb"U]/ml
+Profile: SARSCoV2RNALnCncPtXXXQnProbAmpTar
+Parent: QuantitativeLaboratoryObservationBase
+Title: "SARS-CoV-2 (COVID19) RNA [Log#/volume] (viral load) in Unspecified specimen by NAA with probe detection"
+Description: "SARSCoV2RNALnCncPtXXXQnProbAmpTar is a quantitative test for the viral load (log number per volume) of SARS-CoV-2 (COVID19) RNA via NAA probe detection in unspecified specimens."
+* code = LNC#94819-0
+* value[x] only Quantity
+* valueQuantity units = UCUM#[arb"U]/ml
 
-// Profile: SARSCoV2RNAPrThrPtSalivaOrdSequencing
-// Parent: CodedLaboratoryObservationBase
-// Title: "SARS-CoV-2 (COVID19) RNA [Presence] in Saliva (oral fluid) by Seqencing"
-// Description: "SARSCoV2RNAPrThrPtSalivaOrdSequencing is a qualitative test for the detection of SARS-CoV-2 (COVID19) RNA via RNA sequencing in saliva (oral fluid) specimen."
-// * code = LNC#94822-4
-// * value[x] only CodeableConcept
-// * valueCodeableConcept from DetNotDetEqInVS
+Profile: SARSCoV2RNAPrThrPtSalivaOrdSequencing
+Parent: CodedLaboratoryObservationBase
+Title: "SARS-CoV-2 (COVID19) RNA [Presence] in Saliva (oral fluid) by Seqencing"
+Description: "SARSCoV2RNAPrThrPtSalivaOrdSequencing is a qualitative test for the detection of SARS-CoV-2 (COVID19) RNA via RNA sequencing in saliva (oral fluid) specimen."
+* code = LNC#94822-4
+* value[x] only CodeableConcept
+* valueCodeableConcept from DetNotDetEqInVS
 
-// Profile: SARSCoV2RNAPrThrPtSalivaOrdProbAmpTar
-// Parent: CodedLaboratoryObservationBase
-// Title: "SARS-CoV-2 (COVID19) RNA [Presence] in Saliva (oral fluid) by NAA with probe"
-// Description: "SARSCoV2RNAPrThrPtSalivaOrdProbAmpTar is a qualitative test for the detection of SARS-CoV-2 (COVID19) RNA via NAA probe detection in saliva (oral fluid)."
-// * code = LNC#94845-5
-// * value[x] only CodeableConcept
-// * CodeableConcept from DetNotDetEqInVS
+Profile: SARSCoV2RNAPrThrPtSalivaOrdProbAmpTar
+Parent: CodedLaboratoryObservationBase
+Title: "SARS-CoV-2 (COVID19) RNA [Presence] in Saliva (oral fluid) by NAA with probe"
+Description: "SARSCoV2RNAPrThrPtSalivaOrdProbAmpTar is a qualitative test for the detection of SARS-CoV-2 (COVID19) RNA via NAA probe detection in saliva (oral fluid)."
+* code = LNC#94845-5
+* value[x] only CodeableConcept
+* valueCodeableConcept from DetNotDetEqInVS
 
-// Profile: SARSCoV2AbIgAplusIgMPrThrPtSerPlasordIA
-// Parent: CodedLaboratoryObservationBase
-// Title: "SARS-CoV-2 (COVID19) IgA + IgM [Presence] in Serum or Plasma by Immunoassay"
-// Description: "SARSCoV2AbIgAplusIgMPrThrPtSerPlasordIA is a qualitative test for the SARS-CoV-2 (COVID19) IgA or IgM antibodies via immunoassay in serum or plasma specimens."
-// * code =LNC#95125-1
-// * value[x] only CodeableConcept
-// * valueCodeableConcept from DetNotDetEqInVS
+Profile: SARSCoV2AbIgAplusIgMPrThrPtSerPlasordIA
+Parent: CodedLaboratoryObservationBase
+Title: "SARS-CoV-2 (COVID19) IgA + IgM [Presence] in Serum or Plasma by Immunoassay"
+Description: "SARSCoV2AbIgAplusIgMPrThrPtSerPlasordIA is a qualitative test for the SARS-CoV-2 (COVID19) IgA or IgM antibodies via immunoassay in serum or plasma specimens."
+* code = LNC#95125-1
+* value[x] only CodeableConcept
+* valueCodeableConcept from DetNotDetEqInVS
 
-// Profile: SARSCoronavirusPlusSARSCoV2AgPrThrPtRespOrdIARapid
-// Parent: CodedLaboratoryObservationBase
-// Title: "SARS-CoV + SARS-Cov-2 (COVID19) Ag [Presence] in Respiratory specimen by Rapid immunoassay"
-// Description: "SARSCoronavirusPlusSARSCoV2AgPrThrPtRespOrdIARapid is a qualitative test for the detection of SARS-Cov or SARS-CoV-2 (COVID19) antigens via rapdi immunoassay in respiratory specimens."
-// * code = LNC#95209-3
-// * value[x] only CodeableConcept
-// * valueCodeableConcept from DetNotDetEqInVS
+Profile: SARSCoronavirusPlusSARSCoV2AgPrThrPtRespOrdIARapid
+Parent: CodedLaboratoryObservationBase
+Title: "SARS-CoV + SARS-Cov-2 (COVID19) Ag [Presence] in Respiratory specimen by Rapid immunoassay"
+Description: "SARSCoronavirusPlusSARSCoV2AgPrThrPtRespOrdIARapid is a qualitative test for the detection of SARS-Cov or SARS-CoV-2 (COVID19) antigens via rapdi immunoassay in respiratory specimens."
+* code = LNC#95209-3
+* value[x] only CodeableConcept
+* valueCodeableConcept from DetNotDetEqInVS
 

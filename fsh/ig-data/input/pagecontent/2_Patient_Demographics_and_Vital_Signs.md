@@ -7,15 +7,15 @@ The following table shows which FHIR Patient resource element is used for each p
 
 | Reporting form element     | Patient Resource element | Corresponding LOINC code |
 | :--------------------- | :----------------------- | :----------------------- |
-| Patient first name     | Patient.name(HumanName).given | [45392-8](loinc.org/45392-8/) |
-| Patient middle name    | Patient.name(HumanName).given | [52461-1](loinc.org/52461-1/) |
-| Patient last name      | Patient.name(HumanName).family | [45394-4](loinc.org/45394-4/) |
-| Date of birth          | Patient.birthDate | [21112-8](loinc.org/45394-4/) |
-| Patient Identifier    | Patient.identifier | [76435-7](loinc.org/76435-7/) |
-| Age  | *This is not an element in the FHIR Patient resource*     | [30525-0](loinc.org/30525-0/) |
-| Sex | Patient.birthSex(extension) | [72143-4](loinc.org/72143-4/) |
-| Race | Patient.race(extension) | [72826-1](loinc.org/72826-1/) |
-| Ethnicity | Patient.ethnicity(extension) | [69490-1](loinc.org/69490-1/) |
+| Patient first name     | Patient.name(HumanName).given | [45392-8](https://search.loinc.org/searchLOINC/search.zul?query=45392-8) |
+| Patient middle name    | Patient.name(HumanName).given | [52461-1](https://search.loinc.org/searchLOINC/search.zul?query=52461-1) |
+| Patient last name      | Patient.name(HumanName).family | [45394-4](https://search.loinc.org/searchLOINC/search.zul?query=45394-4) |
+| Date of birth          | Patient.birthDate | [21112-8](https://search.loinc.org/searchLOINC/search.zul?query=45394-4) |
+| Patient Identifier    | Patient.identifier | [76435-7](https://search.loinc.org/searchLOINC/search.zul?query=76435-7) |
+| Age  | *This is not an element in the FHIR Patient resource*     | [30525-0](https://search.loinc.org/searchLOINC/search.zul?query=30525-0) |
+| Sex | Patient.birthSex(extension) | [72143-4](https://search.loinc.org/searchLOINC/search.zul?query=72143-4) |
+| Race | Patient.race(extension) | [72826-1](https://search.loinc.org/searchLOINC/search.zul?query=72826-1) |
+| Ethnicity | Patient.ethnicity(extension) | [69490-1](https://search.loinc.org/searchLOINC/search.zul?query=69490-1) |
 
 
 

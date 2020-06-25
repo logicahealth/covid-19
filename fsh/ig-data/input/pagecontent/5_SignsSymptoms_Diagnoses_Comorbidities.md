@@ -32,14 +32,14 @@ These profiles are used to capture the existence or absence of conditions, situa
 
 These profiles are used to capture specific underlying conditions that belong to categories.  For example, underlying cardiovascular conditions.  This list will grow over time as more categories are identified.  The value sets for these profiles will also grow over time as we recieve feedback and input from users and interested parties.
 
-[COVID-19 cardiovascular underlying condition](StructureDefinition-COVID-19-underlying-cardiovascular-medical-condition-present.html)
+[COVID-19 cardiovascular underlying condition](StructureDefinition-underlying-cardiovascular-medical-condition-present.html)
 
-[COVID-19 neuroligic underlying condition](StructureDefinition-COVID-19-underlying-neuroligic-medical-condition-present.html)
+[COVID-19 neuroligic underlying condition](StructureDefinition-underlying-neuroligic-medical-condition-present.html)
 
-[COVID-19 immunocompromised underlying condition](StructureDefinition-COVID-19-underlying-immunocompromised-medical-condition-present.html)
+[COVID-19 immunocompromised underlying condition](StructureDefinition-underlying-immunocompromised-medical-condition-present.html)
 
-[COVID-19 respiratory underlying condition](StructureDefinition-COVID-19-underlying-respiratory-medical-condition-present.html)
+[COVID-19 respiratory underlying condition](StructureDefinition-underlying-respiratory-medical-condition-present.html)
 
-[COVID-19 metabolic underlying condition](StructureDefinition-COVID-19-underlying-metabolic-medical-condition-present.html)
+[COVID-19 metabolic underlying condition](StructureDefinition-underlying-metabolic-medical-condition-present.html)
 
-[COVID-19 hemoglobinopathy underlying condition](StructureDefinition-COVID-19-underlying-hemoglobinopathy-medical-condition-present.html)
+[COVID-19 hemoglobinopathy underlying condition](StructureDefinition-underlying-hemoglobinopathy-medical-condition-present.html)
