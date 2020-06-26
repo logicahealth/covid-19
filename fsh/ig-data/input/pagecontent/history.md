@@ -7,6 +7,7 @@ Recent releases without release notes indicate inconsequential edits such as fix
 
 | Version 	| Date 	| Run Command 	| GitHub Source 	| Notes 	|
 |-	|-	|-	|-	|-	|
+| v0.7.1	| 2020-06-26	| `docker run -it --rm -p 8080:80 logicahealth/covid-19-ig:v0.7.1` 	| [v0.7.1](https://github.com/logicahealth/covid-19/tree/v0.7.1)	| * Fixed links to lab profile on the "Lab Profiles" page. <br> * Corrected minor typos. |
 | v0.7.0	| 2020-06-23	| `docker run -it --rm -p 8080:80 logicahealth/covid-19-ig:v0.7.0` 	| [v0.7.0](https://github.com/logicahealth/covid-19/tree/v0.7.0)	| * Additional LOINC Codes for 18 lab tests<br> * Additional Co-Morbidities (3 - 4 of the remaining profiles)<br> * History page workaround/fix with historical release links<br> * Add Guillian Barre syndrome "actual"<br> * Value set creation - 10 total |
 | v0.6.0	| 2020-06-10	| `docker run -it --rm -p 8080:80 logicahealth/covid-19-ig:v0.6.0` 	| [v0.6.0](https://github.com/logicahealth/covid-19/tree/v0.6.0)	| * Splitting of COVID19Daignosis into COVID19SNOMEDDiagnosis and COVID19ICD10Diagnosis<br> New profiles:<br> * UnderlyingCardiovascularMedicalConditionPresent<br> * UnderlyingNeuroligicMedicalConditionPresent<br> * UnderlyingImmunocompromisedMedicalConditionPresent|
 | v0.5.3	| 2020-06-08	| `docker run -it --rm -p 8080:80 logicahealth/covid-19-ig:v0.5.3` 	| [v0.5.3](https://github.com/logicahealth/covid-19/tree/v0.5.3)	|  	|
