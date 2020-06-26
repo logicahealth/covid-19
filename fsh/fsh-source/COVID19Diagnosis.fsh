@@ -125,3 +125,27 @@ Description: "An assertion that a specific hemoglobinopathy condition is present
 * code from COVID19UnderlyingHemoglobinopathyConditionVS (extensible)
 * stage 0..0
 * evidence 0..0
+
+Profile: COVID19RenalUnderlyingMedicalConditionPresent
+Parent: USCoreCondition
+Id: underlying-renal-medical-condition-present
+Title: "COVID-19 renal underlying condition"
+Description: "An assertion that a specific renal condition is present as an underlyer to COVID19."
+* modifierExtension contains
+    CertaintyOfPresence named certaintyOfPresence 1..1
+* bodySite 0..0
+* code from COVID19UnderlyingRenalConditionVS (extensible)
+* stage 0..0
+* evidence 0..0
+
+Profile: COVID19ImmuneUnderlyingMedicalConditionPresent
+Parent: USCoreCondition
+Id: underlying-immune-medical-condition-present
+Title: "COVID-19 immune underlying condition"
+Description: "An assertion that a specifid immune condition is present as an underlying to COVID19."
+* modifierExtension contains
+    CertaintyOfPresence named certaintyOfPresence 1..1
+* bodySite 0..0
+* code from COVID19UnderlyingImmuneConditionVS (extensible)
+* stage 0..0
+* evidence 0..0

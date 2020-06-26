@@ -16,7 +16,7 @@ Description:  "SARS-CoV-2 (COVID19) IgG and IgM panel - Serum or Plasma Qualitat
     SARScoronavirus2AbIgMPrThrPtSerPlasOrdIArapidLabObs 0..1 and
     SARScoronavirus2AbIgGPlusIgMPrThrPtSerPlasOrdIALabObs 0..1
 
-Profile:  SARScoronavirus2AbPanelPtSerPlasIALabObs
+Profile:  SARScoronavirus2AbIgGandIgMpanelPtSerPlasQnIALabObs
 Parent:   LaboratoryObservationPanelBase
 Title: "SARS-CoV-2 (COVID19) IgG and IgM panel - Serum or Plasma by Immunoassay"
 Description: "SARScoronavirus2AbIgGandIgMpanelPtSerPlasQnIALabObs is a collection of quantitative tests for SARS-CoV-2 (COVID19) antibodies, IgG and IgM. LOINC code 94504-8."
@@ -301,7 +301,6 @@ Description: "HumancoronavirusOC43RNAPrThrPtNphOrdNonprobeamptarLabObs is a test
 * valueCodeableConcept from DetNotDetEqInVS (preferred)
 
 Profile: SARScoronavirus2ORF1abregionPrThrPtXXXOrdProbeamptarLabObs
-Id: SARS-Cov2-ORF1-ab-PrThr-Pt-xxx-Ord-ProbAmpTar-LabObs
 Parent: CodedLaboratoryObservationBase
 Title: "SARS-CoV-2 (COVID19) ORF1ab region [Presence] in Unspecified specimen by NAA with probe detection"
 Description: "SARS-CoV-2 (COVID19) ORF1ab region [Presence] in Unspecified specimen by NAA with probe detection"
@@ -310,6 +309,7 @@ Description: "SARS-CoV-2 (COVID19) ORF1ab region [Presence] in Unspecified speci
 * valueCodeableConcept from DetNotDetEqInVS (preferred)
 
 Profile: SARScoronavirus2SgenePrThrPtRespiratoryOrdProbeamptarLabObs
+Id: SARS-CoV2-Sgene-PrThr-Pt-Resp-Ord-ProbAmpTar-LabObs
 Parent: CodedLaboratoryObservationBase
 Title: "SARS-CoV-2 (COVID19) S gene [Presence] in Respiratory specimen by NAA with probe detection"
 Description: "SARScoronavirus2SgenePrThrPtRespiratoryOrdProbeamptarLabObs is a test for the SARS-CoV-2 (COVID19) S Gene in respiratory specimen via probe target amplification method."
@@ -318,6 +318,7 @@ Description: "SARScoronavirus2SgenePrThrPtRespiratoryOrdProbeamptarLabObs is a t
 * valueCodeableConcept from DetNotDetEqInVS (preferred)
 
 Profile: SARScoronavirus2SgenePrThrPtXXXOrdProbeamptarLabObs
+Id: SARS-CoV2-Sgene-PrThr-Pt-xxx-ord-ProbeAmptTar-LabObs
 Parent: CodedLaboratoryObservationBase
 Title: "SARS-CoV-2 (COVID19) S gene [Presence] in Unspecified specimen by NAA with probe detection"
 Description: "SARScoronavirus2SgenePrThrPtXXXOrdProbeamptarLabObs is a test for the SARS-CoV-2 (COVID19) S Gene in unspecified specimen via probe target amplification method."
@@ -326,6 +327,7 @@ Description: "SARScoronavirus2SgenePrThrPtXXXOrdProbeamptarLabObs is a test for 
 * valueCodeableConcept from DetNotDetEqInVS (preferred)
 
 Profile: SARScoronavirus2SgeneThreshNumPtRespiratoryQnProbeamptarLabObs
+Id: SARS-CoV2-Sgene-ThreshNum-Pt-Resp-Qn-ProbAmpTar-LabObs
 Parent: QuantitativeLaboratoryObservationBase
 Title: "SARS-CoV-2 (COVID19) S gene [Cycle Threshold #] in Respiratory specimen by NAA with probe detection"
 Description: "SARScoronavirus2SgeneThreshNumPtRespiratoryQnProbeamptarLabObs is a quantitative test for the SARS-CoV-2 (COVID19) S gene in respiratory specimen, via a threshold number, probe target amplification method."
@@ -334,6 +336,7 @@ Description: "SARScoronavirus2SgeneThreshNumPtRespiratoryQnProbeamptarLabObs is 
 * valueQuantity units = UCUM#{Ct_value}
 
 Profile: SARScoronavirus2SgeneThreshNumPtXXXQnProbeamptarLabObs
+Id: SARS-CoV2-Sgene-ThreshNum-Pt-xxx-Qn-ProbAmpTar-LabObs
 Parent: QuantitativeLaboratoryObservationBase
 Title: "SARS-CoV-2 (COVID19) S gene [Cycle Threshold #] in Unspecified specimen by NAA with probe detection"
 Description: "SARScoronavirus2SgeneThreshNumPtXXXQnProbeamptarLabObs is a quantitative test for the SARS-CoV-2 (COVID19) S gene in unspecified specimens via a threshold number, probe target amplification method."
@@ -342,7 +345,7 @@ Description: "SARScoronavirus2SgeneThreshNumPtXXXQnProbeamptarLabObs is a quanti
 * valueQuantity units = UCUM#{Ct_value}
 
 Profile: SARScoronavirus2ORF1abregionThreshNumPtRespiratoryQnProbeamptarLabObs
-Id: sart-cov2-2orf1-abregion-threshnum-pt-resp-qn-probamptar
+Id: sars-cov2-2orf1-abregion-threshnum-pt-resp-qn-probamptar
 Parent: QuantitativeLaboratoryObservationBase
 Title: "SARS-CoV-2 (COVID19) ORF1ab region [Cycle Threshold #] in Respiratory specimen by NAA with probe detection"
 Description: "SARScoronavirus2ORF1abregionThreshNumPtRespiratoryQnProbeamptarLabObs is a quantitative test for the SARS-CoV-2 (COVID19) ORFl antibody region in respiratory specimens via a number threshold, probe target amplification method."
@@ -351,6 +354,7 @@ Description: "SARScoronavirus2ORF1abregionThreshNumPtRespiratoryQnProbeamptarLab
 * valueQuantity units = UCUM#{Ct_value}
 
 Profile: SARScoronavirus2RdRpgeneThreshNumPtXXXQnProbeamptarLabObs
+Id: SARS-CoV2-RdRpgene-ThreshNum-pt-xxx-Qn-ProbAmpTar-LabObs
 Parent: QuantitativeLaboratoryObservationBase
 Title: "SARS-CoV-2 (COVID19) RdRp gene [Cycle Threshold #] in Unspecified specimen by NAA with probe detection"
 Description: "SARScoronavirus2RdRpgeneThreshNumPtXXXQnProbeamptarLabObs is a quantitative test for the SASRS-CoV-2 (COVID19) RdRp gene in unspecified specimens via a number threshold, probe target amplification method."
@@ -368,6 +372,7 @@ Description: "SARScoronavirus2RdRpgeneThreshNumPtRespiratoryQnProbeamptarLabObs 
 * valueQuantity units = UCUM#{Ct_value}
 
 Profile: SARSrelatedcoronavirusRNAPrThrPtXXXOrdProbeamptarLabObs
+Id: SARS-rel-coronavirus-RNA-PrThr-Pt-xxx-probamptar-LabObs
 Parent: CodedLaboratoryObservationBase
 Title: "SARS-related coronavirus RNA [Presence] in Unspecified specimen by NAA with probe detection"
 Description: "SARSrelatedcoronavirusRNAPrThrPtXXXOrdProbeamptarLabObs is a test for the SARS related coronavirus RNA in unspecified specimens via probe target amplification method."
@@ -376,6 +381,7 @@ Description: "SARSrelatedcoronavirusRNAPrThrPtXXXOrdProbeamptarLabObs is a test 
 * valueCodeableConcept from DetNotDetEqInVS (preferred)
 
 Profile: SARScoronavirus2RNAPrThrPtSerPlasOrdProbeamptarLabObs
+Id: SARS-CoV2-RNA-PrThr-pt-serplas-ord-probamptar-LabObs
 Parent: CodedLaboratoryObservationBase
 Title: "SARS-CoV-2 (COVID19) RNA [Presence] in Serum or Plasma by NAA with probe detection"
 Description: "SARScoronavirus2RNAPrThrPtSerPlasOrdProbeamptarLabObs is a test for SARS-CoV-2 (COVID19) RNA in serum or plasma via a presence threshold, probe target amplification method."
@@ -384,6 +390,7 @@ Description: "SARScoronavirus2RNAPrThrPtSerPlasOrdProbeamptarLabObs is a test fo
 * valueCodeableConcept from DetNotDetEqInVS (preferred)
 
 Profile: SARScoronavirus2AbImpPtSerPlasNomLabObs
+Id: SARS-CoV2-Ab-Imp-pt-serplas-nom-LabObs
 Parent: CodedLaboratoryObservationBase
 Title: "SARS-CoV-2 (COVID19) Ab [Interpretation] in Serum or Plasma"
 Description: "SARScoronavirus2AbImpPtSerPlasNomLabObs is an impression or interpretation of a specified SARS-CoV-2 (COVID19) lab test.  Values are Positive or Negative."
@@ -392,6 +399,7 @@ Description: "SARScoronavirus2AbImpPtSerPlasNomLabObs is an impression or interp
 * valueCodeableConcept from PosNegVS (preferred)
 
 Profile: SARScoronavirus2AbIgAACncPtSerPlasQnIALabObs
+Id: SARS-CoV2-ab-IgA-acnc-pt-serplas-qn-ia-LabObs
 Parent: QuantitativeLaboratoryObservationBase
 Title: "SARS-CoV-2 (COVID19) IgA Ab [Units/volume] in Serum or Plasma by Immunoassay"
 Description: "SARScoronavirus2AbIgAACncPtSerPlasQnIALabObs is a quantitative test for the SARS-CoV-2 (COVID19) IgA antibody, arbitrary concentration, via immunoassay."
@@ -400,6 +408,7 @@ Description: "SARScoronavirus2AbIgAACncPtSerPlasQnIALabObs is a quantitative tes
 * valueQuantity units = UCUM#[arb'U]/ml
 
 Profile: SARSCoV2RNACycleThresholdRespQnNAAProbAmpTar
+Id: SARS-CoV2-RNA-cycle-thresh-resp-qn-naa-probamptar
 Parent: QuantitativeLaboratoryObservationBase
 Title: "SARS-CoV-2 (COVID19) RNA [Cycle Threshold#] in Respiratory specimen by NAA with probe detection"
 Description: "SARSCoV2RNACycleThresholdRespQnNAAProbAmpTar is a quantitative test for SARS-CoV-2 (COVID19) RNA via NAA with probe dection cycle threshold # in respiratory specimens."
@@ -408,6 +417,7 @@ Description: "SARSCoV2RNACycleThresholdRespQnNAAProbAmpTar is a quantitative tes
 * valueQuantity units = UCUM#[arb'U]/ml
 
 Profile: SARSCoV2RNAThreshNumPtXXXQnProbAmpTar
+Id: SARS-Cov2-rna-threshnum-pt-xxx-qn-probamptar
 Parent: QuantitativeLaboratoryObservationBase
 Title: "SARS-CoV-2 (COVID19) RNA [Cycle Threshold#] in Unspecified specimen by NAA with probe detection"
 Description: "SARSCoV2RNAThreshNumPtXXXQnProbAmpTar is a quantitative test for SARS-CoV-2 (COVID19) RNA via NAA with probe detection and a threshold number detection limit in unspecified specimens."
@@ -416,6 +426,7 @@ Description: "SARSCoV2RNAThreshNumPtXXXQnProbAmpTar is a quantitative test for S
 * valueQuantity units = UCUM#[arb'U]/ml
 
 Profile: SARSCoV2EgenePrThrPtRespOrdProbAmpTar
+Id: SARS-CoV2-Egene-prthr-pt-resp-ord-probamptar
 Parent: CodedLaboratoryObservationBase
 Title: "SARS-CoV-2 (COVID19) E gene [Presence] in Respiratory specimen by NAA with probe detection"
 Description: "SARSCoV2EgenePrThrPtRespOrdProbAmpTar is a test for the detection of the SARS-CoV-2 (COVID19) E gene via NAA with probe detection in respiratory specimens"
@@ -424,6 +435,7 @@ Description: "SARSCoV2EgenePrThrPtRespOrdProbAmpTar is a test for the detection 
 * valueCodeableConcept from DetNotDetEqInVS
 
 Profile: SARSCoV2NgenePrThrPtRespOrdProbAmpTarN1
+Id: SARS-CoV2-Ngene-prthr-resp-ord-probamptar-N1
 Parent: CodedLaboratoryObservationBase
 Title: "SARS-CoV-2 (COVID19) N gene [Presence] in Respiratory specimen by Nucleic acid amplification using CDC primer-probe set N1"
 Description: "SARSCoV2NgenePrThrPtRespOrdProbAmpTarN1 is a test for the detection of the SARS-CoV-2 (COVID19) N gene via nucleic acid amplification using CDC primer-probe set N1 in respiratory specimens."
@@ -432,6 +444,7 @@ Description: "SARSCoV2NgenePrThrPtRespOrdProbAmpTarN1 is a test for the detectio
 * valueCodeableConcept from DetNotDetEqInVS
 
 Profile: SARSCoV2NgenePrThrPtRespOrdProbAmpTarN2
+Id: SARS-CoV2-Ngene-prthr-pt-resp-ord-probamptar-N2
 Parent: CodedLaboratoryObservationBase
 Title: "SARS-CoV-2 (COVID19) N gene [Presence] in Respiratory specimen by Nucleaic acid amplification using CDC primer-probe set N2"
 Description: "SARSCoV2NgenePrThrPtRespOrdProbAmpTarN2 is a test for the detection of the SARS-CoV-2 (COVID19) N gene via nucleic acid amplification using CDC primer-probe set N2 in respiratroty specimens"
@@ -441,6 +454,7 @@ Description: "SARSCoV2NgenePrThrPtRespOrdProbAmpTarN2 is a test for the detectio
 
 Profile: SARCCoV2AbIgGPrThrPtBldDotOrsdIA
 Parent: CodedLaboratoryObservationBase
+Id: SARS-CoV2-ab-IgG-prthr-pt-blddot-ord-ia
 Title: "SARS-CoV-2 (COVID19) IgG Ab [Presence] in DBS by Immunoassay"
 Description: "SARCCoV2AbIgGPrThrPtBldDotOrsdIA is a test for the SARS-CoV-2 (COVID19) IgG antibody via immunoassay on blood filer paper."
 * code = LNC#94761-4
@@ -532,7 +546,7 @@ Title: "SARS-CoV-2 (COVID19) RNA [Log#/volume] (viral load) in Unspecified speci
 Description: "SARSCoV2RNALnCncPtXXXQnProbAmpTar is a quantitative test for the viral load (log number per volume) of SARS-CoV-2 (COVID19) RNA via NAA probe detection in unspecified specimens."
 * code = LNC#94819-0
 * value[x] only Quantity
-* valueQuantity units = UCUM#[arb"U]/ml
+* valueQuantity units = UCUM#[arb'U]/ml
 
 Profile: SARSCoV2RNAPrThrPtSalivaOrdSequencing
 Parent: CodedLaboratoryObservationBase

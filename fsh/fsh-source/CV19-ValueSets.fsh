@@ -27,7 +27,7 @@ Description: "A set of SNOMED codes representing how important it is to report a
 
 ValueSet: COVID19SNOMEDDiagnosisVS
 Id: covid-19-snomed-diagnosis-vs
-Title: "COVID 19 SNOMED CT Diagnosis Value Set"
+Title: "COVID-19 SNOMED CT Diagnosis Value Set"
 Description: "A set of SNOMED CT codes that describe the diagnosed condition that is due to SARS coronavirus 2 infection."
 * ^version = "0.1.0"
 * SCT#840539006 "Disease caused by 2019 novel coronavirus (disorder)"
@@ -41,7 +41,7 @@ Description: "A set of SNOMED CT codes that describe the diagnosed condition tha
 
 ValueSet: COVID19ICDDiagnosisVS
 Id: covid-19-icd-diagnosis-vs
-Title: "COVID 19 ICD 10 Diagnosis Value Set"
+Title: "COVID-19 ICD 10 Diagnosis Value Set"
 Description: "A set of ICD 10 codes that describe the diagnosed condition that is due to SARS coronavirus 2 infection."
 * ^version = "0.1.0"
 * ICD10CM#U07.1 "COVID-19"
@@ -81,7 +81,7 @@ Description: "The list of SNOMED CT codes that represent states."
 
 ValueSet: COVID19SignsAndSymptomsVS
 Id: covid19-signs-1nd-symptoms-value-set
-Title: "COVID 19 Signs and Symptoms Value Set"
+Title: "COVID-19 Signs and Symptoms Value Set"
 Description: "The set of SNOMED CT codes that represent the signs and symptoms associated with COVID 19."
 * ^version = "0.2.0"
 * SCT#21522001 "Abdominal pain (finding)"
@@ -167,7 +167,7 @@ Description: "A set of LOINC answers for known expopsure"
 
 ValueSet: COVID19UnderlyingMedicalConditionVS
 Id: covid19-underlying-medical-condition-vs
-Title: "COVID19 Underlying Medical Condition Value Set"
+Title: "COVID-19 Underlying Medical Condition Value Set"
 Description: "A set of SNOMED CT terms that descibe conditions that are present along with the COVID19 disease."
 * ^version = "0.3.0"
 * SCT#78648007 "At risk for infection (finding)"
@@ -193,14 +193,14 @@ Id: smoking-status-value-set
 Title: "Smoking Status Value Set"
 Description: "The set of SNOMED CT terms that describe the state of tobacco use."
 * ^version = "0.1.0"
-* SCT#77186002 "Smoker (finding)"
+* SCT#77176002 "Smoker (finding)"
 * SCT#266919005 "Never smoked tovacco (finding)"
 * SCT#8517006 "Ex-smoker (finding)"
 * SCT#266927001 "Tobacco smoking consumption unknown (finding)"
 
 ValueSet: COVID19SignSymptomSeverityVS
 Id: covid-19-severity-value-set
-Title: "COVID19 Signs and Symptoms Severity Value Set"
+Title: "COVID-19 Signs and Symptoms Severity Value Set"
 Description: "An assertion of the degree of severity of a sign or symptom as reported by the subject."
 * ^version = "0.1.0"
 * SCT#255604002 "Mild (qualifier value)"
@@ -216,7 +216,7 @@ Description: "An assertion of the degree of severity of a sign or symptom as rep
 
 ValueSet: COVID19DiseaseSeverityVS
 Id: covid-19-disease-severity-value-set
-Title: "COVID19 Disease Severity Value Set"
+Title: "COVID-19 Disease Severity Value Set"
 Description: "The set of codes that describe the seriousness of the subject's COVID19 disease."
 * ^version = "0.1.0"
 * SCT#255604002 "Mild (qualifier value)"
@@ -343,7 +343,7 @@ Description: "A set of codes that describe underlying immmunocompromised conditi
 
 ValueSet: COVID19UnderlyingRespiratoryConditionVS
 Id: covid19-underlying-respiratory-condition-value-set
-Title: "COVID019 respiratory underlying condition reference set"
+Title: "COVID-19 respiratory underlying condition reference set"
 Description: "A set of codes that describe underling respiratory conditions for COVID19."
 * ^version = "0.1.0"
 * SCT#427099000 "Active tuberculosis (disorder)"
@@ -366,7 +366,7 @@ Description: "A set of codes that describe underling respiratory conditions for 
 
 ValueSet: COVID19UnderlyingMetabolicConditionVS
 Id: covid19-underlying-metabolic-condition-value-set
-Title: "COVID-19 metabolic underlying conidition reference set"
+Title: "COVID-19 metabolic underlying condition reference set"
 Description: "A set of codes that describe underlying metabolic conditions for COVID19"
 * ^version = "0.1.0"
 * SCT#128289001 "Chronic metabolic disorder (disorder)"
@@ -382,7 +382,7 @@ Description: "A set of codes that describe underlying metabolic conditions for C
 
 ValueSet: COVID19UnderlyingHemoglobinopathyConditionVS
 Id: covid91-underlying-hemoglobinopathy-condition-value-set
-Title: "CVOID-19 hemoglobinopathy underlying condition reference set"
+Title: "COVID-19 hemoglobinopathy underlying condition reference set"
 Description: "A set of codes that describe underlying hemoglobinopathy conditions for COVID19"
 * ^version = "0.1.0"
 * SCT#68913001 "Alpha thalassemia (disorder)"
@@ -398,3 +398,36 @@ Description: "A set of codes that describe underlying hemoglobinopathy condition
 * SCT#109992005 "Polycythemia vera (disorder)"
 * SCT#127041004 "Sickle cell-beta-thalassemia (disorder)"
 * SCT#302215000 "Thrombocytopenic disorder (disorder)"
+
+ValueSet: COVID19UnderlyingRenalConditionVS
+Id: covid19-underlying-renal-condition-value-set
+Title: "COVID-19 renal underlying condition reference set"
+Description: "A set of codes that describe underlying renal conditions for COVID19"
+* ^version = "0.1.0"
+* SCT#236425005 "Chronic renal impairment (disorder)"
+* SCT#82525005 "Congenital cystic kidney disease (disorder)"
+* SCT#105502003 "Dependence on renal dialysis (finding)"
+* SCT#46177005 "End-stage renal disease (disorder)"
+* SCT#36171008 "Glomerulonephritis (disorder)"
+* SCT#52254009 "Nephrotic syndrome (disorder)"
+
+ValueSet: COVID19UnderlyingImmuneConditionVS
+Id: covid19-underlying-immune-condition-value-set
+Title: "COVID-19 immune underlying condition reference set"
+Description: "A set of codes that describe underlying immune conditions for COVID19"
+* ^version = "0.1.0"
+* SCT#75053002 "Acute febrile mucocutaneous lymph node syndrome (disorder)"
+* SCT#9631008 "Ankylosing spondylitis (disorder)"
+* SCT#396230008 "Dermatomyositis (disorder)"
+* SCT#414341000 "Giant cell arteritis (disorder)"
+* SCT#410502007 "Juvenile idiopathic arthritis (disorder)"
+* SCT#239928004 "Microscopic polyarteritis nodosa (disorder)"
+* SCT#155441006 "Polyarteritis nodosa (disorder)"
+* SCT#65323003 "Polymyalgia rheumatica (disorder)"
+* SCT#31384009 "Polymyositis (disorder)"
+* SCT#156370009 "Psoriatic arthritis (disorder)"
+* SCT#69896004 "Rheumatoid arthritis (disorder)"
+* SCT#55464009 "Systemic lupus erythematosus (disorder)"
+* SCT#89155008 "Systemic sclerosis (disorder)"
+* SCT#359789008 "Takayasu's disease (disorder)"
+* SCT#31996006 "Vasculitis (disorder)"

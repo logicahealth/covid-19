@@ -21,7 +21,6 @@ Description: "Known Exposure is a description of how, when, where, and with whom
 * code = LNC#88636-6 "Known Exposure"
 * value[x] only CodeableConcept
 * valueCodeableConcept from KnownExposureLAVS (preferred)
-* referenceRange 0..0
 
 Profile: TravelHistory
 Parent: COVID19ExposureCore
@@ -30,7 +29,6 @@ Title: "Travel History"
 Description: "The country or countries to which the subject may have traveled."
 * code = LNC#8691-8 "History of travel"
 * value[x] 0..0
-* referenceRange 0..0
 * component ^slicing.discriminator.type = #value
 * component ^slicing.discriminator.path = "code"
 * component ^slicing.rules = #open
