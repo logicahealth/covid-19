@@ -43,3 +43,11 @@ These profiles are used to capture specific underlying conditions that belong to
 [COVID-19 metabolic underlying condition](StructureDefinition-underlying-metabolic-medical-condition-present.html)
 
 [COVID-19 hemoglobinopathy underlying condition](StructureDefinition-underlying-hemoglobinopathy-medical-condition-present.html)
+
+[COVID-19 renal underlying condition](StructureDefinition-underlying-renal-medical-condition-present.html)
+
+[COVID=19 immune underlying condition](StructureDefinition-underlying-immune-medical-condition-present.html)
+
+[COVID-19 gastrointestinal and hepatic underlying condition](StructureDefinition-underlying-gastrointestinal-hepatic-medical-condition-present.html)
+
+[COVID-19 uncategorized underlying condition](StructureDefinition-underlying-uncategorized-medical-condition-present.html)
