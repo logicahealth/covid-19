@@ -431,3 +431,34 @@ Description: "A set of codes that describe underlying immune conditions for COVI
 * SCT#89155008 "Systemic sclerosis (disorder)"
 * SCT#359789008 "Takayasu's disease (disorder)"
 * SCT#31996006 "Vasculitis (disorder)"
+
+ValueSet: COVID19UnderlyingGastrointestinalHepaticConditionVS
+Id: covid19-underlying-gastrointestinal-hepatic-condition-value-set
+Title: "COVID-19 gastrointestinal or hepatic underlying condition reference set"
+Description: "A set of codes that describe underlying gastrointestinal or hepatic conditions for COVID19."
+* ^version = "0.1.0"
+* SCT#235875008 "Alcoholic hepatitis (disorder)"
+* SCT#408335007 "Autoimmune hepatitis (disorder)"
+* SCT#235597001 "Barrett's esophagus with esophagitis (disorder)"
+* SCT#128302006 "Chronic hepatitis C (disorder)"
+* SCT#328383001 "Chronic liver disease (disorder)"
+* SCT#235494005 "Chronic pancreatitis (disorder)"
+* SCT#61977001 "Chronic type B viral hepatitis (disorder)"
+* SCT#19943007 "Cirrhosis of liver (disorder)"
+* SCT#34000006 "Crohn's disease (disorder)"
+* SCT#708248004 "End stage liver disease (disorder)"
+* SCT#28670008 "Esophageal varices (disorder)"
+* SCT#197315008 "Non-alcoholic fatty liver (disorder)"
+* SCT#63305008 "Stricture of esophagus (disorder)"
+* SCT#64766004 "Ulcerative colitis (disorder)"
+
+ValueSet: COVID19UncategorizedMedicalConditionVS
+Id: covid19-underlying-uncategorized-condition-value-set
+Title: "COVID-19 uncategorized underlying condition reference set"
+Description: "A set of codes that describe conditions that are not otherwise categorized that are underlyers to COVID19."
+* ^version = "0.1.0"
+* SCT#444932008 "Dependence on ventilator (finding)"
+* SCT#38341003 "Hypertensive disorder, systemic arterial (disorder)"
+* SCT#15100005 "Postpartum state, 2 weeks (finding)"
+* SCT#61420007 "Tube feeding of patient (regime/therapy)"
+* SCT#225612007 "Wheelchair bound (finding)"

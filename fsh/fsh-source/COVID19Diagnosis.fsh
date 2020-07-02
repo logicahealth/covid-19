@@ -149,3 +149,28 @@ Description: "An assertion that a specifid immune condition is present as an und
 * code from COVID19UnderlyingImmuneConditionVS (extensible)
 * stage 0..0
 * evidence 0..0
+
+Profile: COVID19GastrointestinalHepaticUnderlyingMedicalConditionPresent
+Parent: USCoreCondition
+Id: underlying-gastrointestinal-hepatic-medical-condition-present
+Title: "COVID-19 gastrointestinal and hepatic underlying condition"
+Description: "An assertion that a specific gastrointestinal or hepatic condition is present as an underlyer to COVID19."
+* modifierExtension contains
+    CertaintyOfPresence named certaintyOfPresence 1..1
+* bodySite 0..0
+* code from COVID19UnderlyingGastrointestinalHepaticConditionVS (extensible)
+* stage 0..0
+* evidence 0..0
+
+Profile: COVID19UncateforizedUnderlyingMedicalConditionPresent
+Parent: USCoreCondition
+Id: underlying-uncategorized-medical-condition-present
+Title: "COVID19 uncategorized underlying condition"
+Description: "An assertion that an uncategorized medical condition is present as an underlyer to COVID19."
+* modifierExtension contains
+    CertaintyOfPresence named certaintyOfPresence 1..1
+* bodySite 0..0
+* code from COVID19UncategorizedMedicalConditionVS (extensible)
+* stage 0..0
+* evidence 0..0
+
