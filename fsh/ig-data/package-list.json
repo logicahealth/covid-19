@@ -13,6 +13,26 @@
       "current": true
     },
     {
+      "version": "0.8.0",
+      "date": "2020-07-02",
+      "desc": "Official v0.8.0 release",
+      "path": "http://fhir.logicahealth.org/covid19",
+      "status": "draft",
+      "sequence": "Drafts",
+      "fhirversion": "4.0.1",
+      "current": true
+    },
+    {
+      "version": "0.7.1",
+      "date": "2020-06-26",
+      "desc": "Official v0.7.1 release",
+      "path": "http://fhir.logicahealth.org/covid19",
+      "status": "draft",
+      "sequence": "Drafts",
+      "fhirversion": "4.0.1",
+      "current": false
+    },
+    {
       "version": "0.7.0",
       "date": "2020-06-23",
       "desc": "Official v0.7.0 release",
@@ -20,7 +40,7 @@
       "status": "draft",
       "sequence": "Drafts",
       "fhirversion": "4.0.1",
-      "current": true
+      "current": false
     },
     {
       "version": "0.6.0",
