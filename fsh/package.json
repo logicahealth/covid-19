@@ -3,7 +3,7 @@
   "version": "0.6.0",
   "canonical": "http://fhir.logicahealth.org/covid19",
   "url": "http://fhir.logicahealth.org/covid19",
-  "title": "Logica Implementation Guide: Covid-19",
+  "title": "Logica COVID-19 FHIR Profile Library IG",
   "description": "The COVID-19 IG describes structured data to be collected and communicated between providers and aggregators.",
   "dependencies": {
     "hl7.fhir.r4.core": "4.0.1",
