@@ -7,7 +7,7 @@ This Implementation guide is different from many HL7 FHIR Implementation Guides 
 
 If you are submitting data needed in public health electronic case reporting  (required by state laws/regulations) to jurisdictional public health agencies you must use “HL7 CDA® R2 Implementation Guide: Public Health Case Report, Release 1.1 - US Realm” which can be found [here](https://www.hl7.org/implement/standards/product_brief.cfm?product_id=436). 
 
-DO NOT use the FHIR profiles or data elements defined in the COVID-19 HL7 FHIR Implementation Guide to transmit data to state or local health departments as part of electronic case reporting.
+DO NOT use the FHIR profiles or data elements defined in the Logica COVID-19 FHIR Profile Library IG to transmit data to state or local health departments as part of electronic case reporting.
 
 
 #### User Response Survey
