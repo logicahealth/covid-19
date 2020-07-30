@@ -1,6 +1,6 @@
 {
   "name": "covid19",
-  "version": "0.6.0",
+  "version": "0.9.0",
   "canonical": "http://fhir.logicahealth.org/covid19",
   "url": "http://fhir.logicahealth.org/covid19",
   "title": "Logica COVID-19 FHIR Profile Library IG",
@@ -13,7 +13,8 @@
     "Corona virus",
     "COVID",
     "COVID-19",
-    "pandemic"
+    "pandemic",
+    "SARS-CoV-2"
   ],
   "language": "en",
   "author": "Logica",
@@ -31,7 +32,7 @@
     {
       "name": "Logica",
       "organization": "Logica",
-      "url": "https://logicahealth.org/"
+      "url": "https://www.logicahealth.org/"
     }
   ],
   "license": "CC0-1.0"

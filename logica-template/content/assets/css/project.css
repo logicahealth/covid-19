@@ -155,6 +155,7 @@ body {
   color: #555555;
 }
 #publish-box {
+  display: none;
   background-color: yellow;
   border: 1px solid maroon;
   padding: 5px;
