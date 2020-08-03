@@ -34,7 +34,7 @@ These profiles are used to capture specific underlying conditions that belong to
 
 [COVID-19 cardiovascular underlying condition](StructureDefinition-underlying-cardiovascular-medical-condition-present.html)
 
-[COVID-19 neuroligic underlying condition](StructureDefinition-underlying-neuroligic-medical-condition-present.html)
+[COVID-19 neurologic underlying condition](StructureDefinition-underlying-neuroligic-medical-condition-present.html)
 
 [COVID-19 immunocompromised underlying condition](StructureDefinition-underlying-immunocompromised-medical-condition-present.html)
 
