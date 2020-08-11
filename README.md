@@ -62,7 +62,7 @@ You are welcome to build _manually_ using the IG publisher .jar and manage those
 Due to the HL7 IG publisher RAM requirements, we typically build locally and push images into the deployment system. (This is unlike most other Logica projects where building is fully automated.) The overall process is:
 
 1. Get all work merged into the staging branch. (`git merge dev`)
-1. Make sure the following release metadata files are updated and commit/push the updates: (`git commit -m "Updating metadata for release." -a`)
+1. Make sure the following release metadata files are updated, commited and pushed. (`git commit -m "Updating metadata for release." -a`)
    1. fsh/
    1. fsh/package.json
    1. fsh/ig-data/package-list.json
