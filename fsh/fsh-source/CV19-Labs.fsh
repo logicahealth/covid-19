@@ -550,7 +550,7 @@ Description: "SARSCoV2RNALnCncPtXXXQnProbAmpTar is a quantitative test for the v
 
 Profile: SARSCoV2RNAPrThrPtSalivaOrdSequencing
 Parent: CodedLaboratoryObservationBase
-Title: "SARS-CoV-2 (COVID19) RNA [Presence] in Saliva (oral fluid) by Seqencing"
+Title: "SARS-CoV-2 (COVID19) RNA [Presence] in Saliva (oral fluid) by Sequencing"
 Description: "SARSCoV2RNAPrThrPtSalivaOrdSequencing is a qualitative test for the detection of SARS-CoV-2 (COVID19) RNA via RNA sequencing in saliva (oral fluid) specimen."
 * code = LNC#94822-4
 * value[x] only CodeableConcept

@@ -247,7 +247,7 @@ Description: "The set of codes that describe the seriousness of the subject's CO
 
 ValueSet: PregnancyStatusVS
 Id: pregnancy-status-value-set
-Title: "Pregnacy Status Value Set"
+Title: "Pregnancy Status Value Set"
 Description: "The set of codes that describe one's state of pregnancy."
 * ^version = "0.1.0"
 * SCT#77386006 "Patient currently pregnant (finding)"
