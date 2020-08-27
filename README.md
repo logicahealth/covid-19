@@ -57,6 +57,23 @@ Once completed, your IG builds will use this local base image. If you wish to up
 
 You are welcome to build _manually_ using the IG publisher .jar and manage those dependencies yourself. If you do, please do _not_ check in binaries, output, or cached files.
 
+# Release Process
+
+Due to the HL7 IG publisher RAM requirements, we typically build locally and push images into the deployment system. (This is unlike most other Logica projects where building is fully automated.) The overall process is:
+
+1. Get all work merged into the staging branch. (`git merge dev`)
+1. Make sure the following release metadata files are updated, commited and pushed. (`git commit -m "Updating metadata for release." -a`)
+   1. fsh/
+   1. fsh/package.json
+   1. fsh/ig-data/package-list.json
+   1. fsh/ig-data//input/history.md
+1. Build image for staging. (`docker build -t logicahealth/covid-19-ig-staging:latest .` && `docker push logicahealth/covid-19-ig-staging:latest `)
+1. Review https://covid-19-ig-staging.logicahealth.org and fix anything necessary.
+1. When satisfied, tag image with version and for production release. (`docker tag logicahealth/covid-19-ig-staging:latest logicahealth/covid-19-ig:vX.Y.Z` && `docker tag logicahealth/covid-19-ig-staging:latest logicahealth/covid-19-ig:latest`)
+1. Push production and release labels. (`docker push logicahealth/covid-19-ig:vX.Y.Z ` && `docker push logicahealth/covid-19-ig:latest `)
+1. Tag and push git pointers. (`git tag vX.Y.Z` && `git push --tags`)
+1. Merge into master branch. (`git checkout master` && `git merge staging` && `git push`)
+1. Merge back into any other active branches. (`git checkout dev` && `git merge staging` && `git push`)
 
 ## Licensing
 

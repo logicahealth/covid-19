@@ -7,6 +7,7 @@ Recent releases without release notes indicate inconsequential edits such as fix
 
 | Version 	| Date 	| Run Command 	| GitHub Source 	| Notes 	|
 |-	|-	|-	|-	|-	|
+| v0.9.2	| 2020-08-11	| `docker run -it --rm -p 8080:80 logicahealth/covid-19-ig:v0.9.1` 	| [v0.9.2](https://github.com/logicahealth/covid-19/tree/v0.9.2)	| Minor fixes. |
 | v0.9.1	| 2020-08-03	| `docker run -it --rm -p 8080:80 logicahealth/covid-19-ig:v0.9.1` 	| [v0.9.1](https://github.com/logicahealth/covid-19/tree/v0.9.1)	| Minor documentation fixes. |
 | v0.9.0	| 2020-07-30	| `docker run -it --rm -p 8080:80 logicahealth/covid-19-ig:v0.9.0` 	| [v0.9.0](https://github.com/logicahealth/covid-19/tree/v0.9.0)	| Complete co-morbidity value sets. |
 | v0.8.0	| 2020-07-02	| `docker run -it --rm -p 8080:80 logicahealth/covid-19-ig:v0.8.0` 	| [v0.8.0](https://github.com/logicahealth/covid-19/tree/v0.8.0)	| Addition of the final four specific underlying condition profiles: Uncategorized underlying condition, Gastrointestinal and Hepatic underlying condition, Immune underlying condition, and Renal underlying condition. |

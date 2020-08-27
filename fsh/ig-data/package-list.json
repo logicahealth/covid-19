@@ -12,6 +12,16 @@
       "current": true
     },
     {
+      "version": "0.9.2",
+      "date": "2020-08-11",
+      "desc": "Official v0.9.2 release",
+      "path": "http://fhir.logicahealth.org/covid19",
+      "status": "draft",
+      "sequence": "Drafts",
+      "fhirversion": "4.0.1",
+      "current": true
+    },
+    {
       "version": "0.9.1",
       "date": "2020-08-03",
       "desc": "Official v0.9.1 release",
