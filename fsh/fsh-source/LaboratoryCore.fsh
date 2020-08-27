@@ -22,7 +22,7 @@ Description:    "Abstract base class for laboratory observations."
 * identifier[placerOrderNumber].type = IDTYPE#PLAC
 // slicing rules for performer 
 // @Nathan, this slicing is infeasible 
-* performer only Reference(Practitioner | Organization)
+* performer only Reference(Practitioner or Organization)
 * performer ^slicing.discriminator.type = #value
 * performer  ^slicing.discriminator.path = "Observation.performer"
 * performer  ^slicing.rules = #open
@@ -61,6 +61,14 @@ Title:   "Coded Laboratory Observation Base"
 Description:  "Abstract base class for coded laboratory observations."
 * ^abstract = true
 * value[x] only CodeableConcept
+
+// Profile: RatioLaboratoryObservationBase
+// Parent: LaboratoryObservationBase
+// Id: c19-ratio-laboratory-observation-base
+// Title: "Ratio Laboratory Observation Base"
+// Description: "Abstract class for ratio/titer laboratory observations"
+// * ^abstract = true
+// * value[x] only Ratio
 
 Profile:  LaboratoryObservationPanelBase
 Parent:   LaboratoryObservationBase

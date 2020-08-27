@@ -42,10 +42,10 @@ Description: "The country or countries to which the subject may have traveled."
 * component[TravelStartDate].value[x] only dateTime
 * component[Country].code = LNC#94651-7 "Country of travel"
 * component[Country].value[x] only CodeableConcept
-* component[Country].valueCodeableConcept from CountryCodesVS (preferred)
+* component[Country].valueCodeableConcept from ISOCountryVS (preferred)
 * component[State].code = LNC#82754-3 "State of travel"
 * component[State].value[x] only CodeableConcept
-* component[State].valueCodeableConcept from StateCodesVS (preferred)
+* component[State].valueCodeableConcept from ISOStateVS (preferred)
 * component[City].code = LNC#94653-3 "City of travel"
 * component[City].value[x] only string
 * component[TravelEndDate].code = LNC#91560-3 "Date of departure from travel destination"

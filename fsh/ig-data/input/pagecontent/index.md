@@ -2,9 +2,9 @@ _For previous release notes, see the [history page](history.html)_
 
 ### Introduction
 
-The COVID-19 crisis presents an unprecedented need to share information in a standards-based way to support direct patient care, patient screening, public health reporting, and research.  Logica (formerly HSPC) has decided to use the resources of the organization to produce information models and terminology to support sharing of data and information related to COVID-19.  We have created and are sharing at no cost, HL7 FHIR profiles for COVID-19 related data, and a spreadsheet with the same information. We hope that people can use the spreadsheet to make their own implementations targeting HL7 CDA, HL7 V2.X, or other solutions. Our goal is to provide immediate help in the current crisis, not in 6 months from now, so we are publishing artifacts as soon as possible, recognizing they will not be perfect or comprehensive, but hopefully they will be useful.  We will then publish corrections and additional content iteratively as fast as we can.  We need feedback from everyone so that we can quickly improve the content.  Please post questions and comments in the [Logica COVID19 Forum](https://groups.google.com/a/logicahealth.org/forum/#!forum/covid), and enter suggested corrections and additions in the Logica COVID 19 [feedback form](https://docs.google.com/forms/d/e/1FAIpQLSd9nedKnhzFNaTlO_vd5NTFn3jbGlHYGuiBC7vtCaY1UGASjA/viewform).  
+The COVID-19 crisis presents an unprecedented need to share information in a standards-based way to support direct patient care, patient screening, public health reporting, and research.  Logica (formerly HSPC) has decided to use the resources of the organization to produce information models and terminology to support sharing of data and information related to COVID-19.  We have created and are sharing at no cost, HL7 FHIR profiles for COVID-19 related data, and a spreadsheet with the same information. We hope that people can use the spreadsheet to make their own implementations targeting HL7 CDA, HL7 V2.X, or other solutions. Our goal is to provide immediate help in the current crisis, not in 6 months from now, so we are publishing artifacts as soon as possible, recognizing they will not be perfect or comprehensive, but hopefully they will be useful.  We will then publish corrections and additional content iteratively as fast as we can.  We need feedback from everyone so that we can quickly improve the content.  Please post questions and comments in the [Logica COVID-19 Forum](https://groups.google.com/a/logicahealth.org/forum/#!forum/covid), and enter suggested corrections and additions in the Logica COVID 19 [feedback form](https://docs.google.com/forms/d/e/1FAIpQLSd9nedKnhzFNaTlO_vd5NTFn3jbGlHYGuiBC7vtCaY1UGASjA/viewform).  
 
-This Implementation guide is different from many HL7 FHIR Implementation Guides in that it is not focused on a single use case and it is not proscriptive.  That is, the FHIR profiles in this IG represent a collection or library of data elements that relate to COVID19 that we hope will be useful in many different situations where COVID19 data are shared.  The data elements might be used to share information to support patient care, billing, research, or public reporting. The hope is that authoritative groups that are authoring IGs for a specific use COVID19 case (such as a research collaboration) would use this IG as a source of FHIR profiles that they include in their own use case specific IG.  The goal is to create consistency of data across different COVID19 implementation guides and to eliminate redundant work when FHIR profiles are recreated in each use case specific IG.
+This Implementation guide is different from many HL7 FHIR Implementation Guides in that it is not focused on a single use case and it is not proscriptive.  That is, the FHIR profiles in this IG represent a collection or library of data elements that relate to COVID-19 that we hope will be useful in many different situations where COVID-19 data are shared.  The data elements might be used to share information to support patient care, billing, research, or public reporting. The hope is that authoritative groups that are authoring IGs for a specific use COVID-19 case (such as a research collaboration) would use this IG as a source of FHIR profiles that they include in their own use case specific IG.  The goal is to create consistency of data across different COVID-19 implementation guides and to eliminate redundant work when FHIR profiles are recreated in each use case specific IG.
 
 
 If you are submitting data needed in public health electronic case reporting  (required by state laws/regulations) to jurisdictional public health agencies you must use “HL7 CDA® R2 Implementation Guide: Public Health Case Report, Release 1.1 - US Realm” which can be found [here](https://www.hl7.org/implement/standards/product_brief.cfm?product_id=436). 
@@ -21,12 +21,12 @@ If you are using profiles or guidance from this implementation guide or plan on 
 
 The following reporting forms, documents, and terminology sources were consulted when creating the profiles for this IG.  This list will grow as new profiles are added.
 
-- CDC COVID19 PUI
-- CSTE Standardized surveillance case definition and national notification for 2019 novel coronavirus disease (COVID19)
+- CDC COVID-19 PUI
+- CSTE Standardized surveillance case definition and national notification for 2019 novel coronavirus disease (COVID-19)
 - Salt Lake County COVID-19 form
 - CDC COVID-19-Associated Hospitalization Surveillance Case Report Form
-- Health Catalyst COVID19 terms
-- Clinical Architecture COVID19 terms
+- Health Catalyst COVID-19 terms
+- Clinical Architecture COVID-19 terms
 
 
 #### Acknowlegements

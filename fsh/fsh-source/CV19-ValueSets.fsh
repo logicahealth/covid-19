@@ -55,12 +55,27 @@ Description: "The SNOMED CT codes to answer in the affirmative or negative."
 * SCT#373066001 "Yes (qualifier value)"
 * SCT#373067005 "No (qualifier value)"
 
+ValueSet: HL7YesNoVS
+Id: hl7-yes-no-vs
+Title: "HL7 Yes/No value set"
+Description: "The HL7 version 2 codes for answers in the affirmative or negative."
+* ^version = "0.1.0"
+* YesNo#Y "Yes"
+* YesNo#N "No"
+
 ValueSet: CountryCodesVS
 Id: country-codes-vs
 Title: "Country Codes Value Set"
 Description: "The set of SNOMED CT codes that represent countries."
 * ^version = "0.1.0"
 * codes from system SCT where concept is-a #223369002 "Country (geographical location)"
+
+ValueSet: ISOCountryVS
+Id: iso-country-codes-value-set
+Title: "ISO Code System 3166 country codes"
+Description: "The ISO 3166 system country codes."
+* ^version = "0.1.0"
+* codes from system ISO
 
 ValueSet: CloseContactSettingVS
 Id: close-contact-setting-vs
@@ -78,6 +93,13 @@ Title: "State Codes Value Set"
 Description: "The list of SNOMED CT codes that represent states."
 * ^version = "0.1.0"
 * codes from system SCT where concept is-a #224037005 "Region of United States of America (geographic location)"
+
+ValueSet: ISOStateVS
+Id: iso-state-codes-value-set
+Title: "ISO Code System 3166 state/province codes."
+Description: "The ISO 3166 State/Province codes."
+* ^version = "0.1.0"
+* codes from system ISOS
 
 ValueSet: COVID19SignsAndSymptomsVS
 Id: covid19-signs-1nd-symptoms-value-set
@@ -140,12 +162,18 @@ Description: "The set of SNOMED CT codes that represent the leve of certainty th
 * SCT#410594000	"Definitely NOT present (qualifier value)"
 * SCT#723511001	"Refuted (qualifier value)"
 
-ValueSet: HealthcareOccupationVS
-Id: healthcare-occupation-value-set
-Title: "Healthcare Occupation Value Set"
-Description: "A set of SNOMED CT codes that represent occupations within the health care industry."
-* ^version = "0.1.0"
-* codes from system SCT where concept is-a #223366009 "Healthcare professional (occupation)"
+// ValueSet: HealthcareOccupationVS
+// Id: healthcare-occupation-value-set
+// Title: "Healthcare Occupation Value Set"
+// Description: "A set of SNOMED CT codes that represent occupations within the health care industry."
+// * ^version = "0.1.0"
+// * codes from system SCT where concept is-a #223366009 "Healthcare professional (occupation)"
+
+// ValueSet: NUCCValueSet
+// Id: nucc-value-set
+// Title: "NUCC health Care Provider Taxonomy"
+// Description: "The unique codes that describe provider types, classifications, and areas of specialization.  This value set includes content from NUCC Health Care Provider Taxonomy Code Set for providers which is copyright © 2016+ American Medical Association. For commercial use, including sales or licensing, a license must be obtained"
+// * codes from NUCC
 
 ValueSet: KnownExposureLAVS
 Id: known-exposure-la-ValueSet
@@ -159,9 +187,9 @@ Description: "A set of LOINC answers for known expopsure"
 * LNC#LA30834-8 "Household contact with other lab-confirmed COVID-19 case-patient"
 * LNC#LA30835-5 "Community contact with other lab-confirmed COVID-19 case-patient"
 * LNC#LA30836-3 "Any healthcare contact with other lab-confirmed COVID-19 case-patient"
-* LNC#LA30837-1 "Any healthcare contact wiht a Patient who is lab-confirmed COVID-19 case-patient"
-* LNC#LA30838-9 "Any healthcare contact wiht a Visitor who is lab-confirmed COVID-19 case-patient"
-* LNC#LA30839-7 "Any healthcare contact wiht a Healthcare Worker who is lab-confirmed COVID-19 case-patient"
+* LNC#LA30837-1 "Any healthcare contact with a Patient who is lab-confirmed COVID-19 case-patient"
+* LNC#LA30838-9 "Any healthcare contact with a Visitor who is lab-confirmed COVID-19 case-patient"
+* LNC#LA30839-7 "Any healthcare contact with a Healthcare Worker who is lab-confirmed COVID-19 case-patient"
 * LNC#LA30840-5 "Animal Exposure"
 * LNC#LA30841-3 "Exposure to a cluster of patients with severe acute lower respiratory distress of unknown etiology"
 
@@ -265,10 +293,13 @@ Description: "A set of codes that describe underlying cardiovascular medical con
 * SCT#60573004 "Aortic valve stenosis (disorder)"
 * SCT#281170005 "Arrhythmogenic right ventricular cardiomyopathy (disorder)"
 * SCT#253528005 "Arrhythmogenic right ventricular dysplasia (disorder)"
+* SCT#431421000124103 "Arteriosclerosis of carotid artery (disorder)"
 * SCT#72092001 "Arteriosclerotic vascular disease (disorder)"
 * SCT#49436004 "Atrial fibrillation (disorder)"
 * SCT#70142008 "Atrial septal defect (disorder)"
+* SCT#819955006 "Atresia of pulmonary valve (disorder)"
 * SCT#233917008 "Atrioventricular block (disorder)"
+* SCT#253416000 "Atrioventricular septal defect: atrial and ventricular components (disorder)"
 * SCT#6374002 "Bundle branch block (disorder)"
 * SCT#703398004 "Cardiac implant in situ (finding)"
 * SCT#85898001 "Cardiomyopathy (disorder)"
@@ -377,6 +408,7 @@ Description: "A set of codes that describe underlying conditions of a neurologic
 * SCT#613003 "Fragile X syndrome (disorder)"
 * SCT#10394003 "Friedreich's ataxia (disorder)"
 * SCT#230270009 "Frontotemporal dementia (disorder)"
+* SCT#51928006 "General paresis - neurosyphilis (disorder)"
 * SCT#88611000119100 "History of traumatic brain injury (situation)"
 * SCT#386806002 "Impaired cognition (finding)"
 * SCT#2438005 "Iniencephaly (disorder)"
@@ -441,6 +473,7 @@ Description: "A set of codes that describe underlying immmunocompromised conditi
 * SCT#24743004 "Complement deficiency disease (disorder)"
 * SCT#404148006 "Diffuse large B-cell lymphoma (nodal/systemic with skin involvement) (disorder)"
 * SCT#109965004 "Diffuse non-Hodgkin's lymphoma, lymphoblastic (disorder)"
+* SCT#308121000 "Follicular non-Hodgkin's lymphoma (disorder)"
 * SCT#234646005 "Graft-versus-host disease (disorder)"
 * SCT#118613001 "Hairy cell leukemia (disorder)"
 * SCT#234336002 "Hemopoietic stem cell transplant (procedure)"
@@ -454,6 +487,7 @@ Description: "A set of codes that describe underlying immmunocompromised conditi
 * SCT#234532001 "Immunodeficiency disorder (disorder)"
 * SCT#29260007 "Immunoglobulin A deficiency (disorder)"
 * SCT#417167007 "Immunoglobulin deficiency (disorder)"
+* SCT#12631000119106 "Immunoglobulin G deficiency (disorder)"
 * SCT#86553008 "Immunosuppressive therapy (procedure)"
 * SCT#449187006 "Kappa light chain deficiency (disorder)"
 * SCT#277637000 "Large cell anaplastic lymphoma (disorder)"
@@ -462,12 +496,15 @@ Description: "A set of codes that describe underlying immmunocompromised conditi
 * SCT#93655004 "Malignant melanoma of skin (disorder)"
 * SCT#428061005 "Malignant neoplasm of brain (disorder)"
 * SCT#254837009 "Malignant neoplasm of breast (disorder)"
+* SCT#372062007 "Malignant neoplasm of central nervous system (disorder)"
 * SCT#781382000 "Malignant neoplasm of colon and/or rectum (disorder)"
+* SCT#371982006 "Malignant neoplasm of endocrine gland (disorder)"
 * SCT#187767006 "Malignant neoplasm of liver and intrahepatic bile ducts (disorder)"
 * SCT#187828007 "Malignant neoplasm of nasal cavities, middle ear and accessory sinuses (disorder)"
 * SCT#363402007 "Malignant tumor of esophagus (disorder)"
 * SCT#363461003 "Malignant tumor of eye (disorder)"
 * SCT#363514001 "Malignant tumor of female genital organ (disorder)"
+* SCT#363378008 "Malignant tumor of major salivary gland (disorder)"
 * SCT#363515000 "Malignant tumor of male genital organ (disorder)"
 * SCT#363497007 "Malignant tumor of meninges (disorder)"
 * SCT#187692001 "Malignant tumor of nasopharynx (disorder)"
@@ -537,7 +574,9 @@ Description: "A set of codes that describe underlying metabolic conditions for C
 * SCT#386584007 "Adrenal cortical hypofunction (disorder)"
 * SCT#237735008 "Adrenal Cushing's syndrome (disorder)"
 * SCT#65389002 "Adrenoleukodystrophy (disorder)"
+* SCT#700463002 "Alpha-methylacyl-CoA racemase deficiency disorder (disorder)"
 * SCT#54954004 "Aspartylglucosaminuria (disorder)"
+* SCT#238068007 "Bifunctional peroxisomal enzyme deficiency (disorder)"
 * SCT#128289001 "Chronic metabolic disorder (disorder)"
 * SCT#7573000 "Classical phenylketonuria (disorder)"
 * SCT#35691006 "Combined deficiency of sialidase AND beta galactosidase (disorder)"
@@ -585,6 +624,7 @@ Description: "A set of codes that describe underlying metabolic conditions for C
 * SCT#21983002 "Hashimoto thyroiditis (disorder)"
 * SCT#111578003 "Hereditary nonspherocytic hemolytic anemia due to aldolase A deficiency (disorder)"
 * SCT#66999008 "Hyperparathyroidism (disorder)"
+* SCT#10649000 "Hyperpituitarism (disorder)"
 * SCT#34486009 "Hyperthyroidism (disorder)"
 * SCT#36976004 "Hypoparathyroidism (disorder)"
 * SCT#74728003 "Hypopituitarism (disorder)"
@@ -600,15 +640,19 @@ Description: "A set of codes that describe underlying metabolic conditions for C
 * SCT#396338004 "Metachromatic leucodystrophy (disorder)"
 * SCT#725296006 "Mucolipidosis type IV (disorder)"
 * SCT#75610003 "Mucopolysaccharidosis type I (disorder)"
+* SCT#65327002 "Mucopolysaccharidosis type I-H (disorder)"
 * SCT#26745009 "Mucopolysaccharidosis type I-H/S (disorder)"
 * SCT#70737009 "Mucopolysaccharidosis type II (disorder)"
 * SCT#73123008 "Mucopolysaccharidosis type I-S (disorder)"
 * SCT#43916004 "Mucopolysaccharidosis type VII (disorder)"
+* SCT#378007 "Morquio syndrome (disorder)"
 * SCT#238061001 "Neonatal adrenoleucodystrophy (disorder)"
+* SCT#783717008 "Phosphoglucomutase 1-related congenital disorder of glycosylation (disorder)"
 * SCT#5335002 "Phosphoenolpyruvate carboxykinase deficiency (disorder)"
 * SCT#25362006 "Phytanic acid storage disease (disorder)"
 * SCT#65520001 "Primary hyperoxaluria, type I (disorder)"
 * SCT#65764006 "Pseudo-Hurler polydystrophy (disorder)"
+* SCT#734434007 "Pyridoxine-dependent epilepsy (disorder)"
 * SCT#46683007 "Pyruvate dehydrogenase complex deficiency (disorder)"
 * SCT#23849003 "Sandhoff disease (disorder)"
 * SCT#88393000 "Sanfilippo syndrome (disorder)"
@@ -663,6 +707,7 @@ Id: covid19-underlying-renal-condition-value-set
 Title: "COVID-19 renal underlying condition reference set"
 Description: "A set of codes that describe underlying renal conditions for COVID19"
 * ^version = "0.2.0"
+* SCT#68544003 "Acute post-streptococcal glomerulonephritis (disorder)"
 * SCT#17602002 "Amyloidosis (disorder)"
 * SCT#788613004 "Anti-glomerular basement membrane disease (disorder)"
 * SCT#709044004 "Chronic kidney disease (disorder)"
@@ -704,6 +749,7 @@ Description: "A set of codes that describe underlying immune conditions for COVI
 * SCT#155441006 "Polyarteritis nodosa (disorder)"
 * SCT#65323003 "Polymyalgia rheumatica (disorder)"
 * SCT#31384009 "Polymyositis (disorder)"
+* SCT#699814001 "Primary angiitis of central nervous system (disorder)"
 * SCT#156370009 "Psoriatic arthritis (disorder)"
 * SCT#69896004 "Rheumatoid arthritis (disorder)"
 * SCT#724600007 "Small vessel vasculitis caused by immune complex (disorder)"
@@ -744,3 +790,5 @@ Description: "A set of codes that describe conditions that are not otherwise cat
 * SCT#15100005 "Postpartum state, 2 weeks (finding)"
 * SCT#61420007 "Tube feeding of patient (regime/therapy)"
 * SCT#225612007 "Wheelchair bound (finding)"
+
+

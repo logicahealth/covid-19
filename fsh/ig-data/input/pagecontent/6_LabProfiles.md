@@ -1,10 +1,10 @@
 ﻿### Laboratory Profiles
 
 
-These profiles are based on LOINC codes specific to SARS CoV 2(the causitive agent of COVID19) and a few others related to it.  Most of them are in a pre-release state and are therefore subject to change.  Their status will be updated on the normal release scheduled by Regenstrief.
+These profiles are based on LOINC codes specific to SARS CoV 2(the causitive agent of COVID-19) and a few others related to it.  Most of them are in a pre-release state and are therefore subject to change.  Their status will be updated on the normal release scheduled by Regenstrief.
 
 
-For information about mapping COVID19 laboratory test codes to a specific test, click [here](https://www.cdc.gov/csels/dls/sars-cov-2-livd-codes.html) to download CDC's up to date test mapping tool site supported by [SHIELD](https://mdic.org/program/systemic-harmonization-and-interoperability-enhancement-for-lab-data-shield/).
+For information about mapping COVID-19 laboratory test codes to a specific test, click [here](https://www.cdc.gov/csels/dls/sars-cov-2-livd-codes.html) to download CDC's up to date test mapping tool site supported by [SHIELD](https://mdic.org/program/systemic-harmonization-and-interoperability-enhancement-for-lab-data-shield/).
 
 
 
@@ -82,68 +82,68 @@ LOINC code 82162-9 [Human coronavirus NL63 RNA \[Presence\] in Nasopharynx by NA
 
 LOINC code 82164-5 [Human coronavirus OC43 RNA \[Presence\] in Nasopharynx by NAA with non-probe detection](StructureDefinition-HumancoronavirusOC43RNAPrThrPtNphOrdNonprobeamptarLabObs.html)
 
-LOINC code 94639-2 [SARS-CoV-2 (COVID19) ORF1ab region [Presence] in Unspecified specimen by NAA with probe detection](StructureDefinition-SARScoronavirus2ORF1abregionPrThrPtXXXOrdProbeamptarLabObs.html)
+LOINC code 94639-2 [SARS-CoV-2 (COVID-19) ORF1ab region [Presence] in Unspecified specimen by NAA with probe detection](StructureDefinition-SARScoronavirus2ORF1abregionPrThrPtXXXOrdProbeamptarLabObs.html)
 
-LOINC code 94640-0 [SARS-CoV-2 (COVID19) S gene [Presence] in Respiratory specimen by NAA with probe detection](StructureDefinition-SARS-CoV2-Sgene-PrThr-Pt-Resp-Ord-ProbAmpTar-LabObs.html)
+LOINC code 94640-0 [SARS-CoV-2 (COVID-19) S gene [Presence] in Respiratory specimen by NAA with probe detection](StructureDefinition-SARS-CoV2-Sgene-PrThr-Pt-Resp-Ord-ProbAmpTar-LabObs.html)
 
-LOINC code 4641-8 [SARS-CoV-2 (COVID19) S gene [Presence] in Unspecified specimen by NAA with probe detection](StructureDefinition-SARS-CoV2-Sgene-PrThr-Pt-xxx-ord-ProbeAmptTar-LabObs.html)
+LOINC code 4641-8 [SARS-CoV-2 (COVID-19) S gene [Presence] in Unspecified specimen by NAA with probe detection](StructureDefinition-SARS-CoV2-Sgene-PrThr-Pt-xxx-ord-ProbeAmptTar-LabObs.html)
 
-LOINC code 94642-6 [SARS-CoV-2 (COVID19) S gene [Cycle Threshold #] in Respiratory specimen by NAA with probe detection](StructureDefinition-SARS-CoV2-Sgene-ThreshNum-Pt-Resp-Qn-ProbAmpTar-LabObs.html)
+LOINC code 94642-6 [SARS-CoV-2 (COVID-19) S gene [Cycle Threshold #] in Respiratory specimen by NAA with probe detection](StructureDefinition-SARS-CoV2-Sgene-ThreshNum-Pt-Resp-Qn-ProbAmpTar-LabObs.html)
 
-LOINC code 94643-4 [SARS-CoV-2 (COVID19) S gene [Cycle Threshold #] in Unspecified specimen by NAA with probe detection](StructureDefinition-SARS-CoV2-Sgene-ThreshNum-Pt-xxx-Qn-ProbAmpTar-LabObs.html)
+LOINC code 94643-4 [SARS-CoV-2 (COVID-19) S gene [Cycle Threshold #] in Unspecified specimen by NAA with probe detection](StructureDefinition-SARS-CoV2-Sgene-ThreshNum-Pt-xxx-Qn-ProbAmpTar-LabObs.html)
 
-LOINC code 94644-2 [SARS-CoV-2 (COVID19) ORF1ab region [Cycle Threshold #] in Respiratory specimen by NAA with probe detection](StructureDefinition-sars-cov2-2orf1-abregion-threshnum-pt-resp-qn-probamptar.html)
+LOINC code 94644-2 [SARS-CoV-2 (COVID-19) ORF1ab region [Cycle Threshold #] in Respiratory specimen by NAA with probe detection](StructureDefinition-sars-cov2-2orf1-abregion-threshnum-pt-resp-qn-probamptar.html)
 
-LOINC code 94645-9 [SARS-CoV-2 (COVID19) RdRp gene [Cycle Threshold #] in Unspecified specimen by NAA with probe detection](StructureDefinition-SARS-CoV2-RdRpgene-ThreshNum-pt-xxx-Qn-ProbAmpTar-LabObs.html)
+LOINC code 94645-9 [SARS-CoV-2 (COVID-19) RdRp gene [Cycle Threshold #] in Unspecified specimen by NAA with probe detection](StructureDefinition-SARS-CoV2-RdRpgene-ThreshNum-pt-xxx-Qn-ProbAmpTar-LabObs.html)
 
-LOINC code 94646-7 [SARS-CoV-2 (COVID19) RdRp gene [Cycle Threshold #] in Respiratory specimen by NAA with probe detection](StructureDefinition-sars-cov2-2rdrpgene-threshnum-pt-resp-qn-ProbAmpTar.html)
+LOINC code 94646-7 [SARS-CoV-2 (COVID-19) RdRp gene [Cycle Threshold #] in Respiratory specimen by NAA with probe detection](StructureDefinition-sars-cov2-2rdrpgene-threshnum-pt-resp-qn-ProbAmpTar.html)
 
 LOINC code 94647-5 [SARS-related coronavirus RNA [Presence] in Unspecified specimen by NAA with probe detection](StructureDefinition-SARS-rel-coronavirus-RNA-PrThr-Pt-xxx-probamptar-LabObs.html)
 
-LOINC code 94660-8 [SARS-CoV-2 (COVID19) RNA [Presence] in Serum or Plasma by NAA with probe detection](StructureDefinition-SARS-CoV2-RNA-PrThr-pt-serplas-ord-probamptar-LabObs.html)
+LOINC code 94660-8 [SARS-CoV-2 (COVID-19) RNA [Presence] in Serum or Plasma by NAA with probe detection](StructureDefinition-SARS-CoV2-RNA-PrThr-pt-serplas-ord-probamptar-LabObs.html)
 
-LOINC code 94661-6 [SARS-CoV-2 (COVID19) Ab [Interpretation] in Serum or Plasma](StructureDefinition-SARS-CoV2-Ab-Imp-pt-serplas-nom-LabObs.html)
+LOINC code 94661-6 [SARS-CoV-2 (COVID-19) Ab [Interpretation] in Serum or Plasma](StructureDefinition-SARS-CoV2-Ab-Imp-pt-serplas-nom-LabObs.html)
 
-LOINC code 94720-0 [SARS-CoV-2 (COVID19) IgA Ab [Units/volume] in Serum or Plasma by Immunoassay](StructureDefinition-SARS-CoV2-ab-IgA-acnc-pt-serplas-qn-ia-LabObs.html)
+LOINC code 94720-0 [SARS-CoV-2 (COVID-19) IgA Ab [Units/volume] in Serum or Plasma by Immunoassay](StructureDefinition-SARS-CoV2-ab-IgA-acnc-pt-serplas-qn-ia-LabObs.html)
 
-LOINC code 94745-7 [SARS-CoV-2 (COVID19) RNA [Cycle Threshold#] in Respiratory specimen by NAA with probe detection](StructureDefinition-SARS-CoV2-RNA-cycle-thresh-resp-qn-naa-probamptar.html)
+LOINC code 94745-7 [SARS-CoV-2 (COVID-19) RNA [Cycle Threshold#] in Respiratory specimen by NAA with probe detection](StructureDefinition-SARS-CoV2-RNA-cycle-thresh-resp-qn-naa-probamptar.html)
 
-LOINC code 94745-5 [SARS-CoV-2 (COVID19) RNA [Cycle Threshold#] in Unspecified specimen by NAA with probe detection](StructureDefinition-SARS-Cov2-rna-threshnum-pt-xxx-qn-probamptar.html)
+LOINC code 94745-5 [SARS-CoV-2 (COVID-19) RNA [Cycle Threshold#] in Unspecified specimen by NAA with probe detection](StructureDefinition-SARS-Cov2-rna-threshnum-pt-xxx-qn-probamptar.html)
 
-LOINC code 94758-0 [SARS-CoV-2 (COVID19) E gene [Presence] in Respiratory specimen by NAA with probe detection](StructureDefinition-SARS-CoV2-Egene-prthr-pt-resp-ord-probamptar.html)
+LOINC code 94758-0 [SARS-CoV-2 (COVID-19) E gene [Presence] in Respiratory specimen by NAA with probe detection](StructureDefinition-SARS-CoV2-Egene-prthr-pt-resp-ord-probamptar.html)
 
-LOINC code 94756-4 [SARS-CoV-2 (COVID19) N gene [Presence] in Respiratory specimen by Nucleic acid amplification using CDC primer-probe set N1](StructureDefinition-SARS-CoV2-Ngene-prthr-resp-ord-probamptar-N1.html)
+LOINC code 94756-4 [SARS-CoV-2 (COVID-19) N gene [Presence] in Respiratory specimen by Nucleic acid amplification using CDC primer-probe set N1](StructureDefinition-SARS-CoV2-Ngene-prthr-resp-ord-probamptar-N1.html)
 
-LOINC code 947575-2 [SARS-CoV-2 (COVID19) N gene [Presence] in Respiratory specimen by Nucleaic acid amplification using CDC primer-probe set N2](StructureDefinition-SARS-CoV2-Ngene-prthr-pt-resp-ord-probamptar-N2.html)
+LOINC code 947575-2 [SARS-CoV-2 (COVID-19) N gene [Presence] in Respiratory specimen by Nucleaic acid amplification using CDC primer-probe set N2](StructureDefinition-SARS-CoV2-Ngene-prthr-pt-resp-ord-probamptar-N2.html)
 
-LOINC code 94761-4 [SARS-CoV-2 (COVID19) IgG Ab [Presence] in DBS by Immunoassay](StructureDefinition-SARS-CoV2-ab-IgG-prthr-pt-blddot-ord-ia.html)
+LOINC code 94761-4 [SARS-CoV-2 (COVID-19) IgG Ab [Presence] in DBS by Immunoassay](StructureDefinition-SARS-CoV2-ab-IgG-prthr-pt-blddot-ord-ia.html)
 
-LOINC code 94760-6 [SARS-CoV-2 (COVID19) N gene [Presence] in Nasopharynx by NAA with probe detection](StructureDefinition-SARSCoV2NgenePrThrPtNphOrdProbAmpTar.html)
+LOINC code 94760-6 [SARS-CoV-2 (COVID-19) N gene [Presence] in Nasopharynx by NAA with probe detection](StructureDefinition-SARSCoV2NgenePrThrPtNphOrdProbAmpTar.html)
 
-LOINC code 94759-8 [Sars-CoV-2 (COVID19) RNA [Presence] in Nasopharynx by NAA with probe detection](StructureDefinition-SARSCoV2RNAPrThrPtNphOrsdProbAmpTar.html)
+LOINC code 94759-8 [Sars-CoV-2 (COVID-19) RNA [Presence] in Nasopharynx by NAA with probe detection](StructureDefinition-SARSCoV2RNAPrThrPtNphOrsdProbAmpTar.html)
 
-LOINC code 94762-2 [SARS-CoV-2 (COVID19) Ab [Presence] in Serum or Plasma by Immunoassay](StructureDefinition-SARSCoV2AbPrThrPtSerPlasOrdIA.html)
+LOINC code 94762-2 [SARS-CoV-2 (COVID-19) Ab [Presence] in Serum or Plasma by Immunoassay](StructureDefinition-SARSCoV2AbPrThrPtSerPlasOrdIA.html)
 
-LOINC code 94763-0 [SARS-CoV-2 (COVID19) [Presence] in Unspecified specimen by Organism specific culture](StructureDefinition-SARSCoV2PrThrPtXXXOrdOrganismSpecificCulture.html)
+LOINC code 94763-0 [SARS-CoV-2 (COVID-19) [Presence] in Unspecified specimen by Organism specific culture](StructureDefinition-SARSCoV2PrThrPtXXXOrdOrganismSpecificCulture.html)
 
-LOINC code 94764-8 [SARS-coV-2 (COVID19) whole genome [Nucleiotide sequence] in Isolate by Sequencing](StructureDefinition-SARSCoV2wholegenomeSeqPtIsolateNomSequencing.html)
+LOINC code 94764-8 [SARS-coV-2 (COVID-19) whole genome [Nucleiotide sequence] in Isolate by Sequencing](StructureDefinition-SARSCoV2wholegenomeSeqPtIsolateNomSequencing.html)
 
-LOINC code 94767-1 [SARS-CoV-2 (COVID19) S gene [Presence] in Serum or Plasma by NAA with probe detection](StructureDefinition-SARSCoV2SgenePrThrPtSerPlasOrdProbAmpTar.html)
+LOINC code 94767-1 [SARS-CoV-2 (COVID-19) S gene [Presence] in Serum or Plasma by NAA with probe detection](StructureDefinition-SARSCoV2SgenePrThrPtSerPlasOrdProbAmpTar.html)
 
-LOINC code 94765-5 [SARS-CoV-2 (COVID19) E gene [Presence] in Serum or Plasma by NAA with probe detection](StructureDefinition-SARSCoV2EgenePrThrPtSerPlasOrdProbAmpTar.html)
+LOINC code 94765-5 [SARS-CoV-2 (COVID-19) E gene [Presence] in Serum or Plasma by NAA with probe detection](StructureDefinition-SARSCoV2EgenePrThrPtSerPlasOrdProbAmpTar.html)
 
-LOINC code 94766-3 [SARS-CoV-2 (COVID19) N gene [Presence] in Serum or Plasma by NAA with probe detection](StructureDefinition-SARSCoV2NgenePrThrPtSerPlasOrdProbAmpTar.html)
+LOINC code 94766-3 [SARS-CoV-2 (COVID-19) N gene [Presence] in Serum or Plasma by NAA with probe detection](StructureDefinition-SARSCoV2NgenePrThrPtSerPlasOrdProbAmpTar.html)
 
-LOINC code 94768-9 [SARS-CoV-2 (COVID19) IgA Ab [Presence] in Serum, Plasma, or Blood by Rapid imunoassay](StructureDefinition-SARSCoV2AbIgAPrThrPtSerPlasBldOrdIARapid.html)
+LOINC code 94768-9 [SARS-CoV-2 (COVID-19) IgA Ab [Presence] in Serum, Plasma, or Blood by Rapid imunoassay](StructureDefinition-SARSCoV2AbIgAPrThrPtSerPlasBldOrdIARapid.html)
 
-LOINC code 94769-7 [SARS-CoV-2 (COVID19) Ab [Units/volume] in Serum or Plasma by Immunoassay](StructureDefinition-SARSCoV2AbACncPtSerPlasQnIA.html)
+LOINC code 94769-7 [SARS-CoV-2 (COVID-19) Ab [Units/volume] in Serum or Plasma by Immunoassay](StructureDefinition-SARSCoV2AbACncPtSerPlasQnIA.html)
 
-LOINC code 94819-0 [SARS-CoV-2 (COVID19) RNA [Log#/volume] (viral load) in Unspecified specimen by NAA with probe detection](StructureDefinition-SARSCoV2RNALnCncPtXXXQnProbAmpTar.html)
+LOINC code 94819-0 [SARS-CoV-2 (COVID-19) RNA [Log#/volume] (viral load) in Unspecified specimen by NAA with probe detection](StructureDefinition-SARSCoV2RNALnCncPtXXXQnProbAmpTar.html)
 
-LOINC code 94822-4 [SARS-CoV-2 (COVID19) RNA [Presence] in Saliva (oral fluid) by Seqencing](StructureDefinition-SARSCoV2RNAPrThrPtSalivaOrdSequencing.html)
+LOINC code 94822-4 [SARS-CoV-2 (COVID-19) RNA [Presence] in Saliva (oral fluid) by Seqencing](StructureDefinition-SARSCoV2RNAPrThrPtSalivaOrdSequencing.html)
 
-LOINC code 94845-5 [SARS-CoV-2 (COVID19) RNA [Presence] in Saliva (oral fluid) by NAA with probe](StructureDefinition-SARSCoV2RNAPrThrPtSalivaOrdProbAmpTar.html)
+LOINC code 94845-5 [SARS-CoV-2 (COVID-19) RNA [Presence] in Saliva (oral fluid) by NAA with probe](StructureDefinition-SARSCoV2RNAPrThrPtSalivaOrdProbAmpTar.html)
 
-LOINC code 95125-1 [SARS-CoV-2 (COVID19) IgA + IgM [Presence] in Serum or Plasma by Immunoassay](StructureDefinition-SARSCoV2AbIgAplusIgMPrThrPtSerPlasordIA.html)
+LOINC code 95125-1 [SARS-CoV-2 (COVID-19) IgA + IgM [Presence] in Serum or Plasma by Immunoassay](StructureDefinition-SARSCoV2AbIgAplusIgMPrThrPtSerPlasordIA.html)
 
-LOINC code 95209-3 [SARS-CoV + SARS-Cov-2 (COVID19) Ag [Presence] in Respiratory specimen by Rapid immunoassay](StructureDefinition-SARSCoronavirusPlusSARSCoV2AgPrThrPtRespOrdIARapid.html)
+LOINC code 95209-3 [SARS-CoV + SARS-Cov-2 (COVID-19) Ag [Presence] in Respiratory specimen by Rapid immunoassay](StructureDefinition-SARSCoronavirusPlusSARSCoV2AgPrThrPtRespOrdIARapid.html)

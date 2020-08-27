@@ -5,5 +5,5 @@ The following is a profile of the FHIR Questionnaire base resource.  It is inclu
 
 These questions are based on the LOINC answers in the value set of answers given in the [Known Exposure](StructureDefinition-known-exposure.html) profile.  This profile should be used in conjuction with the Known Exposure profile.  Answers of "yes" within this profile should prompt instances of the Known Exposure profile with values specific to the questionnaire question.
 
-[COVID19 Exposure Questionnaire](StructureDefinition-covid-19-exposure-questionnaire.html)
+[COVID-19 Exposure Questionnaire](StructureDefinition-covid-19-exposure-questionnaire.html)
 

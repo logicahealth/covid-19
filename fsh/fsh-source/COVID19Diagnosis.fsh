@@ -20,7 +20,7 @@ Profile: COVID19UnderlyingMedicalConditionPresent
 Parent: USCoreCondition
 Id: COVID-19-underlying-medical-condition-present
 Title: "COVID-19 General Comorbidities Present"
-Description: "An assertion that genrealized conditions such as chronic respiratiory disease or chronic metabolic disease are also present with the COVID19 disease."
+Description: "An assertion that genrealized conditions such as chronic respiratiory disease or chronic metabolic disease are also present with the COVID-19 disease."
 * modifierExtension contains
     CertaintyOfPresence named certaintyOfPresence 1..1
 * bodySite 0..0
@@ -39,7 +39,7 @@ Profile: COVID19UnderlyingMedicalConditionAbsent
 Parent: USCoreCondition
 Id: COVID-19-underlying-medical-condition-absent
 Title: "COVID-19 General Comorbidities Absent"
-Description: "An assertion that generalized conditions such as chronic respiratory disease ARE NOT present along with the COVID19 disease."
+Description: "An assertion that generalized conditions such as chronic respiratory disease ARE NOT present along with the COVID-19 disease."
 * modifierExtension contains
     CertaintyOfAbsence named certaintyOfAbsence 1..1
 * bodySite 0..0
@@ -58,7 +58,7 @@ Profile: COVID19UnderlyingCardiovascularMedicalConditionPresent
 Parent: USCoreCondition
 Id: underlying-cardiovascular-medical-condition-present
 Title: "COVID-19 cardiovascular underlying condition"
-Description: "An assertion that a specific cardiovascular condition is present as an underlier to COVID19."
+Description: "An assertion that a specific cardiovascular condition is present as an underlier to COVID-19."
 * modifierExtension contains
     CertaintyOfPresence named certaintyOfPresence 1..1
 * bodySite 0..0
@@ -70,7 +70,7 @@ Profile: COVID19UnderlyingNeuroligicMedicalConditionPresent
 Parent: USCoreCondition
 Id: underlying-neuroligic-medical-condition-present
 Title: "COVID-19 neurologic underlying condition"
-Description: "An assertion that a specific neuroligical condition is present as an underlier to COVID19."
+Description: "An assertion that a specific neuroligical condition is present as an underlier to COVID-19."
 * modifierExtension contains
     CertaintyOfPresence named certaintyOfPresence 1..1
 * bodySite 0..0
@@ -82,7 +82,7 @@ Profile: COVID19UnderlyingImmunocompromisedMedicalConditionPresent
 Parent: USCoreCondition
 Id: underlying-immunocompromised-medical-condition-present
 Title: "COVID-19 immunocompromised underlying condition"
-Description: "An assertion that a specific immunocompromised condition is present as an underlier to COVID19."
+Description: "An assertion that a specific immunocompromised condition is present as an underlier to COVID-19."
 * modifierExtension contains    
     CertaintyOfPresence named certaintyOfPresence 1..1
 * bodySite 0..0
@@ -94,7 +94,7 @@ Profile: COVID19RespiratoryUnderlyingMedicalConditionPresent
 Parent: USCoreCondition
 Id: underlying-respiratory-medical-condition-present
 Title: "COVID-19 respiratory underlying condition"
-Description: "An assertion that a specific respiratory condition is present as an underlier to COVID19."
+Description: "An assertion that a specific respiratory condition is present as an underlier to COVID-19."
 * modifierExtension contains
     CertaintyOfPresence named certaintyOfPresence 1..1
 * bodySite 0..0
@@ -106,7 +106,7 @@ Profile: COVID19UnderlyingMetabolicMedicalConditionPresent
 Parent: USCoreCondition
 Id: underlying-metabolic-medical-condition-present
 Title: "COVID-19 metabolic underlying condition"
-Description: "An assertion that a specific metabolic condition is present as an underlier to COVID19."
+Description: "An assertion that a specific metabolic condition is present as an underlier to COVID-19."
 * modifierExtension contains
     CertaintyOfPresence named certaintyOfPresence 1..1
 * bodySite 0..0
@@ -118,7 +118,7 @@ Profile: COVID19HemoglobinopathyUnderlyingMedicalConditionPresent
 Parent: USCoreCondition
 Id: underlying-hemoglobinopathy-medical-condition-present
 Title: "COVID-19 hemoglobinopathy underlying condition"
-Description: "An assertion that a specific hemoglobinopathy condition is present as an underlier to COVID19."
+Description: "An assertion that a specific hemoglobinopathy condition is present as an underlier to COVID-19."
 * modifierExtension contains
     CertaintyOfPresence named certaintyOfPresence 1..1
 * bodySite 0..0
@@ -130,7 +130,7 @@ Profile: COVID19RenalUnderlyingMedicalConditionPresent
 Parent: USCoreCondition
 Id: underlying-renal-medical-condition-present
 Title: "COVID-19 renal underlying condition"
-Description: "An assertion that a specific renal condition is present as an underlier to COVID19."
+Description: "An assertion that a specific renal condition is present as an underlier to COVID-19."
 * modifierExtension contains
     CertaintyOfPresence named certaintyOfPresence 1..1
 * bodySite 0..0
@@ -142,7 +142,7 @@ Profile: COVID19ImmuneUnderlyingMedicalConditionPresent
 Parent: USCoreCondition
 Id: underlying-immune-medical-condition-present
 Title: "COVID-19 immune underlying condition"
-Description: "An assertion that a specified immune condition is present as an underlier to COVID19."
+Description: "An assertion that a specified immune condition is present as an underlier to COVID-19."
 * modifierExtension contains
     CertaintyOfPresence named certaintyOfPresence 1..1
 * bodySite 0..0
@@ -154,7 +154,7 @@ Profile: COVID19GastrointestinalHepaticUnderlyingMedicalConditionPresent
 Parent: USCoreCondition
 Id: underlying-gastrointestinal-hepatic-medical-condition-present
 Title: "COVID-19 gastrointestinal and hepatic underlying condition"
-Description: "An assertion that a specific gastrointestinal or hepatic condition is present as an underlier to COVID19."
+Description: "An assertion that a specific gastrointestinal or hepatic condition is present as an underlier to COVID-19."
 * modifierExtension contains
     CertaintyOfPresence named certaintyOfPresence 1..1
 * bodySite 0..0
@@ -165,8 +165,8 @@ Description: "An assertion that a specific gastrointestinal or hepatic condition
 Profile: COVID19UncateforizedUnderlyingMedicalConditionPresent
 Parent: USCoreCondition
 Id: underlying-uncategorized-medical-condition-present
-Title: "COVID19 uncategorized underlying condition"
-Description: "An assertion that an uncategorized medical condition is present as an underlier to COVID19."
+Title: "COVID-19 uncategorized underlying condition"
+Description: "An assertion that an uncategorized medical condition is present as an underlier to COVID-19."
 * modifierExtension contains
     CertaintyOfPresence named certaintyOfPresence 1..1
 * bodySite 0..0

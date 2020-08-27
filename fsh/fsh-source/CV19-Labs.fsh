@@ -421,7 +421,7 @@ Id: SARS-Cov2-rna-threshnum-pt-xxx-qn-probamptar
 Parent: QuantitativeLaboratoryObservationBase
 Title: "SARS-CoV-2 (COVID19) RNA [Cycle Threshold#] in Unspecified specimen by NAA with probe detection"
 Description: "SARSCoV2RNAThreshNumPtXXXQnProbAmpTar is a quantitative test for SARS-CoV-2 (COVID19) RNA via NAA with probe detection and a threshold number detection limit in unspecified specimens."
-* code = LNC#94745-5
+* code = LNC#94746-5
 * value[x] only Quantity
 * valueQuantity units = UCUM#[arb'U]/ml
 
@@ -448,7 +448,7 @@ Id: SARS-CoV2-Ngene-prthr-pt-resp-ord-probamptar-N2
 Parent: CodedLaboratoryObservationBase
 Title: "SARS-CoV-2 (COVID19) N gene [Presence] in Respiratory specimen by Nucleaic acid amplification using CDC primer-probe set N2"
 Description: "SARSCoV2NgenePrThrPtRespOrdProbAmpTarN2 is a test for the detection of the SARS-CoV-2 (COVID19) N gene via nucleic acid amplification using CDC primer-probe set N2 in respiratroty specimens"
-* code = LNC#947575-2
+* code = LNC#94757-2
 * value[x] only CodeableConcept
 * valueCodeableConcept from DetNotDetEqInVS
 
@@ -579,4 +579,124 @@ Description: "SARSCoronavirusPlusSARSCoV2AgPrThrPtRespOrdIARapid is a qualitativ
 * code = LNC#95209-3
 * value[x] only CodeableConcept
 * valueCodeableConcept from DetNotDetEqInVS
+
+Profile: SARScoronavirus2AbIgGPrThrPtSerPlasBldOrdIArapid
+Parent: CodedLaboratoryObservationBase
+Title: "SARS-CoV-2 (COVID-19) IgG Ab [Presence] in Serum, Plasma or Blood by Rapid immunoassay"
+Description: "SARS-CoV-2 (COVID-19) IgG Ab [Presence] in Serum, Plasma or Blood by Rapid immunoassay is a qualitative lab test for the detection of SARS-CoV-2 IgG antibody in serum, plasma, or blood by rapid ummunoassay."
+* code = LNC#94507-1
+* value[x] only CodeableConcept
+* valueCodeableConcept from DetNotDetEqInVS
+
+Profile: SARScoronavirus2Orf1abRegionPrThrPtRespiratoryOrdProbeamptar
+Parent: CodedLaboratoryObservationBase
+Title: "SARS-CoV-2 (COVID-19) ORF1ab region [Presence] in Respiratory specimen by NAA with probe detection"
+Description: "SARS-CoV-2 (COVID-19) ORF1ab region [Presence] in Respiratory specimen by NAA with probe detection is a qualitative lab test for the detection of SARS-CoV-2 ORF 1 Ab region in respiratory specimens via NAA method with probe detection."
+* code = LNC#94559-2
+* value[x] only CodeableConcept
+* valueCodeableConcept from DetNotDetEqInVS
+
+Profile: SARScoronavirus2SGenePrThrPtXXXOrdProbeamptar
+Parent: CodedLaboratoryObservationBase
+Title: "SARS-CoV-2 (COVID-19) S gene [Presence] in Unspecified specimen by NAA with probe detection"
+Description: "SARS-CoV-2 (COVID-19) S gene [Presence] in Unspecified specimen by NAA with probe detection is a qualitative lab test for the detection of SARS-CoV-2 S gene in unspecified specimens via NAA wtih probe detection method."
+* code = LNC#94641-8
+* value[x] only CodeableConcept
+* valueCodeableConcept from DetNotDetEqInVS
+
+Profile: SARScoronavirus2RNAPrThrPtNoseOrdProbeamptar
+Parent: CodedLaboratoryObservationBase
+Title: "SARS-CoV-2 (COVID-19) RNA [Presence] in Nose by NAA with probe detection"
+Description: "SARS-CoV-2 (COVID-19) RNA [Presence] in Nose by NAA with probe detection is a qualitative lab test for the detection of SARS-=CoV-2 RNA in nose specimens via NAA with probe dectection method."
+* code = LNC#95406-5
+* value[x] only CodeableConcept
+* valueCodeableConcept from DetNotDetEqInVS
+
+Profile: SARScoronavirus2NGenePrThrPtNoseOrdProbeamptar
+Parent: CodedLaboratoryObservationBase
+Title: "SARS-CoV-2 (COVID-19) N gene [Presence] in Nose by NAA with probe detection"
+Description: "SARS-CoV-2 (COVID-19) N gene [Presence] in Nose by NAA with probe detection is a qualitative lab test for the detection of SARS-CoV-2 N gene in nose speciments via NAA with probe detection method."
+* code = LNC#95409-9
+* value[x] only CodeableConcept
+* valueCodeableConcept from DetNotDetEqInVS
+
+Profile: SARScoronavirus2AbNeutPrThrPtSerOrdpVNT
+Parent: CodedLaboratoryObservationBase
+Title: "SARS-CoV-2 (COVID-19) neutralizing antibody [Presence] in Serum by pVNT"
+Description: "SARS-CoV-2 (COVID-19) neutralizing antibody [Presence] in Serum by pVNT is a qualitative lab test for the detection of SARS-CoV-2 neutralizing antibody in serum via pVNT method."
+* code = LNC#95411-5
+* value[x] only CodeableConcept
+* valueCodeableConcept from DetNotDetEqInVS
+
+Profile: SARScoronavirus2AbIgMPrThrPtBlddotOrdIA
+Parent: CodedLaboratoryObservationBase
+Title: "SARS-CoV-2 (COVID-19) IgM Ab [Presence] in DBS by Immunoassay"
+Description: "SARS-CoV-2 (COVID-19) IgM Ab [Presence] in DBS by Immunoassay is a qualitative test for the detection of SARS-CoV-2 IgM antibody in DBS specimens via immunoassay."
+* code = LNC#95416-4
+* value[x] only CodeableConcept
+* valueCodeableConcept from DetNotDetEqInVS
+
+Profile: SARScoronavirus2RNAPrThrPtRespiratoryOrdSequencing
+Parent: CodedLaboratoryObservationBase
+Title: "SARS-CoV-2 (COVID-19) RNA [Presence] in Respiratory specimen by Sequencing"
+Description: "SARS-CoV-2 (COVID-19) RNA [Presence] in Respiratory specimen by Sequencing is a qualitative lab test for the detection of SARS-CoV-2 RNA in respiratory specimens via sequencing method."
+* code = LNC#95424-8
+* value[x] only CodeableConcept
+* valueCodeableConcept from DetNotDetEqInVS
+
+Profile: SARScoronavirus2NGenePrThrPtSalivaOrdProbeamptar
+Parent: CodedLaboratoryObservationBase
+Title: "SARS-CoV-2 (COVID-19) N gene [Presence] in Saliva (oral fluid) by NAA with probe detection"
+Description: "SARS-CoV-2 (COVID-19) N gene [Presence] in Saliva (oral fluid) by NAA with probe detection is a qualitative test for the detection of SARS-CoV-2 N gene in saliva via NAA with probe detection method."
+* code = LNC#95425-5
+* value[x] only CodeableConcept
+* valueCodeableConcept from DetNotDetEqInVS
+
+Profile: SARScoronavirus2NGeneNCncPtRespiratoryQnProbeamptar
+Parent: QuantitativeLaboratoryObservationBase
+Title: "SARS-CoV-2 (COVID-19) N gene [#/volume] (viral load) in Respiratory specimen by NAA with probe detection"
+Description: "SARS-CoV-2 (COVID-19) N gene [#/volume] (viral load) in Respiratory specimen by NAA with probe detection is a quantitative lab test that measures the viral load of SARS-CoV-2 N gene in respiratory specimens via NAA with probe detection method."
+* code = LNC#95521-1
+* value[x] only Quantity
+* valueQuantity units = UCUM#{copies}/mL
+
+Profile: SARScoronavirus2NGeneLnCncPtRespiratoryQnProbeamptar
+Parent: QuantitativeLaboratoryObservationBase
+Title: "SARS-CoV-2 (COVID-19) N gene [Log #/volume] (viral load) in Respiratory specimen by NAA with probe detection"
+Description: "SARS-CoV-2 (COVID-19) N gene [Log #/volume] (viral load) in Respiratory specimen by NAA with probe detection is a quantitative lab test for the measurement of the number of Log_copies of SARS-CoV-2 in respiratory specimens via NAA with probe detection method."
+* code = LNC#95522-9
+* value[x] only Quantity
+* valueQuantity units = UCUM#{Log_copies}/mL
+
+Profile: SARScoronavirus2AbIgGAndIgMPrThrPtSerPlasBldOrdIArapid
+Parent: CodedLaboratoryObservationBase
+Title: "SARS-CoV-2 (COVID-19) IgG+IgM Ab [Presence] in Serum, Plasma or Blood by Rapid immunoassay"
+Description: "SARS-CoV-2 (COVID-19) IgG+IgM Ab [Presence] in Serum, Plasma or Blood by Rapid immunoassay is a qualitative test for the detection of SARS-CoV-2 IgG or IgM antibodies in serum, plasma, or blood via rapid immunoassay."
+* code = LNC#95542-7
+* value[x] only CodeableConcept
+* valueCodeableConcept from DetNotDetEqInVS
+
+Profile: SARScoronavirus2AbNeutTitrPtSerQnpVNT
+Parent: QuantitativeLaboratoryObservationBase
+Title: "SARS-CoV-2 (COVID-19) neutralizing antibody [Titer] in Serum by pVNT"
+Description: "SARS-CoV-2 (COVID-19) neutralizing antibody [Titer] in Serum by pVNT is a titer laboratory test that measures the amount of SARS-CoV-2 neutralizing antibodies in serum via pVNT method."
+* code = LNC#95410-7
+
+Profile: SARScoronavirus2AbIgATitrPtSerPlasQnIF
+Parent: QuantitativeLaboratoryObservationBase
+Title: "SARS-CoV-2 (COVID-19) IgA Ab [Titer] in Serum or Plasma by Immunofluorescence"
+Description: "SARS-CoV-2 (COVID-19) IgA Ab [Titer] in Serum or Plasma by Immunofluorescence is a titer laboratory test that measures SARS-CoV-2 IgA antibodies in serum or plasma via immunoflourescence."
+* code = LNC#95427-1
+
+Profile: SARScoronavirus2AbIgMTitrPtSerPlasQnIF
+Parent: QuantitativeLaboratoryObservationBase
+Title: "SARS-CoV-2 (COVID-19) IgM Ab [Titer] in Serum or Plasma by Immunofluorescence"
+Description: "SARS-CoV-2 (COVID-19) IgM Ab [Titer] in Serum or Plasma by Immunofluorescence is a titer laboratory test that measures SARS-CoV-2 IgM antibodies in serum or plasma via immmunoflourescence."
+* code = LNC#95428-9
+
+Profile: SARScoronavirus2AbIgGTitrPtSerPlasQnIF
+Parent: QuantitativeLaboratoryObservationBase
+Title: "SARS-CoV-2 (COVID-19) IgG Ab [Titer] in Serum or Plasma by Immunofluorescence"
+Description: "SARS-CoV-2 (COVID-19) IgG Ab [Titer] in Serum or Plasma by Immunofluorescence is a titer laboratory test that measures SARS-CoV-2 IgG anitbodies in serum or plasma via immunoflourescence."
+* code = LNC#95429-7
 
