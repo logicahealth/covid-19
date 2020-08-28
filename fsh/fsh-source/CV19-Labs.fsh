@@ -704,14 +704,14 @@ Profile: FluABSARSCoV2SARSrCoVRespNAAprb
 Parent: CodedLaboratoryObservationBase
 Title: "Influenza virus A and B and SARS-CoV-2 (COVID-19) and SARS-related CoV RNA panel - Respiratory specimen by NAA with probe detection"
 Description: "Influenza virus A and B and SARS-CoV-2 (COVID-19) and SARS-related CoV RNA panel - Respiratory specimen by NAA with probe detection is a laboratory test for the detection of Influenza A or B, SARS coronavirus 2, or SARS Cov via nucleic acid amplification."
-* code - LNC#95380-2
+* code = LNC#95380-2
 * value[x] only CodeableConcept
 * valueCodeableConcept from FluABSARSCoV2SARSCoVVS
 
 Profile: FluABSARSCoV2RespNAAprobe
 Parent: CodedLaboratoryObservationBase
 Title: "Influenza virus A and B and SARS-CoV-2 (COVID-19) identified in Respiratory specimen by NAA with probe detection"
-Description:"Influenza virus A and B and SARS-CoV-2 (COVID-19) identified in Respiratory specimen by NAA with probe detection is a laboratory test for the detection of Flu A or B or SARS CoV 2 via nucleic acid amplification."
+Description: "Influenza virus A and B and SARS-CoV-2 (COVID-19) identified in Respiratory specimen by NAA with probe detection is a laboratory test for the detection of Flu A or B or SARS CoV 2 via nucleic acid amplification."
 * code = LNC#95423-0
 * value[x] only CodeableConcept
 * valueCodeableConcept from FluABSARSCoV2VS
