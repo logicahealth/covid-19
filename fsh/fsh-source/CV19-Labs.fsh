@@ -700,3 +700,44 @@ Title: "SARS-CoV-2 (COVID-19) IgG Ab [Titer] in Serum or Plasma by Immunofluores
 Description: "SARS-CoV-2 (COVID-19) IgG Ab [Titer] in Serum or Plasma by Immunofluorescence is a titer laboratory test that measures SARS-CoV-2 IgG anitbodies in serum or plasma via immunoflourescence."
 * code = LNC#95429-7
 
+Profile: FluABSARSCoV2SARSrCoVRespNAAprb
+Parent: CodedLaboratoryObservationBase
+Title: "Influenza virus A and B and SARS-CoV-2 (COVID-19) and SARS-related CoV RNA panel - Respiratory specimen by NAA with probe detection"
+Description: "Influenza virus A and B and SARS-CoV-2 (COVID-19) and SARS-related CoV RNA panel - Respiratory specimen by NAA with probe detection is a laboratory test for the detection of Influenza A or B, SARS coronavirus 2, or SARS Cov via nucleic acid amplification."
+* code - LNC#95380-2
+* value[x] only CodeableConcept
+* valueCodeableConcept from FluABSARSCoV2SARSCoVVS
+
+Profile: FluABSARSCoV2RespNAAprobe
+Parent: CodedLaboratoryObservationBase
+Title: "Influenza virus A and B and SARS-CoV-2 (COVID-19) identified in Respiratory specimen by NAA with probe detection"
+Description:"Influenza virus A and B and SARS-CoV-2 (COVID-19) identified in Respiratory specimen by NAA with probe detection is a laboratory test for the detection of Flu A or B or SARS CoV 2 via nucleic acid amplification."
+* code = LNC#95423-0
+* value[x] only CodeableConcept
+* valueCodeableConcept from FluABSARSCoV2VS
+
+Profile: FluAvRNARespQlNaaProbe
+Parent: CodedLaboratoryObservationBase
+Title: "Influenza virus A RNA [Presence] in Respiratory specimen by NAA with probe detection"
+Description: "Influenza virus A RNA [Presence] in Respiratory specimen by NAA with probe detection is a qualitative lab test for the detection of Flu A in respiratory specimens via nucleic acid amplification with probe detection."
+* code = LNC#92142-9
+* value[x] only CodeableConcept
+* valueCodeableConcept from PosNegVS
+
+Profile: FluBvRNARespAlNAAProbe
+Parent: CodedLaboratoryObservationBase
+Title: "Influenza virus B RNA [Presence] in Respiratory specimen by NAA with probe detection"
+Description: "Influenza virus B RNA [Presence] in Respiratory specimen by NAA with probe detection is a qualitative lab test for the detection of Flu B in respiratory specimens via nucleic acid amplification with probe detection."
+* code = LNC#92141-1
+* value[x] only CodeableConcept
+* valueCodeableConcept from PosNegVS
+
+Profile: FluABSARSCoV2PnlRespNAAprb
+Parent: LaboratoryObservationPanelBase
+Title: "Influenza virus A and B RNA and SARS-CoV-2 (COVID-19) N gene panel - Respiratory specimen by NAA with probe detection"
+Description: "Influenza virus A and B RNA and SARS-CoV-2 (COVID-19) N gene panel - Respiratory specimen by NAA with probe detection is a laboratory panel for the detection of Influenza A, B, and SARS CoV 2."
+* code = LNC#95422-2
+* hasMember contains
+    SARScoronavirus2NGenePrThrPtRespOrdPrbAmpTarLabObs 0..1 and
+    FluAvRNARespQlNaaProbe 0..1 and
+    FluBvRNARespAlNAAProbe 0..1

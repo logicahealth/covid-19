@@ -791,4 +791,23 @@ Description: "A set of codes that describe conditions that are not otherwise cat
 * SCT#61420007 "Tube feeding of patient (regime/therapy)"
 * SCT#225612007 "Wheelchair bound (finding)"
 
+ValueSet: FluABSARSCoV2SARSCoVVS
+Id: fluAB-SARSCoV2-SARSCoV-value-set
+Title: "Influenza A, Influenza B, SARS CoV 2, and SARS CoV value set"
+Description: " A set of SNOMED terms that describe the virus detected or not detected."
+* ^version = "0.1.0"
+* SCT#407479009 "Influenza A virus (organism)"
+* SCT#407480007 "Influenza B virus (organism)"
+* SCT#840533007 "SARS-CoV-2"
+* SCT#415360003 "SARS CoV"
+* SCT#260415000 "Not detected (qualifier value)"
 
+ValueSet: FluABSARSCoV2VS
+Id: fluAB-SARSCoV2-value-set
+Title: "Influenza A, Influenza B, and SARS CoV2 value set"
+Description: "A set of SNOMED terms that describe the flu A, B, or SARS CoV2 virus detected."
+* ^version = "0.1.0"
+* SCT#407479009 "Influenza A virus (organism)"
+* SCT#407480007 "Influenza B virus (organism)"
+* SCT#840533007 "SARS-CoV-2"
+* SCT#260415000 "Not detected (qualifier value)"
