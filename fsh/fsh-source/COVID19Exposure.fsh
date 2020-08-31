@@ -13,14 +13,22 @@ Description: "A parent, abstract profile to be used for the CDC COVID 19 PUI rep
 * hasMember 0..0
 
 
+Profile: ExposureType
+Parent: COVID19ExposureCore
+Id: exposure-type
+Title: "Exposure Type"
+Description: "Exposure Type is a description of how, when, where, and with whom and individual was exposed to SARS CoV 2 virus."
+* code = LNC#88636-6 "Known Exposure"
+* value[x] only CodeableConcept
+* valueCodeableConcept from KnownExposureLAVS (preferred)
+
 Profile: KnownExposure
 Parent: COVID19ExposureCore
 Id: known-exposure
 Title: "Known Exposure"
-Description: "Known Exposure is a description of how, when, where, and with whom and individual was exposed to a contagion."
-* code = LNC#88636-6 "Known Exposure"
+Description: "Known Exposure is an observation to state that it is known that an individual has or has not been exposed to a contagion."
 * value[x] only CodeableConcept
-* valueCodeableConcept from KnownExposureLAVS (preferred)
+* valueCodeableConcept from YesNoVS (preferred)
 
 Profile: TravelHistory
 Parent: COVID19ExposureCore
