@@ -18,7 +18,7 @@ Parent: COVID19ExposureCore
 Id: exposure-type
 Title: "Exposure Type"
 Description: "Exposure Type is a description of how, when, where, and with whom and individual was exposed to SARS CoV 2 virus."
-* code = LNC#88636-6 "Known Exposure"
+* code = LNC#88636-6
 * value[x] only CodeableConcept
 * valueCodeableConcept from KnownExposureLAVS (preferred)
 
