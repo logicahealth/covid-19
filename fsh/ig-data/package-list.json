@@ -13,7 +13,7 @@
     },
     {
       "version": "0.10.0",
-      "date": "2020-08-31",
+      "date": "2020-09-09",
       "desc": "Official v0.10.0 release",
       "path": "http://fhir.logicahealth.org/covid19",
       "status": "draft",
