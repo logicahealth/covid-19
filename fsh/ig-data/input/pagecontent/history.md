@@ -7,6 +7,7 @@ Recent releases without release notes indicate inconsequential edits such as fix
 
 | Version 	| Date 	| Run Command 	| GitHub Source 	| Notes 	|
 |-	|-	|-	|-	|-	|
+| v0.10.1	| 2020-09-17	| `docker run -it --rm -p 8080:80 logicahealth/covid-19-ig:v0.10.1` 	| [v0.10.1](https://github.com/logicahealth/covid-19/tree/v0.10.1)	| Removed verificationStatus (set cardinality to 0..0) from all Underlying Condition profiles and put back the Healthcare Occupation value set. |
 | v0.10.0	| 2020-09-09	| `docker run -it --rm -p 8080:80 logicahealth/covid-19-ig:v0.10.0` 	| [v0.10.0](https://github.com/logicahealth/covid-19/tree/v0.10.0)	| * 21 New lab profiles, 2 New value sets, and updates to 7 existing value sets<br> * Travel History is now using ISO 3166 codes for both country and state/province.<br> * Updates to several underlying condition value sets. |
 | v0.9.2	| 2020-08-11	| `docker run -it --rm -p 8080:80 logicahealth/covid-19-ig:v0.9.2` 	| [v0.9.2](https://github.com/logicahealth/covid-19/tree/v0.9.2)	| Minor fixes. |
 | v0.9.1	| 2020-08-03	| `docker run -it --rm -p 8080:80 logicahealth/covid-19-ig:v0.9.1` 	| [v0.9.1](https://github.com/logicahealth/covid-19/tree/v0.9.1)	| Minor documentation fixes. |
