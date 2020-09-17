@@ -148,26 +148,30 @@ ValueSet: CertaintyOfPresenceVS
 Id: certainty-of-presence-value-set
 Title: "Certainty of Presence Value Set"
 Description: "The set of SNOMED CT codes that represent the level of certainty that a condition exists."
-* ^version = "0.1.0"
-//* SCT#410593006	"Probably NOT present (qualifier value)"
+* ^version = "0.2.0"
 * SCT#415684004	"Suspected (qualifier value)"
+* SCT#410593006 "Probably NOT present (qualifier value)"
 * SCT#410592001	"Probably present (qualifier value)"
+* SCT#410590009 "Known possible (qualifier value)"
 * SCT#410605003	"Confirmed present (qualifier value)"
+* SCT#410515003 "Known present (qualifier value)"
+* SCT#410591008 "Definitely Present (qualifier value)"
 
 ValueSet: CertaintyOfAbsenceVS 
 Id: certainty-of-absence-value-set
 Title: "Certainty of Absence Value Set"
 Description: "The set of SNOMED CT codes that represent the leve of certainty that a condition does not exist."
-* ^version = "0.1.0"
+* ^version = "0.2.0"
 * SCT#410594000	"Definitely NOT present (qualifier value)"
 * SCT#723511001	"Refuted (qualifier value)"
+* SCT#410516002 "Known absent"
 
-// ValueSet: HealthcareOccupationVS
-// Id: healthcare-occupation-value-set
-// Title: "Healthcare Occupation Value Set"
-// Description: "A set of SNOMED CT codes that represent occupations within the health care industry."
-// * ^version = "0.1.0"
-// * codes from system SCT where concept is-a #223366009 "Healthcare professional (occupation)"
+ValueSet: HealthcareOccupationVS
+Id: healthcare-occupation-value-set
+Title: "Healthcare Occupation Value Set"
+Description: "A set of SNOMED CT codes that represent occupations within the health care industry."
+* ^version = "0.1.0"
+* codes from system SCT where concept is-a #223366009 "Healthcare professional (occupation)"
 
 // ValueSet: NUCCValueSet
 // Id: nucc-value-set

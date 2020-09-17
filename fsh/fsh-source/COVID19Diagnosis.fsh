@@ -23,6 +23,7 @@ Title: "COVID-19 General Comorbidities Present"
 Description: "An assertion that genrealized conditions such as chronic respiratiory disease or chronic metabolic disease are also present with the COVID-19 disease."
 * modifierExtension contains
     CertaintyOfPresence named certaintyOfPresence 1..1
+* verificationStatus 0..0
 * bodySite 0..0
 * code from COVID19UnderlyingMedicalConditionVS (extensible)
 * stage 0..0
@@ -42,6 +43,7 @@ Title: "COVID-19 General Comorbidities Absent"
 Description: "An assertion that generalized conditions such as chronic respiratory disease ARE NOT present along with the COVID-19 disease."
 * modifierExtension contains
     CertaintyOfAbsence named certaintyOfAbsence 1..1
+* verificationStatus 0..0
 * bodySite 0..0
 * code from COVID19UnderlyingMedicalConditionVS (extensible)
 * stage 0..0
@@ -61,6 +63,7 @@ Title: "COVID-19 cardiovascular underlying condition"
 Description: "An assertion that a specific cardiovascular condition is present as an underlier to COVID-19."
 * modifierExtension contains
     CertaintyOfPresence named certaintyOfPresence 1..1
+* verificationStatus 0..0
 * bodySite 0..0
 * code from COVID19CardivascularUnderlyingConditionsVS (extensible)
 * stage 0..0
@@ -73,6 +76,7 @@ Title: "COVID-19 neurologic underlying condition"
 Description: "An assertion that a specific neuroligical condition is present as an underlier to COVID-19."
 * modifierExtension contains
     CertaintyOfPresence named certaintyOfPresence 1..1
+* verificationStatus 0..0
 * bodySite 0..0
 * code from COVID19UnderlyingNeuroligicConditionsVS (extensible)
 * stage 0..0
@@ -85,6 +89,7 @@ Title: "COVID-19 immunocompromised underlying condition"
 Description: "An assertion that a specific immunocompromised condition is present as an underlier to COVID-19."
 * modifierExtension contains    
     CertaintyOfPresence named certaintyOfPresence 1..1
+* verificationStatus 0..0
 * bodySite 0..0
 * code from COVID19UnderlyingImmunocompromisedConditionVS (extensible)
 * stage 0..0
@@ -97,6 +102,7 @@ Title: "COVID-19 respiratory underlying condition"
 Description: "An assertion that a specific respiratory condition is present as an underlier to COVID-19."
 * modifierExtension contains
     CertaintyOfPresence named certaintyOfPresence 1..1
+* verificationStatus 0..0
 * bodySite 0..0
 * code from COVID19UnderlyingRespiratoryConditionVS (extensible)
 * stage 0..0
@@ -109,6 +115,7 @@ Title: "COVID-19 metabolic underlying condition"
 Description: "An assertion that a specific metabolic condition is present as an underlier to COVID-19."
 * modifierExtension contains
     CertaintyOfPresence named certaintyOfPresence 1..1
+* verificationStatus 0..0
 * bodySite 0..0
 * code from COVID19UnderlyingMetabolicConditionVS (extensible)
 * stage 0..0
@@ -121,6 +128,7 @@ Title: "COVID-19 hemoglobinopathy underlying condition"
 Description: "An assertion that a specific hemoglobinopathy condition is present as an underlier to COVID-19."
 * modifierExtension contains
     CertaintyOfPresence named certaintyOfPresence 1..1
+* verificationStatus 0..0
 * bodySite 0..0
 * code from COVID19UnderlyingHemoglobinopathyConditionVS (extensible)
 * stage 0..0
@@ -133,6 +141,7 @@ Title: "COVID-19 renal underlying condition"
 Description: "An assertion that a specific renal condition is present as an underlier to COVID-19."
 * modifierExtension contains
     CertaintyOfPresence named certaintyOfPresence 1..1
+* verificationStatus 0..0
 * bodySite 0..0
 * code from COVID19UnderlyingRenalConditionVS (extensible)
 * stage 0..0
@@ -145,6 +154,7 @@ Title: "COVID-19 immune underlying condition"
 Description: "An assertion that a specified immune condition is present as an underlier to COVID-19."
 * modifierExtension contains
     CertaintyOfPresence named certaintyOfPresence 1..1
+* verificationStatus 0..0
 * bodySite 0..0
 * code from COVID19UnderlyingImmuneConditionVS (extensible)
 * stage 0..0
@@ -157,6 +167,7 @@ Title: "COVID-19 gastrointestinal and hepatic underlying condition"
 Description: "An assertion that a specific gastrointestinal or hepatic condition is present as an underlier to COVID-19."
 * modifierExtension contains
     CertaintyOfPresence named certaintyOfPresence 1..1
+* verificationStatus 0..0
 * bodySite 0..0
 * code from COVID19UnderlyingGastrointestinalHepaticConditionVS (extensible)
 * stage 0..0
@@ -169,6 +180,7 @@ Title: "COVID-19 uncategorized underlying condition"
 Description: "An assertion that an uncategorized medical condition is present as an underlier to COVID-19."
 * modifierExtension contains
     CertaintyOfPresence named certaintyOfPresence 1..1
+* verificationStatus 0..0
 * bodySite 0..0
 * code from COVID19UncategorizedMedicalConditionVS (extensible)
 * stage 0..0
