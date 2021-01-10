@@ -1,3 +1,12 @@
+ValueSet: PresentAbsentUnknownVS
+Id: present-absent-unknown-vs
+Title: "Yes, No, Unknown Value Set"
+Description: "The SNOMED CT codes for present, absent, and unknown."
+* ^version = "0.1.0"
+* SCT#52101004 "Present (qualifier value)"
+* SCT#2667000 "Absent (qualifier value)"
+* SCT#261665006 "Unknown (qualifier value)"
+
 ValueSet: DetNotDetEqInVS
 Id: covid19-det-not-det-inconclusive-vs 
 Title: "Detected-Not Detected-Inconclusive Value Set"
@@ -6,6 +15,13 @@ Description: "A set of SNOMED codes representing the result of a test as detecte
 * SCT#260415000 "Not detected (qualifier value)"
 * SCT#419984006 "Inconclusive (qualifier value)"
 * SCT#260373001 "Detected (qualifier value)"
+
+ValueSet: DetNotDetVS
+Id: detected-not-detected-value-set
+Title: "Detected - Not-detected Value Set"
+Description: "The set of SNOMED CT terms that describe the test values of Detected and Not-detected."
+* SCT#419984006 "Inconclusive (qualifier value)"
+* SCT#260415000 "Not detected (qualifier value)"
 
 ValueSet: PosNegVS
 Id: covid19-pos-neg-vs 
@@ -815,3 +831,11 @@ Description: "A set of SNOMED terms that describe the flu A, B, or SARS CoV2 vir
 * SCT#407480007 "Influenza B virus (organism)"
 * SCT#840533007 "SARS-CoV-2"
 * SCT#260415000 "Not detected (qualifier value)"
+
+ValueSet: RactiveNonreactiveVS
+Id: reactive-non-reactive-value-set
+Title: "Reactive - Non-reactive value set"
+Description: "A set of SNOMED CT terms that represent test result values of Reactive and Non-reactive."
+* ^version = "0.1.0"
+* SCT#11214006 "Reactive"
+* SCT#131194007 "Non-Reactive"

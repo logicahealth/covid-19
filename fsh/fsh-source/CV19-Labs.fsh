@@ -4,7 +4,7 @@ Title:    "SARS-CoV-2 (COVID19) IgG Ab [Units/volume] in Serum or Plasma by Immu
 Description: "SARScoronavirus2AbIgGAcncPtSerPlasQnIALabObs is a quantitative test for the SARS-CoV-2 (COVID19) IgG antibody via immunoassay. LOINC code 94505-5."
 * code = LNC#94505-5
 * value[x] only Quantity
-* valueQuantity units = UCUM#[arb'U]/ml
+* valueQuantity.code = UCUM#[arb'U]/ml
 
 Profile:  SARScoronavirus2AbIgGandIgMpanelPtSerPlasOrdIArapidLabObs
 Parent:   LaboratoryObservationPanelBase
@@ -39,7 +39,7 @@ Title:    "SARS-CoV-2 (COVID19) IgM Ab [Units/volume] in Serum or Plasma by Immu
 Description: "SARScoronavirus2AbIgMAcncPtSerPlasQnIALabObs is a quantitative test for the SARS-CoV-2 (COVID19) IgM antibody via immunoassay. LOINC code 94506-3."
 * code = LNC#94506-3
 * value[x] only Quantity
-* valueQuantity units = UCUM#[arb'U]/ml
+* valueQuantity.code = UCUM#[arb'U]/ml
 
 Profile:  SARScoronavirus2AbIgMPrThrPtSerPlasOrdIArapidLabObs
 Parent:   CodedLaboratoryObservationBase
@@ -63,7 +63,7 @@ Title:    "SARS-CoV-2 (COVID19) E gene [Cycle Threshold #] in Unspecified specim
 Description: "SARScoronavirus2EGeneThreshNumPtXXXQnPrbAmpTarLabObs is a quantitative test for the SARS-CoV-2 (COVID19) E gene via probe target ampification and with a threshold for detection in non-respiratory specimens. LOINC code 94509-7."
 * code = LNC#94509-7
 * value[x] only Quantity
-* valueQuantity units = UCUM#{Ct_value}
+* valueQuantity.code = UCUM#{Ct_value}
 
 Profile:  SARScoronavirus2NGenePrThrPtRespOrdPrbAmpTarLabObs
 Parent:   CodedLaboratoryObservationBase
@@ -103,7 +103,7 @@ Title:    "SARS-CoV-2 (COVID19) N gene [Cycle Threshold #] in Unspecified specim
 Description: "SARScoronavirus2NgeneThreshNumPtXXXQnPrbAmpTarLabObs is a quantitative test for the SARS-CoV-2 (COVID19) RNA via probe target amplification and a requirement for a certain threshold for detection. LOINC code 94510-5."
 * code = LNC#94510-5
 * value[x] only Quantity
-* valueQuantity units = UCUM#{Ct_value}
+* valueQuantity.code = UCUM#{Ct_value}
 
 Profile:  SARSCoV2NgeneThreshNumPtXXXQnPrbAmpTarPrimerProbeSetN1LabObs
 Parent:   QuantitativeLaboratoryObservationBase
@@ -111,7 +111,7 @@ Title:    "SARS-CoV-2 (COVID19) N gene [Cycle Threshold #] in Unspecified specim
 Description: "SARSCoV2NgeneThreshNumPtXXXQnPrbAmpTarPrimerProbeSetN1LabObs is a quantitative test for the SARS-CoV-2 (COVID19) N gene via the probe target amplification, primer probe set N1 method in non-respiratory specimens. LOINC code 94311-8."
 * code = LNC#94311-8
 * value[x] only Quantity
-* valueQuantity units = UCUM#{Ct_value}
+* valueQuantity.code = UCUM#{Ct_value}
 
 Profile:  SARSCoV2NgeneThreshNumPtXXXQnPrbAmpTarPrimerProbeSetN2LabObs
 Parent:   QuantitativeLaboratoryObservationBase
@@ -119,7 +119,7 @@ Title:    "SARS-CoV-2 (COVID19) N gene [Cycle Threshold #] in Unspecified specim
 Description: "SARSCoV2NgeneThreshNumPtXXXQnPrbAmpTarPrimerProbeSetN2LabObs is a quantitative test for the SARS-CoV-2 (COVID19) N gene via the probe target amplification, primer probe set N2 method in non-respiratory specimens. LOINC code 94312-6."
 * code = LNC#94312-6
 * value[x] only Quantity
-* valueQuantity units = UCUM#{Ct_value}
+* valueQuantity.code = UCUM#{Ct_value}
 
 Profile:  SARScoronavirus2ORF1AbRegionThreshNumPtXXXQnPrbAmpTarLabObs
 Parent:   QuantitativeLaboratoryObservationBase
@@ -127,7 +127,7 @@ Title:    "SARS-CoV-2 (COVID19) ORF1ab region [Cycle Threshold #] in Unspecified
 Description: "SARScoronavirus2ORF1AbRegionThreshNumPtXXXQnPrbAmpTarLabObs is a quantitative test for the SARS-CoV-2 (COVID19) ORF Ab region via the probe target ampificatio method and with a threshold for detection in non-respiratory specimens. LOINC code 94511-3"
 * code = LNC#94511-3
 * value[x] only Quantity
-* valueQuantity units = UCUM#{Ct_value}
+* valueQuantity.code = UCUM#{Ct_value}
 
 Profile:  SARScoronavirus2RdRpGenePrThePtRespOrdPrbAmpTarLabObs
 Parent:   CodedLaboratoryObservationBase
@@ -210,7 +210,7 @@ Title:    "SARS-like coronavirus N gene [Cycle Threshold #] in Unspecified speci
 Description: "SARSLikecoronavirusNGeneThreshNumPtXXXQnPrbAmpTarLabObs is a quantitative test for the SARS-like coronavirus N gene via the probe target amplification method and a threshold for detection in non-respiratory specimens. LOINC code 94313-4."
 * code = LNC#94313-4
 * value[x] only Quantity
-* valueQuantity units = UCUM#{Ct_value}
+* valueQuantity.code = UCUM#{Ct_value}
 
 Profile:  SARSrelatedCoVPlusMERSCoVRNAPrThrPtRespOrdPrbAmpTarLabObs
 Parent:   CodedLaboratoryObservationBase
@@ -333,7 +333,7 @@ Title: "SARS-CoV-2 (COVID19) S gene [Cycle Threshold #] in Respiratory specimen 
 Description: "SARScoronavirus2SgeneThreshNumPtRespiratoryQnProbeamptarLabObs is a quantitative test for the SARS-CoV-2 (COVID19) S gene in respiratory specimen, via a threshold number, probe target amplification method."
 * code = LNC#94642-6
 * value[x] only Quantity
-* valueQuantity units = UCUM#{Ct_value}
+* valueQuantity.code = UCUM#{Ct_value}
 
 Profile: SARScoronavirus2SgeneThreshNumPtXXXQnProbeamptarLabObs
 Id: SARS-CoV2-Sgene-ThreshNum-Pt-xxx-Qn-ProbAmpTar-LabObs
@@ -342,7 +342,7 @@ Title: "SARS-CoV-2 (COVID19) S gene [Cycle Threshold #] in Unspecified specimen 
 Description: "SARScoronavirus2SgeneThreshNumPtXXXQnProbeamptarLabObs is a quantitative test for the SARS-CoV-2 (COVID19) S gene in unspecified specimens via a threshold number, probe target amplification method."
 * code = LNC#94643-4
 * value[x] only Quantity
-* valueQuantity units = UCUM#{Ct_value}
+* valueQuantity.code = UCUM#{Ct_value}
 
 Profile: SARScoronavirus2ORF1abregionThreshNumPtRespiratoryQnProbeamptarLabObs
 Id: sars-cov2-2orf1-abregion-threshnum-pt-resp-qn-probamptar
@@ -351,7 +351,7 @@ Title: "SARS-CoV-2 (COVID19) ORF1ab region [Cycle Threshold #] in Respiratory sp
 Description: "SARScoronavirus2ORF1abregionThreshNumPtRespiratoryQnProbeamptarLabObs is a quantitative test for the SARS-CoV-2 (COVID19) ORFl antibody region in respiratory specimens via a number threshold, probe target amplification method."
 * code = LNC#94644-2
 * value[x] only Quantity
-* valueQuantity units = UCUM#{Ct_value}
+* valueQuantity.code = UCUM#{Ct_value}
 
 Profile: SARScoronavirus2RdRpgeneThreshNumPtXXXQnProbeamptarLabObs
 Id: SARS-CoV2-RdRpgene-ThreshNum-pt-xxx-Qn-ProbAmpTar-LabObs
@@ -360,7 +360,7 @@ Title: "SARS-CoV-2 (COVID19) RdRp gene [Cycle Threshold #] in Unspecified specim
 Description: "SARScoronavirus2RdRpgeneThreshNumPtXXXQnProbeamptarLabObs is a quantitative test for the SASRS-CoV-2 (COVID19) RdRp gene in unspecified specimens via a number threshold, probe target amplification method."
 * code = LNC#94645-9
 * value[x] only Quantity
-* valueQuantity units = UCUM#{Ct_value}
+* valueQuantity.code = UCUM#{Ct_value}
 
 Profile: SARScoronavirus2RdRpgeneThreshNumPtRespiratoryQnProbeamptarLabObs
 Id: sars-cov2-2rdrpgene-threshnum-pt-resp-qn-ProbAmpTar
@@ -369,7 +369,7 @@ Title: "SARS-CoV-2 (COVID19) RdRp gene [Cycle Threshold #] in Respiratory specim
 Description: "SARScoronavirus2RdRpgeneThreshNumPtRespiratoryQnProbeamptarLabObs is a quantitative test for the SARS-CoV-2 (COVID19) RdRp gene in respiratory specimens via a number threshold, probe target amplification method."
 * code = LNC#94646-7
 * value[x] only Quantity
-* valueQuantity units = UCUM#{Ct_value}
+* valueQuantity.code = UCUM#{Ct_value}
 
 Profile: SARSrelatedcoronavirusRNAPrThrPtXXXOrdProbeamptarLabObs
 Id: SARS-rel-coronavirus-RNA-PrThr-Pt-xxx-probamptar-LabObs
@@ -405,7 +405,7 @@ Title: "SARS-CoV-2 (COVID19) IgA Ab [Units/volume] in Serum or Plasma by Immunoa
 Description: "SARScoronavirus2AbIgAACncPtSerPlasQnIALabObs is a quantitative test for the SARS-CoV-2 (COVID19) IgA antibody, arbitrary concentration, via immunoassay."
 * code = LNC#94720-0
 * value[x] only Quantity
-* valueQuantity units = UCUM#[arb'U]/ml
+* valueQuantity.code = UCUM#[arb'U]/ml
 
 Profile: SARSCoV2RNACycleThresholdRespQnNAAProbAmpTar
 Id: SARS-CoV2-RNA-cycle-thresh-resp-qn-naa-probamptar
@@ -414,7 +414,7 @@ Title: "SARS-CoV-2 (COVID19) RNA [Cycle Threshold#] in Respiratory specimen by N
 Description: "SARSCoV2RNACycleThresholdRespQnNAAProbAmpTar is a quantitative test for SARS-CoV-2 (COVID19) RNA via NAA with probe dection cycle threshold # in respiratory specimens."
 * code = LNC#94745-7
 * value[x] only Quantity
-* valueQuantity units = UCUM#[arb'U]/ml
+* valueQuantity.code = UCUM#[arb'U]/ml
 
 Profile: SARSCoV2RNAThreshNumPtXXXQnProbAmpTar
 Id: SARS-Cov2-rna-threshnum-pt-xxx-qn-probamptar
@@ -423,7 +423,7 @@ Title: "SARS-CoV-2 (COVID19) RNA [Cycle Threshold#] in Unspecified specimen by N
 Description: "SARSCoV2RNAThreshNumPtXXXQnProbAmpTar is a quantitative test for SARS-CoV-2 (COVID19) RNA via NAA with probe detection and a threshold number detection limit in unspecified specimens."
 * code = LNC#94746-5
 * value[x] only Quantity
-* valueQuantity units = UCUM#[arb'U]/ml
+* valueQuantity.code = UCUM#[arb'U]/ml
 
 Profile: SARSCoV2EgenePrThrPtRespOrdProbAmpTar
 Id: SARS-CoV2-Egene-prthr-pt-resp-ord-probamptar
@@ -538,7 +538,7 @@ Title: "SARS-CoV-2 (COVID19) Ab [Units/volume] in Serum or Plasma by Immunoassay
 Description: "SARSCoV2AbACncPtSerPlasQnIA is a quantitative test for the amount of SARS-CoV-2 (COVID19) anitboy in serum or plasma via immnoassay."
 * code = LNC#94769-7
 * value[x] only Quantity
-* valueQuantity units = UCUM#[arb'U]/ml
+* valueQuantity.code = UCUM#[arb'U]/ml
 
 Profile: SARSCoV2RNALnCncPtXXXQnProbAmpTar
 Parent: QuantitativeLaboratoryObservationBase
@@ -546,7 +546,7 @@ Title: "SARS-CoV-2 (COVID19) RNA [Log#/volume] (viral load) in Unspecified speci
 Description: "SARSCoV2RNALnCncPtXXXQnProbAmpTar is a quantitative test for the viral load (log number per volume) of SARS-CoV-2 (COVID19) RNA via NAA probe detection in unspecified specimens."
 * code = LNC#94819-0
 * value[x] only Quantity
-* valueQuantity units = UCUM#[arb'U]/ml
+* valueQuantity.code = UCUM#[arb'U]/ml
 
 Profile: SARSCoV2RNAPrThrPtSalivaOrdSequencing
 Parent: CodedLaboratoryObservationBase
@@ -585,22 +585,6 @@ Parent: CodedLaboratoryObservationBase
 Title: "SARS-CoV-2 (COVID-19) IgG Ab [Presence] in Serum, Plasma or Blood by Rapid immunoassay"
 Description: "SARS-CoV-2 (COVID-19) IgG Ab [Presence] in Serum, Plasma or Blood by Rapid immunoassay is a qualitative lab test for the detection of SARS-CoV-2 IgG antibody in serum, plasma, or blood by rapid ummunoassay."
 * code = LNC#94507-1
-* value[x] only CodeableConcept
-* valueCodeableConcept from DetNotDetEqInVS
-
-Profile: SARScoronavirus2Orf1abRegionPrThrPtRespiratoryOrdProbeamptar
-Parent: CodedLaboratoryObservationBase
-Title: "SARS-CoV-2 (COVID-19) ORF1ab region [Presence] in Respiratory specimen by NAA with probe detection"
-Description: "SARS-CoV-2 (COVID-19) ORF1ab region [Presence] in Respiratory specimen by NAA with probe detection is a qualitative lab test for the detection of SARS-CoV-2 ORF 1 Ab region in respiratory specimens via NAA method with probe detection."
-* code = LNC#94559-2
-* value[x] only CodeableConcept
-* valueCodeableConcept from DetNotDetEqInVS
-
-Profile: SARScoronavirus2SGenePrThrPtXXXOrdProbeamptar
-Parent: CodedLaboratoryObservationBase
-Title: "SARS-CoV-2 (COVID-19) S gene [Presence] in Unspecified specimen by NAA with probe detection"
-Description: "SARS-CoV-2 (COVID-19) S gene [Presence] in Unspecified specimen by NAA with probe detection is a qualitative lab test for the detection of SARS-CoV-2 S gene in unspecified specimens via NAA wtih probe detection method."
-* code = LNC#94641-8
 * value[x] only CodeableConcept
 * valueCodeableConcept from DetNotDetEqInVS
 
@@ -658,7 +642,7 @@ Title: "SARS-CoV-2 (COVID-19) N gene [#/volume] (viral load) in Respiratory spec
 Description: "SARS-CoV-2 (COVID-19) N gene [#/volume] (viral load) in Respiratory specimen by NAA with probe detection is a quantitative lab test that measures the viral load of SARS-CoV-2 N gene in respiratory specimens via NAA with probe detection method."
 * code = LNC#95521-1
 * value[x] only Quantity
-* valueQuantity units = UCUM#{copies}/mL
+* valueQuantity.code = UCUM#{copies}/mL
 
 Profile: SARScoronavirus2NGeneLnCncPtRespiratoryQnProbeamptar
 Parent: QuantitativeLaboratoryObservationBase
@@ -666,7 +650,7 @@ Title: "SARS-CoV-2 (COVID-19) N gene [Log #/volume] (viral load) in Respiratory 
 Description: "SARS-CoV-2 (COVID-19) N gene [Log #/volume] (viral load) in Respiratory specimen by NAA with probe detection is a quantitative lab test for the measurement of the number of Log_copies of SARS-CoV-2 in respiratory specimens via NAA with probe detection method."
 * code = LNC#95522-9
 * value[x] only Quantity
-* valueQuantity units = UCUM#{Log_copies}/mL
+* valueQuantity.code = UCUM#{Log_copies}/mL
 
 Profile: SARScoronavirus2AbIgGAndIgMPrThrPtSerPlasBldOrdIArapid
 Parent: CodedLaboratoryObservationBase
@@ -681,24 +665,28 @@ Parent: QuantitativeLaboratoryObservationBase
 Title: "SARS-CoV-2 (COVID-19) neutralizing antibody [Titer] in Serum by pVNT"
 Description: "SARS-CoV-2 (COVID-19) neutralizing antibody [Titer] in Serum by pVNT is a titer laboratory test that measures the amount of SARS-CoV-2 neutralizing antibodies in serum via pVNT method."
 * code = LNC#95410-7
+* value[x] only Quantity
 
 Profile: SARScoronavirus2AbIgATitrPtSerPlasQnIF
 Parent: QuantitativeLaboratoryObservationBase
 Title: "SARS-CoV-2 (COVID-19) IgA Ab [Titer] in Serum or Plasma by Immunofluorescence"
 Description: "SARS-CoV-2 (COVID-19) IgA Ab [Titer] in Serum or Plasma by Immunofluorescence is a titer laboratory test that measures SARS-CoV-2 IgA antibodies in serum or plasma via immunoflourescence."
 * code = LNC#95427-1
+* value[x] only Quantity
 
 Profile: SARScoronavirus2AbIgMTitrPtSerPlasQnIF
 Parent: QuantitativeLaboratoryObservationBase
 Title: "SARS-CoV-2 (COVID-19) IgM Ab [Titer] in Serum or Plasma by Immunofluorescence"
 Description: "SARS-CoV-2 (COVID-19) IgM Ab [Titer] in Serum or Plasma by Immunofluorescence is a titer laboratory test that measures SARS-CoV-2 IgM antibodies in serum or plasma via immmunoflourescence."
 * code = LNC#95428-9
+* value[x] only Quantity
 
 Profile: SARScoronavirus2AbIgGTitrPtSerPlasQnIF
 Parent: QuantitativeLaboratoryObservationBase
 Title: "SARS-CoV-2 (COVID-19) IgG Ab [Titer] in Serum or Plasma by Immunofluorescence"
 Description: "SARS-CoV-2 (COVID-19) IgG Ab [Titer] in Serum or Plasma by Immunofluorescence is a titer laboratory test that measures SARS-CoV-2 IgG anitbodies in serum or plasma via immunoflourescence."
 * code = LNC#95429-7
+* value[x] only Quantity
 
 Profile: FluABSARSCoV2SARSrCoVRespNAAprb
 Parent: CodedLaboratoryObservationBase
@@ -741,3 +729,266 @@ Description: "Influenza virus A and B RNA and SARS-CoV-2 (COVID-19) N gene panel
     SARScoronavirus2NGenePrThrPtRespOrdPrbAmpTarLabObs 0..1 and
     FluAvRNARespQlNaaProbe 0..1 and
     FluBvRNARespAlNAAProbe 0..1
+
+Profile: SARScoronavirus2RNAPrThrPtRespiratoryOrdNonprobeamptar
+Parent: CodedLaboratoryObservationBase
+Title: "SARS-CoV-2 (COVID-19) RNA [Presence] in Respiratory specimen by NAA with non-probe detection"
+Description: "A qualitative lab test for the detection of the SARS-CoV-2 RNA in respiratory specimens via NAA with non-probe detection."
+* code = LNC#95608-6
+* value[x] only CodeableConcept
+* valueCodeableConcept from DetNotDetEqInVS
+
+Profile: SARScoronavirus2SgenePrThrPtRespiratoryOrdSequencing
+Parent: CodedLaboratoryObservationBase
+Title: "SARS-CoV-2 (COVID-19) S gene [Presence] in Respiratory specimen by Sequencing"
+Description: "A qualitative lab test for the detection of the SARS-CoV-2 S gene in respiratory specimens via sequencing."
+* code = LNC#95609-4
+* value[x] only CodeableConcept
+* valueCodeableConcept from DetNotDetEqInVS
+
+Profile: SARSrelatedcoronavirusEgenePrThrPtSalivaOrdProbeamptar
+Parent: CodedLaboratoryObservationBase
+Title: "SARS-related coronavirus E gene [Presence] in Saliva (oral fluid) by NAA with probe detection"
+Description: "A qualitative lab test for the detection of the SARS-related E gene in saliva via NAA with probe detection."
+* code = LNC#95823-1
+* value[x] only CodeableConcept
+* value CodeableConcept from DetNotDetEqInVS
+
+Profile: SARScoronavirus2ORF1abregionPrThrPtSalivaOrdProbeamptar
+Parent: CodedLaboratoryObservationBase
+Title: "SARS-CoV-2 (COVID-19) ORF1ab region [Presence] in Saliva (oral fluid) by NAA with probe detection"
+Description: "A qualitative lab test for the detection of the SARS-CoV-2 ORF1ab region in saliva via NAA with probe detection."
+* code = LNC#95824-9
+* value[x] only CodeableConcept
+* value CodeableConcept from DetNotDetEqInVS
+
+Profile: SARScoronavirus2AbPrThrPtBlddotOrdIA
+Parent: CodedLaboratoryObservationBase
+Title: "SARS-CoV-2 (COVID-19) Ab [Presence] in DBS by Immunoassay"
+Description: "A qualitative lab test for the detection of the SARS-CoV-2 antibody in DBS via immunoassay."
+* code = LNC#95825-6
+* value[x] only CodeableConcept
+* valueCodeableConcept from RactiveNonreactiveVS
+
+Profile: SARScoronavirus2specificTCRBgenerearrangementsPrThrPtBldOrdSequencing
+Parent: CodedLaboratoryObservationBase
+Title: "SARS-CoV-2 (COVID-19) specific TCRB gene rearrangements [Presence] in Blood by Sequencing"
+Description: "A qualitative lab test for the detection of the SARS-CoV-2 specific TCRB gene in blood via sequencing."
+* code = LNC#95970-0
+* value[x] only CodeableConcept
+* valueCodeableConcept from PosNegVS
+
+Profile: SARScoronavirus2stimulatedgammainterferonPrThrPtBldOrd
+Parent: CodedLaboratoryObservationBase
+Title: "SARS CoV-2 stimulated gamma interferon [Presence] in Blood"
+Description: "A qualitative lab test for the detection of SARS-CoV-2 stimulated gamma interferon in blood."
+* code = LNC#95971-8
+* value[x] only CodeableConcept
+* valueCodeableConcept from PosNegVS
+
+Profile: SARScoronavirus2stimulatedgammainterferonreleasebyTcellscorrectedforbackgroundACncPtBldQn
+Parent: QuantitativeLaboratoryObservationBase
+Title: "SARS CoV-2 stimulated gamma interferon release by T-cells [Units/volume] corrected for background in Blood"
+Description: "A lab test for the quantification of the SARS-CoV-2 stimulated gamma interferon release by T-cells in blood, corrected for background."
+* code = LNC#95972-6
+* value[x] only Quantity
+* valueQuantity.code = UCUM#[arb'U]/mL
+
+Profile: SARScoronavirus2stimulatedgammainterferonreleasebyTcellsACncPtBldQn
+Parent: QuantitativeLaboratoryObservationBase
+Title: "SARS CoV-2 stimulated gamma interferon release by T-cells [Units/volume] in Blood"
+Description: "A lab test for the quantification of the SARS-CoV-2 stimualted interferon release by T-cells in blood."
+* code = LNC#95973-4
+* value[x] only Quantity
+* valueQuantity.code = UCUM#[arb'U]/mL
+
+Profile: SARScoronavirus2RdRpgenePrThrPtSalivaOrdProbeamptar
+Parent: CodedLaboratoryObservationBase
+Title: "SARS-CoV-2 (COVID-19) RdRp gene [Presence] in Saliva (oral fluid) by NAA with probe detection"
+Description: "A qualitative lab test for the detection of the SARS-CoV-2 RdRp gene in saliva via NAA with probe detection."
+* code = LNC#96091-4
+* value[x] only CodeableConcept
+* valueCodeableConcept from PosNegVS
+
+Profile: SARScoronavirus2AgPrThrPtRespiratoryupperOrdIA
+Parent: CodedLaboratoryObservationBase
+Title: "SARS-CoV-2 (COVID-19) Ag [Presence] in Upper respiratory specimen by Immunoassay"
+Description: "A qualitative lab test for the detection of the SARS-CoV-2 antigen in upper respiratory tract specimens via immunoassay."
+* code = LNC#96119-3
+* value[x] only CodeableConcept
+* valueCodeableConcept from DetNotDetVS
+
+Profile: SARScoronavirus2RdRpgenePrThrPtRespiratorylowerOrdProbeamptar
+Parent: CodedLaboratoryObservationBase
+Title: "SARS-CoV-2 (COVID-19) RdRp gene [Presence] in Lower respiratory specimen by NAA with probe detection"
+Description: "A qualitative lab test for the detection of the SARS-CoV-2 RdRp gene in lower respiratory tract specimens via NAA with probe detection."
+* code = LNC#96120-1
+* value[x] only CodeableConcept
+* valueCodeableConcept from PosNegVS
+
+Profile: SARSrelatedcoronavirusEgenePrThrPtRespiratorylowerOrdProbeamptar
+Parent: CodedLaboratoryObservationBase
+Title: "SARS-related coronavirus E gene [Presence] in Lower respiratory specimen by NAA with probe detection"
+Description: "A qualitative lab test for the detection of the SARS-related E gene in lower respiratory tract specimens via NAA with probe detection."
+* code = LNC#96121-9
+* value[x] only CodeableConcept
+* valueCodeableConcept from PosNegVS
+
+Profile: SARSrelatedcoronavirusEgenePrThrPtRespiratoryupperOrdProbeamptar
+Parent: CodedLaboratoryObservationBase
+Title: "SARS-related coronavirus E gene [Presence] in Upper respiratory specimen by NAA with probe detection"
+Description: "A qualitative lab test for the detection of the SARS-related coronavirus E gene in uppper respiratory tract specimens via NAA with probe detection."
+* code = LNC#96122-7
+* value[x] only CodeableConcept
+* valueCodeableConcept from PosNegVS
+
+Profile: SARScoronavirus2RdRpgenePrThrPtRespiratoryupperOrdProbeamptar
+Parent: CodedLaboratoryObservationBase
+Title: "SARS-CoV-2 (COVID-19) RdRp gene [Presence] in Upper respiratory specimen by NAA with probe detection"
+Description: "A qualitative lab test for the detection of the SARS-CoV-2 RdRp gene in upper respiratory specimens via NAA with probe detection."
+* code = LNC#96123-5
+* value[x] only CodeableConcept
+* valueCodeableConcept from PosNegVS
+
+Profile: SARScoronavirus2NgenePrThrPtSalivaOrdProbeamptarCDCprimerprobesetN1
+Parent: CodedLaboratoryObservationBase
+Title: "SARS-CoV-2 (COVID-19) N gene [Presence] in Saliva (oral fluid) by Nucleic acid amplification using CDC primer-probe set N1"
+Description: "A qualitative lab test for the detection of the SARS-CoV-2 N gene in saliva via NAA with the CDC primer-probe set N1"
+* code = LNC#96448-6
+* value[x] only CodeableConcept
+* valueCodeableConcept from PosNegVS
+
+Profile: SARScoronavirus2spikeproteinRBDAbneutPrThrPtSerPlasOrdIA
+Parent: CodedLaboratoryObservationBase
+Title: "SARS-CoV-2 (COVID-19) S protein RBD neutralizing antibody [Presence] in Serum or Plasma by Immunoassay"
+Description: "A qualitative lab test for the detection of the SARS-CoV-2 S protein RBD neutralizing antibody in serum or plasma via immunoassay."
+* code = LNC#96603-6
+* value[x] only CodeableConcept
+* valueCodeableConcept from PosNegVS
+
+Profile: SARScoronavirus2RNApanelPtSalivaProbeamptar
+Parent: LaboratoryObservationPanelBase
+Title: "SARS-CoV-2 (COVID-19) RNA panel - Saliva (oral fluid) by NAA with probe detection"
+Description: "A set of lab tests for the detection of SARS-CoV-2 RNA in Saliva via NAA with probe detection."
+* code = LNC#95826-4
+* hasMember contains
+    SARScoronavirus2NGenePrThrPtSalivaOrdProbeamptar 0..1 and
+    SARScoronavirus2NgenePrThrPtSalivaOrdProbeamptarCDCprimerprobesetN1 0..1 and
+    SARScoronavirus2ORF1abregionPrThrPtSalivaOrdProbeamptar 0..1 and
+    SARScoronavirus2RdRpgenePrThrPtSalivaOrdProbeamptar 0..1 and
+    SARSCoV2RNAPrThrPtSalivaOrdProbAmpTar 0..1 and
+    SARSrelatedcoronavirusEgenePrThrPtSalivaOrdProbeamptar 0..1
+
+Profile: RespiratorysyncytialvirusRNAPrThrPtRespiratoryOrdProbeAmpRTar
+Parent:CodedLaboratoryObservationBase
+Title: "Respiratory syncytial virus RNA [Presence] in Respiratory specimen by NAA with probe detection"
+Description: "A qualitative lab test for the detection of RSV in respiratory specimens via NAA with probe detection."
+* code = LNC#92131-2
+* value[x] only CodeableConcept
+* valueCodeableConcept from PosNegVS
+
+Profile: InfluenzavirusAandInfluenzavirusBandSARScoronavirus2andRespiratorysyncytialvirusRNApanelPtRespiratoryProbeamptar
+Parent: LaboratoryObservationPanelBase
+Title: "Influenza virus A and B and SARS-CoV-2 (COVID-19) and Respiratory syncytial virus RNA panel - Respiratory specimen by NAA with probe detection"
+Description: "A set of lab tests for SARS-CoV-2, RSV, and Influenza Virus A and B."
+* code =LNC#95941-1
+* hasMember contains
+    FluAvRNARespQlNaaProbe 0..1 and
+    FluBvRNARespAlNAAProbe 0..1 and
+    SARScoronavirus2RNAPrThrPtRespOrdPrbAmpTarLabObs 0..1 and
+    RespiratorysyncytialvirusRNAPrThrPtRespiratoryOrdProbeAmpRTar 0..1
+
+Profile: InfluenzavirusAAgPrThePtNphOrdIArapid
+Parent: CodedLaboratoryObservationBase
+Title: "Influenza virus A Ag [Presence] in Nasopharynx by Rapid immunoassay"
+Description: "A qualitative lab test for the detection of Influenza A antigen in nasopharynx specimens via rapid immunoassay."
+* code = LNC#80382-5
+* value[x] only CodeableConcept
+* valueCodeableConcept from DetNotDetVS
+
+Profile: InfluenzavirusBAgPrThrPtNphOrdIArapid
+Parent: CodedLaboratoryObservationBase
+Title: "Influenza virus B Ag [Presence] in Nasopharynx by Rapid immunoassay"
+Description: "A qualitative lab test for the detection of Influezna B antigen in nasopharynx specimens via rapid immunoassay."
+* code = LNC#80383-3
+* value[x] only CodeableConcept
+* valueCodeableConcept from DetNotDetVS
+
+Profile: InfluenzavirusAandInfluenzavirusBandSARScoronavirusplusSARScoronavirus2AgpanelPtRespiratoryupperIArapid
+Parent: LaboratoryObservationPanelBase
+Title: "Influenza virus A and B and SARS-CoV+SARS-CoV-2 (COVID-19) Ag panel - Upper respiratory specimen by Rapid immunoassay"
+Description: "A set of lab tests for SARS-CoV-2, SARS-CoV, and Influenza A and B antigens via rapid immunoassay."
+* code =LNC#95942-9
+* hasMember contains
+    SARSCoronavirusPlusSARSCoV2AgPrThrPtRespOrdIARapid 0..1 and
+    InfluenzavirusAAgPrThePtNphOrdIArapid 0..1 and
+    InfluenzavirusBAgPrThrPtNphOrdIArapid 0..1
+
+Profile: GammaInterferonBackgroundACncPtBldQnIA
+Parent: QuantitativeLaboratoryObservationBase
+Title: "Gamma interferon background [Units/volume] in Blood by Immunoassay"
+Description: "A lab test to quantify the background gamma interferon in blood via immunoassay."
+* code = LNC#71776-9
+* value[x] only Quantity
+* vlaueQuantity.code = UCUM#[IU]/mL
+
+Profile: MitogenStimulatedGammaInterferonACncPtBldQn
+Parent: QuantitativeLaboratoryObservationBase
+Title: "Mitogen stimulated gamma interferon [Units/volume] in Blood"
+Description: "A lab test to quantify mitogen stimualted gamma interferon in blood via immunoassay."
+* code = LNC#71772-8
+* value[x] only Quantity
+* vlaueQuantity.code = UCUM#[IU]/mL
+
+Profile: MitogenStimulatedGammaInterferonCorrectedForBackgroundACncPtBldQn
+Parent: QuantitativeLaboratoryObservationBase
+Title: "Mitogen stimulated gamma interferon [Units/volume] corrected for background in Blood"
+Description: "A lab test to quantify mitogen stimulated gamma interferon, corrected for background, in blood via immunoassay."
+* code = LNC#71774-4
+* value[x] only Quantity
+* vlaueQuantity.code = UCUM#[IU]/mL
+
+Profile: SARScoronavirus2stimulatedgammainterferonpanelPtBld
+Parent: LaboratoryObservationPanelBase
+Title: "SARS CoV-2 stimulated gamma interferon panel - Blood"
+Description: "A set of lab tests for SARS-CoV-2 stimulated gamma inteferon, gamma interferon, and mitogen stimulated gamma interferon."
+* code = LNC#95974-2
+* hasMember contains
+    SARScoronavirus2stimulatedgammainterferonPrThrPtBldOrd 0..1 and
+    SARScoronavirus2stimulatedgammainterferonreleasebyTcellscorrectedforbackgroundACncPtBldQn 0..1 and
+    SARScoronavirus2stimulatedgammainterferonreleasebyTcellsACncPtBldQn 0..1 and
+    GammaInterferonBackgroundACncPtBldQnIA 0..1 and
+    MitogenStimulatedGammaInterferonACncPtBldQn 0..1 and
+    MitogenStimulatedGammaInterferonCorrectedForBackgroundACncPtBldQn 0..1
+
+Profile: SARScoronavirus2andSARSrelatedcoronavirusRNApanelPtRespiratoryProbeamptar
+Parent: LaboratoryObservationPanelBase
+Title: "SARS-CoV-2 (COVID-19) and SARS-related CoV RNA panel - Respiratory specimen by NAA with probe detection"
+Description: "A set of lab tests for SARS-CoV-2 and SARS-related coronavirus RNA in respiratory specimens via NAA with probe detection."
+* code = LNC#96094-8
+* hasMember contains
+    SARSCoV2NgenePrThrPtRespOrdProbAmpTarN2 0..1 and
+    SARSCoV2NgenePrThrPtRespOrdProbAmpTarN1 0..1 and
+    SARScoronavirus2NGenePrThrPtRespOrdPrbAmpTarLabObs 0..1 and
+    SARScoronavirus2NGeneLnCncPtRespiratoryQnProbeamptar 0..1 and
+    SARScoronavirus2NGeneNCncPtRespiratoryQnProbeamptar 0..1 and
+    SARSCoV2ORF1abRespQlNAAprobeLabObs 0..1 and
+    SARScoronavirus2ORF1abregionThreshNumPtRespiratoryQnProbeamptarLabObs 0..1 and
+    SARScoronavirus2RdRpGenePrThePtRespOrdPrbAmpTarLabObs 0..1 and
+    SARScoronavirus2RdRpgeneThreshNumPtRespiratoryQnProbeamptarLabObs 0..1 and
+    SARScoronavirus2RNAPrThrPtRespOrdPrbAmpTarLabObs 0..1 and
+    SARSCoV2RNACycleThresholdRespQnNAAProbAmpTar 0..1 and
+    SARScoronavirus2SgenePrThrPtRespiratoryOrdProbeamptarLabObs 0..1 and
+    SARScoronavirus2SgeneThreshNumPtRespiratoryQnProbeamptarLabObs 0..1 and
+    SARSCoV2EgenePrThrPtRespOrdProbAmpTar 0..1 and
+    SARSRelatedCoronavirusRNAPrThrPtRespOrdPrbAmpTarLabObs 0..1
+
+Profile: SARScoronavirus2AbpanelPtBlddotIA
+Parent: LaboratoryObservationPanelBase
+Title: "SARS-CoV-2 (COVID-19) Ab panel - DBS by Immunoassay"
+Description: "A set of lab tests for SARS-CoV-2 antibodies in dried blood spots via immunoassay."
+* code = LNC#96118-5
+* hasMember contains
+    SARCCoV2AbIgGPrThrPtBldDotOrsdIA 0..1 and
+    SARScoronavirus2AbIgMPrThrPtBlddotOrdIA 0..1 and
+    SARScoronavirus2AbPrThrPtBlddotOrdIA 0..1

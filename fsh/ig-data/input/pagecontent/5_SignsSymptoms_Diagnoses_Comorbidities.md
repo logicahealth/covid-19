@@ -32,6 +32,12 @@ These profiles are used to capture the existence or absence of conditions, situa
 
 These profiles are used to capture specific underlying conditions that belong to categories.  For example, underlying cardiovascular conditions.  This list will grow over time as more categories are identified.  The value sets for these profiles will also grow over time as we recieve feedback and input from users and interested parties.
 
+**Note** The first profile in this list is a profile of the FHIR Ovservation resource used to capture the presence or absence of an underlying condition in a specific category.  This profile has an extension for the SNOMED CT identifier of the condition and an extension that is a reference to a FHIR Condition resource profile used to create the observed condition as a condition.
+
+[COVID-19 Underlying Condition Observation](StructureDefinition-covid19-underlying-conditions-observation.html)
+
+[COVID-19 General underlying condition](StructureDefinition-COVID-19-underlying-medical-condition-present.html)
+
 [COVID-19 cardiovascular underlying condition](StructureDefinition-underlying-cardiovascular-medical-condition-present.html)
 
 [COVID-19 neurologic underlying condition](StructureDefinition-underlying-neuroligic-medical-condition-present.html)

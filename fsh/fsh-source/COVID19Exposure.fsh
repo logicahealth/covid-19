@@ -119,7 +119,7 @@ Title: "Gestational Age at Onset of Illness"
 Description: "The number of weeks the subject was pregnant when a given illness began."
 * code = LNC#81270-1 "Gestational age in weeks - at onset of illness"
 * value[x] only Quantity
-* valueQuantity units = UCUM#wk
+* valueQuantity.code = UCUM#wk
 * interpretation 0..0
 * bodySite 0..0
 * method 0..0
