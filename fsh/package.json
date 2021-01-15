@@ -1,6 +1,6 @@
 {
   "name": "covid19",
-  "version": "0.10.1",
+  "version": "0.11.0",
   "canonical": "http://fhir.logicahealth.org/covid19",
   "url": "http://fhir.logicahealth.org/covid19",
   "title": "Logica COVID-19 FHIR Profile Library IG",
