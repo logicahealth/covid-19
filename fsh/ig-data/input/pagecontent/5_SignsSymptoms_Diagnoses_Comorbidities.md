@@ -19,13 +19,11 @@ The following are profiles to record/transmit any COVID-19 associated diagnoses;
 
 [COVID-19 ICD10 Diagnoses](StructureDefinition-COVID-19-ICD10-Diagnosis.html)
 
-#### COVID-19 Underlying Medical Conditions
+#### COVID-19 Underlying Medical Conditions observation
 
-These profiles are used to capture the existence or absence of conditions, situations, procedures, or other issues that could exacerbate COVID-19 or that could be exacerbated by COVID-19.  The value set for this is somewhat short for now and contains many general categories.  It will change over time as people and organizations make suggestions or have requirements.  Specific profiles for comorbid categories will also be created, such as "COVID-19 Chronic Lung Diesase Comorbidities", and will have value sets of conditions specific to and members of the general category.
+This profile was created as a means of capturing whether an underlying condition is present or absent.  There are several slices of the component of Observation, each being a category of underlying conditions.  Each component also has an extension for the SNOMED CT code of the condition as well as an extension to be a reference to the corresponding Condition, if it exists or needs to be instanciated.
 
-[COVID-19 Underlying Medical Conditions Present](StructureDefinition-COVID-19-underlying-medical-condition-present.html)
-
-[COVID-19 Underlying Medical Conditions Absent](StructureDefinition-COVID-19-underlying-medical-condition-absent.html)
+[COVID-19 Underlying Medical Condition observation](StructureDefinition-covid19-underlying-condition-observation.html)
 
 
 ##### Specific COVID-19 Underlying Medical Conditions
@@ -34,7 +32,6 @@ These profiles are used to capture specific underlying conditions that belong to
 
 **Note** The first profile in this list is a profile of the FHIR Ovservation resource used to capture the presence or absence of an underlying condition in a specific category.  This profile has an extension for the SNOMED CT identifier of the condition and an extension that is a reference to a FHIR Condition resource profile used to create the observed condition as a condition.
 
-[COVID-19 Underlying Condition Observation](StructureDefinition-covid19-underlying-conditions-observation.html)
 
 [COVID-19 General underlying condition](StructureDefinition-COVID-19-underlying-medical-condition-present.html)
 

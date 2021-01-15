@@ -28,6 +28,7 @@ Description: "An extension to capture the referred-to condition resource for the
 Profile: COVID19UnderlyingConditionObservation
 Parent: UnderlyingConditionObservationParent
 Id: covid19-underlying-condition-observation
+Title: "COVID-19 Underlying Medical Condition observation"
 Description: "The structure for the observaitons of named underlying conditions of COVID 19."
 * ^abstract = false
 * component and component.extension MS
