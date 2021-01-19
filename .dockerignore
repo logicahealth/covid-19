@@ -1,7 +1,7 @@
 build/
 input/
 input-cache/
-output/
+# output/
 temp/
 template/
 
