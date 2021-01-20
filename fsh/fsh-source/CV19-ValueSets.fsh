@@ -1,6 +1,6 @@
 ValueSet: PresentAbsentUnknownVS
 Id: present-absent-unknown-vs
-Title: "Yes, No, Unknown Value Set"
+Title: "Present, Absent, Unknown Value Set"
 Description: "The SNOMED CT codes for present, absent, and unknown."
 * ^version = "0.1.0"
 * SCT#52101004 "Present (qualifier value)"
