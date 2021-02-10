@@ -21,7 +21,7 @@ The following are profiles to record/transmit any COVID-19 associated diagnoses;
 
 #### COVID-19 Underlying Medical Conditions observation
 
-This profile was created as a means of capturing whether an underlying condition is present or absent.  There are several slices of the component of Observation, each being a category of underlying conditions.  Each component also has an extension for the SNOMED CT code of the condition as well as an extension to be a reference to the corresponding Condition, if it exists or needs to be instanciated.
+This profile was created as a means of capturing whether an underlying condition is present or absent.  There are several slices of the component of Observation, each being a category of underlying conditions.  Each component also has an extension for the category code as well as an extension to be a reference to the corresponding Condition, if it exists or needs to be instantiated.
 
 [COVID-19 Underlying Medical Condition observation](StructureDefinition-covid19-underlying-condition-observation.html)
 
