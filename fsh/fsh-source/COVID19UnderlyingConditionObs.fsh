@@ -5,7 +5,7 @@ Description: "A general structure for the observations of the presense or absenc
 * ^abstract = true
 * component and component.extension MS
 * component.value[x] only CodeableConcept
-* component.valueCodeableConcept from PresentAbsentUnknownVS (required)
+* component.valueCodeableConcept from PresentAbsentUnknownVS (extensible)
 * component.extension contains COVID19UnderlyingConditionCategoryCode named conditionCategoryCode 1..*
 * component.extension[conditionCategoryCode] ^short = "Underlying Condition Category Code"
 * component.extension[conditionCategoryCode] ^definition = "An extension to capture the identifier for the category of the underlying condition to COVID 19.."
