@@ -7,6 +7,7 @@ Recent releases without release notes indicate inconsequential edits such as fix
 
 | Version 	| Date 	| Run Command 	| GitHub Source 	| Notes 	|
 |-	|-	|-	|-	|-	|
+| v0.12.1	| 2021-03-26	| `docker run -it --rm -p 8080:80 logicahealth/covid-19-ig:v0.12.1` 	| [v0.12.1](https://github.com/logicahealth/covid-19/tree/v0.12.1)	| Fixes to broken links and some incorrect lab value sets. |
 | v0.12.0	| 2021-02-15	| `docker run -it --rm -p 8080:80 logicahealth/covid-19-ig:v0.12.0` 	| [v0.12.0](https://github.com/logicahealth/covid-19/tree/v0.12.0)	| Change to the COVID19UnderlyingConditionObservation profile based on conversations we had with HL7 Patient Care during working group meetings. Observation.component.code is now the specific SNOMED CT code for the underlying condition and the extension in Observation.component is now UnderlyingConditionCategory (was conditionCode). We essentially swapped the two. |
 | v0.11.0	| 2021-01-15	| `docker run -it --rm -p 8080:80 logicahealth/covid-19-ig:v0.11.0` 	| [v0.11.0](https://github.com/logicahealth/covid-19/tree/v0.11.0)	| HL7 feedback integration; Adding lab profiles, COVID19UnderlyingConditionObs.fsh and updating index page to remove references to Logica discussion forum. |
 | v0.10.1	| 2020-09-17	| `docker run -it --rm -p 8080:80 logicahealth/covid-19-ig:v0.10.1` 	| [v0.10.1](https://github.com/logicahealth/covid-19/tree/v0.10.1)	| Removed verificationStatus (set cardinality to 0..0) from all Underlying Condition profiles and put back the Healthcare Occupation value set. |
