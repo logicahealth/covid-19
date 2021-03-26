@@ -12,7 +12,6 @@ Description: "A parent, abstract profile to be used for the CDC COVID 19 PUI rep
 * referenceRange 0..0
 * hasMember 0..0
 
-
 Profile: ExposureType
 Parent: COVID19ExposureCore
 Id: exposure-type

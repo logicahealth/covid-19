@@ -9,28 +9,111 @@ Description: "The SNOMED CT codes for present, absent, and unknown."
 
 ValueSet: DetNotDetEqInVS
 Id: covid19-det-not-det-inconclusive-vs 
-Title: "Detected-Not Detected-Inconclusive Value Set"
+Title: "Detected, Not Detected, Inconclusive Value Set"
 Description: "A set of SNOMED codes representing the result of a test as detected, not detected, equivalent, or inconclusive."
 * ^version = "0.1.0"
 * SCT#260415000 "Not detected (qualifier value)"
 * SCT#419984006 "Inconclusive (qualifier value)"
 * SCT#260373001 "Detected (qualifier value)"
+* LabObs#equivalent "equivalent"
 
-ValueSet: DetNotDetVS
+ValueSet: DetNotDetIncVS
 Id: detected-not-detected-value-set
-Title: "Detected - Not-detected Value Set"
-Description: "The set of SNOMED CT terms that describe the test values of Detected and Not-detected."
+Title: "Detected, Not-detected Value Set"
+Description: "The set of SNOMED CT terms that describe the test values of Detected, Not-detected, or Inconclusive."
 * SCT#419984006 "Inconclusive (qualifier value)"
 * SCT#260415000 "Not detected (qualifier value)"
+* SCT#260373001 "Detected (qualifier value)"
 
-ValueSet: PosNegVS
-Id: covid19-pos-neg-vs 
+ValueSet: DetectedNotdetectedVS
+Id: covid19-det-notdet-vs
+Title: "Detected, Not-detected value set"
+Description: "The set of codes for laboratory tests that report detected or not-detected result values."
+* SCT#260415000 "Not detected (qualifier value)"
+* SCT#260373001 "Detected (qualifier value)"
+
+ValueSet: DetNotDetEquivocalInvVS
+Id: det-notdet-equivocal-invalid-vs
+Title: "Detected, Not-detected, Equivocal, Invalid value set"
+Description: "Theset of values for laboratoery tests that report detected, not-detected, equivocal, or invalid as results."
+* SCT#260415000 "Not detected (qualifier value)"
+* SCT#260373001 "Detected (qualifier value)"
+* SCT#4245007 "Equivocal (qualifier value)"
+* LabObs#invalid "invalid"
+
+ValueSet: DetNotDetInclInvVS
+Id: det-notdet-inconclusive-invalid-vs 
+Title: "Detected, Not-detected, Inconclusive, Invalid value set"
+Description: "The set of values for laboratory tests that report detected, not-detected, inconclusive, and invalid as results."
+* SCT#260415000 "Not detected (qualifier value)"
+* SCT#260373001 "Detected (qualifier value)"
+* SCT#419984006 "Inconclusive (qualifier value)"
+* LabObs#invalid "invalid"
+
+ValueSet: PositiveNegativeVS
+Id: covid19-pos-neg-vs
+Title: "Positive, Negative value set"
+Description: "The two laboratory values for tests that report positive or negative as results."
+* SCT#10828004 "Positive (qualifier value)"
+* SCT#260385009 "Negative (qualifier value)"
+
+ValueSet: PosNegEqVS
+Id: covid19-pos-neg-eqvs 
 Title: "Positive/Negative Value Set"
 Description: "A set of SNOMED codes representing the result of a test as positive or negative."
 * ^version = "0.1.0"
 * SCT#10828004 "Positive (qualifier value)"
 * SCT#260385009 "Negative (qualifier value)"
+* LabObs#equivalent "equivalent"
 
+ValueSet: PosNegSusInvVS
+Id: covic19-pos-neg-susp-inv-vs
+Title: "COVID19 Positive Negative Suspected Invalid value set"
+Description: "The set of laboratory values for tests that report positive, negative, suspected, or invalid results."
+* SCT#10828004 "Positive (qualifier value)"
+* SCT#260385009 "Negative (qualifier value)"
+* SCT#415684004 "Suspected (qualifier value)"
+* LabObs#invalid "invalid"
+
+ValueSet: PosNegInvVS
+Id: covid19-pos-neg-inv-vs
+Title: "COVID19 Positive Negative Invalid value set"
+Description: "The set of laboratory values for tests that report positive, negative, or invaid results."
+* SCT#10828004 "Positive (qualifier value)"
+* SCT#260385009 "Negative (qualifier value)"
+* LabObs#invalid "invalid"
+
+ValueSet: PosNegIndVS
+Id: covid19-pos-neg-ind-vs
+Title: "COVID19 Positive, Negative, Indeterminate value set"
+Description: "The set of laboratory values for tests that report positive, negative, or indeterminate results."
+* SCT#10828004 "Positive (qualifier value)"
+* SCT#260385009 "Negative (qualifier value)"
+* SCT#82334004 "Indeternimate (qualifier value)"
+
+ValueSet: ReactiveNonreactiveInvalidVS
+Id: covid19-react-nonreact-inv-vs
+Title: "COVID19 Reactive, Non-reactive, Invalid value set"
+Description: "The set of values for laboratory tests that report reactive, non-reactive, or invalid results."
+* SCT#11214006 "Reactive (qualifier value)"
+* SCT#131194007 "Non-reactive (qualifier value)"
+* LabObs#invalid "invalid"
+
+ValueSet: ReactiveNonreactiveVS
+Id: covid19-react-nonreact-vs
+Title: "COVID19 Reactive Non-reactive value set"
+Description: "The set of values for laboratory tests that report reactive or non-reactive results."
+* SCT#11214006 "Reactive (qualifier value)"
+* SCT#131194007 "Non-reactive (qualifier value)"
+
+ValueSet: AbNotDetPastRecentInfectionVS
+Id: Ab-det-past-recent-infection-vs
+Title: "Antibody Not Detected, Past/Recent Infection LOINC answer value set."
+Description: "The set of LOINC answer codes for tests that report antibodies not detected or past/recent infection values as resutls."
+* LNC#LA28480-4 "Ab not detected"
+* LNC#LA28481-2 "Past infection"
+* LNC#LA28482-0 "Recent infection"
+ 
 ValueSet: ReportingPriorityVS
 Id: covid19-reporting-priority-vs
 Title: "Reporting Priorities Value Set"
