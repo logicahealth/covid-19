@@ -50,7 +50,7 @@ Description: "The structure for the observations of named underlying conditions 
     COVID19ImmuneUnderlyingMedicalCondition 0..* and
     COVID19GastrointestinalHepaticUnderlyingMedicalCondition 0..* and
     COVID19UncategorizedUnderlyingMedicalCondition 0..*
-* component[COVID19UnderlyingMedicalCondition].code from COVID19SignsAndSymptomsVS
+* component[COVID19UnderlyingMedicalCondition].code from COVID19UnderlyingMedicalConditionVS
 * component[COVID19UnderlyingMedicalCondition].value[x] only CodeableConcept
 * component[COVID19UnderlyingMedicalCondition].valueCodeableConcept from PresentAbsentUnknownVS
 * component[COVID19UnderlyingMedicalCondition].extension[conditionCategoryCode].valueCodeableConcept = COVID19UnderlyingConditionCategoryCS#MEDCOND
