@@ -1,7 +1,8 @@
 /temp**
 /template**
-/input**
 /input-cache**
+/fsh-generated
+/output
 /ig.ini
 /package.json
 /package-list.json
