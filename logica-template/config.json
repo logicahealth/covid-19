@@ -13,18 +13,6 @@
     {
       "name": "examples",
       "description": "Examples"
-    },
-    {
-      "name": "profile-xml",
-      "description": "Profile XML"
-    },
-    {
-      "name": "profile-json",
-      "description": "Profile JSON"
-    },
-    {
-      "name": "profile-ttl",
-      "description": "Profile Turtle"
     }
   ],
 	"_pre-process-documentation": "This array of objects indicates data being converted from existing files using scripts to support dependency checking when performing continuous builds",
