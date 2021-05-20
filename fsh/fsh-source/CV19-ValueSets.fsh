@@ -144,7 +144,7 @@ Title: "COVID-19 ICD 10 Diagnosis Value Set"
 Description: "A set of ICD 10 codes that describe the diagnosed condition that is due to SARS coronavirus 2 infection."
 * ^version = "0.1.0"
 * ICD10CM#U07.1 "COVID-19"
-* ICD10CM#B97.29 "Other coronavirus as the cause of diseases classified elsewhere"
+* ICD10CM#B97.29 "Other coronavirus as the cause of diseases classified elsewhere" 
 
 ValueSet: YesNoVS
 Id: yes-no-vs

@@ -5,7 +5,7 @@ Title: "COVID-19 SNOMED Diagnosis"
 Description: "A diagnosis or diagnoses asserted about the subject that is due to infection by the SARS coronavirus 2 virus and using codes specifically from the SNOMED CT code system."
 * bodySite 0..0
 * code from COVID19SNOMEDDiagnosisVS (preferred)
-* severity from COVID19DiseaseSeverityVS (preferred)
+* severity from COVID19DiseaseSeverityVS (preferred) 
 
 Profile: COVID19ICDTenDiagnosis
 Parent: Condition
