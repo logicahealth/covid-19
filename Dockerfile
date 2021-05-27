@@ -1,7 +1,7 @@
 FROM logicahealth/fhir-ig-base:20210110 AS builder
 LABEL maintainer="Preston Lee <preston.lee@prestonlee.com>"
 
-COPY input input
+COPY /fsh /fsh
 COPY logica-template logica-template 
 
 RUN java -Xmx4g -jar input-cache/org.hl7.fhir.publisher.jar -ig .
