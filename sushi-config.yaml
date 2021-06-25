@@ -11,7 +11,7 @@
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 id: covid19
 canonical: http://fhir.logicahealth.org/covid19
-version: 0.12.1
+version: 0.12.2
 name: LogicaCOVID19FHIRProfileLibraryIG
 title: Logica COVID-19 FHIR Profile Library IG
 status: active
@@ -27,22 +27,21 @@ dependencies:
 parameters:
   show-inherited-invariants: false
 copyrightYear: 2021+
-releaseLabel: CI Build
+releaseLabel: ci-build
 
 # ╭────────────────────────────────────────────menu.xml────────────────────────────────────────────╮
 # │  To use a provided ig-data/input/includes/menu.xml file, delete the "menu" property below.     │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 menu:
   IG Home: index.html
-  Table of Contents: toc.html
-  Artifact Index: artifacts.html
+  TableOfContents: toc.html
+  Artifacts: artifacts.html
   Support:
     FHIR Spec: new-tab http://hl7.org/fhir/R4/index.html
 
 # ╭─────────────────────────────────────────────ig.ini─────────────────────────────────────────────╮
 # │  To control the ig.ini using this config, uncomment and set the "template" property.           │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
-# template: logica-template
 
 # ╭───────────────────────────────────────package-list.json────────────────────────────────────────╮
 # │  To control the package-list.json using this config, uncomment and set the "history" property. │

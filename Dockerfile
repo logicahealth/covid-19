@@ -1,10 +1,13 @@
-FROM logicahealth/fhir-ig-base:20210110 AS builder
+FROM logicahealth/fhir-ig-base:20210625 AS builder
 LABEL maintainer="Preston Lee <preston.lee@prestonlee.com>"
 
-COPY fsh fsh
-COPY logica-template logica-template 
+# COPY fsh fsh
+# COPY logica-template logica-template 
+# COPY input input
+COPY . .
 
-RUN java -Xmx4g -jar input-cache/org.hl7.fhir.publisher.jar -ig .
+RUN ./_genonce.sh
+# RUN java -Xmx4g -jar input-cache/org.hl7.fhir.publisher.jar -ig .
 # RUN ls -alh
 
 FROM nginx:latest

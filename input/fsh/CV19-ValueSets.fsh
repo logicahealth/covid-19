@@ -67,7 +67,7 @@ Description: "A set of SNOMED codes representing the result of a test as positiv
 * LabObs#equivalent "equivalent"
 
 ValueSet: PosNegSusInvVS
-Id: covic19-pos-neg-susp-inv-vs
+Id: covid19-pos-neg-susp-inv-vs
 Title: "COVID19 Positive Negative Suspected Invalid value set"
 Description: "The set of laboratory values for tests that report positive, negative, suspected, or invalid results."
 * SCT#10828004 "Positive (qualifier value)"
