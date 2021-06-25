@@ -6,8 +6,6 @@
 Thumbs.db
 /package.json
 /package-list.json
-/*.sh
-/*.bat
 logfile.txt
 .DS_Store
 SUSHI-GENERATED-FILES.md
