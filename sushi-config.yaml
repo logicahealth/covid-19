@@ -34,7 +34,7 @@ releaseLabel: ci-build
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 menu:
   IG Home: index.html
-  TableOfContents: toc.html
+  Table Of Contents: toc.html
   Artifacts: artifacts.html
   Support:
     FHIR Spec: new-tab http://hl7.org/fhir/R4/index.html
