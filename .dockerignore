@@ -1,15 +1,12 @@
 build/
-input/
+# input/
 input-cache/
 # output/
 temp/
 template/
-
-*.bat
 *.jar
 .dockerignore
 .gitignore
 .git
-Dockerfile
+Dockerfile*
 README.md
-SUSHI-GENERATED-FILES.md

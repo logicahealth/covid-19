@@ -1,13 +1,15 @@
 /temp**
 /template**
-/input**
 /input-cache**
-/ig.ini
+/output
+# ig.ini
+Thumbs.db
 /package.json
 /package-list.json
-/*.sh
-/*.bat
 logfile.txt
 .DS_Store
 SUSHI-GENERATED-FILES.md
 *.jar
+
+/fsh-generated
+logica-template/**/.index.json
