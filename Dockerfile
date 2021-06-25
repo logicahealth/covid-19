@@ -1,4 +1,4 @@
-FROM logicahealth/fhir-ig-base:latest AS builder
+FROM logicahealth/fhir-ig-base:20210625 AS builder
 LABEL maintainer="Preston Lee <preston.lee@prestonlee.com>"
 
 COPY . .
