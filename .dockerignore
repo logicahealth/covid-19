@@ -1,12 +1,19 @@
-build/
-# input/
+# Publisher scripts should already be present in the base image. Local ones will be ignored.
+*.sh
+*.bat
+
+# IG files that might have been created locally and should be ignored.
+fsh-generated
 input-cache/
-# output/
+output/
 temp/
 template/
+
+# Other unneeded project files.
 *.jar
 .dockerignore
 .gitignore
 .git
 Dockerfile*
 README.md
+
