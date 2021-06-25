@@ -7,7 +7,7 @@ Recent releases without release notes indicate inconsequential edits such as fix
 
 | Version 	| Date 	| Run Command 	| GitHub Source 	| Notes 	|
 |-	|-	|-	|-	|-	|
-| v0.13.0	| 2021-05-22	| `docker run -it --rm -p 8080:80 logicahealth/covid-19-ig:v0.13.0` 	| [v0.13.0](https://github.com/logicahealth/covid-19/tree/v0.13.0)	| TODO |
+| v0.12.2	| 2021-05-25	| `docker run -it --rm -p 8080:80 logicahealth/covid-19-ig:v0.12.2` 	| [v0.12.2](https://github.com/logicahealth/covid-19/tree/v0.12.2)	| TODO |
 | v0.12.1	| 2021-03-26	| `docker run -it --rm -p 8080:80 logicahealth/covid-19-ig:v0.12.1` 	| [v0.12.1](https://github.com/logicahealth/covid-19/tree/v0.12.1)	| Fixes to broken links and some incorrect lab value sets. |
 | v0.12.0	| 2021-02-15	| `docker run -it --rm -p 8080:80 logicahealth/covid-19-ig:v0.12.0` 	| [v0.12.0](https://github.com/logicahealth/covid-19/tree/v0.12.0)	| Change to the COVID19UnderlyingConditionObservation profile based on conversations we had with HL7 Patient Care during working group meetings. Observation.component.code is now the specific SNOMED CT code for the underlying condition and the extension in Observation.component is now UnderlyingConditionCategory (was conditionCode). We essentially swapped the two. |
 | v0.11.0	| 2021-01-15	| `docker run -it --rm -p 8080:80 logicahealth/covid-19-ig:v0.11.0` 	| [v0.11.0](https://github.com/logicahealth/covid-19/tree/v0.11.0)	| HL7 feedback integration; Adding lab profiles, COVID19UnderlyingConditionObs.fsh and updating index page to remove references to Logica discussion forum. |
