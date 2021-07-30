@@ -922,3 +922,22 @@ Description: "A set of SNOMED CT terms that represent test result values of Reac
 * ^version = "0.1.0"
 * SCT#11214006 "Reactive"
 * SCT#131194007 "Non-Reactive"
+
+ValueSet: COVID19_CVX_CodesVS
+Id: covid19-cvx-codes-value-set
+Title: "COVID 19 CVX Code System Vaccine Codes"
+Description: "A set of vaccine identifier codes from the CVX codes system specific to SARS CoV 2."
+* CVX#207 "SARS-COV-2 (COVID-19) vaccine, mRNA, spike protein, LNP, preservative free, 100 mcg/0.5mL dose"
+* CVX#208 "SARS-COV-2 (COVID-19) vaccine, mRNA, spike protein, LNP, preservative free, 30 mcg/0.3mL dose"
+* CVX#211 "SARS-COV-2 (COVID-19) vaccine, Subunit, recombinant spike protein-nanoparticle+Matrix-M1 Adjuvant, preservative free, 0.5mL per dose"
+* CVX#213 "SARS-COV-2 (COVID-19) vaccine, UNSPECIFIED"
+* CVX#212 "SARS-COV-2 (COVID-19) vaccine, vector non-replicating, recombinant spike protein-Ad26, preservative free, 0.5 mL"
+* CVX#210 "SARS-COV-2 (COVID-19) vaccine, vector non-replicating, recombinant spike protein-ChAdOx1, preservative free, 0.5 mL"
+
+ValueSet: COVID19VaccineProcedureVS
+Id: covid19-porocedure-code-value-set 
+Title: "COVID 19 Vaccine Procedure Code value set"
+* SCT#33879002 "Administration of vaccine to produce active immunity (procedure)"
+* SCT#1119350007 "Administration of SARS-CoV-2 mRNA vaccine (procedure)"
+* SCT#1144997007 "Administration of first dose of SARS-CoV-2 mRNA vaccine (procedure)"
+* SCT#1144998002 "Administration of second dose of SARS-CoV-2 mRNA vaccine (procedure)"
